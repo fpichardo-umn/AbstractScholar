@@ -14,6 +14,7 @@ This script resolves duplicates in the preprocessed data based on manual review 
 4. Exports any entries flagged as potential duplicates to a CSV file for manual review.
 
 NEXT STEP: You must review the flagged entries in the CSV file and make a final changes/decisions to the dataset.
+See the flag_years and flag_dois columns for entries that need review.
 
 Manual review flags (update_flag column):
 - 'R': Removal. Entries with this flag are removed from the dataset.
@@ -61,16 +62,15 @@ def create_combined_string(row):
     return ' '.join([str(row['year']), row['title'], row['abstract'], row['authors']])
 
 
-def handle_removals(review_df, preproc_df, removal_log_df, action_log, config):
+def handle_removals(review_df, preprocessed_df, removal_log_df, action_log):
     """
     Handle removals of articles based on review decisions.
     
     Parameters:
     - review_df (pd.DataFrame): DataFrame containing review decisions.
-    - preproc_df (pd.DataFrame): DataFrame containing preprocessed articles.
+    - preprocessed_df (pd.DataFrame): DataFrame containing preprocessed articles.
     - removal_log_df (pd.DataFrame): DataFrame logging removed articles.
     - action_log (dict): Log of actions taken.
-    - config (dict): Configuration settings.
     
     Returns:
     - removal_log_df (pd.DataFrame): Updated removal log DataFrame.
@@ -87,32 +87,40 @@ def handle_removals(review_df, preproc_df, removal_log_df, action_log, config):
     }
     
     indices_to_remove = []
+    removal_rows = []  # List to collect rows for the removal log
+    
     for _, row in removals.iterrows():
         reason = reason_map.get(row['flag_note'], 'Unknown reason')
-        removed_article = preproc_df[preproc_df['orig_index'] == str(row['orig_index'])].assign(reason_for_removal=reason, removal_step='Duplicate Resolution')
-        removal_log_df = pd.concat([removal_log_df, removed_article])
+        removed_article = preprocessed_df[preprocessed_df['orig_index'] == str(row['orig_index'])].assign(reason_for_removal=reason, removal_step='Duplicate Resolution')
+        removal_rows.append(removed_article)
         indices_to_remove.append(str(row.name))
         
         action_log['removed'].append(str(row['orig_index']))
         
-    # Remove duplicates from the preprocessed data
-    preproc_df.drop(indices_to_remove, inplace=True)
+    # Verify and remove only valid indices from the preprocessed data
+    valid_indices_to_remove = [idx for idx in indices_to_remove if idx in preprocessed_df.index]
+    
+    preprocessed_df.drop(valid_indices_to_remove, inplace=True)  # Changes persist outside the function
+    
+    # Concatenate all removal rows at once for efficiency
+    if removal_rows:
+        removal_log_df = pd.concat([removal_log_df] + removal_rows, ignore_index=True)
     
     return removal_log_df, action_log
 
 
-def handle_keeps(review_df, preproc_df, removal_log_df, action_log):
+def handle_keeps(review_df, preprocessed_df, removal_log_df, action_log):
     """
     Handle keeps of articles based on review decisions.
     
     Parameters:
     - review_df (pd.DataFrame): DataFrame containing review decisions.
-    - preproc_df (pd.DataFrame): DataFrame containing preprocessed articles.
+    - preprocessed_df (pd.DataFrame): DataFrame containing preprocessed articles.
     - removal_log_df (pd.DataFrame): DataFrame logging removed articles.
     - action_log (dict): Log of actions taken.
     
     Returns:
-    - preproc_df (pd.DataFrame): Updated DataFrame with processed articles.
+    - preprocessed_df (pd.DataFrame): Updated DataFrame with processed articles.
     - action_log (dict): Updated log of actions taken.
     """
     
@@ -123,7 +131,7 @@ def handle_keeps(review_df, preproc_df, removal_log_df, action_log):
         for _, row in keeps.iterrows():
             if row['orig_index'] in removal_log_df['orig_index'].values:
                 kept_article = removal_log_df[removal_log_df['orig_index'] == str(row['orig_index'])]
-                preproc_df = pd.concat([preproc_df, kept_article])
+                preprocessed_df = pd.concat([preprocessed_df, kept_article])
                 removal_log_df = removal_log_df[removal_log_df['orig_index'] != str(row['orig_index'])]
                 indices_to_remove.append(str(row.name))
                 
@@ -132,22 +140,22 @@ def handle_keeps(review_df, preproc_df, removal_log_df, action_log):
     # Remove duplicates from the preprocessed data
     removal_log_df.drop(indices_to_remove, inplace=True)
     
-    return preproc_df, action_log
+    return preprocessed_df, action_log
 
 
-def handle_merges(review_df, preproc_df, removal_log_df, config, action_log):
+def handle_merges(review_df, preprocessed_df, removal_log_df, config, action_log):
     """
     Handle merges of articles based on review decisions.
     
     Parameters:
     - review_df (pd.DataFrame): DataFrame containing review decisions.
-    - preproc_df (pd.DataFrame): DataFrame containing preprocessed articles.
+    - preprocessed_df (pd.DataFrame): DataFrame containing preprocessed articles.
     - removal_log_df (pd.DataFrame): DataFrame logging removed articles.
     - config (dict): Configuration settings.
     - action_log (dict): Log of actions taken.
     
     Returns:
-    - preproc_df (pd.DataFrame): Updated DataFrame with processed articles.
+    - preprocessed_df (pd.DataFrame): Updated DataFrame with processed articles.
     - removal_log_df (pd.DataFrame): Updated removal log DataFrame.
     - action_log (dict): Updated log of actions taken.
     """
@@ -157,42 +165,42 @@ def handle_merges(review_df, preproc_df, removal_log_df, config, action_log):
     
     for group_id, group_df in groups:
         if group_df['group_mean_sim'].iloc[0] > merge_threshold:
-            preproc_df, removal_log_df = quick_merge(group_df, preproc_df, removal_log_df, config)
+            preprocessed_df, removal_log_df = quick_merge(group_df, preprocessed_df, removal_log_df, config, action_log)
             action_log['merged'].append(group_id)
         else:
-            preproc_df, removal_log_df = detailed_merge(review_df, group_df, preproc_df, removal_log_df, config)
+            preprocessed_df, removal_log_df = detailed_merge(review_df, group_df, preprocessed_df, removal_log_df, config, action_log)
             action_log['merged'].append(group_id)
     
-    return preproc_df, removal_log_df, action_log
+    return preprocessed_df, removal_log_df, action_log
 
 
-def quick_merge(group_df, preproc_df, removal_log_df, config, action_log):
+def quick_merge(group_df, preprocessed_df, removal_log_df, config, action_log):
     """
     Quickly merge articles in a group based on review decisions.
     
     Parameters:
     - group_df (pd.DataFrame): DataFrame containing articles to be merged.
-    - preproc_df (pd.DataFrame): DataFrame containing preprocessed articles.
+    - preprocessed_df (pd.DataFrame): DataFrame containing preprocessed articles.
     - removal_log_df (pd.DataFrame): DataFrame logging removed articles.
     - config (dict): Configuration settings.
     - action_log (dict): Log of actions taken.
     
     Returns:
-    - preproc_df (pd.DataFrame): Updated DataFrame with processed articles.
+    - preprocessed_df (pd.DataFrame): Updated DataFrame with processed articles.
     - removal_log_df (pd.DataFrame): Updated removal log DataFrame.
     """
     
-    is_preproc_list = [str(idx) in preproc_df['orig_index'] for idx in group_df['orig_index']]
+    is_preproc_list = [str(idx) in preprocessed_df['orig_index'] for idx in group_df['orig_index']]
     preproc_index = list(group_df[is_preproc_list]['orig_index'].values)
     
     if len(preproc_index) < 2:
         # Either no preproc indices or only one - either way, nothing to do here
-        return preproc_df, removal_log_df
+        return preprocessed_df, removal_log_df
     
     # Assuming the first entry is the one to keep, use all the others
     indices_to_remove = []
     for orig_idx, row in group_df.loc[preproc_index[1:]].iterrows():
-        article_to_remove = preproc_df[preproc_df['orig_index'].astype(str) == str(orig_idx)].copy()
+        article_to_remove = preprocessed_df[preprocessed_df['orig_index'].astype(str) == str(orig_idx)].copy()
         article_to_remove['reason_for_removal'] = 'Duplicate - removed due to quick merge'
         article_to_remove['removal_step'] = 'Duplicate Resolution'
         removal_log_df = pd.concat([removal_log_df, article_to_remove])
@@ -202,25 +210,25 @@ def quick_merge(group_df, preproc_df, removal_log_df, config, action_log):
         action_log['merged'].append(str(orig_idx))
     
     # Remove duplicates from the preprocessed data
-    preproc_df.drop(indices_to_remove, inplace=True)
+    preprocessed_df.drop(indices_to_remove, inplace=True)
 
-    return preproc_df, removal_log_df
+    return preprocessed_df, removal_log_df
 
 
-def detailed_merge(review_df, group_df, preproc_df, removal_log_df, config, action_log):
+def detailed_merge(review_df, group_df, preprocessed_df, removal_log_df, config, action_log):
     """
     Detailed merge articles in a group based on review decisions.
     
     Parameters:
     - review_df (pd.DataFrame): DataFrame containing review decisions.
     - group_df (pd.DataFrame): DataFrame containing articles to be merged.
-    - preproc_df (pd.DataFrame): DataFrame containing preprocessed articles.
+    - preprocessed_df (pd.DataFrame): DataFrame containing preprocessed articles.
     - removal_log_df (pd.DataFrame): DataFrame logging removed articles.
     - config (dict): Configuration settings.
     - action_log (dict): Log of actions taken.
     
     Returns:
-    - preproc_df (pd.DataFrame): Updated DataFrame with processed articles.
+    - preprocessed_df (pd.DataFrame): Updated DataFrame with processed articles.
     - removal_log_df (pd.DataFrame): Updated removal log DataFrame.
     """
     
@@ -234,11 +242,11 @@ def detailed_merge(review_df, group_df, preproc_df, removal_log_df, config, acti
     set_of_years = set()
     set_of_dois = set()
     
-    preproc_index = [str(idx) for idx in group_df['orig_index'] if str(idx) in preproc_df['orig_index']]
+    preproc_index = [str(idx) for idx in group_df['orig_index'] if str(idx) in preprocessed_df['orig_index']]
 
     # Iterate through each article in the group to consolidate information
     for orig_index, row in group_df.iterrows():
-        article = preproc_df[preproc_df['orig_index'].astype(str) == str(orig_index)] \
+        article = preprocessed_df[preprocessed_df['orig_index'].astype(str) == str(orig_index)] \
             if str(orig_index) in preproc_index else \
             removal_log_df[removal_log_df['orig_index'].astype(str) == str(orig_index)]
 
@@ -266,7 +274,7 @@ def detailed_merge(review_df, group_df, preproc_df, removal_log_df, config, acti
             primary_article = article.copy()
 
     # Update the primary article with merged information
-    new_idx = str(preproc_df.shape[0] + removal_log_df.shape[0])
+    new_idx = str(preprocessed_df.shape[0] + removal_log_df.shape[0])
     primary_article.index = [new_idx]
     
     primary_article.loc[new_idx, 'journal'] = merged_journal
@@ -295,10 +303,10 @@ def detailed_merge(review_df, group_df, preproc_df, removal_log_df, config, acti
         primary_article.loc[new_idx, 'doi'] = max(set_of_dois, key=len) # set longest doi
 
     # Update the preprocessed DataFrame with the merged article
-    preproc_df = pd.concat([preproc_df, primary_article])
+    preprocessed_df = pd.concat([preprocessed_df, primary_article])
 
-    # Remove the other articles in the group from preproc_df and add them to removal_log_df
-    filtered_df = preproc_df[preproc_df['orig_index'].isin(preproc_index)].copy()
+    # Remove the other articles in the group from preprocessed_df and add them to removal_log_df
+    filtered_df = preprocessed_df[preprocessed_df['orig_index'].isin(preproc_index)].copy()
     filtered_df['reason_for_removal'] = 'Duplicate - removed due to detailed merge'
     filtered_df['removal_step'] = 'Duplicate Resolution'
     removal_log_df = pd.concat([removal_log_df, filtered_df])
@@ -307,22 +315,22 @@ def detailed_merge(review_df, group_df, preproc_df, removal_log_df, config, acti
     action_log['merged'].append(preproc_index)
     
     # Remove duplicates from the preprocessed data
-    preproc_df.drop(preproc_index, inplace=True)
+    preprocessed_df.drop(preproc_index, inplace=True)
 
-    return preproc_df, removal_log_df
+    return preprocessed_df, removal_log_df
 
 
-def process_article_duplicates(preproc_df, removal_log_df, combined_df, config):
+def process_article_duplicates(preprocessed_df, removal_log_df, combined_df, config):
     """
     Process article duplicates based on review decisions, handling removals, keeps, and merges.
     
     Parameters:
-    - preproc_df (pd.DataFrame): DataFrame containing preprocessed articles.
+    - preprocessed_df (pd.DataFrame): DataFrame containing preprocessed articles.
     - removal_log_df (pd.DataFrame): DataFrame logging removed articles.
     - config (dict): Configuration settings.
     
     Returns:
-    - preproc_df (pd.DataFrame): Updated DataFrame with processed articles.
+    - preprocessed_df (pd.DataFrame): Updated DataFrame with processed articles.
     - removal_log_df (pd.DataFrame): Updated removal log DataFrame.
     - action_log (dict): Log of actions taken on review_df items.
     """
@@ -337,13 +345,13 @@ def process_article_duplicates(preproc_df, removal_log_df, combined_df, config):
     action_log = {'updated': [], 'removed': [], 'merged': []}
     
     # Process removals ('R')
-    removal_log_df, action_log = handle_removals(review_df, preproc_df, removal_log_df, action_log)
+    removal_log_df, action_log = handle_removals(review_df, preprocessed_df, removal_log_df, action_log)
     
     # Process keeps ('K')
-    preproc_df, action_log = handle_keeps(review_df, preproc_df, removal_log_df, action_log)
+    preprocessed_df, action_log = handle_keeps(review_df, preprocessed_df, removal_log_df, action_log)
     
     # Process merges ('M')
-    preproc_df, removal_log_df, action_log = handle_merges(review_df, preproc_df, removal_log_df, config, action_log)
+    preprocessed_df, removal_log_df, action_log = handle_merges(review_df, preprocessed_df, removal_log_df, config, action_log)
     
     # Notify and save if reviews are needed
     if 'flag_years' in review_df.columns or 'flag_dois' in review_df.columns:
@@ -352,7 +360,7 @@ def process_article_duplicates(preproc_df, removal_log_df, combined_df, config):
             print(f"Files require review: {sum(to_review_bool)}. See the flag_years and flag_dois columns.")
             review_df.to_csv(review_csv_path, index=False)
     
-    return preproc_df, removal_log_df, action_log
+    return preprocessed_df, removal_log_df, action_log
 
 
 
@@ -376,7 +384,8 @@ combined_df.sort_index(inplace = True)
 preprocessed_df, removal_log_df, action_log = process_article_duplicates(preprocessed_df, removal_log_df, combined_df, config)
 
 # Export action log to CSV
-act_log_csv_path = config.get('actions_log_csv', './data/search_processing/actions_log.csv')
-pd.DataFrame(action_log).to_csv(act_log_csv_path, index=False)
+act_log_json_path = config.get('actions_log_json', './data/search_processing/actions_log.json')
+with open(act_log_json_path, 'w') as file:
+        json.dump(action_log, file)
 
 backup_and_save(preprocessed_df, removal_log_df, config, extra_backup_suffix='dupe_resolve')
