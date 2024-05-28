@@ -1,0 +1,2569 @@
+2024-04-04 14:33:43 - Starting auto data retrieval for 164 articles.
+2024-04-04 14:33:43 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:33:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:43 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:33:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:43 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:33:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:44 - Querying Crossref for DOI: 10.1093/scan/nsaa049
+2024-04-04 14:33:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:44 - Querying Crossref for DOI: 10.1111/tmi.13696
+2024-04-04 14:33:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:44 - Querying Crossref for DOI: 10.1111/add.15518
+2024-04-04 14:33:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:44 - Querying Crossref for DOI: 10.1111/ejn.14895
+2024-04-04 14:33:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:45 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:33:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:45 - Querying Crossref for DOI: 10.1002/hbm.25627
+2024-04-04 14:33:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:45 - Querying Crossref for DOI: 10.1111/add.15447
+2024-04-04 14:33:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:46 - Progress: 1045: 10/164, Data found: 6, Manual: 4
+2024-04-04 14:33:46 - Querying Crossref for DOI: 10.1210/endrev/bnab021
+2024-04-04 14:33:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:46 - Querying Crossref for DOI: 10.1111/acer.14664
+2024-04-04 14:33:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:46 - Querying Crossref for DOI: 10.1002/erv.2854
+2024-04-04 14:33:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:47 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:33:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:47 - Querying Crossref for DOI: 10.1093/brain/awab111
+2024-04-04 14:33:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:47 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:33:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:48 - Querying Crossref for DOI: 10.1017/S0033291720000203
+2024-04-04 14:33:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:48 - Querying Crossref for DOI: 10.1111/adb.12999
+2024-04-04 14:33:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:48 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:33:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:48 - Querying Crossref for DOI: 10.1093/pm/pnab005
+2024-04-04 14:33:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:49 - Progress: 1064: 20/164, Data found: 13, Manual: 7
+2024-04-04 14:33:49 - Querying Crossref for DOI: 10.1111/pcn.13188
+2024-04-04 14:33:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:33:49 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:33:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:10 - Starting auto data retrieval for 150 articles.
+2024-04-04 14:45:10 - Starting auto data retrieval for 150 articles.
+2024-04-04 14:45:10 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:45:10 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:45:11 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:45:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:12 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:45:12 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:45:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:12 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:45:12 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:45:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:12 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:45:12 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:45:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Starting auto data retrieval for 150 articles.
+2024-04-04 14:45:25 - Starting auto data retrieval for 150 articles.
+2024-04-04 14:45:25 - Starting auto data retrieval for 150 articles.
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:45:25 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:45:26 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/pedi.13198
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/pedi.13198
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/pedi.13198
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/eci.13567
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/eci.13567
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/eci.13567
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/gbb.12705
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/gbb.12705
+2024-04-04 14:45:27 - Querying Crossref for DOI: 10.1111/gbb.12705
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Progress: 1072: 11/150, Data found: 2, Manual: 9
+2024-04-04 14:45:28 - Progress: 1072: 11/150, Data found: 2, Manual: 9
+2024-04-04 14:45:28 - Progress: 1072: 11/150, Data found: 2, Manual: 9
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1530/EJE-19-0957
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1530/EJE-19-0957
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1530/EJE-19-0957
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1177/1550059415622686
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1177/1550059415622686
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1177/1550059415622686
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1111/ejn.14917
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1111/ejn.14917
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1111/ejn.14917
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1111/pedi.13113
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1111/pedi.13113
+2024-04-04 14:45:28 - Querying Crossref for DOI: 10.1111/pedi.13113
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1093/brain/awaa305
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1093/brain/awaa305
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1093/brain/awaa305
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1093/brain/awaa148
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1093/brain/awaa148
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1093/brain/awaa148
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1111/dom.13940
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1111/dom.13940
+2024-04-04 14:45:29 - Querying Crossref for DOI: 10.1111/dom.13940
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1111/ijpo.12601
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1111/ijpo.12601
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1111/ijpo.12601
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1002/erv.2712
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1002/erv.2712
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1002/erv.2712
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1017/S0140525X19002000
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1017/S0140525X19002000
+2024-04-04 14:45:30 - Querying Crossref for DOI: 10.1017/S0140525X19002000
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1093/arclin/acy066
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1093/arclin/acy066
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1093/arclin/acy066
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Progress: 1115: 22/150, Data found: 10, Manual: 12
+2024-04-04 14:45:31 - Progress: 1115: 22/150, Data found: 10, Manual: 12
+2024-04-04 14:45:31 - Progress: 1115: 22/150, Data found: 10, Manual: 12
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1111/bcpt.13217
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1111/bcpt.13217
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1111/bcpt.13217
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1111/hel.12647
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1111/hel.12647
+2024-04-04 14:45:31 - Querying Crossref for DOI: 10.1111/hel.12647
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1002/pds.4864
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1002/pds.4864
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1002/pds.4864
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1111/jnc.14777
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1111/jnc.14777
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1111/jnc.14777
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1111/dom.13684
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1111/dom.13684
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1111/dom.13684
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1097/SHK.0000000000001374
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1097/SHK.0000000000001374
+2024-04-04 14:45:32 - Querying Crossref for DOI: 10.1097/SHK.0000000000001374
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1111/pedi.12838
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1111/pedi.12838
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1111/pedi.12838
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1037/xge0000546
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1037/xge0000546
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1037/xge0000546
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1210/jc.2018-02166
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1210/jc.2018-02166
+2024-04-04 14:45:33 - Querying Crossref for DOI: 10.1210/jc.2018-02166
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1037/adb0000463
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1037/adb0000463
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1037/adb0000463
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1111/dom.13640
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1111/dom.13640
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1111/dom.13640
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Progress: 1137: 33/150, Data found: 12, Manual: 21
+2024-04-04 14:45:34 - Progress: 1137: 33/150, Data found: 12, Manual: 21
+2024-04-04 14:45:34 - Progress: 1137: 33/150, Data found: 12, Manual: 21
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1111/jcmm.14182
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1111/jcmm.14182
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1111/jcmm.14182
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1097/GRH.0000000000000030
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1097/GRH.0000000000000030
+2024-04-04 14:45:34 - Querying Crossref for DOI: 10.1097/GRH.0000000000000030
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1037/cap0000166
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1037/cap0000166
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1037/cap0000166
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1111/bjd.17349
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1111/bjd.17349
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1111/bjd.17349
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1002/hbm.24425
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1002/hbm.24425
+2024-04-04 14:45:35 - Querying Crossref for DOI: 10.1002/hbm.24425
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1530/EJE-17-0921
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1530/EJE-17-0921
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1530/EJE-17-0921
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1093/jpepsy/jsy013
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1093/jpepsy/jsy013
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1093/jpepsy/jsy013
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1037/xge0000523
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1037/xge0000523
+2024-04-04 14:45:36 - Querying Crossref for DOI: 10.1037/xge0000523
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1111/jns.12290
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1111/jns.12290
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1111/jns.12290
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1037/bar0000115
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1037/bar0000115
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1037/bar0000115
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1002/mds.116
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1002/mds.116
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1002/mds.116
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:37 - Progress: 1168: 44/150, Data found: 15, Manual: 29
+2024-04-04 14:45:37 - Progress: 1168: 44/150, Data found: 15, Manual: 29
+2024-04-04 14:45:37 - Progress: 1168: 44/150, Data found: 15, Manual: 29
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1002/ana.25331
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1002/ana.25331
+2024-04-04 14:45:37 - Querying Crossref for DOI: 10.1002/ana.25331
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.1037/xhp0000544
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.1037/xhp0000544
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.1037/xhp0000544
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.2337/dc18-0243
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.2337/dc18-0243
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.2337/dc18-0243
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.1177/2048872617751067
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.1177/2048872617751067
+2024-04-04 14:45:38 - Querying Crossref for DOI: 10.1177/2048872617751067
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1111/acer.13747
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1111/acer.13747
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1111/acer.13747
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1002/mp.12938
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1002/mp.12938
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1002/mp.12938
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1037/xge0000389
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1037/xge0000389
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1037/xge0000389
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1111/pedi.12604
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1111/pedi.12604
+2024-04-04 14:45:39 - Querying Crossref for DOI: 10.1111/pedi.12604
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1111/bcpt.12968
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1111/bcpt.12968
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1111/bcpt.12968
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1002/eat.22824
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1002/eat.22824
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1002/eat.22824
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1177/1932296818761742
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1177/1932296818761742
+2024-04-04 14:45:40 - Querying Crossref for DOI: 10.1177/1932296818761742
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Progress: 1194: 55/150, Data found: 17, Manual: 38
+2024-04-04 14:45:41 - Progress: 1194: 55/150, Data found: 17, Manual: 38
+2024-04-04 14:45:41 - Progress: 1194: 55/150, Data found: 17, Manual: 38
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.2337/dci17-0021
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.2337/dci17-0021
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.2337/dci17-0021
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1002/dev.21598
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1002/dev.21598
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1002/dev.21598
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1093/scan/nsx137
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1093/scan/nsx137
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1093/scan/nsx137
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1037/xan0000160
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1037/xan0000160
+2024-04-04 14:45:41 - Querying Crossref for DOI: 10.1037/xan0000160
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1111/brv.12355
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1111/brv.12355
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1111/brv.12355
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1210/jc.2017-01197
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1210/jc.2017-01197
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1210/jc.2017-01197
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1530/EJE-17-0430
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1530/EJE-17-0430
+2024-04-04 14:45:42 - Querying Crossref for DOI: 10.1530/EJE-17-0430
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1177/2047487317703545
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1177/2047487317703545
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1177/2047487317703545
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1111/nyas.13327
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1111/nyas.13327
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1111/nyas.13327
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1177/1932296817696371
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1177/1932296817696371
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1177/1932296817696371
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1002/hep.29501
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1002/hep.29501
+2024-04-04 14:45:43 - Querying Crossref for DOI: 10.1002/hep.29501
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Progress: 1215: 66/150, Data found: 21, Manual: 45
+2024-04-04 14:45:44 - Progress: 1215: 66/150, Data found: 21, Manual: 45
+2024-04-04 14:45:44 - Progress: 1215: 66/150, Data found: 21, Manual: 45
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1037/bul0000096
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1037/bul0000096
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1037/bul0000096
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1002/cpt.692
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1002/cpt.692
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1002/cpt.692
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1037/a0040456
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1037/a0040456
+2024-04-04 14:45:44 - Querying Crossref for DOI: 10.1037/a0040456
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1111/acer.13443
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1111/acer.13443
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1111/acer.13443
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1093/scan/nsx062
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1093/scan/nsx062
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1093/scan/nsx062
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1111/obr.12549
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1111/obr.12549
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1111/obr.12549
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1037/bul0000107
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1037/bul0000107
+2024-04-04 14:45:45 - Querying Crossref for DOI: 10.1037/bul0000107
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1111/acer.13391
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1111/acer.13391
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1111/acer.13391
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1093/schbul/sbx066
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1093/schbul/sbx066
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1093/schbul/sbx066
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1002/mds.27087
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1002/mds.27087
+2024-04-04 14:45:46 - Querying Crossref for DOI: 10.1002/mds.27087
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1037/pha0000125
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1037/pha0000125
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1037/pha0000125
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Progress: 1236: 77/150, Data found: 23, Manual: 54
+2024-04-04 14:45:47 - Progress: 1236: 77/150, Data found: 23, Manual: 54
+2024-04-04 14:45:47 - Progress: 1236: 77/150, Data found: 23, Manual: 54
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1111/dom.12836
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1111/dom.12836
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1111/dom.12836
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1111/cns.12671
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1111/cns.12671
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1111/cns.12671
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1037/pha0000105
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1037/pha0000105
+2024-04-04 14:45:47 - Querying Crossref for DOI: 10.1037/pha0000105
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1111/pcn.12490
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1111/pcn.12490
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1111/pcn.12490
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1093/scan/nsw154
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1093/scan/nsw154
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1093/scan/nsw154
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1037/cep0000111
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1037/cep0000111
+2024-04-04 14:45:48 - Querying Crossref for DOI: 10.1037/cep0000111
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1002/gps.4438
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1002/gps.4438
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1002/gps.4438
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1111/jns.12181
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1111/jns.12181
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1111/jns.12181
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1037/xlm0000244
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1037/xlm0000244
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1037/xlm0000244
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1037/abn0000164
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1037/abn0000164
+2024-04-04 14:45:49 - Querying Crossref for DOI: 10.1037/abn0000164
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/mds.26631
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/mds.26631
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/mds.26631
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Progress: 1275: 88/150, Data found: 28, Manual: 60
+2024-04-04 14:45:50 - Progress: 1275: 88/150, Data found: 28, Manual: 60
+2024-04-04 14:45:50 - Progress: 1275: 88/150, Data found: 28, Manual: 60
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/ijop.12335
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/ijop.12335
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/ijop.12335
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/mds.26688
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/mds.26688
+2024-04-04 14:45:50 - Querying Crossref for DOI: 10.1002/mds.26688
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1017/S003329171500207X
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1017/S003329171500207X
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1017/S003329171500207X
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1037/neu0000234
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1037/neu0000234
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1037/neu0000234
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1017/S0140525X14000120
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1017/S0140525X14000120
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1017/S0140525X14000120
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1037/a0038622
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1037/a0038622
+2024-04-04 14:45:51 - Querying Crossref for DOI: 10.1037/a0038622
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1177/2048872615599730
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1177/2048872615599730
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1177/2048872615599730
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1093/schbul/sbv010
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1093/schbul/sbv010
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1093/schbul/sbv010
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1177/0161734614535164
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1177/0161734614535164
+2024-04-04 14:45:52 - Querying Crossref for DOI: 10.1177/0161734614535164
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.1161/HYP.0000000000000010
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.1161/HYP.0000000000000010
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.1161/HYP.0000000000000010
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.2337/dc14-S014
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.2337/dc14-S014
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.2337/dc14-S014
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:53 - Progress: 1382: 99/150, Data found: 30, Manual: 69
+2024-04-04 14:45:53 - Progress: 1382: 99/150, Data found: 30, Manual: 69
+2024-04-04 14:45:53 - Progress: 1382: 99/150, Data found: 30, Manual: 69
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.2310/JIM.0000000000000033
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.2310/JIM.0000000000000033
+2024-04-04 14:45:53 - Querying Crossref for DOI: 10.2310/JIM.0000000000000033
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1530/EJE-13-0032
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1530/EJE-13-0032
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1530/EJE-13-0032
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1017/S0140525X12001525
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1017/S0140525X12001525
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1017/S0140525X12001525
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1017/S1092852913000072
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1017/S1092852913000072
+2024-04-04 14:45:54 - Querying Crossref for DOI: 10.1017/S1092852913000072
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.2337/dc13-S011
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.2337/dc13-S011
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.2337/dc13-S011
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.1177/1550059412444821
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.1177/1550059412444821
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.1177/1550059412444821
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.2337/db12-0803
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.2337/db12-0803
+2024-04-04 14:45:55 - Querying Crossref for DOI: 10.2337/db12-0803
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1111/j.1467-3010.2012.01984.x
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1111/j.1467-3010.2012.01984.x
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1111/j.1467-3010.2012.01984.x
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1249/01.mss.0000417529.22755.ed
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1249/01.mss.0000417529.22755.ed
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1249/01.mss.0000417529.22755.ed
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.2337/dc11-1468
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.2337/dc11-1468
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.2337/dc11-1468
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1111/j.1467-3010.2011.01953.x
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1111/j.1467-3010.2011.01953.x
+2024-04-04 14:45:56 - Querying Crossref for DOI: 10.1111/j.1467-3010.2011.01953.x
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Progress: 1461: 110/150, Data found: 34, Manual: 76
+2024-04-04 14:45:57 - Progress: 1461: 110/150, Data found: 34, Manual: 76
+2024-04-04 14:45:57 - Progress: 1461: 110/150, Data found: 34, Manual: 76
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.2337/dc12-s011
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.2337/dc12-s011
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.2337/dc12-s011
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.1177/155005941104200212
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.1177/155005941104200212
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.1177/155005941104200212
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.1177/026988111102508S01
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.1177/026988111102508S01
+2024-04-04 14:45:57 - Querying Crossref for DOI: 10.1177/026988111102508S01
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.1111/j.1360-0443.2011.03711.x
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.1111/j.1360-0443.2011.03711.x
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.1111/j.1360-0443.2011.03711.x
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.2337/dc11-S011
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.2337/dc11-S011
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.2337/dc11-S011
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.1177/155005941004100210
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.1177/155005941004100210
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.1177/155005941004100210
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.2337/dc09-S306
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.2337/dc09-S306
+2024-04-04 14:45:58 - Querying Crossref for DOI: 10.2337/dc09-S306
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1161/CIRCULATIONAHA.107.763730
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1161/CIRCULATIONAHA.107.763730
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1161/CIRCULATIONAHA.107.763730
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1080/00048670701724647
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1080/00048670701724647
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1080/00048670701724647
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1093/eurheartj/ehl260
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1093/eurheartj/ehl260
+2024-04-04 14:45:59 - Querying Crossref for DOI: 10.1093/eurheartj/ehl260
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1093/eurheartj/ehl261
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1093/eurheartj/ehl261
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1093/eurheartj/ehl261
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Progress: 1610: 121/150, Data found: 34, Manual: 87
+2024-04-04 14:46:00 - Progress: 1610: 121/150, Data found: 34, Manual: 87
+2024-04-04 14:46:00 - Progress: 1610: 121/150, Data found: 34, Manual: 87
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1093/brain/awl227
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1093/brain/awl227
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1093/brain/awl227
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1037/a0002506
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1037/a0002506
+2024-04-04 14:46:00 - Querying Crossref for DOI: 10.1037/a0002506
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.7326/0003-4819-140-11-200406010-00036
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.7326/0003-4819-140-11-200406010-00036
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.7326/0003-4819-140-11-200406010-00036
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.1111/j.1462-8902.2004.00345.x
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.1111/j.1462-8902.2004.00345.x
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.1111/j.1462-8902.2004.00345.x
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.2337/diacare.25.6.1085
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.2337/diacare.25.6.1085
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.2337/diacare.25.6.1085
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.1046/j.1463-1326.2001.00101.x
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.1046/j.1463-1326.2001.00101.x
+2024-04-04 14:46:01 - Querying Crossref for DOI: 10.1046/j.1463-1326.2001.00101.x
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.2337/diacare.22.3.517
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.2337/diacare.22.3.517
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.2337/diacare.22.3.517
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.1093/qjmed/89.11.865
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.1093/qjmed/89.11.865
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.1093/qjmed/89.11.865
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.1056/NEJM199603213341207
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.1056/NEJM199603213341207
+2024-04-04 14:46:02 - Querying Crossref for DOI: 10.1056/NEJM199603213341207
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1159/000530604
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1159/000530604
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1159/000530604
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.3390/healthcare10091659
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.3390/healthcare10091659
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.3390/healthcare10091659
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Progress: 1839: 132/150, Data found: 37, Manual: 95
+2024-04-04 14:46:03 - Progress: 1839: 132/150, Data found: 37, Manual: 95
+2024-04-04 14:46:03 - Progress: 1839: 132/150, Data found: 37, Manual: 95
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1007/s11682-020-00308-4
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1007/s11682-020-00308-4
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1007/s11682-020-00308-4
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1007/s11682-019-00215-3
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1007/s11682-019-00215-3
+2024-04-04 14:46:03 - Querying Crossref for DOI: 10.1007/s11682-019-00215-3
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1007/s00213-019-05320-1
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1007/s00213-019-05320-1
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1007/s00213-019-05320-1
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1007/s00247-019-04376-7
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1007/s00247-019-04376-7
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1007/s00247-019-04376-7
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1123/jsep.2018-0169
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1123/jsep.2018-0169
+2024-04-04 14:46:04 - Querying Crossref for DOI: 10.1123/jsep.2018-0169
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.1007/s13410-018-0604-7
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.1007/s13410-018-0604-7
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.1007/s13410-018-0604-7
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.1123/jsep.39.3.S1
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.1123/jsep.39.3.S1
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.1123/jsep.39.3.S1
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.2147/VHRM.S68564
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.2147/VHRM.S68564
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.2147/VHRM.S68564
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.2147/NAN.S38866
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.2147/NAN.S38866
+2024-04-04 14:46:05 - Querying Crossref for DOI: 10.2147/NAN.S38866
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.3390/nu4121898
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.3390/nu4121898
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.3390/nu4121898
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.1007/s00213-011-2486-y
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.1007/s00213-011-2486-y
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.1007/s00213-011-2486-y
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:06 - Progress: 2216: 143/150, Data found: 37, Manual: 106
+2024-04-04 14:46:06 - Progress: 2216: 143/150, Data found: 37, Manual: 106
+2024-04-04 14:46:06 - Progress: 2216: 143/150, Data found: 37, Manual: 106
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.1162/jocn.2010.21548
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.1162/jocn.2010.21548
+2024-04-04 14:46:06 - Querying Crossref for DOI: 10.1162/jocn.2010.21548
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1093/eurpub/ckr119
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1093/eurpub/ckr119
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1093/eurpub/ckr119
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1891/0889-8391.24.3.177
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1891/0889-8391.24.3.177
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1891/0889-8391.24.3.177
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1080/02640410802306202
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1080/02640410802306202
+2024-04-04 14:46:07 - Querying Crossref for DOI: 10.1080/02640410802306202
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.1080/02640410802335136
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.1080/02640410802335136
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.1080/02640410802335136
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.3325/cmj.2007.6.791
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.3325/cmj.2007.6.791
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.3325/cmj.2007.6.791
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.1080/09638230500377977
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.1080/09638230500377977
+2024-04-04 14:46:08 - Querying Crossref for DOI: 10.1080/09638230500377977
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - Crossref metadata retrieved successfully.
+2024-04-04 14:46:08 - 39 out of 150 missing data entries resolved. 274 entries left to review manually.
+2024-04-04 14:46:08 - 39 out of 150 missing data entries resolved. 274 entries left to review manually.
+2024-04-04 14:46:08 - 39 out of 150 missing data entries resolved. 274 entries left to review manually.
+2024-04-04 14:46:08 - Please see and review list of articles requiring manual data retrieval: ./data/manual_retrieval.csv
+2024-04-04 14:46:08 - Please see and review list of articles requiring manual data retrieval: ./data/manual_retrieval.csv
+2024-04-04 14:46:08 - Please see and review list of articles requiring manual data retrieval: ./data/manual_retrieval.csv
+2024-04-04 14:50:12 - Starting auto data retrieval for 182 articles.
+2024-04-04 14:50:12 - Starting auto data retrieval for 182 articles.
+2024-04-04 14:50:12 - Starting auto data retrieval for 182 articles.
+2024-04-04 14:50:12 - Starting auto data retrieval for 182 articles.
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1111/brv.13031
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1111/brv.13031
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1111/brv.13031
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1111/brv.13031
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1093/eurjpc/zwad028
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1093/eurjpc/zwad028
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1093/eurjpc/zwad028
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1093/eurjpc/zwad028
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:50:12 - Querying Crossref for DOI: 10.1177/19322968221150148
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/nyas.14997
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/nyas.14997
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/nyas.14997
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/nyas.14997
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1017/S0033291723000193
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1017/S0033291723000193
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1017/S0033291723000193
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1017/S0033291723000193
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/cpf.12842
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/cpf.12842
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/cpf.12842
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/cpf.12842
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/1753-0407.13446
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/1753-0407.13446
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/1753-0407.13446
+2024-04-04 14:50:13 - Querying Crossref for DOI: 10.1111/1753-0407.13446
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1017/S0033291722002483
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1017/S0033291722002483
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1017/S0033291722002483
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1017/S0033291722002483
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1210/clinem/dgad069
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1210/clinem/dgad069
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1210/clinem/dgad069
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1210/clinem/dgad069
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1002/ab.22074
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1002/ab.22074
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1002/ab.22074
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1002/ab.22074
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:14 - Progress: 969: 10/182, Data found: 9, Manual: 1
+2024-04-04 14:50:14 - Progress: 969: 10/182, Data found: 9, Manual: 1
+2024-04-04 14:50:14 - Progress: 969: 10/182, Data found: 9, Manual: 1
+2024-04-04 14:50:14 - Progress: 969: 10/182, Data found: 9, Manual: 1
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1093/schbul/sbac206
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1093/schbul/sbac206
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1093/schbul/sbac206
+2024-04-04 14:50:14 - Querying Crossref for DOI: 10.1093/schbul/sbac206
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1017/S0033291721004359
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1017/S0033291721004359
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1017/S0033291721004359
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1017/S0033291721004359
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1002/erv.2961
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1002/erv.2961
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1002/erv.2961
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1002/erv.2961
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1530/EJE-21-1025
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1530/EJE-21-1025
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1530/EJE-21-1025
+2024-04-04 14:50:15 - Querying Crossref for DOI: 10.1530/EJE-21-1025
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1097/HTR.0000000000000845
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/eat.23821
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/eat.23821
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/eat.23821
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/eat.23821
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1017/S0033291720004328
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1017/S0033291720004328
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1017/S0033291720004328
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1017/S0033291720004328
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:50:16 - Querying Crossref for DOI: 10.1002/mds.29223
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/dom.14695
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/dom.14695
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/dom.14695
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/dom.14695
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/1556-4029.15040
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/1556-4029.15040
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/1556-4029.15040
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1111/1556-4029.15040
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:17 - Progress: 1012: 20/182, Data found: 17, Manual: 3
+2024-04-04 14:50:17 - Progress: 1012: 20/182, Data found: 17, Manual: 3
+2024-04-04 14:50:17 - Progress: 1012: 20/182, Data found: 17, Manual: 3
+2024-04-04 14:50:17 - Progress: 1012: 20/182, Data found: 17, Manual: 3
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1002/mds.29013
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1002/mds.29013
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1002/mds.29013
+2024-04-04 14:50:17 - Querying Crossref for DOI: 10.1002/mds.29013
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1093/scan/nsaa049
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1093/scan/nsaa049
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1093/scan/nsaa049
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1093/scan/nsaa049
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/tmi.13696
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/tmi.13696
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/tmi.13696
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/tmi.13696
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/add.15518
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/add.15518
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/add.15518
+2024-04-04 14:50:18 - Querying Crossref for DOI: 10.1111/add.15518
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/ejn.14895
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/ejn.14895
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/ejn.14895
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/ejn.14895
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1016/j.pbb.2021.173275
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1002/hbm.25627
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1002/hbm.25627
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1002/hbm.25627
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1002/hbm.25627
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/add.15447
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/add.15447
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/add.15447
+2024-04-04 14:50:19 - Querying Crossref for DOI: 10.1111/add.15447
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1210/endrev/bnab021
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1210/endrev/bnab021
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1210/endrev/bnab021
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1210/endrev/bnab021
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1111/acer.14664
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1111/acer.14664
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1111/acer.14664
+2024-04-04 14:50:20 - Querying Crossref for DOI: 10.1111/acer.14664
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Progress: 1052: 30/182, Data found: 26, Manual: 4
+2024-04-04 14:50:21 - Progress: 1052: 30/182, Data found: 26, Manual: 4
+2024-04-04 14:50:21 - Progress: 1052: 30/182, Data found: 26, Manual: 4
+2024-04-04 14:50:21 - Progress: 1052: 30/182, Data found: 26, Manual: 4
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/erv.2854
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/erv.2854
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/erv.2854
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/erv.2854
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1002/da.23150
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1093/brain/awab111
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1093/brain/awab111
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1093/brain/awab111
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1093/brain/awab111
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:50:21 - Querying Crossref for DOI: 10.1111/acer.14628
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1017/S0033291720000203
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1017/S0033291720000203
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1017/S0033291720000203
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1017/S0033291720000203
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1111/adb.12999
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1111/adb.12999
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1111/adb.12999
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1111/adb.12999
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:50:22 - Querying Crossref for DOI: 10.1002/da.23143
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1093/pm/pnab005
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1093/pm/pnab005
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1093/pm/pnab005
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1093/pm/pnab005
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pcn.13188
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pcn.13188
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pcn.13188
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pcn.13188
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/dme.14428
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:23 - Progress: 1069: 40/182, Data found: 33, Manual: 7
+2024-04-04 14:50:23 - Progress: 1069: 40/182, Data found: 33, Manual: 7
+2024-04-04 14:50:23 - Progress: 1069: 40/182, Data found: 33, Manual: 7
+2024-04-04 14:50:23 - Progress: 1069: 40/182, Data found: 33, Manual: 7
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pedi.13198
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pedi.13198
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pedi.13198
+2024-04-04 14:50:23 - Querying Crossref for DOI: 10.1111/pedi.13198
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/eci.13567
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/eci.13567
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/eci.13567
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/eci.13567
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/gbb.12705
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/gbb.12705
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/gbb.12705
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1111/gbb.12705
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1530/EJE-19-0957
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1530/EJE-19-0957
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1530/EJE-19-0957
+2024-04-04 14:50:24 - Querying Crossref for DOI: 10.1530/EJE-19-0957
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1177/1550059415622686
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1177/1550059415622686
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1177/1550059415622686
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1177/1550059415622686
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/ejn.14917
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/ejn.14917
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/ejn.14917
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/ejn.14917
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/pedi.13113
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/pedi.13113
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/pedi.13113
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1111/pedi.13113
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1093/brain/awaa305
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1093/brain/awaa305
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1093/brain/awaa305
+2024-04-04 14:50:25 - Querying Crossref for DOI: 10.1093/brain/awaa305
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1093/brain/awaa148
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1093/brain/awaa148
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1093/brain/awaa148
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1093/brain/awaa148
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/dom.13940
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/dom.13940
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/dom.13940
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/dom.13940
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:26 - Progress: 1099: 50/182, Data found: 39, Manual: 11
+2024-04-04 14:50:26 - Progress: 1099: 50/182, Data found: 39, Manual: 11
+2024-04-04 14:50:26 - Progress: 1099: 50/182, Data found: 39, Manual: 11
+2024-04-04 14:50:26 - Progress: 1099: 50/182, Data found: 39, Manual: 11
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/ijpo.12601
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/ijpo.12601
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/ijpo.12601
+2024-04-04 14:50:26 - Querying Crossref for DOI: 10.1111/ijpo.12601
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1002/erv.2712
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1002/erv.2712
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1002/erv.2712
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1002/erv.2712
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1017/S0140525X19002000
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1017/S0140525X19002000
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1017/S0140525X19002000
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1017/S0140525X19002000
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1093/arclin/acy066
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1093/arclin/acy066
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1093/arclin/acy066
+2024-04-04 14:50:27 - Querying Crossref for DOI: 10.1093/arclin/acy066
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/bcpt.13217
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/bcpt.13217
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/bcpt.13217
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/bcpt.13217
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/hel.12647
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/hel.12647
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/hel.12647
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/hel.12647
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1002/pds.4864
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1002/pds.4864
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1002/pds.4864
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1002/pds.4864
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/jnc.14777
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/jnc.14777
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/jnc.14777
+2024-04-04 14:50:28 - Querying Crossref for DOI: 10.1111/jnc.14777
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/dom.13684
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/dom.13684
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/dom.13684
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/dom.13684
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1097/SHK.0000000000001374
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1097/SHK.0000000000001374
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1097/SHK.0000000000001374
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1097/SHK.0000000000001374
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:29 - Progress: 1132: 60/182, Data found: 43, Manual: 17
+2024-04-04 14:50:29 - Progress: 1132: 60/182, Data found: 43, Manual: 17
+2024-04-04 14:50:29 - Progress: 1132: 60/182, Data found: 43, Manual: 17
+2024-04-04 14:50:29 - Progress: 1132: 60/182, Data found: 43, Manual: 17
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/pedi.12838
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/pedi.12838
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/pedi.12838
+2024-04-04 14:50:29 - Querying Crossref for DOI: 10.1111/pedi.12838
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/xge0000546
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/xge0000546
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/xge0000546
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/xge0000546
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1210/jc.2018-02166
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1210/jc.2018-02166
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1210/jc.2018-02166
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1210/jc.2018-02166
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/adb0000463
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/adb0000463
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/adb0000463
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1037/adb0000463
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1111/dom.13640
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1111/dom.13640
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1111/dom.13640
+2024-04-04 14:50:30 - Querying Crossref for DOI: 10.1111/dom.13640
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1111/jcmm.14182
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1111/jcmm.14182
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1111/jcmm.14182
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1111/jcmm.14182
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1097/GRH.0000000000000030
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1097/GRH.0000000000000030
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1097/GRH.0000000000000030
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1097/GRH.0000000000000030
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1037/cap0000166
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1037/cap0000166
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1037/cap0000166
+2024-04-04 14:50:31 - Querying Crossref for DOI: 10.1037/cap0000166
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1111/bjd.17349
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1111/bjd.17349
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1111/bjd.17349
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1111/bjd.17349
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1002/hbm.24425
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1002/hbm.24425
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1002/hbm.24425
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1002/hbm.24425
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:32 - Progress: 1151: 70/182, Data found: 46, Manual: 24
+2024-04-04 14:50:32 - Progress: 1151: 70/182, Data found: 46, Manual: 24
+2024-04-04 14:50:32 - Progress: 1151: 70/182, Data found: 46, Manual: 24
+2024-04-04 14:50:32 - Progress: 1151: 70/182, Data found: 46, Manual: 24
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1530/EJE-17-0921
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1530/EJE-17-0921
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1530/EJE-17-0921
+2024-04-04 14:50:32 - Querying Crossref for DOI: 10.1530/EJE-17-0921
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1093/jpepsy/jsy013
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1093/jpepsy/jsy013
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1093/jpepsy/jsy013
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1093/jpepsy/jsy013
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/xge0000523
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/xge0000523
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/xge0000523
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/xge0000523
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1111/jns.12290
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1111/jns.12290
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1111/jns.12290
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1111/jns.12290
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/bar0000115
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/bar0000115
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/bar0000115
+2024-04-04 14:50:33 - Querying Crossref for DOI: 10.1037/bar0000115
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/mds.116
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/mds.116
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/mds.116
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/mds.116
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/ana.25331
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/ana.25331
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/ana.25331
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1002/ana.25331
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1037/xhp0000544
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1037/xhp0000544
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1037/xhp0000544
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.1037/xhp0000544
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.2337/dc18-0243
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.2337/dc18-0243
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.2337/dc18-0243
+2024-04-04 14:50:34 - Querying Crossref for DOI: 10.2337/dc18-0243
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1177/2048872617751067
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1177/2048872617751067
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1177/2048872617751067
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1177/2048872617751067
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Progress: 1179: 80/182, Data found: 48, Manual: 32
+2024-04-04 14:50:35 - Progress: 1179: 80/182, Data found: 48, Manual: 32
+2024-04-04 14:50:35 - Progress: 1179: 80/182, Data found: 48, Manual: 32
+2024-04-04 14:50:35 - Progress: 1179: 80/182, Data found: 48, Manual: 32
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1111/acer.13747
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1111/acer.13747
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1111/acer.13747
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1111/acer.13747
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1002/mp.12938
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1002/mp.12938
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1002/mp.12938
+2024-04-04 14:50:35 - Querying Crossref for DOI: 10.1002/mp.12938
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1037/xge0000389
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1037/xge0000389
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1037/xge0000389
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1037/xge0000389
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/pedi.12604
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/pedi.12604
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/pedi.12604
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/pedi.12604
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/bcpt.12968
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/bcpt.12968
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/bcpt.12968
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1111/bcpt.12968
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1002/eat.22824
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1002/eat.22824
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1002/eat.22824
+2024-04-04 14:50:36 - Querying Crossref for DOI: 10.1002/eat.22824
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1177/1932296818761742
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1177/1932296818761742
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1177/1932296818761742
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1177/1932296818761742
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.2337/dci17-0021
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.2337/dci17-0021
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.2337/dci17-0021
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.2337/dci17-0021
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1002/dev.21598
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1002/dev.21598
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1002/dev.21598
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1002/dev.21598
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1093/scan/nsx137
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1093/scan/nsx137
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1093/scan/nsx137
+2024-04-04 14:50:37 - Querying Crossref for DOI: 10.1093/scan/nsx137
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Progress: 1200: 90/182, Data found: 49, Manual: 41
+2024-04-04 14:50:38 - Progress: 1200: 90/182, Data found: 49, Manual: 41
+2024-04-04 14:50:38 - Progress: 1200: 90/182, Data found: 49, Manual: 41
+2024-04-04 14:50:38 - Progress: 1200: 90/182, Data found: 49, Manual: 41
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1037/xan0000160
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1037/xan0000160
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1037/xan0000160
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1037/xan0000160
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1111/brv.12355
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1111/brv.12355
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1111/brv.12355
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1111/brv.12355
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1210/jc.2017-01197
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1210/jc.2017-01197
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1210/jc.2017-01197
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1210/jc.2017-01197
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1530/EJE-17-0430
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1530/EJE-17-0430
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1530/EJE-17-0430
+2024-04-04 14:50:38 - Querying Crossref for DOI: 10.1530/EJE-17-0430
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/2047487317703545
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/2047487317703545
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/2047487317703545
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/2047487317703545
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1111/nyas.13327
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1111/nyas.13327
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1111/nyas.13327
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1111/nyas.13327
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/1932296817696371
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/1932296817696371
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/1932296817696371
+2024-04-04 14:50:39 - Querying Crossref for DOI: 10.1177/1932296817696371
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/hep.29501
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/hep.29501
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/hep.29501
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/hep.29501
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1037/bul0000096
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1037/bul0000096
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1037/bul0000096
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1037/bul0000096
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/cpt.692
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/cpt.692
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/cpt.692
+2024-04-04 14:50:40 - Querying Crossref for DOI: 10.1002/cpt.692
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:40 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Progress: 1217: 100/182, Data found: 54, Manual: 46
+2024-04-04 14:50:41 - Progress: 1217: 100/182, Data found: 54, Manual: 46
+2024-04-04 14:50:41 - Progress: 1217: 100/182, Data found: 54, Manual: 46
+2024-04-04 14:50:41 - Progress: 1217: 100/182, Data found: 54, Manual: 46
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1037/a0040456
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1037/a0040456
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1037/a0040456
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1037/a0040456
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/acer.13443
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/acer.13443
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/acer.13443
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/acer.13443
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1093/scan/nsx062
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1093/scan/nsx062
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1093/scan/nsx062
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1093/scan/nsx062
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/obr.12549
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/obr.12549
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/obr.12549
+2024-04-04 14:50:41 - Querying Crossref for DOI: 10.1111/obr.12549
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1037/bul0000107
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1037/bul0000107
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1037/bul0000107
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1037/bul0000107
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1111/acer.13391
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1111/acer.13391
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1111/acer.13391
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1111/acer.13391
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1093/schbul/sbx066
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1093/schbul/sbx066
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1093/schbul/sbx066
+2024-04-04 14:50:42 - Querying Crossref for DOI: 10.1093/schbul/sbx066
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1002/mds.27087
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1002/mds.27087
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1002/mds.27087
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1002/mds.27087
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1037/pha0000125
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1037/pha0000125
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1037/pha0000125
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1037/pha0000125
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/dom.12836
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/dom.12836
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/dom.12836
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/dom.12836
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:43 - Progress: 1241: 110/182, Data found: 56, Manual: 54
+2024-04-04 14:50:43 - Progress: 1241: 110/182, Data found: 56, Manual: 54
+2024-04-04 14:50:43 - Progress: 1241: 110/182, Data found: 56, Manual: 54
+2024-04-04 14:50:43 - Progress: 1241: 110/182, Data found: 56, Manual: 54
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/cns.12671
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/cns.12671
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/cns.12671
+2024-04-04 14:50:43 - Querying Crossref for DOI: 10.1111/cns.12671
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1037/pha0000105
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1037/pha0000105
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1037/pha0000105
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1037/pha0000105
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1111/pcn.12490
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1111/pcn.12490
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1111/pcn.12490
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1111/pcn.12490
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1093/scan/nsw154
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1093/scan/nsw154
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1093/scan/nsw154
+2024-04-04 14:50:44 - Querying Crossref for DOI: 10.1093/scan/nsw154
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/cep0000111
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/cep0000111
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/cep0000111
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/cep0000111
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1002/gps.4438
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1002/gps.4438
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1002/gps.4438
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1002/gps.4438
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1111/jns.12181
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1111/jns.12181
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1111/jns.12181
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1111/jns.12181
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/xlm0000244
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/xlm0000244
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/xlm0000244
+2024-04-04 14:50:45 - Querying Crossref for DOI: 10.1037/xlm0000244
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1037/abn0000164
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1037/abn0000164
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1037/abn0000164
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1037/abn0000164
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/mds.26631
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/mds.26631
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/mds.26631
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/mds.26631
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Progress: 1275: 120/182, Data found: 60, Manual: 60
+2024-04-04 14:50:46 - Progress: 1275: 120/182, Data found: 60, Manual: 60
+2024-04-04 14:50:46 - Progress: 1275: 120/182, Data found: 60, Manual: 60
+2024-04-04 14:50:46 - Progress: 1275: 120/182, Data found: 60, Manual: 60
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/ijop.12335
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/ijop.12335
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/ijop.12335
+2024-04-04 14:50:46 - Querying Crossref for DOI: 10.1002/ijop.12335
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:46 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1002/mds.26688
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1002/mds.26688
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1002/mds.26688
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1002/mds.26688
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S003329171500207X
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S003329171500207X
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S003329171500207X
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S003329171500207X
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1037/neu0000234
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1037/neu0000234
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1037/neu0000234
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1037/neu0000234
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S0140525X14000120
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S0140525X14000120
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S0140525X14000120
+2024-04-04 14:50:47 - Querying Crossref for DOI: 10.1017/S0140525X14000120
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1037/a0038622
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1037/a0038622
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1037/a0038622
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1037/a0038622
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1177/2048872615599730
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1177/2048872615599730
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1177/2048872615599730
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1177/2048872615599730
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1093/schbul/sbv010
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1093/schbul/sbv010
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1093/schbul/sbv010
+2024-04-04 14:50:48 - Querying Crossref for DOI: 10.1093/schbul/sbv010
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1177/0161734614535164
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1177/0161734614535164
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1177/0161734614535164
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1177/0161734614535164
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1161/HYP.0000000000000010
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1161/HYP.0000000000000010
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1161/HYP.0000000000000010
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.1161/HYP.0000000000000010
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:49 - Progress: 1368: 130/182, Data found: 62, Manual: 68
+2024-04-04 14:50:49 - Progress: 1368: 130/182, Data found: 62, Manual: 68
+2024-04-04 14:50:49 - Progress: 1368: 130/182, Data found: 62, Manual: 68
+2024-04-04 14:50:49 - Progress: 1368: 130/182, Data found: 62, Manual: 68
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.2337/dc14-S014
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.2337/dc14-S014
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.2337/dc14-S014
+2024-04-04 14:50:49 - Querying Crossref for DOI: 10.2337/dc14-S014
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.2310/JIM.0000000000000033
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.2310/JIM.0000000000000033
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.2310/JIM.0000000000000033
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.2310/JIM.0000000000000033
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1530/EJE-13-0032
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1530/EJE-13-0032
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1530/EJE-13-0032
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1530/EJE-13-0032
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1017/S0140525X12001525
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1017/S0140525X12001525
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1017/S0140525X12001525
+2024-04-04 14:50:50 - Querying Crossref for DOI: 10.1017/S0140525X12001525
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1017/S1092852913000072
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1017/S1092852913000072
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1017/S1092852913000072
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1017/S1092852913000072
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.2337/dc13-S011
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.2337/dc13-S011
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.2337/dc13-S011
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.2337/dc13-S011
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1177/1550059412444821
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1177/1550059412444821
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1177/1550059412444821
+2024-04-04 14:50:51 - Querying Crossref for DOI: 10.1177/1550059412444821
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/db12-0803
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/db12-0803
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/db12-0803
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/db12-0803
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1111/j.1467-3010.2012.01984.x
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1111/j.1467-3010.2012.01984.x
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1111/j.1467-3010.2012.01984.x
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1111/j.1467-3010.2012.01984.x
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1249/01.mss.0000417529.22755.ed
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1249/01.mss.0000417529.22755.ed
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1249/01.mss.0000417529.22755.ed
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.1249/01.mss.0000417529.22755.ed
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:52 - Progress: 1452: 140/182, Data found: 65, Manual: 75
+2024-04-04 14:50:52 - Progress: 1452: 140/182, Data found: 65, Manual: 75
+2024-04-04 14:50:52 - Progress: 1452: 140/182, Data found: 65, Manual: 75
+2024-04-04 14:50:52 - Progress: 1452: 140/182, Data found: 65, Manual: 75
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/dc11-1468
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/dc11-1468
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/dc11-1468
+2024-04-04 14:50:52 - Querying Crossref for DOI: 10.2337/dc11-1468
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.1111/j.1467-3010.2011.01953.x
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.1111/j.1467-3010.2011.01953.x
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.1111/j.1467-3010.2011.01953.x
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.1111/j.1467-3010.2011.01953.x
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.2337/dc12-s011
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.2337/dc12-s011
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.2337/dc12-s011
+2024-04-04 14:50:53 - Querying Crossref for DOI: 10.2337/dc12-s011
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/155005941104200212
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/155005941104200212
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/155005941104200212
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/155005941104200212
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/026988111102508S01
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/026988111102508S01
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/026988111102508S01
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1177/026988111102508S01
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1111/j.1360-0443.2011.03711.x
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1111/j.1360-0443.2011.03711.x
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1111/j.1360-0443.2011.03711.x
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.1111/j.1360-0443.2011.03711.x
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.2337/dc11-S011
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.2337/dc11-S011
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.2337/dc11-S011
+2024-04-04 14:50:54 - Querying Crossref for DOI: 10.2337/dc11-S011
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1177/155005941004100210
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1177/155005941004100210
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1177/155005941004100210
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1177/155005941004100210
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.2337/dc09-S306
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.2337/dc09-S306
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.2337/dc09-S306
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.2337/dc09-S306
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1161/CIRCULATIONAHA.107.763730
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1161/CIRCULATIONAHA.107.763730
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1161/CIRCULATIONAHA.107.763730
+2024-04-04 14:50:55 - Querying Crossref for DOI: 10.1161/CIRCULATIONAHA.107.763730
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Progress: 1586: 150/182, Data found: 66, Manual: 84
+2024-04-04 14:50:56 - Progress: 1586: 150/182, Data found: 66, Manual: 84
+2024-04-04 14:50:56 - Progress: 1586: 150/182, Data found: 66, Manual: 84
+2024-04-04 14:50:56 - Progress: 1586: 150/182, Data found: 66, Manual: 84
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1080/00048670701724647
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1080/00048670701724647
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1080/00048670701724647
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1080/00048670701724647
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl260
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl260
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl260
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl260
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl261
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl261
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl261
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/eurheartj/ehl261
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/brain/awl227
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/brain/awl227
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/brain/awl227
+2024-04-04 14:50:56 - Querying Crossref for DOI: 10.1093/brain/awl227
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1037/a0002506
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1037/a0002506
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1037/a0002506
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1037/a0002506
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.7326/0003-4819-140-11-200406010-00036
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.7326/0003-4819-140-11-200406010-00036
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.7326/0003-4819-140-11-200406010-00036
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.7326/0003-4819-140-11-200406010-00036
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1111/j.1462-8902.2004.00345.x
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1111/j.1462-8902.2004.00345.x
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1111/j.1462-8902.2004.00345.x
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.1111/j.1462-8902.2004.00345.x
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.2337/diacare.25.6.1085
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.2337/diacare.25.6.1085
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.2337/diacare.25.6.1085
+2024-04-04 14:50:57 - Querying Crossref for DOI: 10.2337/diacare.25.6.1085
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1046/j.1463-1326.2001.00101.x
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1046/j.1463-1326.2001.00101.x
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1046/j.1463-1326.2001.00101.x
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1046/j.1463-1326.2001.00101.x
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.2337/diacare.22.3.517
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.2337/diacare.22.3.517
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.2337/diacare.22.3.517
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.2337/diacare.22.3.517
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:58 - Progress: 1726: 160/182, Data found: 67, Manual: 93
+2024-04-04 14:50:58 - Progress: 1726: 160/182, Data found: 67, Manual: 93
+2024-04-04 14:50:58 - Progress: 1726: 160/182, Data found: 67, Manual: 93
+2024-04-04 14:50:58 - Progress: 1726: 160/182, Data found: 67, Manual: 93
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1093/qjmed/89.11.865
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1093/qjmed/89.11.865
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1093/qjmed/89.11.865
+2024-04-04 14:50:58 - Querying Crossref for DOI: 10.1093/qjmed/89.11.865
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1056/NEJM199603213341207
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1056/NEJM199603213341207
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1056/NEJM199603213341207
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1056/NEJM199603213341207
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1159/000530604
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1159/000530604
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1159/000530604
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1159/000530604
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.3390/healthcare10091659
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.3390/healthcare10091659
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.3390/healthcare10091659
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.3390/healthcare10091659
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Crossref metadata retrieved successfully.
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1007/s11682-020-00308-4
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1007/s11682-020-00308-4
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1007/s11682-020-00308-4
+2024-04-04 14:50:59 - Querying Crossref for DOI: 10.1007/s11682-020-00308-4
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s11682-019-00215-3
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s11682-019-00215-3
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s11682-019-00215-3
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s11682-019-00215-3
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00213-019-05320-1
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00213-019-05320-1
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00213-019-05320-1
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00213-019-05320-1
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00247-019-04376-7
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00247-019-04376-7
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00247-019-04376-7
+2024-04-04 14:51:00 - Querying Crossref for DOI: 10.1007/s00247-019-04376-7
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.2018-0169
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.2018-0169
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.2018-0169
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.2018-0169
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1007/s13410-018-0604-7
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1007/s13410-018-0604-7
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1007/s13410-018-0604-7
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1007/s13410-018-0604-7
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Progress: 2016: 170/182, Data found: 69, Manual: 101
+2024-04-04 14:51:01 - Progress: 2016: 170/182, Data found: 69, Manual: 101
+2024-04-04 14:51:01 - Progress: 2016: 170/182, Data found: 69, Manual: 101
+2024-04-04 14:51:01 - Progress: 2016: 170/182, Data found: 69, Manual: 101
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.39.3.S1
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.39.3.S1
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.39.3.S1
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.1123/jsep.39.3.S1
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.2147/VHRM.S68564
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.2147/VHRM.S68564
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.2147/VHRM.S68564
+2024-04-04 14:51:01 - Querying Crossref for DOI: 10.2147/VHRM.S68564
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.2147/NAN.S38866
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.2147/NAN.S38866
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.2147/NAN.S38866
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.2147/NAN.S38866
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.3390/nu4121898
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.3390/nu4121898
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.3390/nu4121898
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.3390/nu4121898
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.1007/s00213-011-2486-y
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.1007/s00213-011-2486-y
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.1007/s00213-011-2486-y
+2024-04-04 14:51:02 - Querying Crossref for DOI: 10.1007/s00213-011-2486-y
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1162/jocn.2010.21548
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1162/jocn.2010.21548
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1162/jocn.2010.21548
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1162/jocn.2010.21548
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1093/eurpub/ckr119
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1093/eurpub/ckr119
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1093/eurpub/ckr119
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1093/eurpub/ckr119
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1891/0889-8391.24.3.177
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1891/0889-8391.24.3.177
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1891/0889-8391.24.3.177
+2024-04-04 14:51:03 - Querying Crossref for DOI: 10.1891/0889-8391.24.3.177
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802306202
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802306202
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802306202
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802306202
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802335136
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802335136
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802335136
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/02640410802335136
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Progress: 2295: 180/182, Data found: 71, Manual: 109
+2024-04-04 14:51:04 - Progress: 2295: 180/182, Data found: 71, Manual: 109
+2024-04-04 14:51:04 - Progress: 2295: 180/182, Data found: 71, Manual: 109
+2024-04-04 14:51:04 - Progress: 2295: 180/182, Data found: 71, Manual: 109
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.3325/cmj.2007.6.791
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.3325/cmj.2007.6.791
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.3325/cmj.2007.6.791
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.3325/cmj.2007.6.791
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/09638230500377977
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/09638230500377977
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/09638230500377977
+2024-04-04 14:51:04 - Querying Crossref for DOI: 10.1080/09638230500377977
+2024-04-04 14:51:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:05 - Crossref metadata retrieved successfully.
+2024-04-04 14:51:05 - 71 out of 182 missing data entries resolved. 274 entries left to review manually.
+2024-04-04 14:51:05 - 71 out of 182 missing data entries resolved. 274 entries left to review manually.
+2024-04-04 14:51:05 - 71 out of 182 missing data entries resolved. 274 entries left to review manually.
+2024-04-04 14:51:05 - 71 out of 182 missing data entries resolved. 274 entries left to review manually.
+2024-04-04 14:51:05 - Please see and review list of articles requiring manual data retrieval: ./data/manual_data_retrieval.csv
+2024-04-04 14:51:05 - Please see and review list of articles requiring manual data retrieval: ./data/manual_data_retrieval.csv
+2024-04-04 14:51:05 - Please see and review list of articles requiring manual data retrieval: ./data/manual_data_retrieval.csv
+2024-04-04 14:51:05 - Please see and review list of articles requiring manual data retrieval: ./data/manual_data_retrieval.csv
