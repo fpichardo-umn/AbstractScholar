@@ -25,4 +25,4 @@ split_threshold: 0.90
 length_threshold: 20
 min_cluster_size: 2
 quick_data_merge_threshold: 0.95
-actions_log_csv: ./data/search_processing/actions_log.csv
+actions_log_base_json: ./data/search_processing/actions_log

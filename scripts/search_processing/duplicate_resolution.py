@@ -14,7 +14,8 @@ This script resolves duplicates in the preprocessed data based on manual review 
 4. Exports any entries flagged as potential duplicates to a CSV file for manual review.
 
 NEXT STEP: You must review the flagged entries in the CSV file and make a final changes/decisions to the dataset.
-See the flag_years and flag_dois columns for entries that need review.
+See the 'to_review' column (OR of flag_years and flag_dois columns) for entries that need review.
+You can edit the review_dupes.csv and rerun this script if there are many issues left. There will likely be a few issues at the end that don't need to be resolved.
 
 Manual review flags (update_flag column):
 - 'R': Removal. Entries with this flag are removed from the dataset.
@@ -338,6 +339,11 @@ def process_article_duplicates(preprocessed_df, removal_log_df, combined_df, con
     # Load the manual review DataFrame
     review_csv_path = config.get('duplicates_review_csv', './data/search_processing/duplicates_review.csv')
     review_df  = pd.read_csv(review_csv_path, encoding='latin1', index_col='orig_index')
+    
+    columns_to_remove = ['flag_years', 'flag_dois', 'to_review']
+    columns_to_remove = list(set(columns_to_remove).intersection(review_df.columns))
+    review_df.drop(columns=columns_to_remove, inplace=True)
+
     review_df  = replace_nulls(review_df, review_df.columns)
     review_df.index.name = 'index'
     review_df['orig_index'] = review_df.index
@@ -355,9 +361,13 @@ def process_article_duplicates(preprocessed_df, removal_log_df, combined_df, con
     
     # Notify and save if reviews are needed
     if 'flag_years' in review_df.columns or 'flag_dois' in review_df.columns:
-        to_review_bool = review_df['flag_years'] | review_df['flag_dois']
-        if sum(to_review_bool) > 0:
-            print(f"Files require review: {sum(to_review_bool)}. See the flag_years and flag_dois columns.")
+        # Handle NaNs
+        review_df.flag_years.fillna(False, inplace=True)
+        review_df.flag_dois.fillna(False, inplace=True)
+        
+        review_df['to_review'] = review_df['flag_years'] | review_df['flag_dois']
+        if sum(review_df['to_review']) > 0:
+            print(f"Files require review: {sum(review_df['to_review'])}. See the flag_years and flag_dois columns.")
             review_df.to_csv(review_csv_path, index=False)
     
     return preprocessed_df, removal_log_df, action_log
@@ -383,9 +393,22 @@ combined_df.sort_index(inplace = True)
 # Resolve duplicates
 preprocessed_df, removal_log_df, action_log = process_article_duplicates(preprocessed_df, removal_log_df, combined_df, config)
 
-# Export action log to CSV
-act_log_json_path = config.get('actions_log_json', './data/search_processing/actions_log.json')
-with open(act_log_json_path, 'w') as file:
-        json.dump(action_log, file)
+# Define the path and filename
+base_filename = config.get('actions_log_base_json', './data/search_processing/actions_log')
+extension = '.json'
+original_filepath = op.join(base_filename + extension)
+
+# Check if the original file exists
+if os.path.exists(original_filepath):
+    # Create a new filename with "_1" before the file extension
+    new_filename = base_filename + '_1' + extension
+    new_filepath = op.join(new_filename)
+else:
+    # Use the original filename
+    new_filepath = original_filepath
+
+# Export action log to the determined JSON file path
+with open(new_filepath, 'w') as file:
+    json.dump(action_log, file)
 
 backup_and_save(preprocessed_df, removal_log_df, config, extra_backup_suffix='dupe_resolve')
