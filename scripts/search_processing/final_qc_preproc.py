@@ -6,7 +6,7 @@ STEP 05: FINAL QUALITY CHECKS
 This script is the final quality control (QC) step in the data preprocessing pipeline:
 1. Loads the user configuration and preprocessed data.
 2. If a review CSV file exists, it processes entries marked for removal ('R') and addition ('A').
-3. Removes 'hollow' data entries (entries with insufficient information).
+3. Removes 'hollow' data entries (entries with insufficient information) and grey literature.
 4. Performs a series of quality checks on the data, flagging any entries that need review.
 5. Backs up and saves the updated preprocessed data and removal log.
 
@@ -24,7 +24,9 @@ Configuration parameters:
 - max_publication_year
 - allowed_languages
 
-NEXT STEP: If any entries are flagged for review during the final QC, you must review these entries and the removal log.
+NEXT STEP:
+If any entries are flagged for review during the final QC, you should review these entries and the removal log.
+Fix any issues directly in the preprocessed data and continue to the next step in the pipeline: text analysis.
 
 Created on Tue Apr 2 23:05:09 2024
 
@@ -56,7 +58,7 @@ def check_publication_year(df, min_year=1900, max_year=2024):
 def check_language(df, config):
     """Check if the article's language is within the allowed list."""
     allowed_languages = config.get('languages', 'english').split(', ')
-    df['language_check'] = ~df['language'].str.lower().isin(allowed_languages)
+    df['language_check'] = df['language'].apply(lambda x: x.lower() not in allowed_languages if x else False)
 
 
 def check_missing_doi(df):
@@ -80,6 +82,49 @@ def perform_quality_checks(df, config):
     check_language(df, config)
     check_missing_doi(df)
     df['needs_review'] = (df['abstract_check'] | df['year_check'] | df['language_check'] | df['doi_check'])
+
+
+def remove_flagged_entries(df, removal_log_df, flag_column, removal_reason, removal_step):
+    """
+    Remove entries flagged with a specific flag column and log the removal.
+    
+    Parameters
+    ----------
+    df : pd.DataFrame
+        DataFrame containing publication metadata.
+    removal_log_df : pd.DataFrame
+        DataFrame containing the removal log.
+    flag_column : str
+        The name of the flag column to check for removal.
+    removal_reason : str
+        The reason for removal to be logged.
+    removal_step : str
+        The step in the process where removal is occurring.
+    
+    Returns
+    -------
+    df : pd.DataFrame
+        Updated DataFrame with flagged entries removed.
+    removal_log_df : pd.DataFrame
+        Updated removal log DataFrame with logged removals.
+    """
+    # Ensure the flag column contains integers, handling non-numeric values
+    df[flag_column] = pd.to_numeric(df[flag_column], errors='coerce').fillna(0).astype(int)
+    
+    # Identify indices of rows flagged for removal
+    flagged_indices = df[df[flag_column] == 1].index
+    
+    # Create a DataFrame of rows to be removed, with reasons for removal
+    to_append = df.loc[flagged_indices].assign(reason_for_removal=removal_reason, removal_step=removal_step)
+    
+    # Concatenate the removal log with the new removals
+    removal_log_df = pd.concat([removal_log_df, to_append], ignore_index=True)
+    
+    # Drop the flagged rows from the original DataFrame
+    df.drop(index=flagged_indices, inplace=True)
+    
+    return df, removal_log_df
+
 
 
 ###
@@ -132,13 +177,20 @@ if op.exists(review_csv_path):
         preprocessed_df = pd.concat([preprocessed_df] + additions, ignore_index=True)
 
 # Remove hollow data
-hollow_indices = preprocessed_df[preprocessed_df['hollow_flag'] == True].index
+preprocessed_df, removal_log_df = remove_flagged_entries(
+    preprocessed_df, removal_log_df, 
+    flag_column='hollow_flag', 
+    removal_reason='Hollow Data', 
+    removal_step='Final Preprocessing'
+)
 
-# Create a DataFrame with rows from preprocessed_df corresponding to hollow_indices
-to_append = preprocessed_df.loc[hollow_indices].assign(reason_for_removal='Hollow Data', removal_step='Final Preprocessing')
-removal_log_df = pd.concat([removal_log_df, to_append])
-
-preprocessed_df.drop(index=hollow_indices, inplace=True)
+# Remove grey data
+preprocessed_df, removal_log_df = remove_flagged_entries(
+    preprocessed_df, removal_log_df, 
+    flag_column='grey_flag', 
+    removal_reason='Grey Data', 
+    removal_step='Final Preprocessing'
+)
 
 # Final quality check and flagging for review
 perform_quality_checks(preprocessed_df, config)
@@ -146,7 +198,9 @@ perform_quality_checks(preprocessed_df, config)
 # Update data files
 backup_and_save(preprocessed_df, removal_log_df, config, extra_backup_suffix='fianl_qc')
 
-if preprocessed_df.needs_review.sum() > 0:
-    print("Final preprocessing complete. Please review flagged preprocessed entries and the removal log.")
+num_flagged_entries = preprocessed_df.needs_review.sum()
+
+if num_flagged_entries > 0:
+    print(f"Final preprocessing complete. {num_flagged_entries} entries flagged for review. Please review flagged preprocessed entries and the removal log.")
 else:
     print("Final preprocessing complete. Please review the removal log.")
