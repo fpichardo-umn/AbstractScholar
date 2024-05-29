@@ -45,23 +45,23 @@ def check_abstract_length(df, min_length=100):
     """Check if the abstract length is within the specified range."""
     
     df['abstract_length'] = df['abstract'].apply(lambda x: len(x.split()))
-    df['abstract_check']  = df['abstract_length'].apply(lambda x: min_length <= x)
+    df['abstract_check']  = df['abstract_length'].apply(lambda x: x <= min_length)
 
 
 def check_publication_year(df, min_year=1900, max_year=2024):
     """Check if the publication year is within the specified range."""
-    df['year_check'] = df['year'].apply(lambda x: min_year <= x <= max_year)
+    df['year_check'] = ~df['year'].apply(lambda x: min_year <= int(x) <= max_year)
 
 
 def check_language(df, config):
     """Check if the article's language is within the allowed list."""
     allowed_languages = config.get('languages', 'english').split(', ')
-    df['language_check'] = df['language'].str.lower().isin(allowed_languages)
+    df['language_check'] = ~df['language'].str.lower().isin(allowed_languages)
 
 
 def check_missing_doi(df):
     """Flag articles with missing DOIs."""
-    df['doi_check'] = df['doi'].apply(lambda x: x.strip() != '')
+    df['doi_check'] = df['doi'].apply(lambda x: x.strip() == '')
 
 
 def perform_quality_checks(df, config):
@@ -75,11 +75,11 @@ def perform_quality_checks(df, config):
         Configuration settings
     """
     
-    check_abstract_length(df, min_year = int(config.get('min_length', 100)), max_year = int(config.get('max_length', 50000)))
+    check_abstract_length(df, min_length = int(config.get('min_length', 100)))
     check_publication_year(df, min_year = int(config.get('year_min', 1900)), max_year = int(config.get('year_max', 2024)))
     check_language(df, config)
     check_missing_doi(df)
-    df['needs_review'] = ~(df['abstract_check'] & df['year_check'] & df['language_check'] & df['doi_check'])
+    df['needs_review'] = (df['abstract_check'] | df['year_check'] | df['language_check'] | df['doi_check'])
 
 
 ###
@@ -98,21 +98,50 @@ if op.exists(review_csv_path):
     review_df = pd.read_csv(review_csv_path)
     
     # Process 'R' marked entries for removal
-    for index, row in review_df[review_df['Decision'] == 'R'].iterrows():
-        removal_log_df = removal_log_df.append({'index': row['Index'], 'reason_for_removal': 'Duplicate', 'removal_step': 'Final Preprocessing'})
-        preprocessed_df.drop(index=row['Index'], inplace=True)
+    removal_logs = []
+    indices_to_remove = []
+    for _, row in review_df[review_df['Decision'] == 'R'].iterrows():
+        # Prepare the row to be appended to the removal log
+        row_to_log = row.drop(['Decision']).to_dict()
+        row_to_log.update({
+            'reason_for_removal': 'Duplicate',
+            'removal_step': 'Final Preprocessing'
+        })
+        removal_logs.append(row_to_log)
+        
+        # Collect indices to remove
+        if row['orig_index'] in preprocessed_df['orig_index'].values:
+            indices_to_remove.append(row['orig_index'])
+    
+    # Remove rows in one operation
+    preprocessed_df = preprocessed_df[~preprocessed_df['orig_index'].isin(indices_to_remove)]
+    
+    if removal_logs:
+        removal_log_df = pd.concat([removal_log_df, pd.DataFrame(removal_logs)], ignore_index=True)
     
     # Process 'A' marked entries for addition
-    for index, row in review_df[review_df['Decision'] == 'A'].iterrows():
-        preprocessed_df = preprocessed_df.append(row.drop(['Index', 'Decision']))
+    additions = []
+    for _, row in review_df[review_df['Decision'] == 'A'].iterrows():
+        # Ensure the orig_index is not already in preprocessed_df
+        if row['orig_index'] not in preprocessed_df['orig_index'].values:
+            # Drop 'Index' and 'Decision' columns and prepare the row to add
+            row_to_add = row.drop(['Index', 'Decision']).to_frame().T
+            additions.append(row_to_add)
+    
+    if additions:
+        preprocessed_df = pd.concat([preprocessed_df] + additions, ignore_index=True)
 
 # Remove hollow data
 hollow_indices = preprocessed_df[preprocessed_df['hollow_flag'] == True].index
-removal_log_df = removal_log_df.append(preprocessed_df.loc[hollow_indices].assign(reason_for_removal='Hollow Data', removal_step='Final Preprocessing'))
+
+# Create a DataFrame with rows from preprocessed_df corresponding to hollow_indices
+to_append = preprocessed_df.loc[hollow_indices].assign(reason_for_removal='Hollow Data', removal_step='Final Preprocessing')
+removal_log_df = pd.concat([removal_log_df, to_append])
+
 preprocessed_df.drop(index=hollow_indices, inplace=True)
 
 # Final quality check and flagging for review
-preprocessed_df = perform_quality_checks(preprocessed_df, config)
+perform_quality_checks(preprocessed_df, config)
 
 # Update data files
 backup_and_save(preprocessed_df, removal_log_df, config, extra_backup_suffix='fianl_qc')

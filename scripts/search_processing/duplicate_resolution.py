@@ -16,6 +16,7 @@ This script resolves duplicates in the preprocessed data based on manual review 
 NEXT STEP: You must review the flagged entries in the CSV file and make a final changes/decisions to the dataset.
 See the 'to_review' column (OR of flag_years and flag_dois columns) for entries that need review.
 You can edit the review_dupes.csv and rerun this script if there are many issues left. There will likely be a few issues at the end that don't need to be resolved.
+Alternatively, you can fill the 'Decisions' column for the next step: 'R' for removal and 'A' for addition.
 
 Manual review flags (update_flag column):
 - 'R': Removal. Entries with this flag are removed from the dataset.
@@ -340,7 +341,7 @@ def process_article_duplicates(preprocessed_df, removal_log_df, combined_df, con
     review_csv_path = config.get('duplicates_review_csv', './data/search_processing/duplicates_review.csv')
     review_df  = pd.read_csv(review_csv_path, encoding='latin1', index_col='orig_index')
     
-    columns_to_remove = ['flag_years', 'flag_dois', 'to_review']
+    columns_to_remove = ['flag_years', 'flag_dois', 'to_review', 'Decision']
     columns_to_remove = list(set(columns_to_remove).intersection(review_df.columns))
     review_df.drop(columns=columns_to_remove, inplace=True)
 
@@ -367,6 +368,7 @@ def process_article_duplicates(preprocessed_df, removal_log_df, combined_df, con
         
         review_df['to_review'] = review_df['flag_years'] | review_df['flag_dois']
         if sum(review_df['to_review']) > 0:
+            review_df['Decision'] = ''
             print(f"Files require review: {sum(review_df['to_review'])}. See the flag_years and flag_dois columns.")
             review_df.to_csv(review_csv_path, index=False)
     
