@@ -26,3 +26,8 @@ length_threshold: 20
 min_cluster_size: 2
 quick_data_merge_threshold: 0.95
 actions_log_base_json: ./data/search_processing/actions_log
+ngram_range: 1, 4
+max_doc_freq: 0.5
+max_svd_components: 250
+custom_stopwords: al, et, contents, pubmed, pnas, published, article, present, abstract, sp, american, psychological, association, associatio, ei, pg, user, ie, apa, rights, reserved, copyright, c, l, j
+preprocess_pickle: ./data/preprocessed_abstracts.pickle

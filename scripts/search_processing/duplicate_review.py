@@ -185,7 +185,7 @@ def calculate_group_similarity(df, groups, config):
             combined_strings = group_data.apply(lambda row: create_combined_string(row), axis=1)
             
             # Check if the group is hollow
-            is_hollow = combined_strings.str.len().mean() < config.get('length_threshold', 20)  # Using config dict for threshold
+            is_hollow = combined_strings.str.len().mean() < float(config.get('length_threshold', 20))  # Using config dict for threshold
             
             if is_hollow:
                 # For hollow groups, all similarity scores and group mean similarity are set to 0, and flagged as hollow
@@ -198,7 +198,7 @@ def calculate_group_similarity(df, groups, config):
                 
                 # Determine if any of these groups should be split or removed
                 mean_sim = np.mean(similarity_matrix[np.triu_indices_from(similarity_matrix, k=1)])
-                if mean_sim < config.get('split_threshold', 0.90):
+                if mean_sim < float(config.get('split_threshold', 0.90)):
                     subsets = identify_cohesive_subsets(similarity_matrix, config)
                    
                     if len(subsets) == len(group):
