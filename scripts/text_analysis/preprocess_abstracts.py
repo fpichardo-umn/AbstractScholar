@@ -12,6 +12,7 @@ ngram_range: a tuple specifying the minimum and maximum n-gram size to include i
 max_doc_freq: a float specifying the maximum document frequency for a term to be included in the analysis. The default is 0.5, which means that terms that appear in more than half of the documents will be excluded.
 max_svd_components: an integer specifying the maximum number of components (i.e., topics) to extract from the data. The default is 250.
 custom_stopwords: a list of words/terms to ignore during the analysis. The default includes 'al' and 'et'
+preprocess_pickle: path to save the preprocessed data (default is './data/text_analysis/preprocessed_abstracts.pickle').
 
 The script will save the resulting data (including the SVD results, the TF-IDF terms, and the original abstracts) to a file called 'preprocessed_abstracts.pickle'.
 
@@ -56,7 +57,8 @@ def clean_nums(text):
 
 def clean_text(txt):
     """Clean text data by removing non-printable characters and converting to ASCII"""
-
+    
+    non_printable_chars = ['\n', '\t', '‐']
     for to_remove in non_printable_chars:
         txt = txt.replace(to_remove, ' ')
 
@@ -103,15 +105,12 @@ data = load_data(config)
 # Create a lemmatizer object
 lemmatizer = WordNetLemmatizer()
 
-# Define a list of non-printable characters to clean from text
-non_printable_chars = ['\n', '\t', '‐']
-
 # Remove any rows with a short 'abstract' (less than 50 characters)
 data['abstract'] = data['abstract'].fillna('')
 data = data[data.abstract.apply(len) > 50]
 
-# Remove any rows with duplicate 'Title' values
-data   = data.drop_duplicates('Title').reset_index(drop = True)
+# Remove any rows with duplicate 'title' values
+data   = data.drop_duplicates('title').reset_index(drop = True)
 pd_idx = data.index.tolist()
 
 # Clean up and remove dupe keywords
@@ -130,7 +129,7 @@ journals = journals.apply(lambda x: list(dict.fromkeys([journal.strip() for jour
 journals = journals.apply(lambda x: ' '.join(x))
 
 # Combine the abstract, title, keywords, authors, and journals into a single string for each document
-docs = data.loc[pd_idx, 'abstract'] + ' ' + data.loc[pd_idx, 'Title'] + ' ' + keywords + ' ' + authors + ' ' + journals
+docs = data.loc[pd_idx, 'abstract'] + ' ' + data.loc[pd_idx, 'title'] + ' ' + keywords + ' ' + authors + ' ' + journals
 
 # Remove punctiation and get rid of non-printable characters
 clean_docs = [remove_punc(doc.lower()) for doc in docs]
@@ -166,7 +165,7 @@ for idx, lem_dos in enumerate(lemmatized_docs):
 lemmatized_vector = [clean_nums(doc) for doc in lemmatized_vector]
 
 ##TFIDF
-## Recompute min_doc_freq:
+## Compute min_doc_freq:
 #The optimal min_doc_freq might be slightly dataset-specific but generally, a value
 # that reduces the vocabulary to terms that appear in at least 1-2% of the 
 #documents can significantly reduce noise without losing valuable information.
@@ -217,4 +216,4 @@ for ii in range(opt_component_cnt):
 top_terms_per_concept = list(set(top_terms_per_concept))
 
 # Serialize the preprocessed data
-save_to_pickle([latent_sa, doc_term_mat_xfm, terms], config.get('preprocess_pickle', './data/preprocessed_abstracts.pickle'))
+save_to_pickle([latent_sa, doc_term_mat_xfm, terms], config.get('preprocess_pickle', './data/text_analysis/preprocessed_abstracts.pickle'))
