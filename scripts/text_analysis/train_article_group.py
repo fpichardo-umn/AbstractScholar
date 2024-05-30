@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
+STEP 04: Train Article Group Classifier
+
 Created on Sat Apr 14 15:47:29 2018
 
-@author: Sulla
-
-
+@author: Felix Pichardo
 """
 
 import pickle

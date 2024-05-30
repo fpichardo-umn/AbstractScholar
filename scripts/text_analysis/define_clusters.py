@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Apr 15 19:49:11 2018
-
-@author: Sulla
+STEP 03: Define Clusters
 
 Is there a way I can determine the top features/terms for each cluster in while the data was decomposed?
 
@@ -22,6 +20,10 @@ To run the script, simply specify the path to the CSV file containing the articl
 "cluster_info.txt" contains the list of clusters and their associated terms, exemplars, and titles. "clustered_sample.txt" contains a subset of the original dataset, with each article assigned to its corresponding cluster. "cluster_samples.txt" contains a detailed description of each cluster, including its coherence rank, top terms, exemplar, and most relevant article, as well as a list of article titles belonging to the cluster.
 
 This script provides a simple and effective way to cluster scientific articles based on their abstracts, allowing for easier organization and analysis of large datasets.
+
+Created on Sun Apr 15 19:49:11 2018
+
+@author: Felix Pichardo
 """
 
 import pickle

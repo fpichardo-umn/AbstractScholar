@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb 23 02:16:48 2018
-
-@author: Sulla
+STEP 01: Preprocess Abstracts
 
 This script is designed to preprocess a collection of scientific article abstracts to prepare them for use in topic modeling. Specifically, it applies several text preprocessing techniques, including keyword filtering, cleaning, tokenization, stopword removal, lemmatization, and TF-IDF vectorization, before performing singular value decomposition (SVD) to extract the most important concepts or topics from the data.
 
@@ -17,6 +15,10 @@ to_clean_strs: a list of strings that will be removed from the abstracts before 
 Once you have modified these parameters to your liking, you can run the script. It will read in a file called 'DATA.txt', which should contain a tab-separated file with columns for 'Title' and 'Excerpt' (which should contain the abstracts). The script will clean and preprocess the abstracts, perform SVD to extract the most important concepts, and save the resulting data (including the SVD results, the TF-IDF terms, and the original abstracts) to a file called 'preprocessed_abstracts.pickle'.
 
 You can then use this preprocessed data to perform topic modeling using a method of your choice (e.g., latent Dirichlet allocation, non-negative matrix factorization, etc.).
+
+Created on Fri Feb 23 02:16:48 2018
+
+@author: Felix Pichardo
 """
 
 import pickle
@@ -33,13 +35,6 @@ from sklearn.preprocessing import Normalizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
 
-
-# def clean_txts(txt):
-
-#     txt = re.sub(r'.[0-9]+\s', '. ', txt)
-#     txt = re.sub(r'-\s{1,2}', '', txt)
-
-#     return txt
 
 def remove_punc(text):
     """

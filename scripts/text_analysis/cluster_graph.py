@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr 14 15:19:05 2018
-
-@author: Sulla
+STEP 02: Cluster Graph
 
 The script performs clustering analysis on a dataset of academic articles based on their abstracts. It uses Latent Semantic Analysis (LSA) to preprocess and vectorize the text data, and then applies k-means clustering algorithm to group the articles into clusters. The number of clusters is determined by selecting the value of k that optimizes the Bayesian information criterion (BIC).
 
@@ -18,6 +16,10 @@ To ensure robustness of the clustering results, the script repeats the k-means c
 The script then calculates the pairwise edit distances between these strings of digits, which represent the similarity between the clustering results for each pair of documents. This distance matrix is then used to construct a graph, where each document is a node and the edges represent the similarity between pairs of documents.
 
 Finally, the script applies graph theory algorithms to identify the connected components of the graph, which correspond to the document clusters. The script identifies clusters as subgraphs with more than one node, and assigns each document to the cluster corresponding to its connected component.
+
+Created on Sat Apr 14 15:19:05 2018
+
+@author: Felix Pichardo
 """
 
 import string
