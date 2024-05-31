@@ -1,12 +1,225 @@
 Cluster 0:
+The role of the noradrenergic system in the exploration-exploitation trade-off: a psychopharmacological study
+A primer on the use of computational modelling to investigate affective states, affective disorders and animal welfare in non-human animals.
+Using serial position effects to investigate memory dysfunction in homeless and precariously housed persons.
+Adaptive design optimization as a promising tool for reliable and efficient computational fingerprinting.
+Decision-making abilities under risk and ambiguity in adults with traumatic brain injury: What do we know so far? A systematic review and meta-analysis.
+Human behaviour in pandemics: Social and psychological determinants in a global health crisis.
+The neuropsychological profile of severe and enduring anorexia nervosa: A systematic review.
+Understanding individual subject differences through large behavioral datasets: Analytical and statistical considerations.
+Aberrant uncertainty processing is linked to psychotic-like experiences, autistic traits, and is reflected in pupil dilation during probabilistic learning.
+Computational modeling of the n-back task in the ABCD study: Associations of drift diffusion model parameters to polygenic scores of mental disorders and cardiometabolic diseases.
+Can gamification improve the virtual reality tourism experience? Analyzing the mediating role of tourism fatigue.
+Pathways to depression: Dynamic associations between neural responses to appetitive cues in the environment, stress, and the development of illness.
+Augmenting cognitive work: A review of cognitive enhancement methods and applications for operational domains.
+Computational approaches to treatment response prediction in major depression using brain activity and behavioral data: A systematic review.
+Impact of the early phase of the covid-19 pandemic on the use of mental health services in south korea: A nationwide, health insurance data-based study.
+Behavioral clinical trials for chronic diseases: Scientific foundations.
+Atypical interoception as a common risk factor for psychopathology: A review.
+Brain computations: What and how.
+Fleeing through the mind's eye: Desire thinking as a maladaptive coping mechanism among specific online activities.
+Psychology and the paranormal: Exploring anomalous experience.
+Aggression from a psychobiological perspective: Implications for enhanced violent risk assessment and interventions.
+Mechanisms of aging-related cognitive decline.
+Working memory capacity predicts individual differences in social-distancing compliance during the COVID-19 pandemic in the United States.
+Innumeracy in the wild: Misunderstanding and misusing numbers.
+Brief SEL interventions at school: Integrating research into practice.
+Correlates of executive dysfunction in HIV.
+An integrative model of effortful control.
+Effectiveness of an Integrated Intervention Program for Alcoholism (IIPA) for enhancing self-regulation: Preliminary evidence.
+Causality and development: Neo-Eriksonian perspectives.
+Neuropsychological functioning in opioid use disorder: A research synthesis and meta-analysis.
+Genetic and environmental influences on gambling disorder liability: A replication and combined analysis of two twin studies.
+Motivational impairments in psychotic and depressive pathology: Psychological and neural mechanisms.
+Scaffolded minds: Integration and disintegration.
+Alexithymia and the reduced ability to represent the value of aversively motivated actions.
+Toward an integrative perspective on the neural mechanisms underlying persistent maladaptive behaviors.
+On the pursuit of multiple goals with different deadlines.
+How effective are interventions in improving dietary behaviour in low- and middle-income countries? A systematic review and meta-analysis.
+Average associations between sexual desire, testosterone, and stress in women and men over time.
+Longitudinal changes in cognition in young adult cannabis users.
+Self-awareness of biases in time perception.
+Neuropsychological comparisons of cocaine versus methamphetamine users: A research synthesis and meta-analysis.
+Imaging the networks of executive functions.
+Information sampling, belief synchronization, and collective illusions.
+Wanting, liking and welfare: The role of affective states in proximate control of behaviour in vertebrates.
+Entrepreneurs' exploratory perseverance in learning settings.
+Mechanisms of automaticity and anticipatory control in fluid intelligence.
+Modulation of brain activity with noninvasive transcranial direct current stimulation (tDCS): Clinical applications and safety concerns.
+The effect of atomoxetine on random and directed exploration in humans.
+Planning beyond the next trial in adaptive experiments: A dynamic programming approach.
+Prefrontal mechanisms of comorbidity from a transdiagnostic and ontogenic perspective.
+Challenges and promises for translating computational tools into clinical practice.
+How has the internet reshaped human cognition?
+Future research directions in the positive valence systems: Measurement, development, and implications for youth unipolar depression.
+Safety of transcranial direct current stimulation: Evidence based update 2016.
+Unifying causality and psychology: Being, brain, and behavior.
+Effects of the potential lithium-mimetic, ebselen, on impulsivity and emotional processing.
+Age differences in high frequency phasic heart rate variability and performance response to increased executive function load in three executive function tasks.
+Executive function: Reflection, iterative reprocessing, complexity, and the developing brain.
+Risky choices and emotion-based learning.
+The development of executive function.
+Mathematical and computational modeling in clinical psychology.
+The neuropsychology of attention.
+Mechanisms of motivation-cognition interaction: Challenges and opportunities.
+The good life: Wellbeing and the new science of altruism, selfishness and immorality.
+Unlocking the brain, Vol. II: Consciousness.
+Therapeutic effects of non-invasive brain stimulation with direct currents (tDCS) in neuropsychiatric diseases.
+Clinical diagnostic criteria and classification controversies in frontotemporal lobar degeneration.
+When the mind races: Effects of thought speed on feeling and action.
+Serum testosterone levels in males are not associated with entrepreneurial behavior in two independent observational studies.
+Losses as modulators of attention: Review and analysis of the unique effects of losses over gains.
+The agile mind.
+Fundamentals of cognition.
+Developmental risk I: Depression and the developing brain.
+Neuropsychological research in delusional disorder: A comprehensive review.
+Electrodermal activity.
+Neuropsychological performance in OCD: A study in medication-naive patients.
+On the value of nonremovable reminders for behavior modification: An application to nail-biting (Onychophagia).
+Annual research review: All mothers are not created equal: Neural and psychobiological perspectives on mothering and the importance of individual differences.
+Hot executive function: Emotion and the development of cognitive control.
+Psychological factors that confer risk for bipolar disorder.
+Neuropsychobiological aspects, comorbidity patterns and dimensional models in borderline personality disorder.
+Perceived association between diagnostic and non-diagnostic cues of women's sexual interest: General recognition theory predictors of risk for sexual coercion.
+Subcortical structures and cognition: Implications for neuropsychological assessment.
+Gestural buffer impairment in early onset corticobasal degeneration: A single-case study.
+The Cognitive-Affective Neuroscience of the Unconscious.
+Depth psychological consequences of brain damage.
+Neurocognition of Psychiatric Patients.
+Acquired sociopathy: a neuropsychological study of executive dysfunction in violent offenders.
+An afterword: The utility of cognitive models for the field of psychopathology.
+Application of stochastic modeling to the assessment of group and individual differences in cognitive functioning.
+Comparing attention, impulsivity, and executive functions between patients with opiate use disorder: Buprenorphine maintenance treatment versus active users, in comparison with healthy controls.
+Craving money? Evidence from the laboratory and the field.
+Computational mechanisms underlying latent value updating of unchosen actions.
+Goal-Directed Recruitment of Pavlovian Biases Through Selective Visual Attention.
+Development of cross-species translational paradigms for psychiatric research in the Research Domain Criteria era.
+Multi-modality attribute learning-based method for drug-protein interaction prediction based on deep neural network.
+An estimate of the economic burden of venous leg ulcers associated with deep venous disease.
+Modes of cognition: Evidence from metastable brain dynamics.
+Executive Dysfunction, Social Cognition Impairment, and Gray Matter Pathology in Myotonic Dystrophy Type 2: A Pilot Study.
+Persistence is Futile: Chasing of Past Performance in Repeated Investment Choices.
+Surgical data science - from concepts toward clinical translation.
+Executive Functions in Fibromyalgia: A Systematic Review.
+Animal models for neonatal brain injury induced by hypoxic ischemic conditions in rodents.
+Endogenous opiates and behavior: 2017.
+Unconscious or Underpowered? Probabilistic Cuing of Visual Attention.
+Are candidate neurocognitive endophenotypes of OCD present in paediatric patients? A systematic review.
+Volumes of the Hippocampal Formation Differentiate Component Processes of Memory in a Community Sample of Homeless and Marginally Housed Persons.
+Cognitive variability in bipolar I disorder: A cluster-analytic approach informed by resting-state data.
+Multimodal characterization of the human nucleus accumbens.
+Cue awareness in avoiding effortful control[white star],[white star][white star].
+A Systematic Review of Interventions for Hot and Cold Executive Functions in Children and Adolescents With Acquired Brain Injury.
+Intrinsic Whole Number Bias in Humans.
+Apathy following traumatic brain injury: A review.
+Towards a neuro-computational account of prism adaptation.
+Interindividual variability in neurobehavioral response to sleep loss: A comprehensive review.
+Systematic review and meta-analysis of factors that help or hinder treatment decision-making capacity in psychosis.
+Searching for the Best Cause: Roles of Mechanism Beliefs, Autocorrelation, and Exploitation.
+Executive Functioning and Visuospatial Abilities in Bulimia Nervosa with or without a Previous History of Anorexia Nervosa.
+Neurocognitive Performance in Unmedicated Patients With Hoarding Disorder.
+Motion Sickness: Current Knowledge and Recent Advance.
+Interoceptive Dysfunction: Toward an Integrated Framework for Understanding Somatic and Affective Disturbance in Depression.
+White Matter Compromise in Veterans Exposed to Primary Blast Forces.
+When Health Policy and Empirical Evidence Collide: The Case of Cigarette Package Warning Labels and Economic Consumer Surplus.
+Prices Need No Preferences: Social Trends Determine Decisions in Experimental Markets for Pain Relief.
+Evaluating an Animal Model of Compulsive Hoarding in Humans.
+Using the temporal self-regulation theory to examine the influence of environmental cues on maintaining a healthy lifestyle.
+Function in the human connectome: Task-fMRI and individual differences in behavior.
+Modeling Brain Function: Current Developments and Future Prospects.
+Comparison of Dynamics of Extracellular Accesses to the [beta]1 and [beta]2 Adrenoceptors Binding Sites Uncovers the Potential of Kinetic Basis of Antagonist Selectivity.
+Social cognition in euthymic bipolar disorder: systematic review and meta-analytic approach.
+Modulating the brain at work using noninvasive transcranial stimulation.
+Translating cognition from animals to humans.
+Canakinumab: a human anti-IL-1[beta] monoclonal antibody for the treatment of cryopyrin-associated periodic syndromes.
+The International Society for Bipolar Disorders-Battery for Assessment of Neurocognition (ISBD-BANC).
+Allostasis and the Human Brain: Integrating Models of Stress From the Social and Life Sciences.
+Neurocognitive Consequences of Sleep Deprivation.
+Exploring the multi-scale structure of printing paper - a review of modern technology.
+Sex hormonal modulation of hyperbolic discount factor in men.
+The neuropsychology of obsessive compulsive disorder: the importance of failures in cognitive and behavioural inhibition as candidate endophenotypic markers.
+Why is the management of glucocorticoid deficiency still controversial: a review of the literature.
+Neuropsychological functioning and alcohol dependence.
+Overview of antiviral and anti-inflammatory treatment for severe acute respiratory syndrome.
+Lyophilised wafers as a drug delivery system for wound healing containing methylcellulose as a viscosity modifier.
+Reinforcement sensitivity theory and personality.
+Trajectory of Cognitive Science and Psychological Assessment: Current Status and Expectations.
+Introduction to the Special Section on Cognitive Science and Psychological Assessment.
+Risk Assessment in Regulatory Policy Making for Human and Veterinary Public Health.
+The Sage Handbook of Cognitive and Systems Neuroscience : Cognitive Systems, Development and Applications
+Does mood affect judgment: Results from an in vivo observational study.
+The influence of cognitive training using mobile applications on attentional control and impulsivity among pre-service teachers.
+How uncertain are you? Disentangling expected and unexpected uncertainty in pupil-linked brain arousal during reversal learning.
+The moderating effects of school resources on the impact of a school_based intervention on the social information_processing skills of third graders in rural China.
+Physical Activity Interventions to Reduce Metabolic Risk Factors to Cognitive Health.
+Computational knowledge vision: paradigmatic knowledge based prescriptive learning and reasoning for perception and vision.
+Pupil dilation and response slowing distinguish deliberate explorative choices in the probabilistic learning task.
+The institutional grammar in policy process research.
+Identifying critical transitions in complex diseases.
+Recent Advancements in the Field of Ni-Based Superalloys.
+DIAGNOSIS OF METABOLIC SYNDROME USING MACHINE LEARNING, STATISTICAL AND RISK QUANTIFICATION TECHNIQUES: A SYSTEMATIC LITERATURE REVIEW.
+Institutional Grammar 2.0: A specification for encoding and analyzing institutional design.
+Steam oxidation of ytterbium disilicate environmental barrier coatings with and without a silicon bond coat.
+Designing biomass supply chains within planetary boundaries.
+The Effect of Public Infrastructure on Cost Structure and Performance of Chinese Provinces*.
+It is all relative: Contextual influences on boredom and neural correlates of regulatory processes.
+Effects of a centered conducting body on natural convection of a non-Newtonian fluid in a square enclosure with time-periodic temperature distribution.
+EEG Theta/Beta Ratio Neurofeedback Training in Healthy Females.
+Going beyond cognitive approach to behavioral stream in economic sciences: Behavioristic and evolutionary perspectives.
+GO TO YOUTUBE AND CALL ME IN THE MORNING: USE OF SOCIAL MEDIA FOR CHRONIC CONDITIONS.
+The Return to Protectionism.
+The association of memory disorders and chronic HIV disease in the antiretroviral therapy era: a systematic literature review.
+Atomoxetine modulates the relationship between perceptual abilities and response bias.
+Editorial: bridging the gap with computational and translational psychopharmacology.
+With an eye on uncertainty: Modelling pupillary responses to environmental volatility.
+A Dynamic Framework for Modelling Set-Shifting Performances.
+Reported theory use in walking interventions: a literature review and research agenda.
+Depression and Entrepreneurial Exit.
+Monetary Wisdom: How Do Investors Use Love of Money to Frame Stock Volatility and Enhance Stock Happiness?
+Comparative anatomy on 3-D MRI of the urogenital sinus and the periurethral area before and during the second stage of labor during childbirth.
+The association between HIV and atherosclerotic cardiovascular disease in sub-Saharan Africa: a systematic review.
+Synthetic sustainability index (SSI) based on life cycle assessment approach of low impact development in the Mediterranean area.
+Predicting tumor hypoxia in non-small cell lung cancer by combining CT, FDG PET and dynamic contrast-enhanced CT.
+Executive function in weight loss and weight loss maintenance: a conceptual review and novel neuropsychological model of weight control.
+Function of Personal Growth Initiative on Posttraumatic Growth, Posttraumatic Stress, and Depression Over and Above Adaptive and Maladaptive Rumination.
+Social-Emotional Assessment, Performance, and Standards.
+Income-Induced Expenditure SwitchingÃÂÃÂ .
+Constitutive explanations in neuroeconomics: principles and a case study on money.
+An In Silico Knockout Model for Gastrointestinal Absorption Using a Systems Pharmacology Approach - Development and Application for Ketones.
+Using Dual Process Models to Examine Impulsivity Throughout Neural Maturation.
+Health of People, Places and Planet : Reflections Based on Tony McMichael's Four Decades of Contribution to Epidemiological Understanding
+Connecting Conscious and Unconscious Processing.
+Short and long crack data for fatigue of 2024-T3 Al sheets: binariness of scale segmentation in space and time.
+Human Problem Solving in 2012.
+Molecular Nutrition Research-The Modern Way Of Performing Nutritional Science.
+Motivated Closed-Mindedness Mediates the Effect of Threat on Political Conservatism.
+The Cognitive Impact of the ANK3 Risk Variant for Bipolar Disorder: Initial Evidence of Selectivity to Signal Detection during Sustained Attention.
+The roles of the amygdala in the affective regulation of body, brain, and behaviour.
+Anticipation.
+Decanalization and the origin of complex disease.
+Hot and Cool Forms of Inhibitory Control and Externalizing Behavior in Children of Mothers who Smoked during Pregnancy: An Exploratory Study.
+The Moral Psychology of Conflicts of Interest: Insights from Affective Neuroscience.
+Metabolic imaging using PET.
+Clinical Use and Pathogenetic Basis of Laboratory Tests for the Evaluation of Primary Arterial Hypertension.
+SELF-RATED EXECUTIVE FUNCTION: DEVELOPMENT OF THE EXECUTIVE FUNCTION INDEX.
+CFROI Valuation
+Individual differences in computational psychiatry: A review of current challenges.
+Cerebellar circuitry and auditory verbal hallucinations: An integrative synthesis and perspective.
+The application of tDCS for the treatment of psychiatric diseases.
+Transcranial direct current stimulation (tDCS) - Application in neuropsychology.
+The student's guide to cognitive neuroscience.
+
+
+Cluster 1:
 A computational cognitive model of the Iowa Gambling Task for finely characterizing decision making in methamphetamine users
 Computational Modeling Reveals Distinct Effects of HIV and History of Drug Use on Decision-Making Processes in Women
 Similar Processes Despite Divergent Behavior in Two Commonly Used Measures of Risky Decision Making
-Using cognitive models to map relations between neuropsychological disorders and human decision-making deficits
 Changes in Loss Sensitivity During Treatment in Concurrent Disorders Inpatients: A Computational Model Approach to Assessing Risky Decision-Making
+Quantum reinforcement learning during human decision-making
 Decision-Making, Sensitivity to Reward and Attrition in Weight Management
 Decision making and personality in traffic offenders: A study of Israeli drivers
 Age of onset of cannabis use and decision making under uncertainty
+The Biggest Loser Thinks Long-Term: Recency as a Predictor of Success in Weight Management
 Nicotine-dopamine-transporter interactions during reward-based decision making
 Component Processes of Decision Making in a Community Sample of Precariously Housed Persons: Associations With Learning and Memory, and Health-Risk Behaviors
 Relationship between impulsivity and decision making in cocaine dependence
@@ -17,20 +230,27 @@ Insight into differing decision-making strategies that underlie cognitively effo
 The prominent deck B phenomenon in schizophrenia: An empirical study on Iowa Gambling Task.
 Numerical cognitive reflection, but not verbal cognitive reflection, moderates the association between trait anxiety and affective decision-making.
 Comparing influence of depression and negative affect on decision making.
+Later stages of acute stress impair reinforcement-learning and feedback sensitivity in decision making.
 Decision-making and frontoparietal resting-state functional connectivity among impulsive-compulsive diagnoses. Insights from a Bayesian approach.
 Straight choices: The psychology of decision making.
 Cardiac cycle affects risky decision-making.
 Exploring decision-making strategies in the Iowa Gambling Task and rat gambling task.
 Heterogeneity of decision-making strategies for preschoolers on a variant of the IGT.
 The performance of college students on the Iowa Gambling Task: Differences between scoring approaches.
+The amygdala and the prefrontal cortex: The co-construction of intelligent decision-making.
+Early stages of the acute physical stress response increase loss aversion and learning on decision making: A Bayesian approach.
 Decision-making bioinspired model for target definition and "satisfactor" selection for physiological needs.
+Computational and motivational mechanisms of human social decision making involving close others.
 Autism is not associated with poor or enhanced performance on the Iowa Gambling Task: A Meta-Analysis.
 Impaired decision-making under risk in patients with functional dyspepsia.
+Short-term fasting selectively influences impulsivity in healthy individuals.
 Recollecting cross-cultural evidences: Are decision makers really foresighted in Iowa gambling task?
 Risky decision making in psychological disorders.
+Repetitive negative thinking following exposure to a natural stressor prospectively predicts altered stress responding and decision-making in the laboratory.
 Transcranial direct current stimulation improves risky decision making in women but not in men: A sham-controlled study.
 Decision-making by patients with methamphetamine use disorder receiving contingency management treatment: Magnitude and frequency effects.
 Differences on utilitarian and moral decision between male and female.
+Acute stress improves long-term reward maximization in decision-making under uncertainty.
 Analyzing the role of cognitive biases in the decision-making process.
 Decision making profile of positive and negative anticipatory skin conductance responders in an unlimited-time version of the IGT.
 RDMTk: A toolkit for risky decision making.
@@ -41,6 +261,8 @@ Deconstructing value-based decision making via temporally selective manipulation
 Decision-making ability in psychosis: A systematic review and meta-analysis of the magnitude, specificity and correlates of impaired performance on the Iowa and Cambridge Gambling Tasks.
 Relationships between executive function, working memory, and decision-making on the Iowa Gambling Task: Evidence from ventromedial patients, dorsolateral patients, and normal subjects.
 Understanding self-reported difficulties in decision-making by people with autism spectrum disorders.
+Model-based learning and individual differences in depression: The moderating role of stress.
+Neuroscience of apathy and anhedonia: A transdiagnostic approach.
 Better late than never (or early): Music training in late childhood is associated with enhanced decision-making.
 Altering gain of the infralimbic-to-accumbens shell circuit alters economically dissociable decision-making algorithms.
 Decision-making under risk, but not under ambiguity, predicts pathological gambling in discrete types of abstinent substance users.
@@ -53,7 +275,6 @@ Misfortune may be a blessing in disguise: Fairness perception and emotion modula
 Computational EEG modelling of decision making under ambiguity reveals spatio-temporal dynamics of outcome evaluation.
 To fear is to gain? The role of fear recognition in risky decision making in TBI patients and healthy controls.
 Decision-making ability in current and past users of opiates: A meta-analysis.
-Anodal stimulation of the left DLPFC increases IGT scores and decreases delay discounting rate in healthy males.
 Anticonvulsant medications attenuate amphetamine-induced deficits in behavioral inhibition but not decision making under risk on a rat gambling task.
 Influence of negative affect on decision making in women with restrictive and binge-purge type anorexia nervosa.
 Psychophysiological arousal and inter- and intraindividual differences in risk-sensitive decision making.
@@ -63,6 +284,7 @@ Annual research review: Transdiagnostic neuroscience of child and adolescent men
 Perturbations in reward-related decision-making induced by reduced prefrontal cortical GABA transmission: Relevance for psychiatric disorders.
 Dopamine, depressive symptoms, and decision-making: The relationship between spontaneous eye blink rate and depressive symptoms predicts Iowa Gambling Task performance.
 Comments and controversies: Piecing together the neurobiology of decision-making.
+Psychopathic personality traits and Iowa Gambling Task performance in incarcerated offenders.
 Iowa Gambling Task modified for military domain.
 Insular neural system controls decision-making in healthy and methamphetamine-treated rats.
 Chronic motivational state interacts with task reward structure in dynamic decision-making.
@@ -75,9 +297,11 @@ Trait urgency and gambling problems in young people by age: The mediating role o
 Lithium might be associated with better decision-making performance in euthymic bipolar patients.
 Analysis of evidence in decision-making research between 2002 and 2012.
 State- and trait-greed, its impact on risky decision-making and underlying neural mechanisms.
+Orbitofrontal cortex, emotional decision-making and response to cognitive behavioural therapy for psychosis.
 Sex differences on prefrontally-dependent cognitive tasks.
 Impaired decision-making and brain shrinkage in alcoholism.
 Reduced dopamine transporter functioning induces high-reward risk-preference consistent with bipolar disorder.
+Among three different executive functions, general executive control ability is a key predictor of decision making under objective risk.
 Translational studies of goal-directed action as a framework for classifying deficits across psychiatric disorders.
 Risk behavior in opioid-dependent individuals after the administration of a therapeutic dose of methadone.
 Affective decision making in women with borderline personality disorder.
@@ -122,7 +346,6 @@ Decision-making in long-term cocaine users: Effects of a cash monetary contingen
 Construct validity of the Iowa Gambling Task.
 A somatic marker theory of addiction.
 Impact of ambiguity and risk on decision making in mild Alzheimer's disease.
-Does the feedback from previous trials influence current decisions? A study on the role of feedback processing in making decisions under explicit risk conditions.
 Association of risk proneness in overtaking maneuvers with impaired decision making.
 Emotional decision-making and its dissociable components in schizophrenia and schizoaffective disorder: A behavioural and MRI investigation.
 Subjective valuation and asymmetrical motivational systems: Implications of scope insensitivity for decision making.
@@ -136,7 +359,6 @@ The differential relationship between cocaine use and marijuana use on decision-
 Using epsilon-greedy reinforcement learning methods to further understand ventromedial prefrontal patients' deficits on the Iowa Gambling Task.
 Strategic self-regulation, decision-making and emotion processing in poly-substance abusers in their first year of abstinence.
 The Simulated Gambling Paradigm Applied to Young Adults: An Examination of University Students' Performance.
-Emotion-based decision-making in healthy subjects: Short-term effects of reducing dopamine levels.
 Working memory involvement in emotion-based processes underlying choosing advantageously.
 Emotion, Decision-Making and Substance Dependence: A Somatic-Marker Model of Addiction.
 Older Adults as Adaptive Decision Makers: Evidence From the Iowa Gambling Task.
@@ -146,21 +368,26 @@ From Genes to Performance: Dopaminergic Modulation of Decision Making in a Stock
 Ambiguity and Conflict: Dissecting Uncertainty in Decision-Making.
 Pharmacological evidence of a cholinergic contribution to elevated impulsivity and risky decision-making caused by adding win-paired cues to a rat gambling task.
 Shared and Disorder-Specific Neurocomputational Mechanisms of Decision-Making in Autism Spectrum Disorder and Obsessive-Compulsive Disorder.
+Identifying new susceptibility genes on dopaminergic and serotonergic pathways for the framing effect in decision-making.
 The Assessment of Risky Decision Making: A Factor Analysis of Performance on the Iowa Gambling Task, Balloon Analogue Risk Task, and Columbia Card Task.
 Present simple and continuous: Emergence of self-regulation and contextual sophistication in adolescent decision-making.
 Performance on the Iowa Gambling Task: From 5 to 89 Years of Age.
 Differential impairments underlying decision making in anorexia nervosa and bulimia nervosa: A cognitive modeling analysis.
+Decision making under stress: A selective review.
 Sleep-dependent modulation of affectively guided decision-making.
 Neural systems analysis of decision making during goal-directed navigation.
 Serotonin and decision making processes.
 Integrating fMRI With Psychophysiological Measurements in the Study of Decision Making.
 Intertemporal Choice: Neuronal and Psychological Determinants of Economic Decisions.
 Decision-Making Dysfunctions in Psychiatry-Altered Homeostatic Processing?
+Decision-making and impulse control after frontal lobe injuries.
 Impulsivity and Decision Making.
 The Impact of Sleep Deprivation on Decision Making: A Review.
 Aging, uncertainty, and decision makingÃÂÃÂA review.
 Predicting human decision making in psychological tasks with recurrent neural networks.
 Noradrenergic contributions to cue-driven risk-taking and impulsivity.
+Acute stress amplifies experienced and anticipated regret in counterfactual decision-making.
+Guilty pleas in children: legitimacy, vulnerability, and the need for increased protection.
 Dissecting the links between reward and loss, decision-making, and self-reported affect using a computational approach.
 Manipulating the decision making process: Influencing a "gut" reaction.
 Peer problems, bullying involvement, and affective decision_making in adolescence.
@@ -181,191 +408,90 @@ Neural mechanisms regulating different forms of risk-related decision-making: In
 Reward_related decision_making deficits in internet gaming disorder: a systematic review and meta_analysis.
 
 
-Cluster 1:
-A primer on the use of computational modelling to investigate affective states, affective disorders and animal welfare in non-human animals.
-Using serial position effects to investigate memory dysfunction in homeless and precariously housed persons.
-Adaptive design optimization as a promising tool for reliable and efficient computational fingerprinting.
-Decision-making abilities under risk and ambiguity in adults with traumatic brain injury: What do we know so far? A systematic review and meta-analysis.
-Human behaviour in pandemics: Social and psychological determinants in a global health crisis.
-The neuropsychological profile of severe and enduring anorexia nervosa: A systematic review.
-Understanding individual subject differences through large behavioral datasets: Analytical and statistical considerations.
-Can gamification improve the virtual reality tourism experience? Analyzing the mediating role of tourism fatigue.
-Augmenting cognitive work: A review of cognitive enhancement methods and applications for operational domains.
-Computational approaches to treatment response prediction in major depression using brain activity and behavioral data: A systematic review.
-Behavioral clinical trials for chronic diseases: Scientific foundations.
-Atypical interoception as a common risk factor for psychopathology: A review.
-Brain computations: What and how.
-Fleeing through the mind's eye: Desire thinking as a maladaptive coping mechanism among specific online activities.
-Psychology and the paranormal: Exploring anomalous experience.
-Aggression from a psychobiological perspective: Implications for enhanced violent risk assessment and interventions.
-Mechanisms of aging-related cognitive decline.
-Working memory capacity predicts individual differences in social-distancing compliance during the COVID-19 pandemic in the United States.
-Innumeracy in the wild: Misunderstanding and misusing numbers.
-Brief SEL interventions at school: Integrating research into practice.
-Effects of limited and extended Pavlovian training on devaluation sensitivity of sign- and goal-tracking rats.
-Correlates of executive dysfunction in HIV.
-An integrative model of effortful control.
-Causality and development: Neo-Eriksonian perspectives.
-Neuropsychological functioning in opioid use disorder: A research synthesis and meta-analysis.
-Genetic and environmental influences on gambling disorder liability: A replication and combined analysis of two twin studies.
-Motivational impairments in psychotic and depressive pathology: Psychological and neural mechanisms.
-Scaffolded minds: Integration and disintegration.
-A neuro-cognitive process model of emotional intelligence.
-Toward an integrative perspective on the neural mechanisms underlying persistent maladaptive behaviors.
-How effective are interventions in improving dietary behaviour in low- and middle-income countries? A systematic review and meta-analysis.
-Self-awareness of biases in time perception.
-Imaging the networks of executive functions.
-Information sampling, belief synchronization, and collective illusions.
-Wanting, liking and welfare: The role of affective states in proximate control of behaviour in vertebrates.
-Mechanisms of automaticity and anticipatory control in fluid intelligence.
-Modulation of brain activity with noninvasive transcranial direct current stimulation (tDCS): Clinical applications and safety concerns.
-The effect of atomoxetine on random and directed exploration in humans.
-Planning beyond the next trial in adaptive experiments: A dynamic programming approach.
-Challenges and promises for translating computational tools into clinical practice.
-How has the internet reshaped human cognition?
-Future research directions in the positive valence systems: Measurement, development, and implications for youth unipolar depression.
-Safety of transcranial direct current stimulation: Evidence based update 2016.
-Unifying causality and psychology: Being, brain, and behavior.
-Individual differences in novelty-seeking are associated with different patterns of preference in a risk-sensitivity procedure in rats.
-Age differences in high frequency phasic heart rate variability and performance response to increased executive function load in three executive function tasks.
-Executive function: Reflection, iterative reprocessing, complexity, and the developing brain.
-Risky choices and emotion-based learning.
-The development of executive function.
-Mathematical and computational modeling in clinical psychology.
-Applying the Quadruple Process model to evaluate change in implicit attitudinal responses during therapy for panic disorder.
-The neuropsychology of attention.
-Mechanisms of motivation-cognition interaction: Challenges and opportunities.
-Unlocking the brain, Vol. II: Consciousness.
-Therapeutic effects of non-invasive brain stimulation with direct currents (tDCS) in neuropsychiatric diseases.
-Clinical diagnostic criteria and classification controversies in frontotemporal lobar degeneration.
-When the mind races: Effects of thought speed on feeling and action.
-Serum testosterone levels in males are not associated with entrepreneurial behavior in two independent observational studies.
-Losses as modulators of attention: Review and analysis of the unique effects of losses over gains.
-The agile mind.
-Fundamentals of cognition.
-Developmental risk I: Depression and the developing brain.
-Electrodermal activity.
-Neuropsychological performance in OCD: A study in medication-naive patients.
-On the value of nonremovable reminders for behavior modification: An application to nail-biting (Onychophagia).
-Annual research review: All mothers are not created equal: Neural and psychobiological perspectives on mothering and the importance of individual differences.
-Hot executive function: Emotion and the development of cognitive control.
-Perceived association between diagnostic and non-diagnostic cues of women's sexual interest: General recognition theory predictors of risk for sexual coercion.
-Subcortical structures and cognition: Implications for neuropsychological assessment.
-Gestural buffer impairment in early onset corticobasal degeneration: A single-case study.
-The Cognitive-Affective Neuroscience of the Unconscious.
-Depth psychological consequences of brain damage.
-Acquired sociopathy: a neuropsychological study of executive dysfunction in violent offenders.
-An afterword: The utility of cognitive models for the field of psychopathology.
-Application of stochastic modeling to the assessment of group and individual differences in cognitive functioning.
-Comparing attention, impulsivity, and executive functions between patients with opiate use disorder: Buprenorphine maintenance treatment versus active users, in comparison with healthy controls.
-Differential Impacts of Healthy Cognitive Aging on Directed and Random Exploration.
-Craving money? Evidence from the laboratory and the field.
-Development of cross-species translational paradigms for psychiatric research in the Research Domain Criteria era.
-Multi-modality attribute learning-based method for drug-protein interaction prediction based on deep neural network.
-Predictions and Choices for Others: Some Insights Into How and Why They Differ.
-An estimate of the economic burden of venous leg ulcers associated with deep venous disease.
-Modes of cognition: Evidence from metastable brain dynamics.
-Executive Dysfunction, Social Cognition Impairment, and Gray Matter Pathology in Myotonic Dystrophy Type 2: A Pilot Study.
-Persistence is Futile: Chasing of Past Performance in Repeated Investment Choices.
-Surgical data science - from concepts toward clinical translation.
-Executive Functions in Fibromyalgia: A Systematic Review.
-Animal models for neonatal brain injury induced by hypoxic ischemic conditions in rodents.
-Endogenous opiates and behavior: 2017.
-Are candidate neurocognitive endophenotypes of OCD present in paediatric patients? A systematic review.
-Cognitive variability in bipolar I disorder: A cluster-analytic approach informed by resting-state data.
-Multimodal characterization of the human nucleus accumbens.
-Intrinsic Whole Number Bias in Humans.
-Apathy following traumatic brain injury: A review.
-Towards a neuro-computational account of prism adaptation.
-Systematic review and meta-analysis of factors that help or hinder treatment decision-making capacity in psychosis.
-Searching for the Best Cause: Roles of Mechanism Beliefs, Autocorrelation, and Exploitation.
-Skeletal muscle action of estrogen receptor [alpha] is critical for the maintenance of mitochondrial function and metabolic homeostasis in females.
-Executive Functioning and Visuospatial Abilities in Bulimia Nervosa with or without a Previous History of Anorexia Nervosa.
-Neurocognitive Performance in Unmedicated Patients With Hoarding Disorder.
-Motion Sickness: Current Knowledge and Recent Advance.
-Interoceptive Dysfunction: Toward an Integrated Framework for Understanding Somatic and Affective Disturbance in Depression.
-White Matter Compromise in Veterans Exposed to Primary Blast Forces.
-When Health Policy and Empirical Evidence Collide: The Case of Cigarette Package Warning Labels and Economic Consumer Surplus.
-Prices Need No Preferences: Social Trends Determine Decisions in Experimental Markets for Pain Relief.
-Evaluating an Animal Model of Compulsive Hoarding in Humans.
-Using the temporal self-regulation theory to examine the influence of environmental cues on maintaining a healthy lifestyle.
-Function in the human connectome: Task-fMRI and individual differences in behavior.
-Recombinant TNF[alpha] as oral vaccine adjuvant protects European sea bass against vibriosis: Insights into the role of the CCL25/CCR9 axis.
-Modeling Brain Function: Current Developments and Future Prospects.
-Comparison of Dynamics of Extracellular Accesses to the [beta]1 and [beta]2 Adrenoceptors Binding Sites Uncovers the Potential of Kinetic Basis of Antagonist Selectivity.
-Modulating the brain at work using noninvasive transcranial stimulation.
-Translating cognition from animals to humans.
-Canakinumab: a human anti-IL-1[beta] monoclonal antibody for the treatment of cryopyrin-associated periodic syndromes.
-Neurocognitive Consequences of Sleep Deprivation.
-Exploring the multi-scale structure of printing paper - a review of modern technology.
-Sex hormonal modulation of hyperbolic discount factor in men.
-The neuropsychology of obsessive compulsive disorder: the importance of failures in cognitive and behavioural inhibition as candidate endophenotypic markers.
-Why is the management of glucocorticoid deficiency still controversial: a review of the literature.
-Overview of antiviral and anti-inflammatory treatment for severe acute respiratory syndrome.
-Lyophilised wafers as a drug delivery system for wound healing containing methylcellulose as a viscosity modifier.
-Reinforcement sensitivity theory and personality.
-Trajectory of Cognitive Science and Psychological Assessment: Current Status and Expectations.
-Introduction to the Special Section on Cognitive Science and Psychological Assessment.
-Risk Assessment in Regulatory Policy Making for Human and Veterinary Public Health.
-The Sage Handbook of Cognitive and Systems Neuroscience : Cognitive Systems, Development and Applications
-Does mood affect judgment: Results from an in vivo observational study.
-The moderating effects of school resources on the impact of a school_based intervention on the social information_processing skills of third graders in rural China.
-Physical Activity Interventions to Reduce Metabolic Risk Factors to Cognitive Health.
-Why comply? Risk and efficacy perceptions drive compliance in mass marketing scams.
-The institutional grammar in policy process research.
-Identifying critical transitions in complex diseases.
-How Working Memory and Reinforcement Learning Are Intertwined: A Cognitive, Neural, and Computational Perspective.
-Recent Advancements in the Field of Ni-Based Superalloys.
-DIAGNOSIS OF METABOLIC SYNDROME USING MACHINE LEARNING, STATISTICAL AND RISK QUANTIFICATION TECHNIQUES: A SYSTEMATIC LITERATURE REVIEW.
-Institutional Grammar 2.0: A specification for encoding and analyzing institutional design.
-Steam oxidation of ytterbium disilicate environmental barrier coatings with and without a silicon bond coat.
-Designing biomass supply chains within planetary boundaries.
-The Effect of Public Infrastructure on Cost Structure and Performance of Chinese Provinces*.
-Effects of a centered conducting body on natural convection of a non-Newtonian fluid in a square enclosure with time-periodic temperature distribution.
-Going beyond cognitive approach to behavioral stream in economic sciences: Behavioristic and evolutionary perspectives.
-GO TO YOUTUBE AND CALL ME IN THE MORNING: USE OF SOCIAL MEDIA FOR CHRONIC CONDITIONS.
-The Return to Protectionism.
-Editorial: bridging the gap with computational and translational psychopharmacology.
-With an eye on uncertainty: Modelling pupillary responses to environmental volatility.
-A Dynamic Framework for Modelling Set-Shifting Performances.
-Reported theory use in walking interventions: a literature review and research agenda.
-Depression and Entrepreneurial Exit.
-Monetary Wisdom: How Do Investors Use Love of Money to Frame Stock Volatility and Enhance Stock Happiness?
-Comparative anatomy on 3-D MRI of the urogenital sinus and the periurethral area before and during the second stage of labor during childbirth.
-The association between HIV and atherosclerotic cardiovascular disease in sub-Saharan Africa: a systematic review.
-Synthetic sustainability index (SSI) based on life cycle assessment approach of low impact development in the Mediterranean area.
-Predicting tumor hypoxia in non-small cell lung cancer by combining CT, FDG PET and dynamic contrast-enhanced CT.
-A unifying Bayesian account of contextual effects in value-based choice.
-Executive function in weight loss and weight loss maintenance: a conceptual review and novel neuropsychological model of weight control.
-Choline Supplementation Normalizes Fetal Adiposity and Reduces Lipogenic Gene Expression in a Mouse Model of Maternal Obesity.
-Social-Emotional Assessment, Performance, and Standards.
-Income-Induced Expenditure SwitchingÃÂÃÂ .
-Constitutive explanations in neuroeconomics: principles and a case study on money.
-An In Silico Knockout Model for Gastrointestinal Absorption Using a Systems Pharmacology Approach - Development and Application for Ketones.
-Using Dual Process Models to Examine Impulsivity Throughout Neural Maturation.
-Health of People, Places and Planet : Reflections Based on Tony McMichael's Four Decades of Contribution to Epidemiological Understanding
-Connecting Conscious and Unconscious Processing.
-Short and long crack data for fatigue of 2024-T3 Al sheets: binariness of scale segmentation in space and time.
-Human Problem Solving in 2012.
-Molecular Nutrition Research-The Modern Way Of Performing Nutritional Science.
-Motivated Closed-Mindedness Mediates the Effect of Threat on Political Conservatism.
-The roles of the amygdala in the affective regulation of body, brain, and behaviour.
-Anticipation.
-Decanalization and the origin of complex disease.
-The Moral Psychology of Conflicts of Interest: Insights from Affective Neuroscience.
-Metabolic imaging using PET.
-Models of confabulation: A critical review and a new framework.
-Clinical Use and Pathogenetic Basis of Laboratory Tests for the Evaluation of Primary Arterial Hypertension.
-SELF-RATED EXECUTIVE FUNCTION: DEVELOPMENT OF THE EXECUTIVE FUNCTION INDEX.
-Individual differences in computational psychiatry: A review of current challenges.
-Cerebellar circuitry and auditory verbal hallucinations: An integrative synthesis and perspective.
-The application of tDCS for the treatment of psychiatric diseases.
-Transcranial direct current stimulation (tDCS) - Application in neuropsychology.
-The student's guide to cognitive neuroscience.
-
-
 Cluster 2:
-Evaluation of bidirectional relationships between risk preference and mood disorders: A 2-sample Mendelian randomization study.
+Association between smoking, pancreatic insulin secretion and insulin resistance in Chinese subjects with or without glucose intolerance
+Influence of adiposity, insulin resistance, and intrahepatic triglyceride content on insulin kinetics.
+Pathophysiological Characteristics Underlying Different Glucose Response Curves: A Latent Class Trajectory Analysis From the Prospective EGIR-RISC Study.
+Metabolic Contrasts Between Youth and Adults With Impaired Glucose Tolerance or Recently Diagnosed Type 2 Diabetes: II. Observations Using the Oral Glucose Tolerance Test.
+Novel Protein Glycan-Derived Markers of Systemic Inflammation and C-Reactive Protein in Relation to Glycemia, Insulin Resistance, and Insulin Secretion.
+The Pathogenesis of Polycystic Ovary Syndrome (PCOS): The Hypothesis of PCOS as Functional Ovarian Hyperandrogenism Revisited.
+Williams-Beuren Syndrome Is a Genetic Disorder Associated with Impaired Glucose Tolerance and Diabetes in Childhood and Adolescence: New Insights from a Longitudinal Study.
+Longitudinal Decline of [beta]-Cell Function: Comparison of a Direct Method vs a Fasting Surrogate Measure: The Insulin Resistance Atherosclerosis Study.
+Impaired Fasting Glucose and Impaired Glucose Tolerance Have Distinct Lipoprotein and Apolipoprotein Changes: The Insulin Resistance Atherosclerosis Study.
+Pathogenetic Mechanisms and Cardiovascular Risk: Differences between HbA1c and oral glucose tolerance test for the diagnosis of glucose tolerance.
+Chitosan-zinc-insulin complex incorporated thermosensitive polymer for controlled delivery of basal insulin in vivo.
+Circulating Levels of TNF-[alpha] Are Associated with Impaired Glucose Tolerance, Increased Insulin Resistance, and Ethnicity: The Insulin Resistance Atherosclerosis Study.
+Plasma sCD36 is associated with markers of atherosclerosis, insulin resistance and fatty liver in a nondiabetic healthy population.
+Insulin secretion is decreased in non-diabetic individuals with hypomagnesaemia.
+Body Weight, Not Insulin Sensitivity or Secretion, May Predict Spontaneous Weight Changes in Nondiabetic and Prediabetic Subjects: The RISC Study.
+Mechanism and Effects of Glucose Absorption during an Oral Glucose Tolerance Test Among Females and Males.
+A Common Variant in the Patatin-Like Phospholipase 3 Gene (PNPLA3) Is Associated with Fatty Liver Disease in Obese Children and Adolescents.
+Impact of family history on relations between insulin resistance, LDL cholesterol and carotid IMT in healthy adults.
+Insulin sensitivity and secretion in children and adolescents with hypothalamic obesity following treatment for craniopharyngioma.
+Insulin Resistance, [beta]-Cell Dysfunction, and Conversion to Type 2 Diabetes in a Multiethnic Population: The Insulin Resistance Atherosclerosis Study.
+Prehypertension is associated with insulin resistance.
+Fatty liver is associated with insulin resistance, risk of coronary heart disease, and early atherosclerosis in a large European population#.
+Influence of Maternal Obesity on Insulin Sensitivity and Secretion in Offspring.
+Islet Transplantation for Brittle Type 1 Diabetes: The UIC Protocol.
+Influence of the ACE Gene Insertion/Deletion Polymorphism on Insulin Sensitivity and Impaired Glucose Tolerance in Healthy Subjects.
+Metabolic Syndrome and Insulin Resistance: Perioperative Considerations.
+Insulin Sensitivity after Metformin Suspension in Normal-Weight Women with Polycystic Ovary Syndrome.
+Insulin Resistance, Insulin Response, and Obesity as Indicators of Metabolic Risk.
+Alanine Aminotransferase and Directly Measured Insulin Sensitivity in a Multiethnic Cohort: The Insulin Resistance Atherosclerosis Study.
+Prediction of Type 2 Diabetes Mellitus With Alternative Definitions of the Metabolic Syndrome: The Insulin Resistance Atherosclerosis Study.
+Anthropometry, Glucose Tolerance, and Insulin Concentrations in Indian Children: Relationships to maternal glucose and insulin concentrations during pregnancy.
+Nuclear Magnetic Resonance Lipoprotein Abnormalities in Prediabetic Subjects in the Insulin Resistance Atherosclerosis Study.
+Plasma Ghrelin in Obesity before and after Weight Loss after Laparoscopical Adjustable Gastric Banding.
+Metabolic and Inflammation Variable Clusters and Prediction of Type 2 Diabetes: Factor Analysis Using Directly Measured Insulin Sensitivity.
+Differences in Insulin Resistance in Nondiabetic Subjects With Isolated Impaired Glucose Tolerance or Isolated Impaired Fasting Glucose.
+Insulin Sensitivity, Insulinemia, and Coronary Artery Disease: The Insulin Resistance Atherosclerosis Study.
+Detecting Insulin Resistance in Polycystic Ovary Syndrome: Purposes and Pitfalls.
+Insulin sensitivity in Chinese ovo-lactovegetarians compared with omnivores.
+Hormone Replacement Therapy Decreases Insulin Resistance and Lipid Metabolism in Japanese Postmenopausal Women with Impaired and Normal Glucose Tolerance.
+Identification of Subjects with Insulin Resistance and [beta]-Cell Dysfunction Using Alternative Definitions of the Metabolic Syndrome.
+Insulin-Lowering Agents in the Management of Polycystic Ovary Syndrome.
+Low Insulin Sensitivity (Si = 0) in Diabetic and Nondiabetic Subjects in the Insulin Resistance Atherosclerosis Study: Is it associated with components of the metabolic syndrome and nontraditional risk factors?
+Cystic fibrosis-related diabetes.
+The insulin resistance syndrome and coronary artery disease.
+Assessing the Shape of the Glucose Curve During an Oral Glucose Tolerance Test.
+C-reactive protein is more strongly related to post-glucose load glucose than to fasting glucose in non-diabetic subjects; the Insulin Resistance Atherosclerosis Study.
+Factor Analysis of Metabolic Syndrome Using Directly Measured Insulin Sensitivity: The Insulin Resistance Atherosclerosis Study.
+Increased Proinsulin Levels and Decreased Acute Insulin Response Independently Predict the Incidence of Type 2 Diabetes in the Insulin Resistance Atherosclerosis Study.
+Limited Value of the Homeostasis Model Assessment to Predict Insulin Resistance in Older Men With Impaired Glucose Tolerance.
+Reduced Insulin Secretion in Offspring of African Type 2 Diabetic Parents.
+Chronic Subclinical Inflammation as Part of the Insulin Resistance Syndrome: The Insulin Resistance Atherosclerosis Study (IRAS).
+Relative Contribution of Insulin and Its Precursors to Fibrinogen and PAI-1 in a Large Population With Different States of Glucose Tolerance: The Insulin Resistance Atherosclerosis Study (IRAS).
+The Role of Troglitazone in Treating the Insulin Resistance Syndrome.
+Microalbuminuria Is Associated With Insulin Resistance in Nondiabetic Subjects: The Insulin Resistance Atherosclerosis Study.
+Intensity and Amount of Physical Activity in Relation to Insulin Sensitivity: The Insulin Resistance Atherosclerosis Study.
+Pronounced Insulin Resistance and Inadequate beta-cell Secretion Characterize Lean Gestational Diabetes During and After Pregnancy.
+Microalbuminuria and Carotid Artery Intima-Media Thickness in Nondiabetic and NIDDM Subjects: The Insulin Resistance Atherosclerosis Study (IRAS).
+Insulin Sensitivity and Acute Insulin Response in African-Americans, Non-Hispanic Whites, and Hispanics With NIDDM: The Insulin Resistance Atherosclerosis Study.
+Insulin Sensitivity and Abdominal Obesity in African-American, Hispanic, and Non-Hispanic White Men and Women: The Insulin Resistance and Atherosclerosis Study.
+Increased Insulin Resistance and Insulin Secretion in Nondiabetic African-Americans and Hispanics Compared With Non-Hispanic Whites The Insulin Resistance Atherosclerosis Study.
+Transmembrane Glucose Transport in Skeletal Muscle of Patients with Non-Insulin-dependent Diabetes.
+Quantifying postprandial glucose responses using a hybrid modeling approach: Combining mechanistic and data-driven models in The Maastricht Study.
+A modelling approach to hepatic glucose production estimation.
+The Relationship between Serum Adipokines, miR-222-3p, miR-103a-3p and Glucose Regulation in Pregnancy and Two to Three Years Post-Delivery in Women with Gestational Diabetes Mellitus Adhering to Mediterranean Diet Recommendations.
+The relationships between FLAIS, a novel insulin sensitivity index, and cardiovascular risk factors in a population-based study.
+Gamma-Polyglutamic Acid-Rich Natto Suppresses Postprandial Blood Glucose Response in the Early Phase after Meals: A Randomized Crossover Study.
+Insulin resistance in drug naive patients with multiple sclerosis.
+Low apoA-I is associated with insulin resistance in patients with impaired glucose tolerance: a cross-sectional study.
+Associations of Dietary Glucose, Fructose, and Sucrose with _-Cell Function, Insulin Sensitivity, and Type 2 Diabetes in the Maastricht Study.
+A computational model of the effect of capillary density variability on oxygen transport, glucose uptake, and insulin sensitivity in prediabetes.
+Sitagliptin improves glycaemic excursion after a meal or after an oral glucose load in Japanese subjects with impaired glucose tolerance.
+Obesity-related insulin resistance: implications for the surgical patient.
+Insulin Resistance and Risk of Incident Cardiovascular Events in Adults without Diabetes: Meta-Analysis.
+Quantifying the Improvement of Surrogate Indices of Hepatic Insulin Resistance Using Complex Measurement Techniques.
+The quantitative insulin sensitivity check index is not able to detect early metabolic alterations in young patients with polycystic ovarian syndrome.
+Albuminuria and insulin resistance in children with biopsy proven non-alcoholic fatty liver disease.
+Fibrinolytic dysfunction in insulin-resistant women with previous gestational diabetes.
+Determining the relationship between dietary carbohydrate intake and insulin resistance.
+The relation of body fat mass and distribution to markers of chronic inflammation.
+Low-Density Lipoprotein Particle Size Is Inversely Related to Plasminogen Activator Inhibitor-1 Levels: The Insulin Resistance Atherosclerosis Study.
+
+
+Cluster 3:
 Decomposing risky decision-making in methamphetamine use disorder: Behavioral updating and D2 dopamine receptors.
 The neural substrates of how model-based learning affects risk taking: Functional coupling between right cerebellum and left caudate.
 Reward-dependent dynamics and changes in risk taking in the Balloon Analogue Risk Task.
@@ -435,13 +561,13 @@ Patrimony and the Evolution of Risk-Taking.
 The effect of trait anxiety on risk_taking: Functional coupling between right hippocampus and left insula.
 
 
-Cluster 3:
+Cluster 4:
 Insulin and disorders of behavioural flexibility.
 Ten-year atherosclerotic cardiovascular disease risk prediction for postmenopausal women: Impacts of isolated postchallenge hyperglycemia.
 Pharmacometrics Approaches and its Applications in Diabetes: An Overview.
 Associations of growth from birth to puberty with glycemic indicators at ~17.5 years: Evidence from Hong Kong's "Children of 1997" birth cohort.
-Impaired fasting glucose and the metabolic profile in Danish children and adolescents with normal weight, overweight, or obesity.
 The Role of Diabetes Care and Its Contributions to the Field of Diabetes: A Profile in Progress.
+Renal Handling of Ketones in Response to Sodium-Glucose Cotransporter 2 Inhibition in Patients With Type 2 Diabetes.
 The global agenda for the prevention of type 2 diabetes.
 Metformin Effect on Nontargeted Metabolite Profiles in Patients With Type 2 Diabetes and in Multiple Murine Tissues.
 "Prediabetes": Are There Problems With This Label? Yes, the Label Creates Further Problems!!.
@@ -482,7 +608,6 @@ Elevations in Markers of Liver Injury and Risk of Type 2 Diabetes: The Insulin R
 Preventing Cancer, Cardiovascular Disease, and Diabetes: A Common Agenda for the American Cancer Society, the American Diabetes Association, and the American Heart Association.
 Primary Prevention of Type 2 Diabetes Mellitus by Lifestyle Intervention: Implications for Health Policy.
 A randomized non-pharmacological intervention study for prevention of ischaemic heart disease: baseline results Inter99 (1).
-Diabetes and Progression of Carotid Atherosclerosis: The Insulin Resistance Atherosclerosis Study.
 Comparison of a Clinical Model, the Oral Glucose Tolerance Test, and Fasting Glucose for Prediction of Type 2 Diabetes Risk in Japanese Americans.
 Elevated Levels of Acute-Phase Proteins and Plasminogen Activator Inhibitor-1 Predict the Development of Type 2 Diabetes: The Insulin Resistance Atherosclerosis Study.
 Impaired Autonomic Function Is Associated With Increased Mortality, Especially in Subjects With Diabetes, Hypertension, or a History of Cardiovascular Disease: The Hoorn Study.
@@ -500,10 +625,9 @@ An economic evaluation for prevention of diabetes mellitus in a developing count
 Time perspective and weight management behaviors in newly diagnosed Type 2 diabetes: a mediational analysis.
 Serum Dipeptidyl Peptidase-4 Activity in Insulin Resistant Patients with Non-Alcoholic Fatty Liver Disease: A Novel Liver Disease Biomarker.
 Circadian blood pressure variability in type 1 diabetes subjects and their nondiabetic siblings -- influence of erythrocyte electron transfer.
-Association of poorly controlled diabetes with low serum leptin in morbid obesity.
 
 
-Cluster 4:
+Cluster 5:
 Neurocognitive deficits related to poor decision making in people behind bars
 Computational modeling for addiction medicine: From cognitive models to clinical applications
 Cognitive mechanisms underlying risky decision-making in chronic cannabis users
@@ -522,7 +646,6 @@ Using Bayesian regression to test hypotheses about relationships between paramet
 The relative merit of empirical priors in non-identifiable and sloppy models: Applications to models of learning and decision-making: Empirical priors.
 Task complexity moderates the influence of descriptions in decisions from experience.
 Bayesian techniques for analyzing group differences in the Iowa Gambling Task: A case study of intuitive and deliberate decision-makers.
-Toward an understanding of dynamic moral decision making: Model-free and model-based learning.
 Advancing research on cognitive processes in social and personality psychology: A hierarchical drift diffusion model primer.
 Unpacking buyer-seller differences in valuation from experience: A cognitive modeling approach.
 The drift diffusion model as the choice rule in reinforcement learning.
@@ -542,6 +665,7 @@ Decomposing the roles of perseveration and expected value representation in mode
 A model-based fMRI analysis with hierarchical Bayesian parameter estimation.
 Experimental manipulation of working memory model parameters: An exercise in construct validity.
 A computational knowledge-based model for emulating human performance in the Iowa Gambling Task.
+Adapted to explore: Reinforcement learning in autistic spectrum conditions.
 Bayesian parameter estimation in the expectancy valence model of the Iowa gambling task.
 Sequential learning models for the Wisconsin card sort task: Assessing processes in substance dependent individuals.
 A mixed-effects expectancy-valence model for the Iowa gambling task.
@@ -559,77 +683,79 @@ Parameter Variability and Distributional Assumptions in the Diffusion Model.
 From Recurrent Choice to Skill Learning: A Reinforcement-Learning Model.
 A Contribution of Cognitive Decision Models to Clinical Assessment: Decomposing Performance on the Bechara Gambling Task.
 Some futures for cognitive modeling and architectures: design patterns for including better interaction with the world, moderators, and improved model to data fits (and so can you).
+The drift diffusion model as the choice rule in inter-temporal and risky choice: AÃÂÃÂÃÂÃÂ case study in medial orbitofrontal cortex lesion patients and controls.
 Sequential exploration in the Iowa gambling task: Validation of a new computational model in a large dataset of young and old healthy participants.
-Models that learn how humans learn: The case of decision-making and its disorders.
 Monte Carlo parametric modeling for predicting biomass calorific value.
 A Comparison of Reinforcement Learning Models for the Iowa Gambling Task Using Parameter Space Partitioning.
 Description-based and experience-based decisions: individual analysis.
 Comparison of Decision Learning Models Using the Generalization Criterion Method.
 
 
-Cluster 5:
-Influence of adiposity, insulin resistance, and intrahepatic triglyceride content on insulin kinetics.
-Novel Protein Glycan-Derived Markers of Systemic Inflammation and C-Reactive Protein in Relation to Glycemia, Insulin Resistance, and Insulin Secretion.
-The Pathogenesis of Polycystic Ovary Syndrome (PCOS): The Hypothesis of PCOS as Functional Ovarian Hyperandrogenism Revisited.
-Williams-Beuren Syndrome Is a Genetic Disorder Associated with Impaired Glucose Tolerance and Diabetes in Childhood and Adolescence: New Insights from a Longitudinal Study.
-Impaired Fasting Glucose and Impaired Glucose Tolerance Have Distinct Lipoprotein and Apolipoprotein Changes: The Insulin Resistance Atherosclerosis Study.
-Chitosan-zinc-insulin complex incorporated thermosensitive polymer for controlled delivery of basal insulin in vivo.
-Circulating Levels of TNF-[alpha] Are Associated with Impaired Glucose Tolerance, Increased Insulin Resistance, and Ethnicity: The Insulin Resistance Atherosclerosis Study.
-Plasma sCD36 is associated with markers of atherosclerosis, insulin resistance and fatty liver in a nondiabetic healthy population.
-A Common Variant in the Patatin-Like Phospholipase 3 Gene (PNPLA3) Is Associated with Fatty Liver Disease in Obese Children and Adolescents.
-Impact of family history on relations between insulin resistance, LDL cholesterol and carotid IMT in healthy adults.
-Insulin sensitivity and secretion in children and adolescents with hypothalamic obesity following treatment for craniopharyngioma.
-Insulin Resistance, [beta]-Cell Dysfunction, and Conversion to Type 2 Diabetes in a Multiethnic Population: The Insulin Resistance Atherosclerosis Study.
-Prehypertension is associated with insulin resistance.
-Fatty liver is associated with insulin resistance, risk of coronary heart disease, and early atherosclerosis in a large European population#.
-Islet Transplantation for Brittle Type 1 Diabetes: The UIC Protocol.
-Metabolic Syndrome and Insulin Resistance: Perioperative Considerations.
-Insulin Sensitivity after Metformin Suspension in Normal-Weight Women with Polycystic Ovary Syndrome.
-Insulin Resistance, Insulin Response, and Obesity as Indicators of Metabolic Risk.
-Alanine Aminotransferase and Directly Measured Insulin Sensitivity in a Multiethnic Cohort: The Insulin Resistance Atherosclerosis Study.
-Prediction of Type 2 Diabetes Mellitus With Alternative Definitions of the Metabolic Syndrome: The Insulin Resistance Atherosclerosis Study.
-Nuclear Magnetic Resonance Lipoprotein Abnormalities in Prediabetic Subjects in the Insulin Resistance Atherosclerosis Study.
-Plasma Ghrelin in Obesity before and after Weight Loss after Laparoscopical Adjustable Gastric Banding.
-Metabolic and Inflammation Variable Clusters and Prediction of Type 2 Diabetes: Factor Analysis Using Directly Measured Insulin Sensitivity.
-Differences in Insulin Resistance in Nondiabetic Subjects With Isolated Impaired Glucose Tolerance or Isolated Impaired Fasting Glucose.
-Insulin Sensitivity, Insulinemia, and Coronary Artery Disease: The Insulin Resistance Atherosclerosis Study.
-Detecting Insulin Resistance in Polycystic Ovary Syndrome: Purposes and Pitfalls.
-Insulin sensitivity in Chinese ovo-lactovegetarians compared with omnivores.
-Hormone Replacement Therapy Decreases Insulin Resistance and Lipid Metabolism in Japanese Postmenopausal Women with Impaired and Normal Glucose Tolerance.
-Identification of Subjects with Insulin Resistance and [beta]-Cell Dysfunction Using Alternative Definitions of the Metabolic Syndrome.
-Insulin-Lowering Agents in the Management of Polycystic Ovary Syndrome.
-Low Insulin Sensitivity (Si = 0) in Diabetic and Nondiabetic Subjects in the Insulin Resistance Atherosclerosis Study: Is it associated with components of the metabolic syndrome and nontraditional risk factors?
-Cystic fibrosis-related diabetes.
-The insulin resistance syndrome and coronary artery disease.
-Factor Analysis of Metabolic Syndrome Using Directly Measured Insulin Sensitivity: The Insulin Resistance Atherosclerosis Study.
-Increased Proinsulin Levels and Decreased Acute Insulin Response Independently Predict the Incidence of Type 2 Diabetes in the Insulin Resistance Atherosclerosis Study.
-Limited Value of the Homeostasis Model Assessment to Predict Insulin Resistance in Older Men With Impaired Glucose Tolerance.
-Chronic Subclinical Inflammation as Part of the Insulin Resistance Syndrome: The Insulin Resistance Atherosclerosis Study (IRAS).
-Relative Contribution of Insulin and Its Precursors to Fibrinogen and PAI-1 in a Large Population With Different States of Glucose Tolerance: The Insulin Resistance Atherosclerosis Study (IRAS).
-The Role of Troglitazone in Treating the Insulin Resistance Syndrome.
-Microalbuminuria Is Associated With Insulin Resistance in Nondiabetic Subjects: The Insulin Resistance Atherosclerosis Study.
-Intensity and Amount of Physical Activity in Relation to Insulin Sensitivity: The Insulin Resistance Atherosclerosis Study.
-Microalbuminuria and Carotid Artery Intima-Media Thickness in Nondiabetic and NIDDM Subjects: The Insulin Resistance Atherosclerosis Study (IRAS).
-Insulin Sensitivity and Acute Insulin Response in African-Americans, Non-Hispanic Whites, and Hispanics With NIDDM: The Insulin Resistance Atherosclerosis Study.
-Insulin Sensitivity and Abdominal Obesity in African-American, Hispanic, and Non-Hispanic White Men and Women: The Insulin Resistance and Atherosclerosis Study.
-Increased Insulin Resistance and Insulin Secretion in Nondiabetic African-Americans and Hispanics Compared With Non-Hispanic Whites The Insulin Resistance Atherosclerosis Study.
-Transmembrane Glucose Transport in Skeletal Muscle of Patients with Non-Insulin-dependent Diabetes.
-The Relationship between Serum Adipokines, miR-222-3p, miR-103a-3p and Glucose Regulation in Pregnancy and Two to Three Years Post-Delivery in Women with Gestational Diabetes Mellitus Adhering to Mediterranean Diet Recommendations.
-The relationships between FLAIS, a novel insulin sensitivity index, and cardiovascular risk factors in a population-based study.
-Insulin resistance in drug naive patients with multiple sclerosis.
-Low apoA-I is associated with insulin resistance in patients with impaired glucose tolerance: a cross-sectional study.
-Obesity-related insulin resistance: implications for the surgical patient.
-Insulin Resistance and Risk of Incident Cardiovascular Events in Adults without Diabetes: Meta-Analysis.
-Quantifying the Improvement of Surrogate Indices of Hepatic Insulin Resistance Using Complex Measurement Techniques.
-The quantitative insulin sensitivity check index is not able to detect early metabolic alterations in young patients with polycystic ovarian syndrome.
-Albuminuria and insulin resistance in children with biopsy proven non-alcoholic fatty liver disease.
-Fibrinolytic dysfunction in insulin-resistant women with previous gestational diabetes.
-Determining the relationship between dietary carbohydrate intake and insulin resistance.
-The relation of body fat mass and distribution to markers of chronic inflammation.
-Low-Density Lipoprotein Particle Size Is Inversely Related to Plasminogen Activator Inhibitor-1 Levels: The Insulin Resistance Atherosclerosis Study.
-
-
 Cluster 6:
+Using pharmacological manipulations to study the role of dopamine in human reward functioning: A review of studies in healthy adults.
+The neurocognitive underpinnings of the Simon effect: An integrative review of current research.
+Spatial migration of human reward processing with functional development: Evidence from quantitative meta-analyses.
+Dopamine D1, but not D2, signaling protects mental representations from distracting bottom-up influences.
+Dissociable roles for the ventral and dorsal medial prefrontal cortex in cue-guided risk/reward decision making.
+Regional striatal cholinergic involvement in human behavioral flexibility.
+Differential contributions of striatal dopamine D1 and D2 receptors to component processes of value-based decision making.
+Learning from loss after risk: Dissociating reward pursuit and reward valuation in a naturalistic foraging task.
+Stimulating the dorsolateral prefrontal cortex decreases the asset bubble: A tDCS study.
+Anticipation of a mentally effortful task recruits Dorsolateral Prefrontal Cortex: An fNIRS validation study.
+Probabilistic reinforcement learning abnormalities and their correlates in adolescent bipolar disorders.
+Correlates of economic decisions in the dorsal and subgenual anterior cingulate cortices.
+Learning contextual reward expectations for value adaptation.
+The roles of phasic and tonic dopamine in tic learning and expression.
+Reward-based contextual learning supported by anterior cingulate cortex.
+The research domain criteria framework: The case for anterior cingulate cortex.
+Cortical brain activity reflecting attentional biasing toward reward-predicting cues covaries with economic decision-making performance.
+Activation of dopamine D4 receptors within the anterior cingulate cortex enhances the erroneous expectation of reward on a rat slot machine task.
+The role of the medial prefrontal cortex in updating reward value and avoiding perseveration.
+The basolateral amygdala in reward learning and addiction.
+Reinforcement learning in multidimensional environments relies on attention mechanisms.
+Using a reinforcement learning model and Bayes factors to study gender differences and personality correlations in reward prediction errors.
+Differential reward learning for self and others predicts self-reported altruism.
+State-based versus reward-based motivation in younger and older adults.
+Negative reinforcement learning is affected in substance dependence.
+Instrumental vigour in punishment and reward.
+Recruitment of additional brain regions to accomplish simple motor tasks in chronic alcohol-dependent patients.
+Risk-promoting effects of reward-paired cues in human sign- and goal-trackers.
+Neural and functional validation of fMRI-informed EEG model of right inferior frontal gyrus activity.
+Task-level value affects trial-level reward processing.
+Functional dynamics of dopamine synthesis during monetary reward and punishment processing.
+Satiety Does Not Alter the Ventral Striatum's Response to Immediate Reward in Bulimia Nervosa.
+Family history of depression is associated with alterations in task-dependent connectivity between the cerebellum and ventromedial prefrontal cortex.
+Dopamine and reward: a view from the prefrontal cortex.
+The "highs and lows" of the human brain on dopaminergics: Evidence from neuropharmacology.
+Neural substrates of updating the prediction through prediction error during decision making.
+Interaction between COMT Val158Met polymorphism and childhood adversity affects reward processing in adulthood.
+The role of high-frequency oscillatory activity in reward processing and learning.
+Dual role of serotonin in the acquisition and extinction of reward-driven learning: Involvement of 5-HT1A, 5-HT2A and 5-HT3 receptors.
+The role of serotonin in reward, punishment and behavioural inhibition in humans: Insights from studies with acute tryptophan depletion.
+Generalization of value in reinforcement learning by humans.
+Impact of BDNF Val66Met and 5-HTTLPR polymorphism variants on neural substrates related to sadness and executive function.
+Learning: From Association to Cognition.
+The dopaminergic basis of human behaviors: A review of molecular imaging studies.
+Abnormal temporal difference reward-learning signals in major depression.
+Basal ganglia and dopamine contributions to probabilistic category learning.
+Hormonal and Genetic Influences on Processing Reward and Social Information.
+The influence of sex differences and individual task performance on brain activation during planning.
+Intrinsic rewards explain context-sensitive valuation in reinforcement learning.
+Reduced learning bias towards the reward context in medication-naive first-episode schizophrenia patients.
+Basal ganglia lateralization in different types of reward.
+After-effects of self-control: The reward responsivity hypothesis.
+Translational tests involving non-reward: methodological considerations.
+Effects of menstrual cycle phase on electrocortical response to reward and depressive symptoms in women.
+The role of ÃÂÃÂjackpotÃÂÃÂ stimuli in maladaptive decision-making: dissociable effects of D1/D2 receptor agonists and antagonists.
+Learning Reward Uncertainty in the Basal Ganglia.
+Effects of pramipexole on the processing of rewarding and aversive taste stimuli.
+How Does Reward Expectation Influence Cognition in the Human Brain?
+Single dose of a dopamine agonist impairs reinforcement learning in humans: Behavioral evidence from a laboratory-based measure of reward responsiveness.
+Dissociation of neural regions associated with anticipatory versus consummatory phases of incentive processing.
+Electrophysiological measures of conflict and reward processing are associated with decisions to engage in physical effort.
+
+
+Cluster 7:
 Decision-making impairments in adolescents with early-onset schizophrenia
 Cognitive decision modelling of emotion-based learning impairment in schizophrenia: The role of awareness
 Postnatal phencyclidine-induced deficits in decision making are ameliorated by optogenetic inhibition of ventromedial orbitofrontal cortical glutamate neurons.
@@ -638,6 +764,7 @@ Reinforcement learning deficits exhibited by postnatal PCP-treated rats enable d
 Lower cholinergic basal forebrain volumes link with cognitive difficulties in schizophrenia.
 The prevalence and features of schizophrenia among individuals with gambling disorder.
 Decision making under ambiguity and risk in adolescent-onset schizophrenia.
+Pathways to motivational impairments in psychopathology: Common versus unique elements across domains.
 Goal-directed planning and action impairments in schizophrenia evaluated in a virtual environment.
 Reward-driven decision-making impairments in schizophrenia.
 Psychotic like experiences as part of a continuum of psychosis: Associations with effort-based decision-making and reward responsivity.
@@ -656,13 +783,16 @@ Developing treatments for cognitive deficits in schizophrenia: The challenge of 
 Dissecting negative symptoms in schizophrenia: Opportunities for translation into new treatments.
 Deficits in emotion based decision-making in schizophrenia; a new insight based on the iowa Gambling Task.
 Anhedonia in schizophrenia: A deficit in translating reward information into motivated behavior.
+Working memory contributions to reinforcement learning impairments in schizophrenia.
 A comparison of decision making in patients with bipolar I disorder and schizophrenia.
 The motivation and pleasure dimension of negative symptoms: Neural substrates and behavioral outputs.
 Isolation rearing effects on probabilistic learning and cognitive flexibility in rats.
 Hypothetical decision making in schizophrenia: The role of expected value computation and "irrational" biases.
 Disturbances of motivational balance in chronic schizophrenia during decision-making tasks.
 Goal representations and motivational drive in schizophrenia: The role of prefrontal-striatal interactions.
+Orbitofrontal cortex neurons as a common target for classic and glutamatergic antipsychotic drugs.
 Decision-making impairments in the context of intact reward sensitivity in schizophrenia.
+The neuropsychological correlates of cannabis use in schizophrenia: Lifetime abuse/dependence, frequency of use, and recency of use.
 Cognitive processing of facial affect: Connectionist model of deviations in schizophrenia.
 The neuropsychology of cannabis and other substance use in schizophrenia: Review of the literature and critical evaluation of methodological issues.
 Iowa Gambling Task in schizophrenia: A review and new data in patients with schizophrenia and co-occurring cannabis use disorders.
@@ -679,10 +809,11 @@ Reduction of Pavlovian Bias in Schizophrenia: Enhanced Effects in Clozapine-Admi
 Neural substrates underlying effort computation in schizophrenia.
 
 
-Cluster 7:
+Cluster 8:
 Nonconformist tendencies related to risky choices in female methamphetamine abstainers
 The neuroscience of sexual addiction.
 Evaluate models of high-frequency sexual behaviors already.
+Machine-learning identifies substance-specific behavioral markers for opiate and stimulant dependence.
 Probabilistic reward- and punishment-based learning in opioid addiction: Experimental and computational data.
 "Wanting," "liking," and their relation to consciousness.
 Behavioral and brain response to non-drug rewards in substance abuse: Implications for motivational theories of addiction.
@@ -696,6 +827,7 @@ A model of the initial stages of drug abuse: From reinforcement learning to soci
 Structural and functional neuroimaging methods: Applications to substance abuse and addiction.
 Neurocognitive insights into substance abuse.
 Drug addiction and its underlying neurobiological basis: Neuroimaging evidence for the involvement of the frontal cortex.
+Targeting goal-based decision-making for addiction recovery.
 Transcranial electrical and magnetic stimulation (tES and TMS) for addiction medicine: A consensus paper on the present state of the science and the road ahead.
 Defining the place of habit in substance use disorders.
 tDCS in Addiction and Impulse Control Disorders.
@@ -719,7 +851,84 @@ Smokers' brains compute, but ignore, a fictive error signal in a sequential inve
 Decision making, impulse control and loss of willpower to resist drugs: a neurocognitive perspective.
 
 
-Cluster 8:
+Cluster 9:
+Impaired neural response to reward feedback in children with high schizotypal traits: Evidences from an ERP study.
+Feedback from facial expressions contribute to slow learning rate in an Iowa gambling task.
+Learning capacity in early-stage alzheimer's disease: The role of feedback during learning on memory performance.
+Dissociable feedback valence effects on frontal midline theta during reward gain versus threat avoidance learning.
+The ERP, frequency, and time-frequency correlates of feedback processing: Insights from a large sample study.
+Does insufficient sleep affect how you learn from reward or punishment? Reinforcement learning after 2 nights of sleep restriction.
+The influence of self-construals on the ERP response to the rewards for self and friend.
+Do emojis influence social interactions? Neural and behavioral responses to affective emojis in bargaining situations.
+Reliability and robustness of feedback-evoked brain-heart coupling after placebo, dopamine, and noradrenaline challenge.
+Medial frontal cortex response to unexpected motivationally salient outcomes.
+Event-related potentials reflect impaired temporal interval learning following haloperidol administration.
+Time-frequency phase-synchrony approaches with ERPs.
+Time-frequency theta and delta measures index separable components of feedback processing in a gambling task.
+A neural reward prediction error revealed by a meta-analysis of ERPs using great grand averages.
+Perceptual properties of feedback stimuli influence the feedback-related negativity in the flanker gambling task.
+Developmental changes in performance monitoring: How electrophysiological data can enhance our understanding of error and feedback processing in childhood and adolescence.
+The error-related negativity (ERN/Ne).
+Learning from experience: Event-related potential correlates of reward processing, neural adaptation, and behavioral choice.
+Cortical electrophysiological network dynamics of feedback learning.
+Frontal theta links prediction errors to behavioral adaptation in reinforcement learning.
+Nucleus accumbens is involved in human action monitoring: Evidence from invasive electrophysiological recordings.
+Adiposity covaries with signatures of asymmetric feedback learning during adaptive decisions.
+The role of expecting feedback during decision-making under risk.
+Specificity of performance monitoring changes in obsessive-compulsive disorder.
+Error-related medial frontal theta activity predicts cingulate-related structural connectivity.
+Genetic association studies of performance monitoring and learning from feedback: The role of dopamine and serotonin.
+Individual differences in reinforcement learning: Behavioral, electrophysiological, and neuroimaging correlates.
+Blunted response to feedback information in depressive illness.
+Reinforcement-related brain potentials from medial frontal cortex: origins and functional significance.
+Shifts in attentional scope modulate event-related potentials evoked by reward.
+Abnormal approach-related motivation but spared reinforcement learning in MDD: Evidence from fronto-midline Theta oscillations and frontal Alpha asymmetry.
+Meditation experience predicts negative reinforcement learning and is associated with attenuated FRN amplitude.
+Individual differences in error tolerance in humans: Neurophysiological evidences.
+The feedback-related negativity ( FRN) in adolescents.
+Theta lingua franca: A common mid-frontal substrate for action monitoring processes.
+Retest reliability of medial frontal negativities during performance monitoring.
+
+
+Cluster 10:
+Altered pattern of the incretin effect as assessed by modelling in individuals with glucose tolerance ranging from normal to diabetic
+Impact of incretin hormones on beta-cell function in subjects with normal or impaired glucose tolerance.
+Critical Evaluation of Indices Used to Assess [beta]-Cell Function.
+Proinsulin-to-C-Peptide Ratio as a Marker of [beta]-Cell Function in African American and European American Adults.
+Mechanistic Insights Into the Heterogeneity of Glucose Response Classes in Youths With Obesity: A Latent Class Trajectory Approach.
+A Journey in Diabetes: From Clinical Physiology to Novel Therapeutics: The 2020 Banting Medal for Scientific Achievement Lecture.
+[beta]-cells in youth with impaired glucose tolerance or early type 2 diabetes secrete more insulin and are more responsive than in adults.
+Circulating Retinol-Binding Protein 4 Is Inversely Associated With Pancreatic [beta]-Cell Function Across the Spectrum of Glycemia.
+Glucolipotoxicity, [beta]-Cells, and Diabetes: The Emperor Has No Clothes.
+The changing face of diabetes in youth: lessons learned from studies of type 2 diabetes.
+Adaptation of [beta]-Cell and Endothelial Function to Carbohydrate Loading: Influence of Insulin Resistance.
+Urinary phthalate metabolites are associated with insulin resistance in obese subjects.
+Elevated 1-Hour Postload Plasma Glucose Levels Identify Subjects With Normal Glucose Tolerance but Impaired [beta]-Cell Function, Insulin Resistance, and Worse Cardiovascular Risk Profile: The GENFIEV Study.
+Early Metabolic Markers of the Development of Dysglycemia and Type 2 Diabetes and Their Physiological Significance.
+Periodontal disease as a potential risk factor for the development of diabetes in women with a prior history of gestational diabetes mellitus.
+Insulin sensitivity and [beta]-cell function in normoglycemic offspring of individuals with type 2 diabetes mellitus: Impact of line of inheritance.
+Dipeptidyl peptidase-4 inhibitors and preservation of pancreatic islet-cell function: a critical appraisal of the evidence.
+Pancreatic iron and glucose dysregulation in thalassemia major.
+[beta]-Cell failure in type 2 diabetes.
+The role of peroxisome proliferator-activated receptor [gamma] in pancreatic [beta] cell function and survival: therapeutic implications for the treatment of type 2 diabetes mellitus.
+PRESERVATION OF BETA-CELL FUNCTION IN TYPE 2 DIABETES.
+Insulin Sensitivity and [beta]-Cell Function in the Offspring of Type 2 Diabetic Patients: Impact of Line of Inheritance.
+Functional Assessment of Pancreatic [beta]-Cell Area in Humans.
+[beta]-cell function assessment from modelling of oral tests: an effective approach.
+[beta]-Cell Dysfunction in Subjects With Impaired Glucose Tolerance and Early Type 2 Diabetes: Comparison of Surrogate Markers With First-Phase Insulin Secretion From an Intravenous Glucose Tolerance Test.
+[beta]-Cell Failure in Diabetes and Preservation by Clinical Treatment.
+The FoxM1 Transcription Factor Is Required to Maintain Pancreatic [beta]-Cell Mass.
+The Natural Course of [beta]-Cell Function in Nondiabetic and Diabetic Individuals: The Insulin Resistance Atherosclerosis Study.
+Impact of Differences in Fasting Glucose and Glucose Tolerance on the Hyperbolic Relationship Between Insulin Sensitivity and Insulin Responses.
+Use and Abuse of HOMA Modeling.
+Comparison of Tests of beta-Cell Function Across a Range of Glucose Tolerance From Normal to Diabetes.
+Beta Cell Dysfunction in Youth- and Adult-Onset Type 2 Diabetes: An Extensive Narrative Review with a Special Focus on the Role of Nutrients.
+Effect of Dietary Glycemic Index on _-Cell Function in Prediabetes: A Randomized Controlled Feeding Study.
+Is Serum Zinc Associated with Pancreatic Beta Cell Function and Insulin Sensitivity in Pre-Diabetic and Normal Individuals? Findings from the Hunter Community Study.
+The evolution of _-cell dysfunction and insulin resistance in type 2 diabetes.
+
+
+Cluster 11:
 Individual differences in learning during decision-making may predict specific harms associated with gambling
 Computational modelling of reinforcement learning and functional neuroimaging of probabilistic reversal for dissociating compulsive behaviours in gambling and cocaine use disorders.
 Computational approaches to modeling gambling behaviour: Opportunities for understanding disordered gambling.
@@ -757,115 +966,6 @@ Qualitative Research in Gambling : Exploring the Production and Consumption of R
 EVOLUTIONARY MISMATCH, NEURAL REWARD CIRCUITS, AND PATHOLOGICAL GAMBLING.
 
 
-Cluster 9:
-Altered pattern of the incretin effect as assessed by modelling in individuals with glucose tolerance ranging from normal to diabetic
-Impact of incretin hormones on beta-cell function in subjects with normal or impaired glucose tolerance.
-Critical Evaluation of Indices Used to Assess [beta]-Cell Function.
-Proinsulin-to-C-Peptide Ratio as a Marker of [beta]-Cell Function in African American and European American Adults.
-Mechanistic Insights Into the Heterogeneity of Glucose Response Classes in Youths With Obesity: A Latent Class Trajectory Approach.
-A Journey in Diabetes: From Clinical Physiology to Novel Therapeutics: The 2020 Banting Medal for Scientific Achievement Lecture.
-[beta]-cells in youth with impaired glucose tolerance or early type 2 diabetes secrete more insulin and are more responsive than in adults.
-Circulating Retinol-Binding Protein 4 Is Inversely Associated With Pancreatic [beta]-Cell Function Across the Spectrum of Glycemia.
-Glucolipotoxicity, [beta]-Cells, and Diabetes: The Emperor Has No Clothes.
-The changing face of diabetes in youth: lessons learned from studies of type 2 diabetes.
-Adaptation of [beta]-Cell and Endothelial Function to Carbohydrate Loading: Influence of Insulin Resistance.
-Urinary phthalate metabolites are associated with insulin resistance in obese subjects.
-Elevated 1-Hour Postload Plasma Glucose Levels Identify Subjects With Normal Glucose Tolerance but Impaired [beta]-Cell Function, Insulin Resistance, and Worse Cardiovascular Risk Profile: The GENFIEV Study.
-Periodontal disease as a potential risk factor for the development of diabetes in women with a prior history of gestational diabetes mellitus.
-Insulin sensitivity and [beta]-cell function in normoglycemic offspring of individuals with type 2 diabetes mellitus: Impact of line of inheritance.
-Dipeptidyl peptidase-4 inhibitors and preservation of pancreatic islet-cell function: a critical appraisal of the evidence.
-Pancreatic iron and glucose dysregulation in thalassemia major.
-[beta]-Cell failure in type 2 diabetes.
-The role of peroxisome proliferator-activated receptor [gamma] in pancreatic [beta] cell function and survival: therapeutic implications for the treatment of type 2 diabetes mellitus.
-PRESERVATION OF BETA-CELL FUNCTION IN TYPE 2 DIABETES.
-Insulin Sensitivity and [beta]-Cell Function in the Offspring of Type 2 Diabetic Patients: Impact of Line of Inheritance.
-Functional Assessment of Pancreatic [beta]-Cell Area in Humans.
-[beta]-cell function assessment from modelling of oral tests: an effective approach.
-[beta]-Cell Dysfunction in Subjects With Impaired Glucose Tolerance and Early Type 2 Diabetes: Comparison of Surrogate Markers With First-Phase Insulin Secretion From an Intravenous Glucose Tolerance Test.
-[beta]-Cell Failure in Diabetes and Preservation by Clinical Treatment.
-The FoxM1 Transcription Factor Is Required to Maintain Pancreatic [beta]-Cell Mass.
-The Natural Course of [beta]-Cell Function in Nondiabetic and Diabetic Individuals: The Insulin Resistance Atherosclerosis Study.
-Impact of Differences in Fasting Glucose and Glucose Tolerance on the Hyperbolic Relationship Between Insulin Sensitivity and Insulin Responses.
-Use and Abuse of HOMA Modeling.
-Comparison of Tests of beta-Cell Function Across a Range of Glucose Tolerance From Normal to Diabetes.
-Beta Cell Dysfunction in Youth- and Adult-Onset Type 2 Diabetes: An Extensive Narrative Review with a Special Focus on the Role of Nutrients.
-Effect of Dietary Glycemic Index on _-Cell Function in Prediabetes: A Randomized Controlled Feeding Study.
-Is Serum Zinc Associated with Pancreatic Beta Cell Function and Insulin Sensitivity in Pre-Diabetic and Normal Individuals? Findings from the Hunter Community Study.
-The evolution of _-cell dysfunction and insulin resistance in type 2 diabetes.
-
-
-Cluster 10:
-Impaired neural response to reward feedback in children with high schizotypal traits: Evidences from an ERP study.
-Feedback from facial expressions contribute to slow learning rate in an Iowa gambling task.
-Learning capacity in early-stage alzheimer's disease: The role of feedback during learning on memory performance.
-Dissociable feedback valence effects on frontal midline theta during reward gain versus threat avoidance learning.
-The ERP, frequency, and time-frequency correlates of feedback processing: Insights from a large sample study.
-Does insufficient sleep affect how you learn from reward or punishment? Reinforcement learning after 2 nights of sleep restriction.
-The influence of self-construals on the ERP response to the rewards for self and friend.
-Do emojis influence social interactions? Neural and behavioral responses to affective emojis in bargaining situations.
-Reliability and robustness of feedback-evoked brain-heart coupling after placebo, dopamine, and noradrenaline challenge.
-Medial frontal cortex response to unexpected motivationally salient outcomes.
-Event-related potentials reflect impaired temporal interval learning following haloperidol administration.
-Time-frequency phase-synchrony approaches with ERPs.
-Time-frequency theta and delta measures index separable components of feedback processing in a gambling task.
-A neural reward prediction error revealed by a meta-analysis of ERPs using great grand averages.
-Perceptual properties of feedback stimuli influence the feedback-related negativity in the flanker gambling task.
-Developmental changes in performance monitoring: How electrophysiological data can enhance our understanding of error and feedback processing in childhood and adolescence.
-The error-related negativity (ERN/Ne).
-Learning from experience: Event-related potential correlates of reward processing, neural adaptation, and behavioral choice.
-Cortical electrophysiological network dynamics of feedback learning.
-Frontal theta links prediction errors to behavioral adaptation in reinforcement learning.
-Nucleus accumbens is involved in human action monitoring: Evidence from invasive electrophysiological recordings.
-Adiposity covaries with signatures of asymmetric feedback learning during adaptive decisions.
-The role of expecting feedback during decision-making under risk.
-Specificity of performance monitoring changes in obsessive-compulsive disorder.
-Error-related medial frontal theta activity predicts cingulate-related structural connectivity.
-Blunted response to feedback information in depressive illness.
-Reinforcement-related brain potentials from medial frontal cortex: origins and functional significance.
-Shifts in attentional scope modulate event-related potentials evoked by reward.
-Abnormal approach-related motivation but spared reinforcement learning in MDD: Evidence from fronto-midline Theta oscillations and frontal Alpha asymmetry.
-Meditation experience predicts negative reinforcement learning and is associated with attenuated FRN amplitude.
-Individual differences in error tolerance in humans: Neurophysiological evidences.
-The feedback-related negativity ( FRN) in adolescents.
-Theta lingua franca: A common mid-frontal substrate for action monitoring processes.
-Retest reliability of medial frontal negativities during performance monitoring.
-
-
-Cluster 11:
-Recency gets larger as lesions move from anterior to posterior locations within the ventromedial prefrontal cortex
-Processing of time within the prefrontal cortex: Recent time engages posterior areas whereas distant time engages anterior areas
-Spatial migration of human reward processing with functional development: Evidence from quantitative meta-analyses.
-The orbitofrontal cortex.
-Anticipation of a mentally effortful task recruits Dorsolateral Prefrontal Cortex: An fNIRS validation study.
-Compensatory activation in fronto-parietal cortices among HIV-infected persons during a monetary decision-making task.
-The somatic marker hypothesis and its neural basis: Using past experiences to forecast the future in decision making.
-Toward a biosocial theory of offender rehabilitation: Why does cognitive-behavioral therapy work?
-Effects of cocaine rewards on neural representations of cognitive demand in nonhuman primates.
-Poor decision-making by chronic marijuana users is associated with decreased functional responsiveness to negative consequences.
-Recruitment of additional brain regions to accomplish simple motor tasks in chronic alcohol-dependent patients.
-Resting Regional Cerebral Blood Flow and Gambling Task Performance in Cocaine-Dependent Subjects and Healthy Comparison Subjects.
-Family history of depression is associated with alterations in task-dependent connectivity between the cerebellum and ventromedial prefrontal cortex.
-The frontal cortex is a heart-brake: Reduction in delta oscillations is associated with heart rate deceleration.
-A meta-analytical review of brain activity associated with intertemporal decisions: Evidence for an anterior-posterior tangibility axis.
-Impact of BDNF Val66Met and 5-HTTLPR polymorphism variants on neural substrates related to sadness and executive function.
-The role of the ventromedial prefrontal cortex in memory consolidation.
-Parcellating the neuroanatomical basis of impaired decision-making in traumatic brain injury.
-To discard or not to discard: the neural basis of hoarding symptoms in obsessive-compulsive disorder.
-The orbitofrontal cortex and beyond: From affect to decision-making.
-Neural Dynamics Underlying Impaired Autonomic and Conditioned Responses Following Amygdala and Orbitofrontal Lesions.
-Symptoms of Frontotemporal Dementia Provide Insights into Orbitofrontal Cortex Function and Social Behavior.
-Brain atrophy in long-term abstinent alcoholics who demonstrate impairment on a simulated gambling task.
-The influence of sex differences and individual task performance on brain activation during planning.
-The functions of the orbitofrontal cortex.
-The functional neuroanatomy of the human orbitofrontal cortex:: evidence from neuroimaging and neuropsychology.
-Spiking Phineas Gage: A Neurocomputational Theory of Cognitive-Affective Integration in Decision Making.
-How Does Reward Expectation Influence Cognition in the Human Brain?
-Dissociation of neural regions associated with anticipatory versus consummatory phases of incentive processing.
-THE HUMAN ORBITOFRONTAL CORTEX: LINKING REWARD TO HEDONIC EXPERIENCE.
-The orbitofrontal cortex and emotion in health and disease, including depression[white star].
-An insula_driven network computes decision uncertainty and promotes abstinence in chronic cocaine users.
-
-
 Cluster 12:
 Decision making in Parkinson's disease: An analysis of the studies using the Iowa Gambling Task.
 Deep brain stimulation in Parkinson's disease patients and routine 6-OHDA rodent models: Synergies and pitfalls.
@@ -900,6 +1000,34 @@ Pathological Gambling in Parkinson's disease: Autonomic measures supporting impa
 
 
 Cluster 13:
+The effect of body image dissatisfaction on goal-directed decision making in a population marked by negative appearance beliefs and disordered eating.
+Loss of control over eating: A systematic review of task based research into impulsive and compulsive processes in binge eating.
+A review of effort-based decision-making in eating and weight disorders.
+Interactive influences of food, contexts and neurocognitive systems on addictive eating.
+Contribution of executive functions to eating behaviours in obesity and eating disorders.
+Weight and age do not account for a worse executive functioning among BED-obese patients.
+Questionnaire-based maladaptive decision-coping patterns involved in binge eating among 1013 college students.
+Genetic and environmental aspects in the association between attention-deficit hyperactivity disorder symptoms and binge-eating behavior in adults: A twin study.
+Is decision-making ability related to food choice and facets of eating behaviour in adolescents?
+Reward-related decision making in eating and weight disorders: A systematic review and meta-analysis of the evidence from neuropsychological studies.
+Impaired decision-making in symptomatic anorexia and bulimia nervosa patients: A meta-analysis.
+Frontostriatal circuits and the development of bulimia nervosa.
+Are extremes of consumption in eating disorders related to an altered balance between reward and inhibition?
+Inhibitory control effects in adolescent binge eating and consumption of sugar-sweetened beverages and snacks.
+Reward and neurocomputational processes.
+Cognitions and emotions in eating disorders.
+Dysfunctional decision-making in binge-eating disorder: A meta-analysis and systematic review.
+Cognitive function in binge eating disorder and food addiction: A systematic review and three-level meta-analysis.
+Is the habit system altered in individuals with obesity? A systematic review.
+Investigating the 'Jumping to Conclusions' Bias in People with Anorexia Nervosa.
+The neurocognitive connection between physical activity and eating behaviour.
+Binge Drinking in Young Adults: Data, Definitions, and Determinants.
+Explicit and Implicit Approach vs. Avoidance Tendencies towards High vs. Low Calorie Food Cues in Patients with Obesity and Active Binge Eating Disorder.
+Building a model of the aetiology of eating disorders by translating experimental neuroscience into clinical practice.
+Cognitive control functions in individuals with obesity with and without binge_eating disorder.
+
+
+Cluster 14:
 Identifying distinct profiles of impulsivity for the four facets of psychopathy.
 Associations between problematic internet use and externalizing problem behaviors among chinese rural adolescent.
 Psychometric properties of the Spanish adaptation of the Externalizing Spectrum Inventory-Brief Form (ESI-BF).
@@ -910,58 +1038,24 @@ Facets of externalizing psychopathology in relation to inhibitory control and er
 An integrative biobehavioral trait perspective on antisocial personality disorder and psychopathy.
 Moving beyond ordinary factor analysis in studies of personality and personality disorder: A computational modeling perspective.
 P3 amplitude reductions are associated with shared variance between internalizing and externalizing psychopathology.
-Blunted reward sensitivity and trait disinhibition interact to predict substance use problems.
-Methodological issues in the use of individual brain measures to index trait liabilities: The example of noise-probe P3.
 Substance use disorders as externalizing outcomes.
 How transdiagnostic factors of personality and psychopathology can inform clinical assessment and intervention.
 A Triarchic model analysis of the Youth Psychopathic Traits Inventory.
 The impact of cognitive control, incentives, and working memory load on the p3 responses of externalizing prisoners.
 Psychopathic and externalizing offenders display dissociable dysfunctions when responding to facial affect.
-Differentiating the cognition-emotion interactions that characterize psychopathy versus externalizing.
-Psychopathy-related traits and the use of reward and social information: A computational approach.
 Exaggerated attention blink response in prisoners with externalizing.
 Conceptualizing psychopathy in Triarchic terms: Implications for treatment.
 Validity of the Externalizing Spectrum Inventory in a criminal offender sample: Relations with disinhibitory psychopathology, personality, and psychopathic features.
 Operationalizing proneness to externalizing psychopathology as a multivariate psychophysiological phenotype.
 Delineating the construct network of the Personnel Reaction Blank: Associations with externalizing tendencies and normal personality.
-Preliminary Evidence for Associations of CHRM2 with Substance Use and Disinhibition in Adolescence.
+Neurobiology of psychopathy: A two process theory.
 A Self-Regulatory Model of Behavioral Disinhibition in Late Adolescence: Integrating Personality Traits, Externalizing Psychopathology, and Cognitive Capacity.
 Electrocortical measures of performance monitoring from go/no_go and flanker tasks: Differential relations with trait dimensions of the triarchic model of psychopathy.
 Toward a Theory of Distinct Types of "Impulsive" Behaviors: A Meta-Analysis of Self-Report and Behavioral Measures.
 
 
-Cluster 14:
-Association between smoking, pancreatic insulin secretion and insulin resistance in Chinese subjects with or without glucose intolerance
-Pathophysiological Characteristics Underlying Different Glucose Response Curves: A Latent Class Trajectory Analysis From the Prospective EGIR-RISC Study.
-Metabolic Contrasts Between Youth and Adults With Impaired Glucose Tolerance or Recently Diagnosed Type 2 Diabetes: II. Observations Using the Oral Glucose Tolerance Test.
-Quantitative assessment of the effect of cholesterol on blood glucose measurement using near infrared spectroscopy and a method for error reduction.
-Longitudinal Decline of [beta]-Cell Function: Comparison of a Direct Method vs a Fasting Surrogate Measure: The Insulin Resistance Atherosclerosis Study.
-Early Metabolic Markers of the Development of Dysglycemia and Type 2 Diabetes and Their Physiological Significance.
-Pathogenetic Mechanisms and Cardiovascular Risk: Differences between HbA1c and oral glucose tolerance test for the diagnosis of glucose tolerance.
-Insulin secretion is decreased in non-diabetic individuals with hypomagnesaemia.
-Body Weight, Not Insulin Sensitivity or Secretion, May Predict Spontaneous Weight Changes in Nondiabetic and Prediabetic Subjects: The RISC Study.
-Mechanism and Effects of Glucose Absorption during an Oral Glucose Tolerance Test Among Females and Males.
-Relationship between GLP-1 levels and dipeptidyl peptidase-4 activity in different glucose tolerance conditions.
-Influence of Maternal Obesity on Insulin Sensitivity and Secretion in Offspring.
-Influence of the ACE Gene Insertion/Deletion Polymorphism on Insulin Sensitivity and Impaired Glucose Tolerance in Healthy Subjects.
-Anthropometry, Glucose Tolerance, and Insulin Concentrations in Indian Children: Relationships to maternal glucose and insulin concentrations during pregnancy.
-The Glucose Tolerance Test, But Not HbA1c, Remains the Gold Standard in Identifying Unrecognized Diabetes Mellitus and Impaired Glucose Tolerance in Hypertensive Subjects.
-Detecting Type 2 Diabetes by a Single Post-Challenge Blood Sample.
-Assessing the Shape of the Glucose Curve During an Oral Glucose Tolerance Test.
-C-reactive protein is more strongly related to post-glucose load glucose than to fasting glucose in non-diabetic subjects; the Insulin Resistance Atherosclerosis Study.
-Reduced Insulin Secretion in Offspring of African Type 2 Diabetic Parents.
-Pronounced Insulin Resistance and Inadequate beta-cell Secretion Characterize Lean Gestational Diabetes During and After Pregnancy.
-Quantifying postprandial glucose responses using a hybrid modeling approach: Combining mechanistic and data-driven models in The Maastricht Study.
-A modelling approach to hepatic glucose production estimation.
-Gamma-Polyglutamic Acid-Rich Natto Suppresses Postprandial Blood Glucose Response in the Early Phase after Meals: A Randomized Crossover Study.
-Associations of Dietary Glucose, Fructose, and Sucrose with _-Cell Function, Insulin Sensitivity, and Type 2 Diabetes in the Maastricht Study.
-A computational model of the effect of capillary density variability on oxygen transport, glucose uptake, and insulin sensitivity in prediabetes.
-Sitagliptin improves glycaemic excursion after a meal or after an oral glucose load in Japanese subjects with impaired glucose tolerance.
-
-
 Cluster 15:
 Toward objective characterizations of suicide risk: A narrative review of laboratory-based cognitive and behavioral tasks.
-Potentiated processing of reward related decision making in depression is attenuated by suicidal ideation.
 Self-injurious thoughts and behaviors and alterations in positive valence systems: A systematic review of the literature.
 A systematic review of behavior-outcome psychological assessments as correlates of suicidality.
 Decision-making biases in suicide attempters with major depressive disorder: A computational modeling study using the balloon analog risk task (BART).
@@ -986,57 +1080,29 @@ In my end is my beginning: developmental trajectories of adverse childhood exper
 
 
 Cluster 16:
-The effect of body image dissatisfaction on goal-directed decision making in a population marked by negative appearance beliefs and disordered eating.
-Loss of control over eating: A systematic review of task based research into impulsive and compulsive processes in binge eating.
-A review of effort-based decision-making in eating and weight disorders.
-Interactive influences of food, contexts and neurocognitive systems on addictive eating.
-Contribution of executive functions to eating behaviours in obesity and eating disorders.
-Questionnaire-based maladaptive decision-coping patterns involved in binge eating among 1013 college students.
-Genetic and environmental aspects in the association between attention-deficit hyperactivity disorder symptoms and binge-eating behavior in adults: A twin study.
-Is decision-making ability related to food choice and facets of eating behaviour in adolescents?
-Reward-related decision making in eating and weight disorders: A systematic review and meta-analysis of the evidence from neuropsychological studies.
-Impaired decision-making in symptomatic anorexia and bulimia nervosa patients: A meta-analysis.
-Frontostriatal circuits and the development of bulimia nervosa.
-Are extremes of consumption in eating disorders related to an altered balance between reward and inhibition?
-Inhibitory control effects in adolescent binge eating and consumption of sugar-sweetened beverages and snacks.
-Reward and neurocomputational processes.
-Cognitions and emotions in eating disorders.
-Dysfunctional decision-making in binge-eating disorder: A meta-analysis and systematic review.
-Cognitive function in binge eating disorder and food addiction: A systematic review and three-level meta-analysis.
-Is the habit system altered in individuals with obesity? A systematic review.
-Investigating the 'Jumping to Conclusions' Bias in People with Anorexia Nervosa.
-The neurocognitive connection between physical activity and eating behaviour.
-Explicit and Implicit Approach vs. Avoidance Tendencies towards High vs. Low Calorie Food Cues in Patients with Obesity and Active Binge Eating Disorder.
-Building a model of the aetiology of eating disorders by translating experimental neuroscience into clinical practice.
-Cognitive control functions in individuals with obesity with and without binge_eating disorder.
+Mucosal immunity and microbiota change in the rainbow trout (Oncorhynchus mykiss) gills after being challenged with infectious hematopoietic necrosis virus.
+Pathogenicity of Edwardsiella anguillarum to American eels (Anguilla rostrata) and RNA-seq analysis of host immune response to the E. anguillarum infection.
+The adaptive microbiome hypothesis and immune interactions in amphibian mucus.
+Transcriptomic and targeted immune transcript analyses confirm localized skin immune responses in Atlantic salmon towards the salmon louse.
+Different antigen ratio in bivalent vaccine can affect immunological activation and protection against Aeromonas salmonicida and Vibrio anguillarum in Atlantic salmon.
+Modulation of the mucosal immune response of red tilapia (Oreochromis sp.) against columnaris disease using a biomimetic-mucoadhesive nanovaccine.
+The predominant role of mucosal immunoglobulin IgT in the gills of rainbow trout (Oncorhynchus mykiss) after infection with Flavobacterium columnare.
+Dietary Glycyrrhiza uralensis extracts supplementation elevated growth performance, immune responses and disease resistance against Flavobacterium columnare in yellow catfish (Pelteobagrus fulvidraco).
+Healing and mucosal immunity in the skin of experimentally wounded gilthead seabream (Sparus aurata L).
+Dietary [beta]-glucans differentially modulate immune and stress-related gene expression in lymphoid organs from healthy and Aeromonas hydrophila-infected rainbow trout (Oncorhynchus mykiss).
+Enhancing gilthead seabream immune status and protection against bacterial challenge by means of antigens derived from Vibrio parahaemolyticus.
+Development of a nanoparticle-based oral vaccine for Atlantic salmon against ISAV using an alphavirus replicon as adjuvant.
+Investigation of immunoglobulins in skin of the Antarctic teleost Trematomus bernacchii.
+Successful Inclusion of High Vegetable Protein Sources in Feed for Rainbow Trout without Decrement in Intestinal Health.
+Effect of dietary supplementation with filamentous microalga Tribonemaultriculosum on growth performance, fillet quality and immunity of rainbow trout Oncorhynchusmykiss.
+Impact of a candidate vaccine on the dynamics of salmon lice (Lepeophtheirus salmonis) infestation and immune response in Atlantic salmon (Salmo salar L.).
+Mucosal immunoglobulins protect the olfactory organ of teleost fish against parasitic infection.
+Transcriptome analyses of Atlantic salmon muscle genes induced by a DNA vaccine against salmonid alphavirus, the causative agent of salmon pancreas disease (PD).
+Discovery of J Chain in African Lungfish (Protopterus dolloi, Sarcopterygii) Using High Throughput Transcriptome Sequencing: Implications in Mucosal Immunity.
 
 
 Cluster 17:
-Using pharmacological manipulations to study the role of dopamine in human reward functioning: A review of studies in healthy adults.
-Dopamine D1, but not D2, signaling protects mental representations from distracting bottom-up influences.
-Differential contributions of striatal dopamine D1 and D2 receptors to component processes of value-based decision making.
-Dopamine tunes prefrontal outputs to orchestrate aversive processing.
-The roles of phasic and tonic dopamine in tic learning and expression.
-The basolateral amygdala in reward learning and addiction.
-Instrumental vigour in punishment and reward.
-Functional dynamics of dopamine synthesis during monetary reward and punishment processing.
-The "highs and lows" of the human brain on dopaminergics: Evidence from neuropharmacology.
-Interaction between COMT Val158Met polymorphism and childhood adversity affects reward processing in adulthood.
-The role of high-frequency oscillatory activity in reward processing and learning.
-Dual role of serotonin in the acquisition and extinction of reward-driven learning: Involvement of 5-HT1A, 5-HT2A and 5-HT3 receptors.
-The role of serotonin in reward, punishment and behavioural inhibition in humans: Insights from studies with acute tryptophan depletion.
-The dopaminergic basis of human behaviors: A review of molecular imaging studies.
-Abnormal temporal difference reward-learning signals in major depression.
-Basal ganglia and dopamine contributions to probabilistic category learning.
-Basal ganglia lateralization in different types of reward.
-Translational tests involving non-reward: methodological considerations.
-Learning Reward Uncertainty in the Basal Ganglia.
-Single dose of a dopamine agonist impairs reinforcement learning in humans: Behavioral evidence from a laboratory-based measure of reward responsiveness.
-
-
-Cluster 18:
 Indices and correlates of positive emotion in psychopathology: Methodological and design considerations.
-Affective cognition in bipolar disorder: A systematic review by the ISBD targeting cognition task force.
 The social foundations of emotion: Developmental, cultural, and clinical dimensions.
 Why and how to build emotion-based agent architectures.
 Emotion and reason: Mind, brain, and the social domains of work and love.
@@ -1056,25 +1122,42 @@ Regret in the context of unobtained rewards in criminal offenders.
 Helping Depressed Clients Reconnect to Positive Emotion Experience: Current Insights and Future Directions.
 
 
+Cluster 18:
+Imprecise action selection in substance use disorder: Evidence for active learning impairments when solving the explore-exploit dilemma
+Characterizing impulsivity in individuals with heroin use disorder.
+Revisiting the role of impulsivity and compulsivity in problematic sexual behaviors.
+Examining the link between reward and response inhibition in individuals with substance abuse tendencies.
+Substance use is associated with reduced devaluation sensitivity.
+Assessing the validity and reliability of the Turkish versions of Craving Beliefs and Beliefs About Substance Use Questionnaire in patients with heroin use disorder: Demonstrating valid tools to assess cognition-emotion interplay.
+Self-regulation and adolescent substance use.
+Delay discounting is greater among drug users seropositive for hepatitis C but not HIV.
+Self-control and substance use prevention: A translational analysis.
+Trait urgency and substance use decision making in adolescents and young adults: The role of socio-affective factors.
+Deficits in behavioural inhibition in substance abuse and addiction: A meta-analysis.
+Recent research on impulsivity in individuals with drug use and mental health disorders: Implications for alcoholism.
+Treatments for Patients With Dual Diagnosis: A Review.
+Trajectories of Reinforcement Sensitivity During Adolescence and Risk for Substance Use.
+Decisional capacity in mental illness and substance use disorders: empirical database and policy implications.
+Computational models of exploration and exploitation characterise onset and efficacy of treatment in methamphetamine use disorder.
+Neural circuits linking sleep and addiction: Animal models to understand why select individuals are more vulnerable to substance use disorders after sleep deprivation.
+
+
 Cluster 19:
-Mucosal immunity and microbiota change in the rainbow trout (Oncorhynchus mykiss) gills after being challenged with infectious hematopoietic necrosis virus.
-Pathogenicity of Edwardsiella anguillarum to American eels (Anguilla rostrata) and RNA-seq analysis of host immune response to the E. anguillarum infection.
-The adaptive microbiome hypothesis and immune interactions in amphibian mucus.
-Transcriptomic and targeted immune transcript analyses confirm localized skin immune responses in Atlantic salmon towards the salmon louse.
-Different antigen ratio in bivalent vaccine can affect immunological activation and protection against Aeromonas salmonicida and Vibrio anguillarum in Atlantic salmon.
-Modulation of the mucosal immune response of red tilapia (Oreochromis sp.) against columnaris disease using a biomimetic-mucoadhesive nanovaccine.
-The predominant role of mucosal immunoglobulin IgT in the gills of rainbow trout (Oncorhynchus mykiss) after infection with Flavobacterium columnare.
-Dietary Glycyrrhiza uralensis extracts supplementation elevated growth performance, immune responses and disease resistance against Flavobacterium columnare in yellow catfish (Pelteobagrus fulvidraco).
-Healing and mucosal immunity in the skin of experimentally wounded gilthead seabream (Sparus aurata L).
-Dietary [beta]-glucans differentially modulate immune and stress-related gene expression in lymphoid organs from healthy and Aeromonas hydrophila-infected rainbow trout (Oncorhynchus mykiss).
-Enhancing gilthead seabream immune status and protection against bacterial challenge by means of antigens derived from Vibrio parahaemolyticus.
-Development of a nanoparticle-based oral vaccine for Atlantic salmon against ISAV using an alphavirus replicon as adjuvant.
-Investigation of immunoglobulins in skin of the Antarctic teleost Trematomus bernacchii.
-Successful Inclusion of High Vegetable Protein Sources in Feed for Rainbow Trout without Decrement in Intestinal Health.
-Impact of a candidate vaccine on the dynamics of salmon lice (Lepeophtheirus salmonis) infestation and immune response in Atlantic salmon (Salmo salar L.).
-Mucosal immunoglobulins protect the olfactory organ of teleost fish against parasitic infection.
-Transcriptome analyses of Atlantic salmon muscle genes induced by a DNA vaccine against salmonid alphavirus, the causative agent of salmon pancreas disease (PD).
-Discovery of J Chain in African Lungfish (Protopterus dolloi, Sarcopterygii) Using High Throughput Transcriptome Sequencing: Implications in Mucosal Immunity.
+Recency gets larger as lesions move from anterior to posterior locations within the ventromedial prefrontal cortex
+Processing of time within the prefrontal cortex: Recent time engages posterior areas whereas distant time engages anterior areas
+Exploration versus exploitation decisions in the human brain: A systematic review of functional neuroimaging and neuropsychological studies.
+Compensatory activation in fronto-parietal cortices among HIV-infected persons during a monetary decision-making task.
+Temporal profile of fronto-striatal-limbic activity during implicit decisions in drug dependence.
+Decisions during negatively-framed messages yield smaller risk-aversion-related brain activation in substance-dependent individuals.
+The somatic marker hypothesis and its neural basis: Using past experiences to forecast the future in decision making.
+Anterior insula activity predicts the influence of positively framed messages on decision making.
+Common and distinct neural correlates of intertemporal and risky decision-making: Meta-analytical evidence for the dual-system theory.
+Anterior insula reflects surprise in value-based decision-making and perception.
+Virtually 'in the heat of the moment': insula activation in safe sex negotiation among risky men.
+A neural network that links brain function, white-matter structure and risky behavior.
+The neural mechanisms of affect infusion in social economic decision-making: A mediating role of the anterior insula.
+Conditioned associations and economic decision biases.
+Functional Dissociations of Risk and Reward Processing in the Medial Prefrontal Cortex.
 
 
 Cluster 20:
@@ -1082,9 +1165,6 @@ Trait somatic anxiety is associated with reduced directed exploration and undere
 Deliberative choice strategies in youths: Relevance to transdiagnostic anxiety symptoms.
 Intolerance of uncertainty, anxiety and depression in the context of COVID-19 in Indonesia.
 Generalized anxiety disorder.
-Avoid-approach conflict behaviors differentially affected by anxiolytics: Implications for a computational model of risky decision-making.
-Linking magazine exposure to social appearance anxiety: The role of appearance norms in early adolescence.
-Higher threat avoidance costs reduce avoidance behaviour which in turn promotes fear extinction in humans.
 Episodic foresight and anxiety: Proximate and ultimate perspectives.
 Towards a cognitive architecture for the maintenance of attentional bias for threat in anxiety: A model comparison approach.
 The impact of anxiety upon cognition: Perspectives from human threat of shock studies.
@@ -1098,288 +1178,521 @@ The role of associative fear and avoidance learning in anxiety disorders: Gaps a
 
 
 Cluster 21:
+Reversing food preference through multisensory exposure.
+No evidence that prefrontal HD-tDCS influences cue-induced food craving.
+A neural basis for food foraging in obesity.
+Long-term effects of repeated prefrontal cortex transcranial direct current stimulation (tDCS) on food craving in normal and overweight young adults.
+Suboptimal Choice, Reward-Predictive Signals, and Temporal Information.
+Nutritional and functional profile of carob bean (Ceratonia siliqua): a comprehensive review.
+Novel model and kernel search heuristic for multi-period closed-loop food supply chain planning with returnable transport items.
+Assessment of School-Based Quasi-Experimental Nutrition and Food Safety Health Education for Primary School Students in Two Poverty-Stricken Counties of West China.
+We Are What We Consume: The Influence of Food Consumption on Impulsive Choice.
+
+
+Cluster 22:
 Impairments to the cognitive mechanisms of reward-associated decision-making in alcohol dependence.
-Mechanisms of deliberation during preferential choice: Perspectives from computational modeling and individual differences.
 Moderate alcohol consumption as risk factor for adverse brain outcomes and cognitive decline: longitudinal cohort study.
 Affective decision-making moderates the effects of automatic associations on alcohol use among drug offenders.
-Direct and indirect relationships between Factor 2 psychopathy, behavioral activation, positive alcohol expectancies, and alcohol use.
 Pillow talk and cognitive decision-making processes: Exploring the influence of orgasm and alcohol on communication after sexual activity.
 The relationship between measures of impulsivity and alcohol misuse: An integrative structural equation modeling approach.
 Alcoholism and the loss of willpower: A neurocognitive perspective.
 Decisions to Attend and Drink at Party Events: The Effects of Incentives and Disincentives and Lifetime Alcohol and Antisocial Problems.
 The effects of acute alcohol administration on the human brain: Insights from neuroimaging.
-Aberrant reward prediction errors in young adult at-risk alcohol users.
-Pharmacological and Expectancy Effects of a Low Amount of Alcohol Drinking on Outcome Valuation and Risk Perception in Males and Females.
-Ketamine use among regular tobacco and alcohol users as revealed by respondent-driven sampling in Taipei: Prevalence, expectancy, and users' risky decision making.
 Executive function, approach sensitivity, and emotional decision making as influences on risk behaviors in young adults.
 
 
-Cluster 22:
-Characterizing impulsivity in individuals with heroin use disorder.
-Revisiting the role of impulsivity and compulsivity in problematic sexual behaviors.
-Examining the link between reward and response inhibition in individuals with substance abuse tendencies.
-Substance use is associated with reduced devaluation sensitivity.
-Assessing the validity and reliability of the Turkish versions of Craving Beliefs and Beliefs About Substance Use Questionnaire in patients with heroin use disorder: Demonstrating valid tools to assess cognition-emotion interplay.
-Deficits in behavioural inhibition in substance abuse and addiction: A meta-analysis.
-Impulsivity as a vulnerability marker for substance-use disorders: Review of findings from high-risk research, problem gamblers and genetic association studies.
-Treatments for Patients With Dual Diagnosis: A Review.
-Decisional capacity in mental illness and substance use disorders: empirical database and policy implications.
-
-
 Cluster 23:
-Reward segmentation during feedback improves gambling task performance.
-Relative insensitivity to time-out punishments induced by win-paired cues in a rat gambling task.
-Cortical brain activity reflecting attentional biasing toward reward-predicting cues covaries with economic decision-making performance.
-Risk-promoting effects of reward-paired cues in human sign- and goal-trackers.
-Investigating the influence of 'losses disguised as wins' on decision making and motivation in rats.
-Lesions of dorsal striatum eliminate lose-switch responding but not mixed-response strategies in rats.
-The role of ÃÂÃÂjackpotÃÂÃÂ stimuli in maladaptive decision-making: dissociable effects of D1/D2 receptor agonists and antagonists.
-Effects of lesions of the nucleus accumbens core on choice between small certain rewards and large uncertain rewards in rats.
+The orbitofrontal cortex.
+The orbitofrontal cortex and beyond: From affect to decision-making.
+Neural Dynamics Underlying Impaired Autonomic and Conditioned Responses Following Amygdala and Orbitofrontal Lesions.
+Symptoms of Frontotemporal Dementia Provide Insights into Orbitofrontal Cortex Function and Social Behavior.
+The functions of the orbitofrontal cortex.
+The functional neuroanatomy of the human orbitofrontal cortex:: evidence from neuroimaging and neuropsychology.
+THE HUMAN ORBITOFRONTAL CORTEX: LINKING REWARD TO HEDONIC EXPERIENCE.
+The orbitofrontal cortex and emotion in health and disease, including depression[white star].
 
 
 Cluster 24:
-Temporal profile of fronto-striatal-limbic activity during implicit decisions in drug dependence.
-Anterior insula activity predicts the influence of positively framed messages on decision making.
-Common and distinct neural correlates of intertemporal and risky decision-making: Meta-analytical evidence for the dual-system theory.
-Anterior insula reflects surprise in value-based decision-making and perception.
-Virtually 'in the heat of the moment': insula activation in safe sex negotiation among risky men.
-A neural network that links brain function, white-matter structure and risky behavior.
-The neural mechanisms of affect infusion in social economic decision-making: A mediating role of the anterior insula.
-Functional Dissociations of Risk and Reward Processing in the Medial Prefrontal Cortex.
-
-
-Cluster 25:
-Reversing food preference through multisensory exposure.
-No evidence that prefrontal HD-tDCS influences cue-induced food craving.
-A neural basis for food foraging in obesity.
-Long-term effects of repeated prefrontal cortex transcranial direct current stimulation (tDCS) on food craving in normal and overweight young adults.
-Nutritional and functional profile of carob bean (Ceratonia siliqua): a comprehensive review.
-Novel model and kernel search heuristic for multi-period closed-loop food supply chain planning with returnable transport items.
-Assessment of School-Based Quasi-Experimental Nutrition and Food Safety Health Education for Primary School Students in Two Poverty-Stricken Counties of West China.
-
-
-Cluster 26:
 The neuroscience of adolescence.
-Enhancing self-control in adolescents: Treatment strategies derived from psychological science.
 Adolescent brain maturation and smoking: What we know and where we're headed.
 Braking and accelerating of the adolescent brain.
+Developmental changes in dopamine neurotransmission in adolescence: Behavioral implications and issues in assessment.
 Adolescent thinking.
+Neurobehavioral maturation of motor response inhibition in adolescence - A narrative review.
 Reduced Loss Aversion and Inhibitory Control in Adolescents With Internet Gaming Disorder.
 Efficacy of self-control and patience interventions in adolescents.
 
 
-Cluster 27:
-Later stages of acute stress impair reinforcement-learning and feedback sensitivity in decision making.
-Repetitive negative thinking following exposure to a natural stressor prospectively predicts altered stress responding and decision-making in the laboratory.
-Acute stress improves long-term reward maximization in decision-making under uncertainty.
-Model-based learning and individual differences in depression: The moderating role of stress.
-Decision making under stress: A selective review.
-Acute stress amplifies experienced and anticipated regret in counterfactual decision-making.
+Cluster 25:
+The impact of time perception remediation on cold and hot executive functions and behavioral symptoms in children with adhd.
+Alerting network, cognitive flexibility in children with attention deficit hyperactivity disorder and the moderating effect of neuroticism.
+Executive (Dys)Functions and ODD and CD: A Systematic Review and Meta-Analysis.
+Cognitive Neuroscience of Attention Deficit Hyperactivity Disorder: Current Status and Working Hypotheses.
 
 
-Cluster 28:
+Cluster 26:
 DRD4 polymorphisms modulate reward positivity and P3a in a gambling task: Exploring a genetic basis for cultural learning.
-Electrophysiological indices of anterior cingulate cortex function reveal changing levels of cognitive effort and reward valuation that sustain task performance.
 Integration of reward with cost anticipation during performance monitoring revealed by ERPs and EEG spectral perturbations.
 Frontal theta and beta synchronizations for monetary reward increase visual working memory capacity.
 Electrophysiological correlates of anticipating improbable but desired events.
-Cognitive strategies regulate fictive, but not reward prediction error signals in a sequential investment task.
 
 
-Cluster 29:
-Reward-based contextual learning supported by anterior cingulate cortex.
-Activation of dopamine D4 receptors within the anterior cingulate cortex enhances the erroneous expectation of reward on a rat slot machine task.
-Task-level value affects trial-level reward processing.
-Dopamine and reward: a view from the prefrontal cortex.
-Effects of pramipexole on the processing of rewarding and aversive taste stimuli.
-Electrophysiological measures of conflict and reward processing are associated with decisions to engage in physical effort.
+Cluster 27:
+Relative insensitivity to time-out punishments induced by win-paired cues in a rat gambling task.
+Investigating the influence of 'losses disguised as wins' on decision making and motivation in rats.
+Lesions of dorsal striatum eliminate lose-switch responding but not mixed-response strategies in rats.
+Effects of lesions of the nucleus accumbens core on choice between small certain rewards and large uncertain rewards in rats.
 
 
-Cluster 30:
-State-based versus reward-based motivation in younger and older adults.
-Negative reinforcement learning is affected in substance dependence.
-Working-Memory Load and Temporal Myopia in Dynamic Decision Making.
-Generalization of value in reinforcement learning by humans.
-How does apathy impact exploration-exploitation decision-making in older patients with neurocognitive disorders?
-Intrinsic rewards explain context-sensitive valuation in reinforcement learning.
-
-
-Cluster 31:
-Regional striatal cholinergic involvement in human behavioral flexibility.
-Learning contextual reward expectations for value adaptation.
-Reinforcement learning in multidimensional environments relies on attention mechanisms.
-Differential reward learning for self and others predicts self-reported altruism.
-Reduced learning bias towards the reward context in medication-naive first-episode schizophrenia patients.
-
-
-Cluster 32:
-The impact of time perception remediation on cold and hot executive functions and behavioral symptoms in children with adhd.
-Alerting network, cognitive flexibility in children with attention deficit hyperactivity disorder and the moderating effect of neuroticism.
-Cognitive Neuroscience of Attention Deficit Hyperactivity Disorder: Current Status and Working Hypotheses.
-Hot and Cool Forms of Inhibitory Control and Externalizing Behavior in Children of Mothers who Smoked during Pregnancy: An Exploratory Study.
-
-
-Cluster 33:
+Cluster 28:
 Cooperative versus competitive influences of emotion and cognition on decision making: A primer for psychiatry research.
 Emotion and decision-making explained.
 The influence of discrete emotions on judgement and decision-making: A meta-analytic review.
 The influence of affect on higher level cognition: A review of research on interpretation, judgement, decision making and reasoning.
 
 
-Cluster 34:
-Average associations between sexual desire, testosterone, and stress in women and men over time.
-The good life: Wellbeing and the new science of altruism, selfishness and immorality.
-Allostasis and the Human Brain: Integrating Models of Stress From the Social and Life Sciences.
-Function of Personal Growth Initiative on Posttraumatic Growth, Posttraumatic Stress, and Depression Over and Above Adaptive and Maladaptive Rumination.
+Cluster 29:
+Quantitative assessment of the effect of cholesterol on blood glucose measurement using near infrared spectroscopy and a method for error reduction.
+Relationship between GLP-1 levels and dipeptidyl peptidase-4 activity in different glucose tolerance conditions.
+The Glucose Tolerance Test, But Not HbA1c, Remains the Gold Standard in Identifying Unrecognized Diabetes Mellitus and Impaired Glucose Tolerance in Hypertensive Subjects.
+Detecting Type 2 Diabetes by a Single Post-Challenge Blood Sample.
 
 
-Cluster 35:
-Psychological factors that confer risk for bipolar disorder.
-Social cognition in euthymic bipolar disorder: systematic review and meta-analytic approach.
-The International Society for Bipolar Disorders-Battery for Assessment of Neurocognition (ISBD-BANC).
-The Cognitive Impact of the ANK3 Risk Variant for Bipolar Disorder: Initial Evidence of Selectivity to Signal Detection during Sustained Attention.
+Cluster 30:
+Mechanisms of deliberation during preferential choice: Perspectives from computational modeling and individual differences.
+Available Treatment for Bipolar Disorder with Co-Occurring Substance and Alcohol Use Disorders: A Review.
+Ketamine use among regular tobacco and alcohol users as revealed by respondent-driven sampling in Taipei: Prevalence, expectancy, and users' risky decision making.
 
 
-Cluster 36:
+Cluster 31:
 Probabilistic reward learning in adults with Attention Deficit Hyperactivity Disorder-An electrophysiological study.
 Processing of continuously provided punishment and reward in children with ADHD and the modulating effects of stimulant medication: An ERP study.
 Feedback-Related Negativity in Children with Two Subtypes of Attention Deficit Hyperactivity Disorder.
 
 
-Cluster 37:
-Self-regulation and adolescent substance use.
-Trait urgency and substance use decision making in adolescents and young adults: The role of socio-affective factors.
-Trajectories of Reinforcement Sensitivity During Adolescence and Risk for Substance Use.
-
-
-Cluster 38:
+Cluster 32:
 Discounting preferences and response consistency as markers of functional ability in community-dwelling older adults.
 Altered delay discounting in neurodegeneration: insight into the underlying mechanisms and perspectives for clinical applications.
 Delay Discounting in Traumatic Brain Injury: A Potential Avenue for Growth in Experimental Analysis.
 
 
-Cluster 39:
-Delays to Food-Predictive Stimuli Do Not Affect Suboptimal Choice in Rats .
-Suboptimal Choice, Reward-Predictive Signals, and Temporal Information.
-We Are What We Consume: The Influence of Food Consumption on Impulsive Choice.
+Cluster 33:
+The age-varying effects of adolescent stress on impulsivity and sensation seeking.
+Do developmental changes in impulsivity and sensation seeking uniquely predict violent victimization? A test of the dual systems model.
 
 
-Cluster 40:
-Available Treatment for Bipolar Disorder with Co-Occurring Substance and Alcohol Use Disorders: A Review.
-Reflection impulsivity in adolescent cannabis users: a comparison with alcohol-using and non-substance-using adolescents.
-Orbitofrontal cortex thickness and substance use disorders in emerging adulthood: causal inferences from a co_twin control/discordant twin study.
+Cluster 34:
+Longitudinal associations between reward responsiveness and depression across adolescence.
+Research Review: Altered reward function in adolescent depression: what, when and how?
 
 
-Cluster 41:
-A computational model of the Cambridge gambling task with applications to substance use disorders
-Testing the factor structure underlying behavior using joint cognitive models: Impulsivity in delay discounting and Cambridge gambling tasks.
-
-
-Cluster 42:
-Imprecise action selection in substance use disorder: Evidence for active learning impairments when solving the explore-exploit dilemma
-Computational models of exploration and exploitation characterise onset and efficacy of treatment in methamphetamine use disorder.
-
-
-Cluster 43:
+Cluster 35:
 Decision making and impulsivity in young adult cannabis users.
 The role of decision-making in cannabis-related problems among young adults.
 
 
-Cluster 44:
+Cluster 36:
+Adolescents seek social information under uncertainty.
+Developmental patterns of change in the influence of safe and risky peer choices on risky decisionÃÂÃÂ¢ÃÂÃÂÃÂÃÂmaking.
+
+
+Cluster 37:
+Understanding managers' trade-offs between exploration and exploitation.
+Differential Impacts of Healthy Cognitive Aging on Directed and Random Exploration.
+
+
+Cluster 38:
 The outcome-representation learning model: Impairments in decision-making in adolescents with excess weight.
 The cognitive processes underlying affective decision-making predicting adolescent smoking behaviors in a longitudinal study.
 
 
-Cluster 45:
+Cluster 39:
 The impact of anxiety on decision making in individuals with intellectual and developmental disabilities or a diagnosis on the autism spectrum.
 Trait anxiety affects decision-making differently in healthy men and women: Towards gender-specific endophenotypes of anxiety.
 
 
-Cluster 46:
-Regret in experience-based decisions: The effects of expected value differences and mixed gains and losses.
-Pupil dilation and response slowing distinguish deliberate explorative choices in the probabilistic learning task.
+Cluster 40:
+Indirect and neuropsychological indicators of pedophilia.
+Conduct and oppositional defiant disorders.
 
 
-Cluster 47:
-The neurocognitive underpinnings of the Simon effect: An integrative review of current research.
-Neural and functional validation of fMRI-informed EEG model of right inferior frontal gyrus activity.
+Cluster 41:
+Effects of limited and extended Pavlovian training on devaluation sensitivity of sign- and goal-tracking rats.
+Individual differences in novelty-seeking are associated with different patterns of preference in a risk-sensitivity procedure in rats.
 
 
-Cluster 48:
-Dissociable roles for the ventral and dorsal medial prefrontal cortex in cue-guided risk/reward decision making.
-Correlates of economic decisions in the dorsal and subgenual anterior cingulate cortices.
+Cluster 42:
+Blunted reward sensitivity and trait disinhibition interact to predict substance use problems.
+Preliminary Evidence for Associations of CHRM2 with Substance Use and Disinhibition in Adolescence.
 
 
-Cluster 49:
-Decreased event-related theta power and phase-synchrony in young binge drinkers during target detection: An anatomically-constrained MEG approach.
-Theta- and delta-band EEG network dynamics during a novelty oddball task.
+Cluster 43:
+Differences in decision-making as a function of drug of choice.
+Sex and HIV serostatus differences in decision making under risk among substance-dependent individuals.
 
 
-Cluster 50:
-Entrepreneurs' exploratory perseverance in learning settings.
-Unconscious or Underpowered? Probabilistic Cuing of Visual Attention.
+Cluster 44:
+Striatal GPR88 modulates foraging efficiency.
+The effects of reduced dopamine transporter function and chronic lithium on motivation, probabilistic learning, and neurochemistry in mice: Modeling bipolar mania.
 
 
-Cluster 51:
+Cluster 45:
 Questionnaire and behavioral task measures of impulsivity are differentially associated with body mass index: A comprehensive meta-analysis.
 Choice Impulsivity: Definitions, Measurement Issues, and Clinical Implications.
 
 
+Cluster 46:
+Handbook of frontal lobe assessment.
+The frontal lobe and aggression.
+
+
+Cluster 47:
+Effects of cocaine rewards on neural representations of cognitive demand in nonhuman primates.
+The role of the ventromedial prefrontal cortex in memory consolidation.
+
+
+Cluster 48:
+Poor decision-making by chronic marijuana users is associated with decreased functional responsiveness to negative consequences.
+The Iowa Gambling Task in fMRI images.
+
+
+Cluster 49:
+Towards a neurocomputational account of social controllability: From models to mental health.
+Estimating a Path through a Map of Decision Making.
+
+
+Cluster 50:
+Circuit mechanisms for the chemical modulation of cortex-wide network interactions and behavioral variability.
+Frontal network dynamics reflect neurocomputational mechanisms for reducing maladaptive biases in motivated action.
+
+
+Cluster 51:
+Attributes of Conscientiousness Throughout the Animal Kingdom: An Empirical and Evolutionary Overview.
+What Is Conscientiousness and How Can It Be Assessed?.
+
+
 Cluster 52:
-Implicit working memory: Implications for assessment and treatment.
-The disrupted basal ganglia and behavioural control: An integrative cross-domain perspective of spontaneous stereotypy.
-
-
-Cluster 53:
-Consider the source: Adolescents and adults similarly follow older adult advice more than peer advice.
-Developmental patterns of change in the influence of safe and risky peer choices on risky decisionÃÂÃÂ¢ÃÂÃÂÃÂÃÂmaking.
-
-
-Cluster 54:
-Among three different executive functions, general executive control ability is a key predictor of decision making under objective risk.
-Decision-making and impulse control after frontal lobe injuries.
-
-
-Cluster 55:
-Neural and psychological maturation of decision-making in adolescence and young adulthood.
-An fMRI examination of developmental differences in the neural correlates of uncertainty and decision-making.
-
-
-Cluster 56:
-Adapted to explore: Reinforcement learning in autistic spectrum conditions.
-The effect of foregone payoffs on underweighting small probability events.
-
-
-Cluster 57:
-Evaluation of heterogeneity in pharmacotherapy trials for drug dependence: A Bayesian approach.
-Factors associated with the absence of cocaine craving in treatment-seeking individuals during inpatient cocaine detoxification.
-
-
-Cluster 58:
-Executive dysfunction in substance dependent individuals during drug use and abstinence: An examination of the behavioral, cognitive and emotional correlates of addiction.
-Impaired behavior on real-world tasks following damage to the ventromedial prefrontal cortex.
-
-
-Cluster 59:
-Computational mechanisms underlying latent value updating of unchosen actions.
-How uncertain are you? Disentangling expected and unexpected uncertainty in pupil-linked brain arousal during reversal learning.
-
-
-Cluster 60:
-Effects of Alcohol, Initial Gambling Outcomes, Impulsivity, and Gambling Cognitions on Gambling Behavior Using a Video Poker Task.
-The effects of alcohol on sequential decision-making biases during gambling.
-
-
-Cluster 61:
 Gambling, Delay, and Probability Discounting in Adults With and Without ADHD.
 Interactions among attention-deficit hyperactivity disorder (ADHD) and problem gambling in a probabilistic reward-learning task.
 
 
-Cluster 62:
-It is all relative: Contextual influences on boredom and neural correlates of regulatory processes.
-EEG Theta/Beta Ratio Neurofeedback Training in Healthy Females.
+Cluster 53:
+What motivates adolescents? Neural responses to rewards and their influence on adolescents' risk taking, learning, and cognitive control.
+Dopaminergic Modulation of Incentive Motivation in Adolescence: Age-Related Changes in Signaling, Individual Differences, and Implications for the Development of Self-Regulation.
+
+
+Cluster 54:
+Recombinant TNF[alpha] as oral vaccine adjuvant protects European sea bass against vibriosis: Insights into the role of the CCL25/CCR9 axis.
+Choline Supplementation Normalizes Fetal Adiposity and Reduces Lipogenic Gene Expression in a Mouse Model of Maternal Obesity.
+
+
+Cluster 55:
+Intentional inhibition in human action: The power of 'no'.
+Differential behavioral and physiological effects of anodal transcranial direct current stimulation in healthy adults of younger and older age.
+
+
+Cluster 56:
+Judgment and Decision Making in Adolescence.
+Feedback on health status and peer popularity influences social risk decision-making processes in adolescents and young adults.
+
+
+Cluster 57:
+Parcellating the neuroanatomical basis of impaired decision-making in traumatic brain injury.
+Brain atrophy in long-term abstinent alcoholics who demonstrate impairment on a simulated gambling task.
+
+
+Cluster 58:
+Synthetic Data Generation for the Development of 2D Gel Electrophoresis Protein Spot Models.
+Stability prediction of gate roadways in longwall mining using artificial neural networks.
+
+
+Cluster 59:
+Intolerance of Uncertainty: A Temporary Experimental Induction Procedure.
+A systematic review of eventÃÂÃÂ¢ÃÂÃÂÃÂÃÂrelated potentials as outcome measures of attention bias modification.
+
+
+Cluster 60:
+Reflection impulsivity in adolescent cannabis users: a comparison with alcohol-using and non-substance-using adolescents.
+Orbitofrontal cortex thickness and substance use disorders in emerging adulthood: causal inferences from a co_twin control/discordant twin study.
 
 
 Cluster solo:
+A computational model of the Cambridge gambling task with applications to substance use disorders
+Using cognitive models to map relations between neuropsychological disorders and human decision-making deficits
+Valuation of peers' safe choices is associated with substance-naivete in adolescents
+Impaired Decision-Making, Higher Impulsivity, and Drug Severity in Substance Dependence and Pathological Gambling
+Reduced Neural Tracking of Prediction Error in Substance-Dependent Individuals
+Aberrant decision-making and drug addiction - how strong is the evidence?
+Characterizing the cognitive effects of cocaine: A comprehensive review
+Long-Term Outcomes of Adolescent THC Exposure on Translational Cognitive Measures in Adulthood in an Animal Model and Computational Assessment of Human Data
+Dopamine increases risky choice while D2 blockade shortens decision time
+A model-based analysis of impulsivity using a slot-machine gambling paradigm
+Cognitive processes underlying impaired decision-making under uncertainty in gambling disorder
+Losses disguised as wins evoke the reward positivity event-related potential in a simulated machine gambling task.
+Strategy switching in a sequence of decisions: Evidence from the Iowa Gambling Task.
+Reward segmentation during feedback improves gambling task performance.
+Evaluation of bidirectional relationships between risk preference and mood disorders: A 2-sample Mendelian randomization study.
+D-serine: A cross species review of safety.
+Metabolic and functional substrates of impulsive decision-making in individuals with heroin addiction after prolonged methadone maintenance treatment.
+Noradrenergic regulation of cue-guided decision making and impulsivity is doubly dissociable across frontal brain regions.
+Effects of psychopathy on neurocognitive domains of impulsivity in abstinent opiate and stimulant users.
+Differences in learning and persistency characterizing behavior in chronic pain for the Iowa Gambling Task: Web-based laboratory-in-the-field study.
+Uncertainty deconstructed: Conceptual analysis and state-of-the-art review of the ERP correlates of risk and ambiguity in decision-making.
+Critical tests of fuzzy trace theory in brain and behavior: Uncertainty across time, probability, and development.
+Potentiated processing of reward related decision making in depression is attenuated by suicidal ideation.
+Impulsivity in depression: Its relation to suicidality.
+Altered interaction of physiological activity and behavior affects risky decision-making in ADHD.
+Cortical grey matter mediates increases in model-based control and learning from positive feedback from adolescence to adulthood.
+Sex-dependent effects of early life stress on reinforcement learning and limbic cortico-striatal functional connectivity.
+Developmental trajectories of delay discounting from childhood to young adulthood: Longitudinal associations and test-retest reliability.
+Social learning across adolescence: A Bayesian neurocognitive perspective.
+Computationally-defined markers of uncertainty aversion predict emotional responses during a global pandemic.
+The impact of irritability and callous unemotional traits on reward positivity in youth with ADHD and conduct problems.
+Reciprocal associations between affective decision-making and mental health in adolescence.
+Shuffle the decks: Children are sensitive to incidental nonrandom structure in a sequential-choice task.
+Prolonged consumption of sweetened beverages lastingly deteriorates cognitive functions and reward processing in mice.
+Reinforcement learning and Bayesian inference provide complementary models for the unique advantage of adolescents in stochastic reversal.
+Developmental differences in description-based versus experience-based decision making under risk in children.
+Understanding typical and atypical neurodevelopment in children and adults.
+Impulsivity and risk-seeking as Bayesian inference under dopaminergic control.
+Regret in experience-based decisions: The effects of expected value differences and mixed gains and losses.
+What can performance in the IEDS task tell us about attention shifting in clinical groups?
+Examining the effect of depressive symptoms on habit formation and habit-breaking.
+Development of a novel computational model for the Balloon Analogue Risk Task: The exponential-weight mean-variance model.
+The effects of combination levodopa-ropinirole on cognitive improvement and treatment outcome in individuals with cocaine use disorder: A bayesian mediation analysis.
+Individual associations of adolescent alcohol use disorder versus cannabis use disorder symptoms in neural prediction error signaling and the response to novelty.
+Attenuated directed exploration during reinforcement learning in gambling disorder.
+Brain gray matter structures associated with trait impulsivity: A systematic review and voxel-based meta-analysis.
+Impaired working memory, cognitive flexibility and reward processing in mice genetically lacking Gpr88: Evidence for a key role for Gpr88 in multiple cortico-striatal-thalamic circuits.
+Hierarchical associations of alcohol use disorder symptoms in late adolescence with markers during early adolescence.
+Sacrificing reward to avoid threat: Characterizing PTSD in the context of a trauma-related approach-avoidance conflict task.
+Effects of substance use on monetary delay discounting among people who use stimulants with and without HIV: An ecological momentary assessment study.
+Anxiety modulates preference for immediate rewards among trait-impulsive individuals: A hierarchical Bayesian analysis.
+Decomposing conditioned avoidance performance with computational models.
+A reinforcement-learning model of active avoidance behavior: Differences between Sprague Dawley and Wistar-Kyoto rats.
+Impulsive decision-making predicts the course of substance-related and addictive disorders.
+Inter-individual and inter-strain differences in cognitive and social abilities of Dark Agouti and Wistar Han rats.
+Positive valence system dysregulation in psychosis: A comparative analysis.
+Goal dysregulation in depression, mania, and schizophrenia.
+Avoid-approach conflict behaviors differentially affected by anxiolytics: Implications for a computational model of risky decision-making.
+Affective cognition in bipolar disorder: A systematic review by the ISBD targeting cognition task force.
+The p factor in children: Relationships with executive functions and effortful control.
+Testing a rational choice model of "desistance:" decomposing changing expectations and changing utilities.
+Difficulty in updating positive beliefs about negative cognition is associated with increased depressed mood.
+Parameters as trait indicators: Exploring a complementary neurocomputational approach to conceptualizing and measuring trait differences in emotional intelligence.
+Developmental trajectories of executive functioning and puberty in boys and girls.
+Dopamine tunes prefrontal outputs to orchestrate aversive processing.
+Decreased event-related theta power and phase-synchrony in young binge drinkers during target detection: An anatomically-constrained MEG approach.
+Cued for risk: Evidence for an incentive sensitization framework to explain the interplay between stress and anxiety, substance abuse, and reward uncertainty in disordered gambling behavior.
+Electrophysiological indices of anterior cingulate cortex function reveal changing levels of cognitive effort and reward valuation that sustain task performance.
+The neuroscience of acquisitive/impulsive offending.
+Social decision making in autism: On the impact of mirror neurons, motor control, and imitative behaviors.
+Reward-based learning as a function of severity of substance abuse risk in drug-naive youth with ADHD.
+A randomised active-controlled trial to examine the effects of an online mindfulness intervention on executive control, critical thinking and key thinking dispositions in a university student sample.
+A neuro-cognitive process model of emotional intelligence.
+Food addiction and impaired executive functions in women with obesity.
+Clinical models of decision making in addiction.
+The subthalamic nucleus in impulsivity.
+Toward an understanding of dynamic moral decision making: Model-free and model-based learning.
+Process of decision making in children and adolescents with ADHD: A systematic review.
+Effect of heroin use on changes of brain functions as measured by functional magnetic resonance imaging, a systematic review.
+Big GABA: Edited MR spectroscopy at 24 research sites.
+Intact implicit statistical learning in borderline personality disorder.
+Gray matter abnormalities in opioid-dependent patients: A neuroimaging meta-analysis.
+Binge drinking affects brain oscillations linked to motor inhibition and execution.
+Reinforcement learning models of risky choice and the promotion of risk-taking by losses disguised as wins in rats.
+Theta- and delta-band EEG network dynamics during a novelty oddball task.
+A systematic review of Bayesian articles in psychology: The last 25 years.
+Linking magazine exposure to social appearance anxiety: The role of appearance norms in early adolescence.
+Methodological issues in the use of individual brain measures to index trait liabilities: The example of noise-probe P3.
+Higher threat avoidance costs reduce avoidance behaviour which in turn promotes fear extinction in humans.
+Winning and losing: Effects on impulsive action.
+Impact of general cognition and executive function deficits on addiction treatment outcomes: Systematic review and discussion of neurocognitive pathways.
+Modelling ADHD: A review of ADHD theories through their predictions for computational models of decision-making and reinforcement learning.
+Dopamine increases a value-independent gambling propensity.
+Anodal stimulation of the left DLPFC increases IGT scores and decreases delay discounting rate in healthy males.
+Externalizing proneness and brain response during pre-cuing and viewing of emotional pictures.
+The similarities and differences in impulsivity and cognitive ability among ketamine, methadone, and non-drug users.
+Decision-making in psychopathy.
+Implicit working memory: Implications for assessment and treatment.
+Neurocognitive and psychiatric dimensions of hot, but not cool, impulsivity predict HIV sexual risk behaviors among drug users in protracted abstinence.
+Increased ventral-striatal activity during monetary decision making is a marker of problem poker gambling severity.
+The association between heroin expenditure and dopamine transporter availability-a single-photon emission computed tomography study.
+Biases in probabilistic category learning in relation to social anxiety.
+Neural estimates of imagined outcomes in basolateral amygdala depend on orbitofrontal cortex.
+Interaction between functional genetic variation of DRD2 and cannabis use on risk of psychosis.
+The influence of trial order on learning from reward vs. punishment in a probabilistic categorization task: Experimental and computational analyses.
+Direct and indirect relationships between Factor 2 psychopathy, behavioral activation, positive alcohol expectancies, and alcohol use.
+Mesocorticolimbic dopamine functioning in primary psychopathy: A source of within-group heterogeneity.
+Optimistic, pessimistic, realistic: Event-related potential evidence for how depressive symptoms influences expectation formation in the human brain.
+Covariance and specificity in adolescent schizotypal and borderline trait expression.
+Regularities in responding during performance of a complex choice task.
+Consider the source: Adolescents and adults similarly follow older adult advice more than peer advice.
+Executive control signals in orbitofrontal cortex during response inhibition.
+Enhancing self-control in adolescents: Treatment strategies derived from psychological science.
+Cumulative gains enhance striatal response to reward opportunities in alcohol-dependent patients.
+Gray matter volume in left rostral middle frontal and left cerebellar cortices predicts frontal executive performance in alcoholic subjects.
+A review of reward processing and motivational impairment in schizophrenia.
+Impaired reward processing by anterior cingulate cortex in children with attention deficit hyperactivity disorder.
+Applying the Quadruple Process model to evaluate change in implicit attitudinal responses during therapy for panic disorder.
+Temporal discounting in major depressive disorder.
+Adolescents' risky decision-making activates neural networks related to social cognition and cognitive control processes.
+An information processing/associative learning account of behavioral disinhibition in externalizing psychopathology.
+Initial evidence for sex-specific effects of early emotional abuse on affective processing in bipolar disorder.
+Mind and brain in delay of gratification.
+Stress modulates reinforcement learning in younger and older adults.
+ADHD as a model of brain-behavior relationships.
+Differentiating the cognition-emotion interactions that characterize psychopathy versus externalizing.
+Psychopathy-related traits and the use of reward and social information: A computational approach.
+Neural and psychological maturation of decision-making in adolescence and young adulthood.
+Scaffolding across the lifespan in history-dependent decision-making.
+Differential effects of dopamine transporter inhibitors in the rodent Iowa Gambling Task: Relevance to mania.
+Reduced risk-taking behavior as a trait feature of anxiety.
+Immunization with DAT fragments is associated with long-term striatal impairment, hyperactivity and reduced cognitive flexibility in mice.
+Cutting nature at its joints: Toward an evolutionarily informed theory of natural types of conduct disorder.
+Sensitivity and bias in decision-making under risk: Evaluating the perception of reward, its probability and value.
+Temporal discounting of rewards in patients with bipolar disorder and schizophrenia.
+Externalizing psychopathology and gain-loss feedback in a simulated gambling task: Dissociable components of brain response revealed by time-frequency analysis.
+Dissociation of response and feedback negativity in schizophrenia: Electrophysiological and computational evidence for a deficit in the representation of value.
+Neurocognitive determinants of novelty and sensation-seeking in individuals with alcoholism.
+Increased risk-taking behavior in dopamine transporter knockdown mice: Further support for a mouse model of mania.
+The personality of pathological gamblers: A meta-analysis.
+Inter-individual decision-making differences in the effects of cingulate, orbitofrontal, and prelimbic cortex lesions in a rat gambling task.
+Serotonin and dopamine play complementary roles in gambling to recover losses.
+Toward a biosocial theory of offender rehabilitation: Why does cognitive-behavioral therapy work?
+The safety bias: Risk-avoidance and social anxiety pathology.
+Analysis of behavior of drug addicts in Iowa gambling task using reinforcement learning model.
+Neuropsychological, impulsive personality, and cerebral oxygenation correlates of undergraduate polysubstance use.
+Computational models inform clinical science and assessment: An application to category learning in striatal-damaged patients.
+A neural network model of borderline personality disorder.
+Mindful judgment and decision making.
+Insights into the neural basis of response inhibition from cognitive and clinical neuroscience.
+Evaluation of heterogeneity in pharmacotherapy trials for drug dependence: A Bayesian approach.
+Does the feedback from previous trials influence current decisions? A study on the role of feedback processing in making decisions under explicit risk conditions.
+Impulsivity as a vulnerability marker for substance-use disorders: Review of findings from high-risk research, problem gamblers and genetic association studies.
+Working memory, thought, and action.
+Cognitive impulsivity in cocaine and heroin polysubstance abusers.
+Personality traits associated with decision-making deficits.
+An fMRI examination of developmental differences in the neural correlates of uncertainty and decision-making.
+Emotion-based decision-making in healthy subjects: Short-term effects of reducing dopamine levels.
+Executive dysfunction in substance dependent individuals during drug use and abstinence: An examination of the behavioral, cognitive and emotional correlates of addiction.
+Application of a computational decision model to examine acute drug effects on human risk taking.
+Anatomy of a decision: Striato-orbitofrontal interactions in reinforcement learning, decision making, and reversal.
+The effect of foregone payoffs on underweighting small probability events.
+Psychological Processes Underlying Risky Decisions in Drug Abusers.
+Organic and psychogenic factors leading to executive dysfunctions in a patient suffering from surgery of a colloid cyst of the Foramen of Monro.
+Resting Regional Cerebral Blood Flow and Gambling Task Performance in Cocaine-Dependent Subjects and Healthy Comparison Subjects.
+The empirical status of predictive coding and active inference.
+Suboptimal Choice: A Review and Quantification of the Signal for Good News (SiGN) Model.
+Medial prefrontal transcranial alternating current stimulation for apathy in Huntington's disease.
+Dopaminergic and norepinephrinergic modulation of endogenous event-related potentials: A systematic review and meta-analysis.
+A Systematic Review of Empirical Studies on Advice-Based Decisions in Behavioral and Organizational Research.
+Predictions and Choices for Others: Some Insights Into How and Why They Differ.
+Early Insulin Resistance, Type 2 Diabetes, and Treatment Options in Childhood.
+Spatial-topographic nestedness of interoceptive regions within the networks of decision making and emotion regulation: Combining ALE meta-analysis and MACM analysis.
+Contribution of the sensorimotor beta oscillations and the cortico-basal ganglia-thalamic circuitry during value-based decision making: A simultaneous EEG-fMRI investigation.
+Sequential delay and probability discounting tasks in mice reveal anchoring effects partially attributable to decision noise.
+A Systematic Review of the Balloon Analogue Risk Task (BART) in Alcohol Research.
+Understanding ethanol's acute effects on medial prefrontal cortex neural activity using state-space approaches.
+Better living through understanding the insula: Why subregions can make all the difference.
+Cortical and Subcortical Gray Matter Volume in Psychopathy: A Voxel-Wise Meta-Analysis.
+Reduced neural differentiation of rewards and punishment during passive avoidance learning in adolescents with generalized anxiety disorder.
+Delays to Food-Predictive Stimuli Do Not Affect Suboptimal Choice in Rats .
+From apathy to addiction: Insights from neurology and psychiatry.
+Time perception and impulsivity: A proposed relationship in addictive disorders.
+Should We Control? The Interplay Between Cognitive Control and Information Integration in the Resolution of the Exploration-Exploitation Dilemma.
+Gambling and Subsequent Road Traffic Injuries: A Longitudinal Cohort Analysis.
+The frontal cortex is a heart-brake: Reduction in delta oscillations is associated with heart rate deceleration.
+Catecholaminergic Modulation of the Avoidance of Cognitive Control.
+The role of inflammation in core features of depression: Insights from paradigms using exogenously-induced inflammation.
+Impaired fasting glucose and the metabolic profile in Danish children and adolescents with normal weight, overweight, or obesity.
+A meta-analytical review of brain activity associated with intertemporal decisions: Evidence for an anterior-posterior tangibility axis.
+Neural correlates of cognitive control in gambling disorder: a systematic review of fMRI studies.
+Effects of Alcohol, Initial Gambling Outcomes, Impulsivity, and Gambling Cognitions on Gambling Behavior Using a Video Poker Task.
+Seeing through the smoke: Human and animal studies of cannabis use and endocannabinoid signalling in corticolimbic networks.
+Stress and the adolescent brain: Amygdala-prefrontal cortex circuitry and ventral striatum as developmental targets.
+Skeletal muscle action of estrogen receptor [alpha] is critical for the maintenance of mitochondrial function and metabolic homeostasis in females.
+Emotion-induced loss aversion and striatal-amygdala coupling in low-anxious individuals.
+Dynamic pathology of islet endocrine cells in type 2 diabetes: [beta]-Cell growth, death, regeneration and their clinical implications.
+Electrophysiological correlates of problematic Internet use: Critical review and perspectives for future research.
+Disorders of compulsivity: a common bias towards learning habits.
+The disrupted basal ganglia and behavioural control: An integrative cross-domain perspective of spontaneous stereotypy.
+Dopaminergic Circuitry and Risk/Reward Decision Making: Implications for Schizophrenia.
+Modifying cognition and behavior with electrical microstimulation: Implications for cognitive prostheses.
+Cognitive strategies regulate fictive, but not reward prediction error signals in a sequential investment task.
+Improving cognition in schizophrenia with antipsychotics that elicit neurogenesis through 5-HT1A receptor activation.
+Differential representation of feedback and decision in adolescents and adults.
+PERIL AND PLEASURE: AN RDOC-INSPIRED EXAMINATION OF THREAT RESPONSES AND REWARD PROCESSING IN ANXIETY AND DEPRESSION.
+Suboptimal Choice by Pigeons May Result From the Diminishing Effect of Nonreinforcement.
+Systematic review, structural analysis, and new theoretical perspectives on the role of serotonin and associated genes in the etiology of psychopathy and sociopathy.
+In search of the functional neuroanatomy of sociality: MRI subdivisions of orbital frontal cortex and social cognition.
+Cerebral Correlates of Salient Prediction Error for Different Rewards and Punishments.
+Working-Memory Load and Temporal Myopia in Dynamic Decision Making.
+Approach-Withdrawal and the Role of the Striatum in the Temperament of Behavioral Inhibition.
+Altered Neural Reward Representations in Pathological Gamblers Revealed by Delay and Probability Discounting.
+Individual differences in cognition, affect, and performance: Behavioral, neuroimaging, and molecular genetic approaches.
+Neuromodulation of reward-based learning and decision making in human aging.
+Haloperidol modifies instrumental aspects of slot machine gambling in pathological gamblers and healthy controls.
+Frontal stroke: problem solving, decision making, impulsiveness, and depressive symptoms in men and women.
+The effects of a modest dose of alcohol on executive functioning and prospective memory.
+An Acute Psychosocial Stressor Does Not Potentiate Alcohol Cue Reactivity in Non-Treatment-Seeking Alcoholics.
+Rule-based and information-integration category learning in normal aging.
+Fast oscillations in cortical-striatal networks switch frequency following rewarding events and stimulant drugs.
+Predictors of aerobic physical activity and resistance training among Canadian adults with type 2 diabetes: An application of the Protection Motivation Theory.
+Neurocomputational models of basal ganglia function in learning, memory and choice [white star].
+To discard or not to discard: the neural basis of hoarding symptoms in obsessive-compulsive disorder.
+Executive Function and Decision-Making in Women with Fibromyalgia.
+A Multimethod Investigation of the Behavioral Activation System in Bipolar Disorder.
+Placebo and Nocebo Effects Are Defined by Opposite Opioid and Dopaminergic Responses.
+Decision Making in Children With ADHD Only, ADHD-Anxious/Depressed, and Control Children Using a Child Version of the Iowa Gambling Task.
+Impaired Reversal but Intact Acquisition: Probabilistic Response Reversal Deficits in Adult Individuals With Psychopathy.
+Image-Based Control of the Magnetic Resonance Imaging-Guided Focused Ultrasound Thermotherapy.
+A Critical Look at Dual-Focused Cognitive-Behavioral Treatments for Comorbid Substance Use and Psychiatric Disorders: Strengths, Limitations, and Future Directions.
+Opposite Effects of Amphetamine Self-administration Experience on Dendritic Spines in the Medial and Orbital Prefrontal Cortex.
+Spiking Phineas Gage: A Neurocomputational Theory of Cognitive-Affective Integration in Decision Making.
+Diabetes and Progression of Carotid Atherosclerosis: The Insulin Resistance Atherosclerosis Study.
+Impulsive Decision Making and Working Memory.
+Premature Adrenarche-Normal Variant or Forerunner of Adult Disease?*.
+How does apathy impact exploration-exploitation decision-making in older patients with neurocognitive disorders?
+Why comply? Risk and efficacy perceptions drive compliance in mass marketing scams.
+The PRO model accounts for the anterior cingulate cortex role in risky decision-making and monitoring.
+Avoidance in Adolescence: The Balloon Risk Avoidance Task (BRAT).
+How Working Memory and Reinforcement Learning Are Intertwined: A Cognitive, Neural, and Computational Perspective.
+An absolute magnitude deviation of HRV for the prediction of prediabetes with combined artificial neural network and regression tree methods.
+P300 and delay-discounting in obsessiveÃÂÃÂcompulsive disorder.
+Neural Modulation in Approach-Avoidance Conflicts in Externalizing Psychopathology.
+Neural Mechanisms of Human Decision-Making.
+Aberrant reward prediction errors in young adult at-risk alcohol users.
+Factors associated with the absence of cocaine craving in treatment-seeking individuals during inpatient cocaine detoxification.
+Uncertainty-driven regulation of learning and exploration in adolescents: A computational account.
+Baseline-dependent effect of dopamine's precursor L-tyrosine on working memory gating but not updating.
+The effects of alcohol on sequential decision-making biases during gambling.
+Synchronization of Independent Neural Ensembles in Human EEG during Choice Tasks.
+Models that learn how humans learn: The case of decision-making and its disorders.
+Risky decision-making after exposure to a food-choice task in excess weight adolescents: Relationships with reward-related impulsivity and hunger.
+A Biologically Plausible Action Selection System for Cognitive Architectures: Implications of Basal Ganglia Anatomy for Learning and Decision_Making Models.
+Restricted, Repetitive Behaviors in Autism Spectrum Disorder and Obsessive-Compulsive Disorder: A Comparative Review.
+A unifying Bayesian account of contextual effects in value-based choice.
+Risky economic choices and frontal EEG asymmetry in the context of Reinforcer-Sensitivity-Theory-5.
+Virtually "in the heat of the moment": Insula activation distinguishes men who in real-life were sexually risky versus safe Running head: Role of neural activity during safe sex negotiation.
+Differential effects of the pharmacological stressor yohimbine on impulsive decision making and response inhibition.
+Pharmacological and Expectancy Effects of a Low Amount of Alcohol Drinking on Outcome Valuation and Risk Perception in Males and Females.
+The amount and duration of smoking is associated with aggravation of hormone and biochemical profile in women with PCOS.
+Different strategies underlying uncertain decision making: Higher executive performance is associated with enhanced feedback-related negativity.
+Adolescents Adapt More Slowly than Adults to Varying Reward Contingencies.
+Dreams, reality and memory: confabulations in lucid dreamers implicate reality-monitoring dysfunction in dream consciousness.
+Behavioral and neurological foundations for the moral and legal implications of intoxication, addictive behaviors and disinhibition.
+Impaired behavior on real-world tasks following damage to the ventromedial prefrontal cortex.
+Models of confabulation: A critical review and a new framework.
+The Role of Emotion in Decision Making: A Cognitive Neuroscience Perspective.
+Dynamic Dopamine Modulation in the Basal Ganglia: A Neurocomputational Account of Cognitive Deficits in Medicated and Nonmedicated Parkinsonism.
+Effects of lesions of the orbitofrontal cortex on sensitivity to delayed and probabilistic reinforcement.
+Association of poorly controlled diabetes with low serum leptin in morbid obesity.
+Testing the factor structure underlying behavior using joint cognitive models: Impulsivity in delay discounting and Cambridge gambling tasks.
+Computational mechanisms underpinning greater exploratory behaviour in excess weight relative to healthy weight adolescents.
+Reduced loss aversion in value-based decision-making and edge-centric functional connectivity in patients with internet gaming disorder.
+A Meta-Analysis of Decision-Making and Attention in Adults With ADHD.
+Adjusting behavior to changing environmental demands with development.
+An insula_driven network computes decision uncertainty and promotes abstinence in chronic cocaine users.
 
 

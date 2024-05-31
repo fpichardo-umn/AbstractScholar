@@ -257,6 +257,7 @@ def cluster_graphs(edist, max_edist):
             - list: A list of solo nodes, where each solo node is a subgraph of the original graph.
             - networkx.Graph: The graph with only strong connections.
     """
+    
     G = nx.from_numpy_matrix(edist)
     
     strong_connection = [(u, v) for (u, v, d) in G.edges(data=True) if d['weight'] < max_edist]
@@ -265,13 +266,14 @@ def cluster_graphs(edist, max_edist):
     
     all_components = list(nx.connected_components(G_strong))
     
-    components = []
+    nodes_in_cluster_list = []
     clusters = []
     solo = []
     
     for nodes in all_components:
         sub_graph = G_strong.subgraph(nodes)
-        components.append(sub_graph)
+        
+        nodes_in_cluster_list += list(nodes)
         
         if len(sub_graph.nodes()) > 1:
             clusters.append(sub_graph)
@@ -279,6 +281,9 @@ def cluster_graphs(edist, max_edist):
             solo.append(sub_graph)
     
     clusters = sorted(clusters, key=lambda x: len(x), reverse=True)
+    
+    # Add remaining nodes to the solo list
+    solo += [node for node in list(G.nodes) if node not in nodes_in_cluster_list]
     
     return clusters, solo, G_strong
 
@@ -295,6 +300,7 @@ def assign_clusters_to_data(data, clusters, solo):
     Returns:
         DataFrame: The data DataFrame with cluster labels assigned.
     """
+    
     data['cluster'] = ''
     data.reset_index(inplace=True)
     
@@ -302,9 +308,8 @@ def assign_clusters_to_data(data, clusters, solo):
         article_idx = list(cluster.nodes())
         data.loc[article_idx, 'cluster'] = cluster_idx
     
-    for _, solo_graph in enumerate(solo):
-        article_idx = list(solo_graph.nodes())
-        data.loc[article_idx, 'cluster'] = 999  # Use 999 for solo clusters
+    for solo_node in solo:
+        data.loc[solo_node, 'cluster'] = 999  # Use 999 for solo clusters
 
 
 def write_cluster_titles(data, clusters, cluster_titles_txt):
@@ -321,7 +326,7 @@ def write_cluster_titles(data, clusters, cluster_titles_txt):
                 f.write('\n')
             f.write('\n\n')
     
-    print('Num clusters: {}\nNum solo articles: {}'.format(len(clusters), len([s for s in solo if len(s.nodes()) == 1])))
+    print('Num clusters: {}\nNum solo articles: {}'.format(len(clusters), len(solo)))
 
 
 ####
@@ -345,7 +350,7 @@ max_edist = float(config.get('max_edist', 0.2))
 preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))
 edist_abstract_pickle_filename = normalize_path(config.get('edist_abstract_pickle', './data/text_analysis/large_files/edist.pickle'))
 cluster_titles_txt = normalize_path(config.get('cluster_titles_txt', './data/text_analysis/clustered_data.txt'))
-clustered_data_txt = normalize_path(config.get('clustered_data_txt', './data/text_analysis/clustered_data.txt'))
+clustered_data_csv = normalize_path(config.get('clustered_data_csv', './data/text_analysis/clustered_data.csv'))
 clusters_pickle_filename = normalize_path(config.get('clusters_pickle', './data/text_analysis/large_files/clusters.pickle'))
 
 # Load preprocessed abstract data
@@ -375,5 +380,5 @@ avg_cluster_score = {cluster_idx: nx.algorithms.average_clustering(G_strong.subg
                      for cluster_idx, cluster in enumerate(clusters)}
 
 # Save clustering data
-data.to_csv(clustered_data_txt, sep = '\t', encoding='iso-8859-1', index = False)
+data.to_csv(clustered_data_csv, sep = ',', encoding='iso-8859-1', index = False)
 save_to_pickle([clusters, avg_cluster_score, G_strong], clusters_pickle_filename)
