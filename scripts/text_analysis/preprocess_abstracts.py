@@ -67,29 +67,6 @@ def clean_text(txt):
     return str(txt.strip())[2:-2]
 
 
-def make_svd(doc_term_mat, n_components, remove_0=False):
-    """
-    Perform truncated SVD on a document-term matrix.
-
-    Parameters:
-    - doc_term_mat: The document-term matrix to perform SVD on.
-    - n_components: The number of components to keep.
-    - remove_0: A boolean indicating whether to remove the first component.
-
-    Returns:
-    - latent_sa: The fitted TruncatedSVD object.
-    - doc_term_mat_latent_sa: The transformed document-term matrix after SVD.
-    """
-    latent_sa = TruncatedSVD(n_components, algorithm='arpack')
-    latent_sa = latent_sa.fit(doc_term_mat)
-    if remove_0:
-        latent_sa.components_[0] = 0
-    doc_term_mat_latent_sa = latent_sa.transform(doc_term_mat)
-    doc_term_mat_latent_sa = Normalizer(copy=False).fit_transform(doc_term_mat_latent_sa)
-
-    return latent_sa, doc_term_mat_latent_sa
-
-
 def clean_column(column):
     """
     Clean the given column by performing the following steps:
@@ -121,7 +98,6 @@ def preprocess_data(data):
 
     Returns:
     - clean_docs (list): A list of preprocessed documents.
-
     """
     
     data['abstract'] = data['abstract'].fillna('')
@@ -150,7 +126,6 @@ def text_preprocess(clean_docs, custom_stopwords):
 
     Returns:
     tuple: A tuple containing the lemmatized vector and the set of stopwords.
-
     """
     # Create a lemmatizer object
     lemmatizer = WordNetLemmatizer()
@@ -187,30 +162,22 @@ def tfidf_vectorize(lemmatized_vector, max_doc_freq, stop_words, ngram_range):
     Vectorize the lemmatized documents using TF-IDF (Term Frequency-Inverse Document Frequency).
 
     Parameters:
-    -----------
     lemmatized_vector : list
         A list of lemmatized documents.
-
     max_doc_freq : float
         The maximum document frequency. Terms with a document frequency higher than this value will be ignored.
-
     stop_words : set
         A set of stop words to be removed from the documents.
-
     ngram_range : tuple
         The range of n-grams to be considered. For example, (1, 2) means both unigrams and bigrams will be considered.
 
     Returns:
-    --------
     vectorizer_tfidf : TfidfVectorizer
         The fitted TF-IDF vectorizer.
-
     doc_term_mat : scipy.sparse.csr_matrix
         The document-term matrix representing the TF-IDF values.
-
     terms : list
         The terms in the vocabulary.
-
     """
     # The optimal min_doc_freq value is typically around 1-2% of the total number of documents.
     min_doc_freq = int(np.mean([len(lemmatized_vector) * 0.01, len(lemmatized_vector) * 0.02]))
@@ -231,6 +198,29 @@ def tfidf_vectorize(lemmatized_vector, max_doc_freq, stop_words, ngram_range):
     terms = vectorizer_tfidf.get_feature_names_out()
     
     return vectorizer_tfidf, doc_term_mat, terms
+
+
+def make_svd(doc_term_mat, n_components, remove_0=False):
+    """
+    Perform truncated SVD on a document-term matrix.
+
+    Parameters:
+    - doc_term_mat: The document-term matrix to perform SVD on.
+    - n_components: The number of components to keep.
+    - remove_0: A boolean indicating whether to remove the first component.
+
+    Returns:
+    - latent_sa: The fitted TruncatedSVD object.
+    - doc_term_mat_latent_sa: The transformed document-term matrix after SVD.
+    """
+    latent_sa = TruncatedSVD(n_components, algorithm='arpack')
+    latent_sa = latent_sa.fit(doc_term_mat)
+    if remove_0:
+        latent_sa.components_[0] = 0
+    doc_term_mat_latent_sa = latent_sa.transform(doc_term_mat)
+    doc_term_mat_latent_sa = Normalizer(copy=False).fit_transform(doc_term_mat_latent_sa)
+
+    return latent_sa, doc_term_mat_latent_sa
 
 
 def perform_svd(doc_term_mat, max_svd_components, plot_svd=True):
@@ -281,7 +271,7 @@ ngram_range = tuple(map(int, config.get('ngram_range', '1, 4').split(',')))
 max_doc_freq = float(config.get('max_doc_freq', 0.5))
 max_svd_components = int(config.get('max_svd_components', 250))
 custom_stopwords = config.get('custom_stopwords', 'al, et, contents'.split(',')) #['al', 'et', 'contents', 'pubmed', 'pnas', 'published', 'article', 'present', 'abstract', 'sp', 'american', 'psychological', 'association', 'associatio', 'ei', 'pg', 'user', 'ie', 'apa', 'rights', 'reserved', 'copyright', 'c', 'l', 'j']
-preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', os.path.join('.', 'data', 'text_analysis', 'large_files', 'preprocessed_abstracts.pickle')))
+preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))
 
 # Preprocess the data by cleaning and transforming the abstracts
 clean_docs = preprocess_data(data)
@@ -295,13 +285,12 @@ vectorizer_tfidf, doc_term_mat, terms = tfidf_vectorize(lemmatized_vector, confi
 # Perform Singular Value Decomposition (SVD) on the document-term matrix
 latent_sa, doc_term_mat_xfm = perform_svd(doc_term_mat, config)
 
-
 ###
 #   Check and clean terms
 ##
 # Get the top terms associated with each concept in the SVD
 top_terms_per_concept = []
-for ii in range(opt_component_cnt):
+for ii in range(latent_sa.components_.shape[0]):
     top_terms_per_concept.extend(get_terms_for_concept(terms, latent_sa.components_, ii)[:10])
 top_terms_per_concept = list(set(top_terms_per_concept))
 

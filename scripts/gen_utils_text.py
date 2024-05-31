@@ -188,6 +188,29 @@ def save_to_pickle(data, file_path):
     except Exception as e:
         print(f"Failed to save data to {file_path}. Error: {e}")
 
+        
+def load_from_pickle(file_path):
+    """
+    Load data from a pickle file at the given file path.
+
+    Args:
+    file_path (str): The path where the pickle file is located.
+
+    Returns:
+    data (any): The data loaded from the pickle file.
+    """
+    try:
+        with open(file_path, 'rb') as file:
+            data = pickle.load(file)
+        print(f"Data successfully loaded from {file_path}")
+        return data
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+        return None
+    except Exception as e:
+        print(f"Failed to load data from {file_path}. Error: {e}")
+        return None
+
 
 def normalize_path(path):
     """

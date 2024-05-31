@@ -31,3 +31,16 @@ max_doc_freq: 0.5
 max_svd_components: 250
 custom_stopwords: al, et, contents, pubmed, pnas, published, article, present, abstract, sp, american, psychological, association, associatio, ei, pg, user, ie, apa, rights, reserved, copyright, c, l, j
 preprocess_pickle: ./data/text_analysis/large_files/preprocessed_abstracts.pickle
+cluster_metic: euclidean
+kmeans_init: k-means++
+ncluster_max: 60
+num_groupings: 35
+k_n_init: 35
+clusters_pickle: ./data/text_analysis/large_files/clusters.pickle
+clustered_data_txt: ./data/text_analysis/clustered_data.txt
+cluster_titles_txt: ./data/text_analysis/clustered_titles.txt
+edist_abstract_pickle: ./data/text_analysis/large_files/edist.pickle
+group_iterations: 10
+kmeans_sim: bic
+kmeans_max_k: 50
+max_edist: 0.2
