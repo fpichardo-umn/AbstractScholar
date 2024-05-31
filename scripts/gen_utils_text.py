@@ -189,7 +189,11 @@ def save_to_pickle(data, file_path):
         print(f"Failed to save data to {file_path}. Error: {e}")
 
 
-
+def normalize_path(path):
+    """
+    Convert a path string with forward or backward slashes to the appropriate OS-specific path format.
+    """
+    return op.join(*path.replace('\\', '/').split('/'))
 
 
 
