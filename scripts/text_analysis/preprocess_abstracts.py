@@ -216,4 +216,4 @@ for ii in range(opt_component_cnt):
 top_terms_per_concept = list(set(top_terms_per_concept))
 
 # Serialize the preprocessed data
-save_to_pickle([latent_sa, doc_term_mat_xfm, terms], config.get('preprocess_pickle', './data/text_analysis/preprocessed_abstracts.pickle'))
+save_to_pickle([latent_sa, doc_term_mat_xfm, terms], config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))

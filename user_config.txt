@@ -30,4 +30,4 @@ ngram_range: 1, 4
 max_doc_freq: 0.5
 max_svd_components: 250
 custom_stopwords: al, et, contents, pubmed, pnas, published, article, present, abstract, sp, american, psychological, association, associatio, ei, pg, user, ie, apa, rights, reserved, copyright, c, l, j
-preprocess_pickle: ./data/text_analysis/preprocessed_abstracts.pickle
+preprocess_pickle: ./data/text_analysis/large_files/preprocessed_abstracts.pickle
