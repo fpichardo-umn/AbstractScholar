@@ -43,31 +43,30 @@ def display_topics_tab(model, feature_names, num_top_words):
         input()
 
 
-def get_article_top_concepts(docs, concepts_transformed_data):
-    """Get the top concepts for each article.
-
-    This function takes in a list of documents and a matrix of transformed data
-    representing the concepts. It calculates the top concepts for each article
-    based on the transformed data.
+def get_article_top_concepts(concepts_transformed_data, filter_zeros=False):
+    """
+    Get the top concepts for each document based on the transformed data matrix.
 
     Args:
-        docs (list): A list of documents.
-        concepts_transformed_data (numpy.ndarray): A matrix of transformed data
-            representing the concepts.
+        concepts_transformed_data (numpy.ndarray): A matrix of transformed data representing the concepts.
+        filter_zeros (bool): Whether to filter out zeros from the top concepts.
 
     Returns:
-        dict: A dictionary where the keys are article indices and the values are
-            lists of the top concepts for each article.
+        dict: A dictionary where the keys are document indices and the values are lists of the top concepts for each document.
     """
 
-    art_top_concepts = {art:[] for art in range(len(docs))}
+    num_docs = concepts_transformed_data.shape[0]
+    art_top_concepts = {art: [] for art in range(num_docs)}
     top_num = 5
-    for i in range(len(concepts_transformed_data)):
-       top_topics = np.argsort(concepts_transformed_data[i,:])[::-1][:top_num]
-       top_topics_str = ' '.join(str(t) for t in top_topics)
-       art_top_concepts[i] = [int(top) for top in top_topics_str.split()]
+    for i in range(num_docs):
+        top_topics = np.argsort(concepts_transformed_data[i, :])[::-1][:top_num]
+        if filter_zeros:
+            top_topics = [t for t in top_topics if concepts_transformed_data[i, t] != 0]
+        art_top_concepts[i] = list(top_topics)
 
     return art_top_concepts
+
+
 
 
 def get_terms_for_concept(terms, concept_matrix, concept_idx, top_n=10):
@@ -131,7 +130,7 @@ def load_user_config(config_file='user_config.txt'):
     return config
 
 
-def load_data(config):
+def load_data(config, clustered_data=False):
     """
     Load preprocessed data.
 
@@ -139,13 +138,18 @@ def load_data(config):
     -----------
     config : dict
         Configuration parameters.
+    clustered_data : bool, optional
+        Whether to load clustered data. Defaults to False.
 
     Returns:
     --------
     pandas DataFrames containing updated preprocessed data DataFrame
     """
     # Define paths for preprocessed data
-    preprocessed_path = config.get('preprocessed_file_path', './data/preprocessed_data.csv')
+    if clustered_data:
+        preprocessed_path = config.get('clustered_data_csv', './data/text_analysis/clustered_data.csv')
+    else:
+        preprocessed_path = config.get('preprocessed_file_path', './data/preprocessed_data.csv')
 
     # Check if files exist
     if not os.path.exists(preprocessed_path):

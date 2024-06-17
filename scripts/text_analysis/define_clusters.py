@@ -4,9 +4,9 @@ STEP 03: Define Clusters
 
 Is there a way I can determine the top features/terms for each cluster in while the data was decomposed?
 
-Assuming lsa = TruncatedSVD(n_components=k) for some k, the obvious way to get
+Assuming latent_sa = TruncatedSVD(n_components=k) for some k, the obvious way to get
 term weights makes use of the fact that LSA/SVD is a linear transformation, i.e.,
-each row of lsa.components_ is a weighted sum of the input terms, and you can
+each row of latent_sa.components_ is a weighted sum of the input terms, and you can
 multiply that with the cluster centroids from k-means.
 
 
@@ -26,11 +26,17 @@ Created on Sun Apr 15 19:49:11 2018
 @author: Felix Pichardo
 """
 
-import pickle
+import sys
+import os
 import os.path as op
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+
+# Add the 'scripts' subdirectory to the Python path
+# This imports utility and basic modules functions from the 'scripts' directory
+scripts_dir = op.join(os.getcwd(), 'scripts')
+sys.path.append(scripts_dir)
+from scripts.gen_utils_text import *
+
+# Script specific imports
 from math import exp, log2, sqrt
 from pprint import pprint
 from sklearn.metrics.pairwise import cosine_distances
@@ -38,25 +44,14 @@ from sklearn.metrics.pairwise import cosine_similarity
 from collections import Counter
 from kneed import KneeLocator
 
-def get_article_top_concepts(dtm_lsa):
 
-    art_top_concepts = {art:[] for art in range(dtm_lsa.shape[0])}
-    top_num = 5
-    for i in range(len(dtm_lsa)):
-       top_topics = np.argsort(dtm_lsa[i,:])[::-1][:top_num]
-       top_topics_str = ' '.join(str(t) for t in top_topics)
-       art_top_concepts[i] = [int(top) for top in top_topics_str.split() if int(top) != 0]
-
-    return art_top_concepts
-
-
-def get_cluster_top_terms(cluster_id, cluster_centroids, lsa, terms, num_terms = 20):
+def get_cluster_top_terms(cluster_id, cluster_centroids, latent_sa, terms, num_terms = 20):
 
     #Get centroid
     cluster_centroid = cluster_centroids[cluster_id]
 
     #Get term weights for cluster
-    cluster_term_weights = np.dot(cluster_centroid, lsa.components_)
+    cluster_term_weights = np.dot(cluster_centroid, latent_sa.components_)
     cluster_term_weights = np.abs(cluster_term_weights) #need absolute values for the weights because of the sign indeterminacy in LSA
     sorted_terms_idx = np.argsort(cluster_term_weights)[::-1][:num_terms]
     top_terms = [terms[idx] for idx in sorted_terms_idx]
@@ -80,11 +75,11 @@ def get_terms_for_concept(terms, components, concept_idx, num_terms = 20):
     return cleaned_sorted_terms
 
 
-def make_centroids(cluster_names, cluster_idx, dtm_lsa):
+def make_centroids(cluster_names, cluster_idx, doc_term_mat_xfm):
 
     #Get cluster centroids
     #Take mean along axis=0 of the dtm rows for the cluster articles
-    cluster_centroids = {name:dtm_lsa[idx, :].mean(axis=0)
+    cluster_centroids = {name:doc_term_mat_xfm[idx, :].mean(axis=0)
                         for name, idx in zip(cluster_names, cluster_idx)}
 
     return cluster_centroids
@@ -126,7 +121,7 @@ def mean(l):
     return sum(l)/len(l)
 
 
-def calc_cluster_ess(cluster_id, cluster_idx_map, centroids, dtm_lsa):
+def calc_cluster_ess(cluster_id, cluster_idx_map, centroids, doc_term_mat_xfm):
     """Returns the Explained Sum of Squares (ESS) for the cluster
 
     Use ESS because the centroid is defined as the mean of the article's
@@ -138,7 +133,7 @@ def calc_cluster_ess(cluster_id, cluster_idx_map, centroids, dtm_lsa):
 
     squares = []
     for article in cluster_articles_idx:
-        article_dtm = dtm_lsa[article, :]
+        article_dtm = doc_term_mat_xfm[article, :]
         centroid_diff = article_dtm - cluster_centroid
         squares.append(centroid_diff.dot(centroid_diff))
 
@@ -152,7 +147,7 @@ def gaussian_dampen(x, mean, sigma):
     return exp((-1/2) * ((x - mean)/sigma)**2)
 
 
-def calc_cluster_coherence_score(cluster_id, clusters_len, clusters_silhouette, clusters_ess, data, dtm_lsa, avg_cluster_score):
+def calc_cluster_coherence_score(cluster_id, clusters_len, clusters_silhouette, clusters_ess, data, doc_term_mat_xfm, avg_cluster_score):
     """Return coherence score for a given cluster.
 
     Evalutes the coherence of a given cluster using the silhouette score,
@@ -272,16 +267,22 @@ def aggregate_avg_cluster_score(merged_clusters_info, avg_cluster_score):
 #   START
 ###
 
-preprocess_pickle = op.join('data', 'preprocessed_abstracts.pickle')
-with open(preprocess_pickle, 'rb') as p:
-    lsa, dtm_lsa, terms = pickle.load(p)
+# Load preprocessed data
+config = load_user_config()
+data = load_data(config, clustered_data=True)
 
-clusters_pickle = op.join('data', 'clusters.pickle')
-with open(clusters_pickle, 'rb') as p:
-    clusters, avg_cluster_score, G_strong = pickle.load(p)
+# Get the configuration parameters
+preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))
+clusters_pickle_filename = normalize_path(config.get('clusters_pickle', './data/text_analysis/large_files/clusters.pickle'))
 
-data_for_edist = op.join('data', 'clustered_data.txt')
-data = pd.read_csv(data_for_edist, sep = '\t', encoding='iso-8859-1', index_col = None)
+
+# Load preprocessed abstract data
+latent_sa, doc_term_mat_xfm, terms = load_from_pickle(preprocess_pickle_filename)
+clusters, avg_cluster_score, G_strong = load_from_pickle(clusters_pickle_filename)
+
+
+
+
 
 ##Get Cluster Data
 data.cluster        = data.cluster.astype(int)
@@ -302,13 +303,13 @@ cluster_titles      = {name:titles for name, titles in zip(cluster_names, cluste
 clusters_len        = [len(cluster_titles[cluster]) for cluster in cluster_names]
 assert 0 not in clusters_len
 
-clusters_dtm_rows = {name:dtm_lsa[idx, :]
+clusters_dtm_rows = {name:doc_term_mat_xfm[idx, :]
                         for name, idx in zip(cluster_names, cluster_idx_list)}
 
-centroids = make_centroids(cluster_names, cluster_idx_list, dtm_lsa)
+centroids = make_centroids(cluster_names, cluster_idx_list, doc_term_mat_xfm)
 
 ##Calc silhouette and select best clusters
-dist_dtm = cosine_distances(dtm_lsa)
+dist_dtm = cosine_distances(doc_term_mat_xfm)
 
 clusters_silhouette  = {}
 for key in clusters_dtm_rows.keys():
@@ -316,12 +317,12 @@ for key in clusters_dtm_rows.keys():
 
 clusters_ess = {}
 for key in clusters_silhouette.keys():
-    clusters_ess[key] = calc_cluster_ess(key, cluster_idx_map, centroids, dtm_lsa)
+    clusters_ess[key] = calc_cluster_ess(key, cluster_idx_map, centroids, doc_term_mat_xfm)
 
 #Calc coherence score
 clusters_coherence_score  = {}
 for key in clusters_silhouette.keys():
-    clusters_coherence_score[key] =  calc_cluster_coherence_score(key, clusters_len, clusters_silhouette, clusters_ess, data, dtm_lsa, avg_cluster_score)
+    clusters_coherence_score[key] =  calc_cluster_coherence_score(key, clusters_len, clusters_silhouette, clusters_ess, data, doc_term_mat_xfm, avg_cluster_score)
 
 sorted_coherence_scores = sorted(clusters_coherence_score.items(), key=lambda x: x[1], reverse = True)
 
@@ -387,7 +388,7 @@ merged_clusters_info = update_clusters_info(clusters_info, merged_centroids)
 
 # Assuming 'merged_clusters_info' contains the updated indices and titles for merged clusters
 updated_cluster_idx_map = {cluster_id: info['indices'] for cluster_id, info in merged_clusters_info.items()}
-updated_clusters_dtm_rows = {cluster_id: dtm_lsa[info['indices'], :] for cluster_id, info in merged_clusters_info.items()}
+updated_clusters_dtm_rows = {cluster_id: doc_term_mat_xfm[info['indices'], :] for cluster_id, info in merged_clusters_info.items()}
 
 
 updated_clusters_len_dict = {cluster_id: len(info['titles']) for cluster_id, info in merged_clusters_info.items()}
@@ -400,7 +401,7 @@ updated_clusters_silhouette = {
 # Assuming 'merged_centroids' contains centroids for merged clusters and 'centroids' for unmerged
 combined_centroids = {**centroids, **merged_centroids}
 updated_clusters_ess = {
-    cluster_id: calc_cluster_ess(cluster_id, updated_cluster_idx_map, combined_centroids, dtm_lsa)
+    cluster_id: calc_cluster_ess(cluster_id, updated_cluster_idx_map, combined_centroids, doc_term_mat_xfm)
     for cluster_id in updated_cluster_idx_map.keys()
 }
 
@@ -414,7 +415,7 @@ updated_clusters_coherence_score = {
         updated_clusters_silhouette,
         updated_clusters_ess,
         data,
-        dtm_lsa,
+        doc_term_mat_xfm,
         updated_avg_cluster_score
     )
     for cluster_id in updated_clusters_silhouette.keys()
@@ -453,7 +454,7 @@ for cluster_id in thresholded_idx:
     merged_centroids[cluster_id] = centroids[cluster_id]
     merged_clusters_info[cluster_id] = clusters_info_orig[cluster_id]
     
-updated_clusters_dtm_rows = {cluster_id: dtm_lsa[info['indices'], :] for cluster_id, info in merged_clusters_info.items()}
+updated_clusters_dtm_rows = {cluster_id: doc_term_mat_xfm[info['indices'], :] for cluster_id, info in merged_clusters_info.items()}
 
 updated_cluster_names = list(merged_clusters_info.keys())
 updated_cluster_titles = {name: merged_clusters_info[name]["titles"] for name in updated_cluster_names}
@@ -515,7 +516,7 @@ for group in to_resample:
 sample_titles = {cluster: [updated_cluster_titles[cluster][i] for i in resampled_idx[cluster]] for cluster in resampled_idx.keys()}
 sample_dtm = {cluster: updated_clusters_dtm_rows[cluster][resampled_idx[cluster], :] for cluster in resampled_idx.keys()}
 
-article_top_concepts = get_article_top_concepts(dtm_lsa)
+article_top_concepts = get_article_top_concepts(doc_term_mat_xfm)
 
 
 #Get exemplar
@@ -524,7 +525,7 @@ cluster_exemplars = {cluster: updated_cluster_titles[cluster][get_exemplar_idx(c
 
 
 ##Get most relevant from group
-avg_centroid = dtm_lsa.mean(axis=0)
+avg_centroid = doc_term_mat_xfm.mean(axis=0)
 centroids_to_avg = {cluster_id: np.dot(merged_centroids[cluster_id], avg_centroid) for cluster_id in group_centroids.keys()}
 
 cmp_cluster_to_avg = lambda centroid: np.dot(updated_clusters_dtm_rows[centroid], centroids_to_avg[centroid])
@@ -539,7 +540,7 @@ cluster_most_relevant = {cluster:updated_cluster_titles[cluster][get_relevant_id
 centroids_top_terms = {}
 all_infreq_top_centroid_terms = Counter()
 for cluster_id in group_centroids.keys():
-    top_terms = get_cluster_top_terms(cluster_id, merged_centroids, lsa, terms)[:50]
+    top_terms = get_cluster_top_terms(cluster_id, merged_centroids, latent_sa, terms)[:50]
     centroids_top_terms[cluster_id] = top_terms
     all_infreq_top_centroid_terms.update(top_terms)
 
@@ -548,7 +549,7 @@ max_freq = max_cnt//2 if max_cnt > 7 else max_cnt
 
 centroids_infreq_top_terms = {}
 for cluster_id in group_centroids.keys():
-    top_terms = get_cluster_top_terms(cluster_id, group_centroids, lsa, terms)[:50]
+    top_terms = get_cluster_top_terms(cluster_id, group_centroids, latent_sa, terms)[:50]
     centroids_infreq_top_terms[cluster_id] = [term for term in top_terms if all_infreq_top_centroid_terms[term] < max_freq][:20]
 
 
@@ -566,7 +567,7 @@ for cluster_id in group_centroids.keys():
 
 for g in group_idx:
     print(g)
-    pprint(get_cluster_top_terms(g, merged_centroids, lsa, terms)[:20])
+    pprint(get_cluster_top_terms(g, merged_centroids, latent_sa, terms)[:20])
     pprint(sample_titles[g])
     input()
 
