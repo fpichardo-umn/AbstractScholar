@@ -67,8 +67,6 @@ def get_article_top_concepts(concepts_transformed_data, filter_zeros=False):
     return art_top_concepts
 
 
-
-
 def get_terms_for_concept(terms, concept_matrix, concept_idx, top_n=10):
     """
     Get the top n terms for a given concept in a concept matrix.
@@ -222,6 +220,21 @@ def normalize_path(path):
     """
     return op.join(*path.replace('\\', '/').split('/'))
 
+
+def validate_data(data, required_columns):
+    """
+    Validate that the required columns exist in the dataframe.
+
+    Args:
+        data (pandas.DataFrame): The data to validate.
+        required_columns (list): The list of required columns.
+
+    Raises:
+        ValueError: If any of the required columns are missing.
+    """
+    for column in required_columns:
+        if column not in data.columns:
+            raise ValueError(f"Missing required column: {column}")
 
 
 def backup_and_save2222(preprocessed_df, removal_log_df, config, extra_backup_suffix=None):

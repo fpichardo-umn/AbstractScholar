@@ -116,13 +116,14 @@ def preprocess_data(data):
     return clean_docs
 
 
-def text_preprocess(clean_docs, custom_stopwords):
+def text_preprocess(clean_docs, custom_stopwords, relevant_languages):
     """
     Preprocesses the given documents by performing lemmatization and generating stopwords.
 
     Parameters:
     clean_docs (list): A list of documents to be preprocessed.
     custom_stopwords (list): A list of custom stopwords to be added to the default set of stopwords.
+    relevant_languages (list): A list of relevant languages to consider when lemmatizing the documents.
 
     Returns:
     tuple: A tuple containing the lemmatized vector and the set of stopwords.
@@ -132,11 +133,20 @@ def text_preprocess(clean_docs, custom_stopwords):
     
     ##STOPWORDS
     # Define a set of stopwords to remove from the documents
-    stop_words = set(stopwords.words('english'))
+    default_english_bool = False
+    stop_words = set()
+    for language in relevant_languages:
+        try:
+            stop_words.update(set(stopwords.words(language)))
+        except:
+            print(f"Warning: Could not find stopwords for language '{language}'")
+            if not default_english_bool:
+                stop_words.update(set(stopwords.words('english')))
+                default_english_bool = True
+                print(". Using English stopwords instead.")
 
     # Add custom stopwords
-    stop_words.update(custom_stopwords)
-    stop_words.update(set(stopwords.words('spanish')))
+    stop_words.update([word.strip() for word in custom_stopwords.split(',')])
 
     ##LEMMATIZE
     # Lemmatize stopwords and add to stop_words
@@ -271,19 +281,20 @@ ngram_range = tuple(map(int, config.get('ngram_range', '1, 4').split(',')))
 max_doc_freq = float(config.get('max_doc_freq', 0.5))
 max_svd_components = int(config.get('max_svd_components', 250))
 custom_stopwords = config.get('custom_stopwords', 'al, et, contents'.split(',')) #['al', 'et', 'contents', 'pubmed', 'pnas', 'published', 'article', 'present', 'abstract', 'sp', 'american', 'psychological', 'association', 'associatio', 'ei', 'pg', 'user', 'ie', 'apa', 'rights', 'reserved', 'copyright', 'c', 'l', 'j']
+relevant_languages = [language.lower() for language in config.get('languages', 'english'.split(','))]
 preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))
 
 # Preprocess the data by cleaning and transforming the abstracts
 clean_docs = preprocess_data(data)
 
 # Perform text preprocessing by lemmatizing the documents and generating stopwords
-lemmatized_vector, stop_words = text_preprocess(clean_docs, config)
+lemmatized_vector, stop_words = text_preprocess(clean_docs, custom_stopwords, relevant_languages)
 
 # Vectorize the preprocessed data using TF-IDF
-vectorizer_tfidf, doc_term_mat, terms = tfidf_vectorize(lemmatized_vector, config)
+vectorizer_tfidf, doc_term_mat, terms = tfidf_vectorize(lemmatized_vector, max_doc_freq, stop_words, ngram_range)
 
 # Perform Singular Value Decomposition (SVD) on the document-term matrix
-latent_sa, doc_term_mat_xfm = perform_svd(doc_term_mat, config)
+latent_sa, doc_term_mat_xfm = perform_svd(doc_term_mat, max_svd_components)
 
 ###
 #   Check and clean terms
