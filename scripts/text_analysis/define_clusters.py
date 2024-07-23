@@ -363,6 +363,7 @@ def aggregate_avg_cluster_score(merged_clusters_info, avg_cluster_score):
 # Load preprocessed data
 config = load_user_config()
 data = load_data(config, clustered_data=True)
+data.reset_index(drop=True, inplace=True)
 
 # Get the configuration parameters
 preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))
@@ -386,7 +387,7 @@ validate_data(data, required_columns = ['title', 'abstract', 'cluster'])
 
 ##Get Cluster Data
 data.cluster        = data.cluster.astype(int)
-get_cluster_idx     = lambda x: data.query('cluster == {}'.format(x)).index.values
+get_cluster_idx     = lambda x: data.query('cluster == {}'.format(x)).index.values.astype(int)
 get_cluster_titles  = lambda x: data.query('cluster == {}'.format(x)).title.values
 
 #Cluster names without solo

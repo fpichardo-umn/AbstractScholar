@@ -1,0 +1,101 @@
+Cluster merged_10_29, Coherence Rank 1:
+Terms: insulin, glucose tolerance, beta cell function, subject, oral, ogtt, concentration, type diabetes, test, blood, diabetes mellitus
+Exemplar: *[beta]-Cell Dysfunction in Subjects With Impaired Glucose Tolerance and Early Type 2 Diabetes: Comparison of Surrogate Markers With First-Phase Insulin Secretion From an Intravenous Glucose Tolerance Test.*
+Most relevant: *The Natural Course of [beta]-Cell Function in Nondiabetic and Diabetic Individuals: The Insulin Resistance Atherosclerosis Study.*
+Articles:
+-Altered pattern of the incretin effect as assessed by modelling in individuals with glucose tolerance ranging from normal to diabetic
+-Impact of incretin hormones on beta-cell function in subjects with normal or impaired glucose tolerance.
+-Pancreatic iron and glucose dysregulation in thalassemia major.
+
+Cluster 2, Coherence Rank 2:
+Terms: insulin resistance, insulin sensitivity, subject, diabetes, ir, fasting, metabolic, syndrome, atherosclerosis, glucose tolerance test, secretion
+Exemplar: *Relative Contribution of Insulin and Its Precursors to Fibrinogen and PAI-1 in a Large Population With Different States of Glucose Tolerance: The Insulin Resistance Atherosclerosis Study (IRAS).*
+Most relevant: *Insulin Resistance, [beta]-Cell Dysfunction, and Conversion to Type 2 Diabetes in a Multiethnic Population: The Insulin Resistance Atherosclerosis Study.*
+Articles:
+-Alanine Aminotransferase and Directly Measured Insulin Sensitivity in a Multiethnic Cohort: The Insulin Resistance Atherosclerosis Study.
+-Detecting Insulin Resistance in Polycystic Ovary Syndrome: Purposes and Pitfalls.
+-Microalbuminuria Is Associated With Insulin Resistance in Nondiabetic Subjects: The Insulin Resistance Atherosclerosis Study.
+
+Cluster 31, Coherence Rank 3:
+Terms: adhd, child, reward, punishment, frn, learning, attention deficit hyperactivity disorder, loss, feedback related, patient, negativity
+Exemplar: *Feedback-Related Negativity in Children with Two Subtypes of Attention Deficit Hyperactivity Disorder.*
+Most relevant: *Feedback-Related Negativity in Children with Two Subtypes of Attention Deficit Hyperactivity Disorder.*
+Articles:
+-Processing of continuously provided punishment and reward in children with ADHD and the modulating effects of stimulant medication: An ERP study.
+
+Cluster merged_1_22, Coherence Rank 4:
+Terms: decision making, alcohol use, task, cognitive, risk, problem, gambling, individual, brain, memory, behavior, process, associated, performance, group
+Exemplar: *Affective decision-making moderates the effects of automatic associations on alcohol use among drug offenders.*
+Most relevant: *Decision making under explicit risk is impaired in individuals with human immunodeficiency virus (HIV).*
+Articles:
+-Decisions to Attend and Drink at Party Events: The Effects of Incentives and Disincentives and Lifetime Alcohol and Antisocial Problems.
+-Impairments to the cognitive mechanisms of reward-associated decision-making in alcohol dependence.
+-The relationship between measures of impulsivity and alcohol misuse: An integrative structural equation modeling approach.
+
+Cluster merged_1_19, Coherence Rank 5:
+Terms: decision making, insula, risky, cortex, anterior, brain, choice, activation, region, neural, prefrontal, fmri, activity, gambling task
+Exemplar: *Impaired decision-making and brain shrinkage in alcoholism.*
+Most relevant: *Decision making under explicit risk is impaired in individuals with human immunodeficiency virus (HIV).*
+Articles:
+-Anterior insula activity predicts the influence of positively framed messages on decision making.
+-Insular neural system controls decision-making in healthy and methamphetamine-treated rats.
+
+Cluster 5, Coherence Rank 6:
+Terms: parameter, choice, modeling, bayesian, method, process, decision making, gambling task, reinforcement learning, cognitive model, fit, iowa
+Exemplar: *Absolute performance of reinforcement-learning models for the Iowa Gambling Task.*
+Most relevant: *The Outcome-Representation Learning Model: A Novel Reinforcement Learning Model of the Iowa Gambling Task*
+Articles:
+-A Comparison of Reinforcement Learning Models for the Iowa Gambling Task Using Parameter Space Partitioning.
+-An improved cognitive model of the Iowa and Soochow Gambling Tasks with regard to model fitting performance and tests of parameter consistency
+
+Cluster 26, Coherence Rank 7:
+Terms: theta, anticipation, eeg, beta, effort, frontal, monetary, potential, reward processing, participant, outcome, event related, activity, condition, motivation, error
+Exemplar: *Integration of reward with cost anticipation during performance monitoring revealed by ERPs and EEG spectral perturbations.*
+Most relevant: *DRD4 polymorphisms modulate reward positivity and P3a in a gambling task: Exploring a genetic basis for cultural learning.*
+Articles:
+-Electrophysiological correlates of anticipating improbable but desired events.
+
+Cluster merged_1_15, Coherence Rank 8:
+Terms: suicide, decision making, suicidal, attempt, patient, risk, performance, disorder, behavior, group, control, cognitive, reward, gambling task, iowa
+Exemplar: *Decision-making performance of depressed patients within 72 h following a suicide attempt.*
+Most relevant: *Decision making under explicit risk is impaired in individuals with human immunodeficiency virus (HIV).*
+Articles:
+-Executive function and suicidal risk in women with Borderline Personality Disorder.
+-Cognitive modelling to assess decision-making impairments in patients with current depression and with/without suicide history.
+-Impaired decision making in adolescent suicide attempters.
+
+Cluster 4, Coherence Rank 9:
+Terms: type diabetes, glucose, insulin, risk, year, lifestyle, disease, woman, cardiovascular, intervention, diabetes mellitus, prevention, patient, factor, blood, health, cost
+Exemplar: *International Diabetes Federation: a consensus on Type 2 diabetes prevention.*
+Most relevant: *Elevations in Markers of Liver Injury and Risk of Type 2 Diabetes: The Insulin Resistance Atherosclerosis Study.*
+Articles:
+-Increased Diabetes Incidence in Greek and Italian Migrants to Australia: How much can be explained by known risk factors?
+-Elevated Homocysteine as a Risk Factor for the Development of Diabetes in Women With a Previous History of Gestational Diabetes Mellitus: A 4-yea
+-Primary Prevention of Type 2 Diabetes Mellitus by Lifestyle Intervention: Implications for Health Policy.
+
+Cluster 14, Coherence Rank 10:
+Terms: externalizing, psychopathy, psychopathology, trait, disinhibition, factor, problem, personality disorder, construct, patrick, substance use, validity, behavior, spectrum, measure, impulsivity
+Exemplar: *Validity of the Externalizing Spectrum Inventory in a criminal offender sample: Relations with disinhibitory psychopathology, personality, and psychopathic features.*
+Most relevant: *Conceptualizing psychopathy in Triarchic terms: Implications for treatment.*
+Articles:
+-Substance use disorders as externalizing outcomes.
+-Delineating the construct network of the Personnel Reaction Blank: Associations with externalizing tendencies and normal personality.
+-Validity and utility of Hierarchical Taxonomy of Psychopathology (HiTOP): II. Externalizing superspectrum.
+
+Cluster merged_1_13, Coherence Rank 11:
+Terms: decision making, binge, eating disorder, food, task, cognitive, obesity, control, reward, gambling, weight, patient, performance, behavior, group
+Exemplar: *Impaired decision-making in symptomatic anorexia and bulimia nervosa patients: A meta-analysis.*
+Most relevant: *Decision making under explicit risk is impaired in individuals with human immunodeficiency virus (HIV).*
+Articles:
+-Questionnaire-based maladaptive decision-coping patterns involved in binge eating among 1013 college students.
+-Dysfunctional decision-making in binge-eating disorder: A meta-analysis and systematic review.
+-Reward-related decision making in eating and weight disorders: A systematic review and meta-analysis of the evidence from neuropsychological stud
+
+Cluster 21, Coherence Rank 12:
+Terms: food, craving, choice, impulsive, preference, stimulation, go, profile, predictive, property, obesity, exposure, temporal, serotonin, alternative, questionnaire, current, intervention, information, model
+Exemplar: *Reversing food preference through multisensory exposure.*
+Most relevant: *A neural basis for food foraging in obesity.*
+Articles:
+-No evidence that prefrontal HD-tDCS influences cue-induced food craving.
+-Novel model and kernel search heuristic for multi-period closed-loop food supply chain planning with returnable transport items.
+
