@@ -52,7 +52,7 @@ import os.path as op
 # Add the 'scripts' subdirectory to the Python path
 scripts_dir = op.join(os.getcwd(), 'scripts')
 sys.path.append(scripts_dir)
-from scripts.gen_utils_preproc import *
+from scripts.gen_utils_search import *
 
 
 def query_crossref(doi, logger):
