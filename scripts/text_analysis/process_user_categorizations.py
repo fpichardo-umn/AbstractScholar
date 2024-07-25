@@ -32,6 +32,7 @@ import pandas as pd
 import os
 import os.path as op
 import sys
+import glob
 from typing import List
 
 # Add the 'scripts' subdirectory to the Python path
@@ -79,6 +80,21 @@ def process_kept_entries(data: pd.DataFrame, reset_for_pipeline: bool, columns_t
     
     kept.to_csv(output_file, index=False)
     print(f"Kept {len(kept)} entries. Saved to {output_file}")
+
+def version_preprocessed_data(base_path='data'):
+    preprocessed_file = os.path.join(base_path, 'preprocessed_data.csv')
+    if not os.path.exists(preprocessed_file):
+        raise FileNotFoundError(f"Error: {preprocessed_file} does not exist. Cannot proceed with reset.")
+    
+    # Count existing versioned files
+    version_count = len(glob.glob(os.path.join(base_path, 'preprocessed_data_v*.csv')))
+    new_version = version_count + 1
+    
+    # Rename the current file
+    new_filename = os.path.join(base_path, f'preprocessed_data_v{new_version}.csv')
+    os.rename(preprocessed_file, new_filename)
+    print(f"Existing preprocessed_data.csv renamed to preprocessed_data_v{new_version}.csv")
+
 
 # Load configuration
 config = load_user_config()
