@@ -43,7 +43,7 @@ import Levenshtein
 import networkx as nx
 from difflib import SequenceMatcher
 from scipy.spatial import distance
-from sklearn.cluster import KMeans
+from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 from sklearn.metrics.cluster import silhouette_score
 from sklearn.metrics.cluster import calinski_harabasz_score
 
@@ -174,34 +174,52 @@ def determine_best_k(doc_term_mat_xfm, group_iterations, kmeans_max_k, kmeans_in
     return int(round(average_k))
 
 
-def group_abstracts_with_kmeans(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init):
-    """
-    Group abstracts with K-means clustering multiple times and update the dataset.
-
-    Args:
-        data (pd.DataFrame): The dataset containing abstracts.
-        doc_term_mat_xfm (np.ndarray): The transformed document-term matrix.
-        best_k (int): The number of clusters to create.
-        num_groupings (int): The number of times to perform the clustering.
-        kmeans_init (str): The method to initialize the K-means algorithm.
-        k_n_init (int): The number of times the K-means algorithm will be run with different centroid seeds.
-
-    Returns:
-        None
-
-    """
-    to_printable = np.vectorize(lambda idx: string.printable[idx])
+def group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init):
+    to_printable = np.vectorize(lambda idx: string.printable[idx % len(string.printable)])
     data['group_strs'] = ''
+
+    # Estimate initial eps for DBSCAN
+    initial_eps = estimate_dbscan_eps(doc_term_mat_xfm)*.7
 
     for a in range(num_groupings):
         if a % 5 == 0:
             print(f"Iteration {a}/{num_groupings}")
 
-        clf = KMeans(n_clusters=best_k, init=kmeans_init, n_init=k_n_init).fit(doc_term_mat_xfm)
-        groups = pd.DataFrame(clf.labels_, columns=['group'])
-        groups['group'] = to_printable(groups['group'])
+        # K-means (as before)
+        kmeans = KMeans(n_clusters=best_k, init=kmeans_init, n_init=k_n_init).fit(doc_term_mat_xfm)
+        
+        # DBSCAN with varying parameters
+        min_samples = (a % 5) + 2  # Vary min_samples between 2 and 6
+        eps = initial_eps * (1 + 0.1 * (a // 5))  # Increase eps by 10% every 5 iterations
+        dbscan = DBSCAN(eps=eps, min_samples=min_samples).fit(doc_term_mat_xfm)
+        
+        # Agglomerative Clustering with varying parameters
+        linkage = ['ward', 'complete', 'average', 'single'][a % 4]
+        n_clusters = max(2, int(best_k * (0.8 + 0.4 * (a / num_groupings))))  # Vary n_clusters between 80% and 120% of best_k
+        agg = AgglomerativeClustering(n_clusters=n_clusters, linkage=linkage).fit(doc_term_mat_xfm)
 
-        data['group_strs'] = data['group_strs'].values  + groups['group'].values
+        # Process labels
+        kmeans_labels = to_printable(kmeans.labels_)
+        
+        dbscan_labels = dbscan.labels_
+        dbscan_labels[dbscan_labels == -1] = max(dbscan_labels) + 1
+        dbscan_labels = to_printable(dbscan_labels)
+        
+        agg_labels = to_printable(agg.labels_)
+
+        combined_labels = np.core.defchararray.add(np.core.defchararray.add(kmeans_labels, dbscan_labels), agg_labels)
+
+        data['group_strs'] = data['group_strs'].values + combined_labels
+
+    return data
+
+def estimate_dbscan_eps(X, k=5):
+    neigh = NearestNeighbors(n_neighbors=k)
+    nbrs = neigh.fit(X)
+    distances, indices = nbrs.kneighbors(X)
+    distances = np.sort(distances, axis=0)
+    distances = distances[:,1]
+    return np.median(distances)  # Use median as a robust estimate
 
 
 def calc_edist(a, b):
@@ -329,6 +347,17 @@ def write_cluster_titles(data, clusters, cluster_titles_txt):
     print('Num clusters: {}\nNum solo articles: {}'.format(len(clusters), len(solo)))
 
 
+def adaptive_threshold(edist_matrix, percentile=1):
+    # Flatten the matrix and filter out 1s and 0s
+    filtered_edist_matrix = edist_matrix[(edist_matrix != 1) & (edist_matrix != 0)]
+    
+    # Check if the filtered array is not empty to avoid errors
+    if filtered_edist_matrix.size == 0:
+        raise ValueError("No valid elements left after filtering out 1s and 0s.")
+    
+    # Use a percentile of the edit distances as the threshold
+    return np.percentile(filtered_edist_matrix, percentile)
+
 ####
 ##    START
 ####
@@ -360,13 +389,14 @@ latent_sa, doc_term_mat_xfm, terms = load_from_pickle(preprocess_pickle_filename
 best_k = determine_best_k(doc_term_mat_xfm, group_iterations, kmeans_max_k, kmeans_init, kmeans_sim)
 
 # Group abstracts with kmeans multiple times
-group_abstracts_with_kmeans(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init)
+data = group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init)
 
 # Calc and save edit distance matrix
 edist = gen_edist_matrix(data)
 save_to_pickle(edist, edist_abstract_pickle_filename)
 
 # Cluster Graphs
+max_edist = adaptive_threshold(edist)
 clusters, solo, G_strong = cluster_graphs(edist, max_edist)
 
 # Assign clusters to data
