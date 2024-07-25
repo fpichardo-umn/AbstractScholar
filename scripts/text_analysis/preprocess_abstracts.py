@@ -281,7 +281,7 @@ ngram_range = tuple(map(int, config.get('ngram_range', '1, 4').split(',')))
 max_doc_freq = float(config.get('max_doc_freq', 0.5))
 max_svd_components = int(config.get('max_svd_components', 250))
 custom_stopwords = config.get('custom_stopwords', 'al, et, contents'.split(',')) #['al', 'et', 'contents', 'pubmed', 'pnas', 'published', 'article', 'present', 'abstract', 'sp', 'american', 'psychological', 'association', 'associatio', 'ei', 'pg', 'user', 'ie', 'apa', 'rights', 'reserved', 'copyright', 'c', 'l', 'j']
-relevant_languages = [language.lower() for language in config.get('languages', 'english'.split(','))]
+relevant_languages = [language.lower() for language in config.get('languages', 'english').split(',')]
 preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))
 
 # Preprocess the data by cleaning and transforming the abstracts
