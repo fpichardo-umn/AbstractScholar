@@ -448,11 +448,11 @@ if len(filtered_sorted_coherence_scores) > 1:
     centroid_dict = {cluster_id: centroids[cluster_id] for cluster_id in filtered_sorted_coherence_scores.keys()}
     centroid_list = list(centroid_dict.values())
     similarity_matrix = cosine_similarity(centroid_list)
-    similarity_threshold = np.percentile(np.sort(similarity_matrix.flatten()), 90)
+    similarity_threshold = np.percentile(np.sort(similarity_matrix.flatten()[similarity_matrix.flatten() != 1]), 90)
 
     # Merge clusters
     merged_centroids = merge_clusters(similarity_matrix, similarity_threshold, centroid_dict)
-    
+ 
 if merged_centroids:
     print(f"Merging {len(merged_centroids)} clusters...")
     merged_clusters_info = update_cluster_info(clusters_info, merged_centroids)
@@ -497,8 +497,11 @@ if merged_centroids:
     )
 
     # Check if any merged clusters meet the threshold
-    new_score_thresh = find_elbow_point(update_sorted_coherence_scores)
-    updated_thresholded_idx = [idx for idx, score in update_sorted_coherence_scores if score > new_score_thresh]
+    if len(update_sorted_coherence_scores) > 1:
+        new_score_thresh = find_elbow_point(update_sorted_coherence_scores)
+        updated_thresholded_idx = [idx for idx, score in update_sorted_coherence_scores if score > new_score_thresh]
+    else:
+        updated_thresholded_idx = [update_sorted_coherence_scores[0][0]]
 
     if updated_thresholded_idx:
         print("Some merged clusters meet coherence threshold. Combining with original high-scoring clusters.")
