@@ -44,3 +44,8 @@ group_iterations: 10
 kmeans_sim: bic
 kmeans_max_k: 50
 max_edist: 0.2
+categorized_data_file: ./data/text_analysis/categorized_articles.csv
+removal_log_file: ./data/text_removal_log.csv
+preprocessed_data_file: ./data/preprocessed_data_v2.csv
+post_review_file: ./data/text_analysis/text_post_abstract_review.csv
+reset_for_pipeline: true
