@@ -42,6 +42,7 @@ from sklearn.linear_model import ElasticNetCV
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.cluster import KMeans
+from sklearn.dummy import DummyClassifier
 
 # Add the 'scripts' subdirectory to the Python path
 scripts_dir = op.join(os.getcwd(), 'scripts')
@@ -71,11 +72,11 @@ def load_data_and_clusters(config):
 
 def label_articles(data, merged_clusters_info, relevant_clusters, irrelevant_clusters):
     """Label articles based on cluster membership."""
-    data['label'] = None
+    data['label'] = 'unknown'  # Default label
     for cluster in relevant_clusters:
-        data.loc[data.index.isin(merged_clusters_info[cluster]['indices']), 'label'] = 1
+        data.loc[data.index.isin(merged_clusters_info[cluster]['indices']), 'label'] = 'relevant'
     for cluster in irrelevant_clusters:
-        data.loc[data.index.isin(merged_clusters_info[cluster]['indices']), 'label'] = 0
+        data.loc[data.index.isin(merged_clusters_info[cluster]['indices']), 'label'] = 'irrelevant'
     return data
 
 def prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coherences):
@@ -85,15 +86,22 @@ def prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coheren
         data.loc[indices, 'distance_to_centroid'] = cosine_distances(doc_term_mat_xfm[indices], centroid.reshape(1, -1)).flatten()
         data.loc[indices, 'coherence_weight'] = normalized_coherences[cluster_id]
     
-    labeled_data = data.dropna(subset=['label'])
-    labeled_features = doc_term_mat_xfm[labeled_data.index]
-    features = np.hstack([labeled_features, labeled_data[['distance_to_centroid', 'coherence_weight']].values])
-    labels = labeled_data['label']
+    features = np.hstack([doc_term_mat_xfm, data[['distance_to_centroid', 'coherence_weight']].fillna(0).values])
+    labels = data['label'].map({'relevant': 1, 'irrelevant': 0, 'unknown': -1})
     
-    return features, labels
+    # Filter out unknown labels
+    known_mask = labels != -1
+    features_known = features[known_mask]
+    labels_known = labels[known_mask]
+    
+    return features, labels, features_known, labels_known
 
 def train_and_evaluate_classifier(features, labels):
     """Train and evaluate the ElasticNet classifier."""
+    if len(np.unique(labels)) == 1:
+        print("Warning: All labels are the same. Cannot split or train model.")
+        return DummyClassifier(strategy="constant", constant=labels[0])
+    
     X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
     y_train = y_train.astype(int)
     y_test = y_test.astype(int)
@@ -116,71 +124,76 @@ def train_and_evaluate_classifier(features, labels):
 
     return enet
 
-def predict_unlabeled_articles(data, doc_term_mat_xfm, group_centroids, normalized_coherences, enet):
-    """Predict relevance for unlabeled articles."""
-    # Create an explicit copy of the unlabeled data
-    unlabeled_data = data[data['label'].isna()].copy()
+def predict_article_relevance(data, doc_term_mat_xfm, group_centroids, normalized_coherences, enet):
+    """Predict relevance for all articles."""
+    # Use the entire dataset
+    data_copy = data.copy()
 
     # Initialize columns using .loc to avoid warnings
-    unlabeled_data.loc[:, 'nearest_centroid'] = None
-    unlabeled_data.loc[:, 'distance_to_nearest_centroid'] = np.inf
+    data_copy.loc[:, 'nearest_centroid'] = None
+    data_copy.loc[:, 'distance_to_nearest_centroid'] = np.inf
 
     for cluster_id, centroid in group_centroids.items():
-        distances = cosine_distances(doc_term_mat_xfm[unlabeled_data.index], centroid.reshape(1, -1)).flatten()
-        mask = distances < unlabeled_data['distance_to_nearest_centroid']
-        unlabeled_data.loc[mask, 'nearest_centroid'] = cluster_id
-        unlabeled_data.loc[mask, 'distance_to_nearest_centroid'] = distances[mask]
+        distances = cosine_distances(doc_term_mat_xfm, centroid.reshape(1, -1)).flatten()
+        mask = distances < data_copy['distance_to_nearest_centroid']
+        data_copy.loc[mask, 'nearest_centroid'] = cluster_id
+        data_copy.loc[mask, 'distance_to_nearest_centroid'] = distances[mask]
 
-    unlabeled_data.loc[:, 'coherence_weight'] = unlabeled_data['nearest_centroid'].map(normalized_coherences).fillna(0)
+    data_copy.loc[:, 'coherence_weight'] = data_copy['nearest_centroid'].map(normalized_coherences).fillna(0)
 
-    unlabeled_features = np.hstack([
-        doc_term_mat_xfm[unlabeled_data.index],
-        unlabeled_data[['distance_to_nearest_centroid', 'coherence_weight']].values
+    features = np.hstack([
+        doc_term_mat_xfm,
+        data_copy[['distance_to_nearest_centroid', 'coherence_weight']].values
     ])
 
-    unlabeled_predictions = enet.predict(unlabeled_features)
-    unlabeled_data.loc[:, 'predicted_1_prob'] = 1 / (1 + np.exp(-unlabeled_predictions))
-    unlabeled_data.loc[:, 'predicted_label'] = (unlabeled_predictions > 0.5).astype(int)
+    predictions = enet.predict(features)
+    data_copy.loc[:, 'predicted_1_prob'] = 1 / (1 + np.exp(-predictions))
+    data_copy.loc[:, 'predicted_label'] = (predictions > 0.5).astype(int)
 
-    return unlabeled_data
+    return data_copy
 
 def categorize_articles(data, doc_term_mat_xfm, group_centroids, normalized_coherences):
-    """Categorize articles as Relevant, Irrelevant, or Borderline."""
+    """Categorize all articles as Relevant, Irrelevant, or Borderline."""
     # Create an explicit copy
-    unlabeled_data = data.copy()
+    categorized_data = data.copy()
 
     min_max_normalize = lambda x: (x - x.min()) / (x.max() - x.min())
 
-    irrelevant_centroids = {cid: group_centroids[cid] for cid in relevant_clusters}
+    irrelevant_centroids = {cid: group_centroids[cid] for cid in irrelevant_clusters}
 
-    unlabeled_data.loc[:, 'sim_to_nearest_irrelevant_centroid'] = -np.inf
-    unlabeled_data.loc[:, 'nearest_irrelevant_centroid_coherence'] = 0
+    categorized_data.loc[:, 'sim_to_nearest_irrelevant_centroid'] = -np.inf
+    categorized_data.loc[:, 'nearest_irrelevant_centroid_coherence'] = 0
 
     for cluster_id, centroid in irrelevant_centroids.items():
-        sims = cosine_similarity(doc_term_mat_xfm[unlabeled_data.index], centroid.reshape(1, -1)).flatten()
-        for idx, sim in zip(unlabeled_data.index, sims):
-            if sim > unlabeled_data.at[idx, 'sim_to_nearest_irrelevant_centroid']:
-                unlabeled_data.at[idx, 'sim_to_nearest_irrelevant_centroid'] = sim
-                unlabeled_data.at[idx, 'nearest_irrelevant_centroid_coherence'] = normalized_coherences.get(cluster_id, 0)
+        sims = cosine_similarity(doc_term_mat_xfm, centroid.reshape(1, -1)).flatten()
+        mask = sims > categorized_data['sim_to_nearest_irrelevant_centroid']
+        categorized_data.loc[mask, 'sim_to_nearest_irrelevant_centroid'] = sims[mask]
+        categorized_data.loc[mask, 'nearest_irrelevant_centroid_coherence'] = normalized_coherences.get(cluster_id, 0)
 
-    unlabeled_data['final_score'] = min_max_normalize(unlabeled_data['predicted_1_prob'] - (unlabeled_data['sim_to_nearest_irrelevant_centroid'] * unlabeled_data['nearest_irrelevant_centroid_coherence'])**(1/8))
+    categorized_data['final_score'] = min_max_normalize(
+        categorized_data['predicted_1_prob'] - 
+        (categorized_data['sim_to_nearest_irrelevant_centroid'] * 
+         categorized_data['nearest_irrelevant_centroid_coherence'])**(1/8)
+    )
 
-    mean_score = unlabeled_data['final_score'].mean()
-    std_score = unlabeled_data['final_score'].std()
+    mean_score = categorized_data['final_score'].mean()
+    std_score = categorized_data['final_score'].std()
     lower_threshold = mean_score - std_score
     upper_threshold = mean_score + std_score
 
-    kmeans = KMeans(n_clusters=3, random_state=42).fit(unlabeled_data[['final_score']])
+    kmeans = KMeans(n_clusters=3, random_state=42).fit(categorized_data[['final_score']])
     centroids = kmeans.cluster_centers_.flatten()
     sorted_centroids = np.sort(centroids)
 
     final_lower_threshold = (lower_threshold + sorted_centroids[0]) / 2
     final_upper_threshold = (upper_threshold + sorted_centroids[-1]) / 2
 
-    unlabeled_data['category'] = np.where(unlabeled_data['final_score'] <= final_lower_threshold, 'Irrelevant',
-                                          np.where(unlabeled_data['final_score'] >= final_upper_threshold, 'Relevant', 'Borderline'))
+    categorized_data['category'] = np.where(
+        categorized_data['final_score'] <= final_lower_threshold, 'Irrelevant',
+        np.where(categorized_data['final_score'] >= final_upper_threshold, 'Relevant', 'Borderline')
+    )
 
-    return unlabeled_data
+    return categorized_data
 
 def sample_articles(unlabeled_data):
     """Sample articles from each category."""
@@ -194,7 +207,7 @@ def sample_articles(unlabeled_data):
 
 def export_categorized_data(categorized_data, output_file='data/categorized_articles.csv'):
     """
-    Export categorized data to a CSV file for user editing.
+    Export categorized data to a CSV file for user editing, with prepopulated user judgments.
     
     Args:
     categorized_data (pd.DataFrame): The DataFrame containing categorized article data.
@@ -216,8 +229,12 @@ def export_categorized_data(categorized_data, output_file='data/categorized_arti
     # Sort the DataFrame by final_score in ascending order
     export_df = export_df.sort_values('final_score', ascending=True)
     
-    # Add a new column for user judgment
-    export_df['user_judgment'] = ''
+    # Add a new column for user judgment and prepopulate based on category
+    export_df['user_judgment'] = export_df['category'].map({
+        'Irrelevant': 'D',
+        'Relevant': 'K',
+        'Borderline': 'K'
+    })
     
     # Reorder columns to put user_judgment at the end
     columns_order = columns_to_export + ['user_judgment']
@@ -227,24 +244,26 @@ def export_categorized_data(categorized_data, output_file='data/categorized_arti
     export_df.to_csv(output_file, index=False)
     
     print(f"Data exported to {output_file}")
+    print(f"User judgments prepopulated: 'D' for Irrelevant, 'K' for Relevant and Borderline")
+
 
 config = load_user_config()
 data, latent_sa, doc_term_mat_xfm, terms, group_centroids, merged_clusters_info, sorted_all_coherences = load_data_and_clusters(config)
 
-relevant_clusters = [1, 'merged_3_24', 'merged_3_19']
-irrelevant_clusters = [2, 10, 4]
+relevant_clusters = ['merged_1_0']
+irrelevant_clusters = [3, 2, 'merged_11_4', 'merged_8_19']
 
 data = label_articles(data, merged_clusters_info, relevant_clusters, irrelevant_clusters)
 
 normalized_coherences = normalize_values(dict(sorted_all_coherences))
 
-features, labels = prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coherences)
+features, labels, features_known, labels_known = prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coherences)
 
-enet = train_and_evaluate_classifier(features, labels)
+enet = train_and_evaluate_classifier(features_known, labels_known)  # Train only on known labels
 
-unlabeled_data = predict_unlabeled_articles(data, doc_term_mat_xfm, group_centroids, normalized_coherences, enet)
+data_with_predictions = predict_article_relevance(data, doc_term_mat_xfm, group_centroids, normalized_coherences, enet)
 
-categorized_data = categorize_articles(unlabeled_data, doc_term_mat_xfm, group_centroids, normalized_coherences)
+categorized_data = categorize_articles(data_with_predictions, doc_term_mat_xfm, group_centroids, normalized_coherences)
 
 export_categorized_data(categorized_data, output_file = normalize_path(config.get('categorized_output_file', './data/text_analysis/categorized_articles.csv')))
 

@@ -226,33 +226,28 @@ def plot_elbow(thresholds: np.ndarray, clusters_by_threshold: Dict[float, List[i
     plt.show()
 
 def merge_clusters(similarity_matrix: np.ndarray, threshold: float, centroids: Dict[int, np.ndarray]) -> Dict[str, np.ndarray]:
-    """
-    Find and merge clusters based on the similarity threshold.
-
-    Args:
-        similarity_matrix (np.ndarray): Matrix of pairwise similarities between clusters.
-        threshold (float): Similarity threshold for merging clusters.
-        centroids (Dict[int, np.ndarray]): Dictionary of cluster centroids.
-
-    Returns:
-        Dict[str, np.ndarray]: Dictionary of merged cluster IDs to their new centroids.
-    """
     merged_centroids = {}
     merged = set()
     centroid_keys = list(centroids.keys())
-
+    
+    # Create a list of all possible merge pairs with their similarity scores
+    merge_candidates = []
     for i, cluster_i_key in enumerate(centroid_keys):
-        if i in merged:
-            continue
         for j, cluster_j_key in enumerate(centroid_keys[i+1:], start=i+1):
-            if j in merged:
-                continue
             if similarity_matrix[i, j] >= threshold:
-                new_centroid = (centroids[cluster_i_key] + centroids[cluster_j_key]) / 2
-                new_cluster_id = f"merged_{cluster_i_key}_{cluster_j_key}"
-                merged_centroids[new_cluster_id] = new_centroid
-                merged.update([i, j])
-
+                merge_candidates.append((cluster_i_key, cluster_j_key, similarity_matrix[i, j]))
+    
+    # Sort merge candidates by similarity score in descending order
+    merge_candidates.sort(key=lambda x: x[2], reverse=True)
+    
+    # Perform merging
+    for cluster_i_key, cluster_j_key, _ in merge_candidates:
+        if cluster_i_key not in merged and cluster_j_key not in merged:
+            new_centroid = (centroids[cluster_i_key] + centroids[cluster_j_key]) / 2
+            new_cluster_id = f"merged_{cluster_i_key}_{cluster_j_key}"
+            merged_centroids[new_cluster_id] = new_centroid
+            merged.update([cluster_i_key, cluster_j_key])
+    
     return merged_centroids
 
 def update_cluster_info(clusters_info: Dict[int, Dict], merged_centroids: Dict[str, np.ndarray]) -> Dict[str, Dict]:
@@ -452,7 +447,7 @@ if len(filtered_sorted_coherence_scores) > 1:
 
     # Merge clusters
     merged_centroids = merge_clusters(similarity_matrix, similarity_threshold, centroid_dict)
- 
+
 if merged_centroids:
     print(f"Merging {len(merged_centroids)} clusters...")
     merged_clusters_info = update_cluster_info(clusters_info, merged_centroids)
