@@ -1,1035 +1,831 @@
 Cluster 0:
-Computational modeling of the n-back task in the ABCD study: Associations of drift diffusion model parameters to polygenic scores of mental disorders and cardiometabolic diseases.
-Insight into differing decision-making strategies that underlie cognitively effort-based decision making using computational modeling in rats.
-Reward_related decision_making deficits in internet gaming disorder: a systematic review and meta_analysis.
-Reward-related decision making in eating and weight disorders: A systematic review and meta-analysis of the evidence from neuropsychological studies.
-Measurable Decision Making with GSR and Pupillary Analysis for Intelligent User Interface.
-Analysis of evidence in decision-making research between 2002 and 2012.
-Decision-Making Dysfunctions in Psychiatry-Altered Homeostatic Processing?
-Age-related variability in decision-making: Insights from neurochemistry.
-Adults with Autism Show Increased Sensitivity to Outcomes at Low Error Rates During Decision-Making.
-Decision-making bioinspired model for target definition and "satisfactor" selection for physiological needs.
-Influence of negative affect on decision making in women with restrictive and binge-purge type anorexia nervosa.
-Insular neural system controls decision-making in healthy and methamphetamine-treated rats.
-A dynamic, embodied paradigm to investigate the role of serotonin in decision-making.
-Systematic review and meta-analysis of factors that help or hinder treatment decision-making capacity in psychosis.
-Decision-making ability in current and past users of opiates: A meta-analysis.
-A mixed-effects expectancy-valence model for the Iowa gambling task.
-Better late than never (or early): Music training in late childhood is associated with enhanced decision-making.
-Differences in self-reported decision-making styles in stimulant-dependent and opiate-dependent individuals.
-Strategy switching in a sequence of decisions: Evidence from the Iowa Gambling Task.
-Shuffle the decks: Children are sensitive to incidental nonrandom structure in a sequential-choice task.
-Serotonin and decision making processes.
-The expectancy valence model of the Iowa Gambling Task: Can it produce reliable estimates for individuals?
-Analysis of behavior of drug addicts in Iowa gambling task using reinforcement learning model.
-Predicting human decision making in psychological tasks with recurrent neural networks.
-Effects of methadone maintenance treatment on decision-making processes in heroin-abusers: A cognitive modeling analysis.
-Misfortune may be a blessing in disguise: Fairness perception and emotion modulate decision making.
-Short-term fasting selectively influences impulsivity in healthy individuals.
-Decision-making in stimulant and opiate addicts in protracted abstinence: Evidence from computational modeling with pure users.
-A computational knowledge-based model for emulating human performance in the Iowa Gambling Task.
-How does apathy impact exploration-exploitation decision-making in older patients with neurocognitive disorders?
-Is decision-making ability related to food choice and facets of eating behaviour in adolescents?
-Integrating fMRI With Psychophysiological Measurements in the Study of Decision Making.
-Analyzing the role of cognitive biases in the decision-making process.
-RDMTk: A toolkit for risky decision making.
-Decision-making in normal and pathological aging.
-Models that learn how humans learn: The case of decision-making and its disorders.
-Dissecting the links between reward and loss, decision-making, and self-reported affect using a computational approach.
-Decision-making and impulse control after frontal lobe injuries.
-Decisions to Attend and Drink at Party Events: The Effects of Incentives and Disincentives and Lifetime Alcohol and Antisocial Problems.
-Among three different executive functions, general executive control ability is a key predictor of decision making under objective risk.
-The impact of anxiety on decision making in individuals with intellectual and developmental disabilities or a diagnosis on the autism spectrum.
-The Impact of Sleep Deprivation on Decision Making: A Review.
-Estimating a Path through a Map of Decision Making.
-Model-based learning and individual differences in depression: The moderating role of stress.
-Impairments to the cognitive mechanisms of reward-associated decision-making in alcohol dependence.
-The effects of alcohol on sequential decision-making biases during gambling.
-Reward segmentation during feedback improves gambling task performance.
-Decomposing the roles of perseveration and expected value representation in models of the Iowa Gambling Task.
-Sex and HIV serostatus differences in decision making under risk among substance-dependent individuals.
-Inter-individual decision-making differences in the effects of cingulate, orbitofrontal, and prelimbic cortex lesions in a rat gambling task.
-Risk behavior in opioid-dependent individuals after the administration of a therapeutic dose of methadone.
-Deconstructing value-based decision making via temporally selective manipulation of neural activity: Insights from rodent models.
-The Outcome-Representation Learning Model: A Novel Reinforcement Learning Model of the Iowa Gambling Task
 A Contribution of Cognitive Decision Models to Clinical Assessment: Decomposing Performance on the Bechara Gambling Task.
-Affective decision-making moderates the effects of automatic associations on alcohol use among drug offenders.
-Calm and smart? A selective review of meditation effects on decision making.
-Dysfunctional decision-making in pathological gambling: Pattern specificity and the role of impulsivity.
-Toward an understanding of decision making in severe mental illness.
-Neural mechanisms regulating different forms of risk-related decision-making: Insights from animal models.
-Does the feedback from previous trials influence current decisions? A study on the role of feedback processing in making decisions under explicit risk conditions.
-From Genes to Performance: Dopaminergic Modulation of Decision Making in a Stock Market Simulation.
-Straight choices: The psychology of decision making.
-Learning of judgment and decision-making strategies.
-An information processing/associative learning account of behavioral disinhibition in externalizing psychopathology.
-Deliberative choice strategies in youths: Relevance to transdiagnostic anxiety symptoms.
-Sequential exploration in the Iowa gambling task: Validation of a new computational model in a large dataset of young and old healthy participants.
-An improved cognitive model of the Iowa and Soochow Gambling Tasks with regard to model fitting performance and tests of parameter consistency
-Identifying new susceptibility genes on dopaminergic and serotonergic pathways for the framing effect in decision-making.
-Mechanisms of deliberation during preferential choice: Perspectives from computational modeling and individual differences.
-Dysfunctional decision-making in binge-eating disorder: A meta-analysis and systematic review.
-The Iowa Gambling Task in fMRI images.
-Impulsive decision-making predicts the course of substance-related and addictive disorders.
-Intertemporal Choice: Neuronal and Psychological Determinants of Economic Decisions.
-Differential effects of the pharmacological stressor yohimbine on impulsive decision making and response inhibition.
-Validating the PVL-Delta model for the Iowa gambling task.
-Bayesian parameter estimation in the expectancy valence model of the Iowa gambling task.
-Clinical models of decision making in addiction.
-W=.2, a=.8, c=.6: So what? On the meaning of parameter estimates from reinforcement-learning models.
-Absolute performance of reinforcement-learning models for the Iowa Gambling Task.
-Decision making in the ageing brain: changes in affective and motivational circuits.
-Stages of dysfunctional decision-making in addiction.
-Neuroeconomics: A guide to the new science of making choices.
-Differences in decision-making as a function of drug of choice.
-Cognitive impulsivity in cocaine and heroin polysubstance abusers.
-Altering gain of the infralimbic-to-accumbens shell circuit alters economically dissociable decision-making algorithms.
-Numerical cognitive reflection, but not verbal cognitive reflection, moderates the association between trait anxiety and affective decision-making.
-A review of effort-based decision-making in eating and weight disorders.
-Effects of psychopathy on neurocognitive domains of impulsivity in abstinent opiate and stimulant users.
-Sex hormonal modulation of hyperbolic discount factor in men.
-Bayes factors for reinforcement-learning models of the Iowa gambling task.
-The roles of dopamine and serotonin in decision making: Evidence from pharmacological experiments in humans.
-To simulate or not? Comment on Steingroever, Wetzels, and Wagenmakers (2014).
-Comparison of Decision Learning Models Using the Generalization Criterion Method.
-Toward an understanding of dynamic moral decision making: Model-free and model-based learning.
-Persistence is Futile: Chasing of Past Performance in Repeated Investment Choices.
-Evaluating generalizability and parameter consistency in learning models.
-A simplified model of choice behavior under uncertainty.
-The amygdala and the prefrontal cortex: The co-construction of intelligent decision-making.
-Cognitive Models for Evaluating Basic Decision Processes in Clinical Populations.
-The relative merit of empirical priors in non-identifiable and sloppy models: Applications to models of learning and decision-making: Empirical priors.
-Individual differences in cognition, affect, and performance: Behavioral, neuroimaging, and molecular genetic approaches.
-A Comparison of Reinforcement Learning Models for the Iowa Gambling Task Using Parameter Space Partitioning.
-The role of decision-making in cannabis-related problems among young adults.
-Computational modeling for addiction medicine: From cognitive models to clinical applications
-How similarity between choice options affects decisions from experience: The accentuation-of-differences model.
-Anxiety modulates preference for immediate rewards among trait-impulsive individuals: A hierarchical Bayesian analysis.
-The influence of affect on higher level cognition: A review of research on interpretation, judgement, decision making and reasoning.
-The detrimental effects of emotional process dysregulation on decision-making in substance dependence.
-Executive function, approach sensitivity, and emotional decision making as influences on risk behaviors in young adults.
-Psychological Processes Underlying Risky Decisions in Drug Abusers.
-A model-based analysis of impulsivity using a slot-machine gambling paradigm
-Imprecise action selection in substance use disorder: Evidence for active learning impairments when solving the explore-exploit dilemma
-Intolerance of Uncertainty: A Temporary Experimental Induction Procedure.
-Neuropsychological functioning and alcohol dependence.
-Individual differences in error tolerance in humans: Neurophysiological evidences.
-Testing the factor structure underlying behavior using joint cognitive models: Impulsivity in delay discounting and Cambridge gambling tasks.
-Chronic motivational state interacts with task reward structure in dynamic decision-making.
-Winning and losing: Effects on impulsive action.
-Dopaminergic Circuitry and Risk/Reward Decision Making: Implications for Schizophrenia.
-The relationship between measures of impulsivity and alcohol misuse: An integrative structural equation modeling approach.
-The drift diffusion model as the choice rule in reinforcement learning.
-Decision-making in psychopathy.
-Neurocognitive deficits related to poor decision making in people behind bars
-Contribution of the sensorimotor beta oscillations and the cortico-basal ganglia-thalamic circuitry during value-based decision making: A simultaneous EEG-fMRI investigation.
-Neural systems analysis of decision making during goal-directed navigation.
-Aberrant decision-making and drug addiction - how strong is the evidence?
-Impulsive Decision Making and Working Memory.
-Present simple and continuous: Emergence of self-regulation and contextual sophistication in adolescent decision-making.
-Investigating the influence of 'losses disguised as wins' on decision making and motivation in rats.
-Comparing attention, impulsivity, and executive functions between patients with opiate use disorder: Buprenorphine maintenance treatment versus active users, in comparison with healthy controls.
-The effects of combination levodopa-ropinirole on cognitive improvement and treatment outcome in individuals with cocaine use disorder: A bayesian mediation analysis.
-The influence of discrete emotions on judgement and decision-making: A meta-analytic review.
-Reduced Model-Based Decision-Making in Schizophrenia.
-Using cognitive models to map relations between neuropsychological disorders and human decision-making deficits
-Recent research on impulsivity in individuals with drug use and mental health disorders: Implications for alcoholism.
-Computationally-defined markers of uncertainty aversion predict emotional responses during a global pandemic.
-Neuropsychological functioning in opioid use disorder: A research synthesis and meta-analysis.
-Decision making and impulsivity in young adult cannabis users.
-Description-based and experience-based decisions: individual analysis.
-Cocaine choice procedures in animals, humans, and treatment-seekers: Can we bridge the divide?
-A computational model of the Cambridge gambling task with applications to substance use disorders
-A neural reward prediction error revealed by a meta-analysis of ERPs using great grand averages.
-Computational modelling of switching behaviour in repeated gambles.
-Computational approaches to modeling gambling behaviour: Opportunities for understanding disordered gambling.
-Understanding managers' trade-offs between exploration and exploitation.
-The PRO model accounts for the anterior cingulate cortex role in risky decision-making and monitoring.
-Aging, uncertainty, and decision makingÃÂÃÂÃÂÃÂA review.
-Regret in the context of unobtained rewards in criminal offenders.
-Computational and motivational mechanisms of human social decision making involving close others.
-Using cognitive modelling to investigate the psychological processes of the Go/NoGo discrimination task in male abstinent heroin misusers.
-Toward a Theory of Distinct Types of "Impulsive" Behaviors: A Meta-Analysis of Self-Report and Behavioral Measures.
-Neurocognitive determinants of novelty and sensation-seeking in individuals with alcoholism.
-Machine-learning identifies substance-specific behavioral markers for opiate and stimulant dependence.
-Searching for the Best Cause: Roles of Mechanism Beliefs, Autocorrelation, and Exploitation.
-The Role of Emotion in Decision Making: A Cognitive Neuroscience Perspective.
-Adapted to explore: Reinforcement learning in autistic spectrum conditions.
-Risky business: the neuroeconomics of decision making under uncertainty.
-Characterizing impulsivity in individuals with heroin use disorder.
-Reinforcement learning in depression: A review of computational research.
-Resting Regional Cerebral Blood Flow and Gambling Task Performance in Cocaine-Dependent Subjects and Healthy Comparison Subjects.
-Neurocognitive insights into substance abuse.
-Emotion and cognition and the amygdala: From "what is it?" to "what's to be done?".
-DRD4 polymorphisms modulate reward positivity and P3a in a gambling task: Exploring a genetic basis for cultural learning.
-Ambiguity and Conflict: Dissecting Uncertainty in Decision-Making.
-The role of expecting feedback during decision-making under risk.
-Learning capacity in early-stage alzheimer's disease: The role of feedback during learning on memory performance.
-Systematic parameter reviews in cognitive modeling: Towards a robust and cumulative characterization of psychological processes in the diffusion decision model.
-Task complexity moderates the influence of descriptions in decisions from experience.
-PERIL AND PLEASURE: AN RDOC-INSPIRED EXAMINATION OF THREAT RESPONSES AND REWARD PROCESSING IN ANXIETY AND DEPRESSION.
-Alcoholism and the loss of willpower: A neurocognitive perspective.
-An fMRI examination of developmental differences in the neural correlates of uncertainty and decision-making.
-Spiking Phineas Gage: A Neurocomputational Theory of Cognitive-Affective Integration in Decision Making.
-Decision making, impulse control and loss of willpower to resist drugs: a neurocognitive perspective.
-Effects of Alcohol, Initial Gambling Outcomes, Impulsivity, and Gambling Cognitions on Gambling Behavior Using a Video Poker Task.
-Reward-mediated, model-free reinforcement-learning mechanisms in Pavlovian and instrumental tasks are related.
-A model of the initial stages of drug abuse: From reinforcement learning to social contagion.
-Translational tests involving non-reward: methodological considerations.
-Differential reward learning for self and others predicts self-reported altruism.
-Cooperative versus competitive influences of emotion and cognition on decision making: A primer for psychiatry research.
-Mindful judgment and decision making.
-Neurocomputational models of basal ganglia function in learning, memory and choice [white star].
-Impaired neural response to reward feedback in children with high schizotypal traits: Evidences from an ERP study.
-Explicit and Implicit Approach vs. Avoidance Tendencies towards High vs. Low Calorie Food Cues in Patients with Obesity and Active Binge Eating Disorder.
-Towards a neurocomputational account of social controllability: From models to mental health.
-Abnormal approach-related motivation but spared reinforcement learning in MDD: Evidence from fronto-midline Theta oscillations and frontal Alpha asymmetry.
-Efficacy of self-control and patience interventions in adolescents.
-Disorders of compulsivity: a common bias towards learning habits.
-A Dynamic Framework for Modelling Set-Shifting Performances.
-A unifying Bayesian account of contextual effects in value-based choice.
-Decisional capacity in mental illness and substance use disorders: empirical database and policy implications.
-Integration of reward with cost anticipation during performance monitoring revealed by ERPs and EEG spectral perturbations.
-The similarities and differences in impulsivity and cognitive ability among ketamine, methadone, and non-drug users.
-Working memory capacity predicts individual differences in social-distancing compliance during the COVID-19 pandemic in the United States.
-Explaining the description-experience gap in risky decision-making: Learning and memory retention during experience as causal mechanisms.
-Genetic and environmental influences on gambling disorder liability: A replication and combined analysis of two twin studies.
-Hormonal and Genetic Influences on Processing Reward and Social Information.
-Trait urgency and substance use decision making in adolescents and young adults: The role of socio-affective factors.
-On the importance of avoiding shortcuts in applying cognitive models to hierarchical data.
-Acquired sociopathy: a neuropsychological study of executive dysfunction in violent offenders.
-Seeing through the smoke: Human and animal studies of cannabis use and endocannabinoid signalling in corticolimbic networks.
-Emotion and decision-making explained.
-Fast oscillations in cortical-striatal networks switch frequency following rewarding events and stimulant drugs.
-Differential contributions of striatal dopamine D1 and D2 receptors to component processes of value-based decision making.
-Delay discounting is greater among drug users seropositive for hepatitis C but not HIV.
-Losses disguised as wins evoke the reward positivity event-related potential in a simulated machine gambling task.
-Substance use is associated with reduced devaluation sensitivity.
-Addiction: A behavioral economic perspective.
-Braking and accelerating of the adolescent brain.
-Characterizing the cognitive effects of cocaine: A comprehensive review
-Personality traits in individuals with the dual diagnosis of psychosis and substance use disorders: A comprehensive review and meta-analysis.
-Longitudinal changes in cognition in young adult cannabis users.
-Computational models for the combination of advice and individual learning.
-Wanting, liking and welfare: The role of affective states in proximate control of behaviour in vertebrates.
-Single dose of a dopamine agonist impairs reinforcement learning in humans: Behavioral evidence from a laboratory-based measure of reward responsiveness.
-Working memory contributions to reinforcement learning impairments in schizophrenia.
-Genetic association studies of performance monitoring and learning from feedback: The role of dopamine and serotonin.
-A systematic review of Bayesian articles in psychology: The last 25 years.
-The effects of a modest dose of alcohol on executive functioning and prospective memory.
-Neural correlates of cognitive control in gambling disorder: a systematic review of fMRI studies.
-Haloperidol modifies instrumental aspects of slot machine gambling in pathological gamblers and healthy controls.
-Time-frequency theta and delta measures index separable components of feedback processing in a gambling task.
-Trajectories of Reinforcement Sensitivity During Adolescence and Risk for Substance Use.
-Should We Control? The Interplay Between Cognitive Control and Information Integration in the Resolution of the Exploration-Exploitation Dilemma.
-Dual role of serotonin in the acquisition and extinction of reward-driven learning: Involvement of 5-HT1A, 5-HT2A and 5-HT3 receptors.
-Perceptual properties of feedback stimuli influence the feedback-related negativity in the flanker gambling task.
-Compensatory activation in fronto-parietal cortices among HIV-infected persons during a monetary decision-making task.
-Using Bayesian regression to test hypotheses about relationships between parameters and covariates in cognitive models.
-The influence of trial order on learning from reward vs. punishment in a probabilistic categorization task: Experimental and computational analyses.
-Using pharmacological manipulations to study the role of dopamine in human reward functioning: A review of studies in healthy adults.
-Cognitive Distortions as a Component and Treatment Focus of Pathological Gambling: A Review.
-Do developmental changes in impulsivity and sensation seeking uniquely predict violent victimization? A test of the dual systems model.
-The personality of pathological gamblers: A meta-analysis.
-Neuropsychological comparisons of cocaine versus methamphetamine users: A research synthesis and meta-analysis.
-Common and distinct neural correlates of intertemporal and risky decision-making: Meta-analytical evidence for the dual-system theory.
-Recruitment of additional brain regions to accomplish simple motor tasks in chronic alcohol-dependent patients.
-Blunted reward sensitivity and trait disinhibition interact to predict substance use problems.
-Is the habit system altered in individuals with obesity? A systematic review.
-Reinforcement learning and Bayesian inference provide complementary models for the unique advantage of adolescents in stochastic reversal.
-Does insufficient sleep affect how you learn from reward or punishment? Reinforcement learning after 2 nights of sleep restriction.
-A primer on the use of computational modelling to investigate affective states, affective disorders and animal welfare in non-human animals.
-Preliminary Evidence for Associations of CHRM2 with Substance Use and Disinhibition in Adolescence.
-Disordered gambling: the evolving concept of behavioral addiction.
-Choice Impulsivity: Definitions, Measurement Issues, and Clinical Implications.
-Reduced Loss Aversion and Inhibitory Control in Adolescents With Internet Gaming Disorder.
-Dissecting impulsivity and its relationships to drug addictions.
-Spatial migration of human reward processing with functional development: Evidence from quantitative meta-analyses.
-A meta-analytical review of brain activity associated with intertemporal decisions: Evidence for an anterior-posterior tangibility axis.
-Processing of time within the prefrontal cortex: Recent time engages posterior areas whereas distant time engages anterior areas
-Pathways to motivational impairments in psychopathology: Common versus unique elements across domains.
-Adjusting behavior to changing environmental demands with development.
-The somatic marker hypothesis and its neural basis: Using past experiences to forecast the future in decision making.
-Difficulty in updating positive beliefs about negative cognition is associated with increased depressed mood.
-Adolescents Adapt More Slowly than Adults to Varying Reward Contingencies.
-An afterword: The utility of cognitive models for the field of psychopathology.
-Enhancing self-control in adolescents: Treatment strategies derived from psychological science.
-Dissociable feedback valence effects on frontal midline theta during reward gain versus threat avoidance learning.
-The neurobiology of gambling disorder: Neuroscientific studies and computational perspectives.
-Loss of control over eating: A systematic review of task based research into impulsive and compulsive processes in binge eating.
-Factors associated with the absence of cocaine craving in treatment-seeking individuals during inpatient cocaine detoxification.
-Moderate alcohol consumption as risk factor for adverse brain outcomes and cognitive decline: longitudinal cohort study.
-Application of stochastic modeling to the assessment of group and individual differences in cognitive functioning.
-Neural and functional validation of fMRI-informed EEG model of right inferior frontal gyrus activity.
-Conditioned associations and economic decision biases.
-Testing a rational choice model of "desistance:" decomposing changing expectations and changing utilities.
-Self-regulation and adolescent substance use.
-Effect of heroin use on changes of brain functions as measured by functional magnetic resonance imaging, a systematic review.
-Mathematical and computational modeling in clinical psychology.
-Judgment and Decision Making in Adolescence.
-Compulsive features in behavioural addictions: the case of pathological gambling.
-Midbrain mutiny: The picoeconomics and neuroeconomics of disordered gambling: Economic theory and cognitive science.
-Stress and the adolescent brain: Amygdala-prefrontal cortex circuitry and ventral striatum as developmental targets.
-The age-varying effects of adolescent stress on impulsivity and sensation seeking.
-The neural mechanisms of affect infusion in social economic decision-making: A mediating role of the anterior insula.
-Blunted response to feedback information in depressive illness.
-Cumulative gains enhance striatal response to reward opportunities in alcohol-dependent patients.
-Dissociable roles for the ventral and dorsal medial prefrontal cortex in cue-guided risk/reward decision making.
-How Does Reward Expectation Influence Cognition in the Human Brain?
-Competing neurobehavioral decision systems and the neuroeconomics of craving in opioid addiction.
-Prolonged consumption of sweetened beverages lastingly deteriorates cognitive functions and reward processing in mice.
-The drift diffusion model as the choice rule in inter-temporal and risky choice: AÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ case study in medial orbitofrontal cortex lesion patients and controls.
-Neurocognitive and psychiatric dimensions of hot, but not cool, impulsivity predict HIV sexual risk behaviors among drug users in protracted abstinence.
-Temporal profile of fronto-striatal-limbic activity during implicit decisions in drug dependence.
-Atypical interoception as a common risk factor for psychopathology: A review.
-Time perception and impulsivity: A proposed relationship in addictive disorders.
-Metabolic and functional substrates of impulsive decision-making in individuals with heroin addiction after prolonged methadone maintenance treatment.
-Future research directions in the positive valence systems: Measurement, development, and implications for youth unipolar depression.
-Recency gets larger as lesions move from anterior to posterior locations within the ventromedial prefrontal cortex
-Hot and Cool Forms of Inhibitory Control and Externalizing Behavior in Children of Mothers who Smoked during Pregnancy: An Exploratory Study.
-Exploration versus exploitation decisions in the human brain: A systematic review of functional neuroimaging and neuropsychological studies.
-Cerebral Correlates of Salient Prediction Error for Different Rewards and Punishments.
-Augmenting cognitive work: A review of cognitive enhancement methods and applications for operational domains.
-Multimodal characterization of the human nucleus accumbens.
-Planning beyond the next trial in adaptive experiments: A dynamic programming approach.
-From Recurrent Choice to Skill Learning: A Reinforcement-Learning Model.
-The frontal cortex is a heart-brake: Reduction in delta oscillations is associated with heart rate deceleration.
-Neural substrates of updating the prediction through prediction error during decision making.
-Facets of externalizing psychopathology in relation to inhibitory control and error processing.
-Parcellating the neuroanatomical basis of impaired decision-making in traumatic brain injury.
-Correlates of economic decisions in the dorsal and subgenual anterior cingulate cortices.
-Examining the link between reward and response inhibition in individuals with substance abuse tendencies.
-Anticipation of a mentally effortful task recruits Dorsolateral Prefrontal Cortex: An fNIRS validation study.
-Developmental changes in performance monitoring: How electrophysiological data can enhance our understanding of error and feedback processing in childhood and adolescence.
-Anterior insula reflects surprise in value-based decision-making and perception.
-Pharmacological and Expectancy Effects of a Low Amount of Alcohol Drinking on Outcome Valuation and Risk Perception in Males and Females.
-Learning from loss after risk: Dissociating reward pursuit and reward valuation in a naturalistic foraging task.
-With an eye on uncertainty: Modelling pupillary responses to environmental volatility.
-Poor decision-making by chronic marijuana users is associated with decreased functional responsiveness to negative consequences.
-Some futures for cognitive modeling and architectures: design patterns for including better interaction with the world, moderators, and improved model to data fits (and so can you).
-Risky choices and emotion-based learning.
-Dynamic Dopamine Modulation in the Basal Ganglia: A Neurocomputational Account of Cognitive Deficits in Medicated and Nonmedicated Parkinsonism.
-After-effects of self-control: The reward responsivity hypothesis.
-Individual differences in reinforcement learning: Behavioral, electrophysiological, and neuroimaging correlates.
-Dissociation of neural regions associated with anticipatory versus consummatory phases of incentive processing.
-Are extremes of consumption in eating disorders related to an altered balance between reward and inhibition?
-Self-injurious thoughts and behaviors and alterations in positive valence systems: A systematic review of the literature.
-Reduced neural differentiation of rewards and punishment during passive avoidance learning in adolescents with generalized anxiety disorder.
-The role of the medial prefrontal cortex in updating reward value and avoiding perseveration.
-Understanding ethanol's acute effects on medial prefrontal cortex neural activity using state-space approaches.
-Electrophysiological indices of anterior cingulate cortex function reveal changing levels of cognitive effort and reward valuation that sustain task performance.
-Toward an integrative perspective on the neural mechanisms underlying persistent maladaptive behaviors.
-Adolescents' risky decision-making activates neural networks related to social cognition and cognitive control processes.
-The neuropsychology of cannabis and other substance use in schizophrenia: Review of the literature and critical evaluation of methodological issues.
-Beyond emotion recognition deficits: A theory guided analysis of emotion processing in Huntington's disease.
-Impulsivity and risk-seeking as Bayesian inference under dopaminergic control.
-Effects of pramipexole on the processing of rewarding and aversive taste stimuli.
-The basolateral amygdala in reward learning and addiction.
-Behavioral and brain response to non-drug rewards in substance abuse: Implications for motivational theories of addiction.
-Approach-Withdrawal and the Role of the Striatum in the Temperament of Behavioral Inhibition.
-Computational approaches to treatment response prediction in major depression using brain activity and behavioral data: A systematic review.
-A model-based fMRI analysis with hierarchical Bayesian parameter estimation.
-Neural and psychological maturation of decision-making in adolescence and young adulthood.
-The role of the ventromedial prefrontal cortex in memory consolidation.
-Electrophysiological correlates of anticipating improbable but desired events.
-A formal cognitive model of the go/no-go discrimination task: Evaluation and implications.
-Hot executive function: Emotion and the development of cognitive control.
-An integrative model of effortful control.
-Toward a biosocial theory of offender rehabilitation: Why does cognitive-behavioral therapy work?
-Unifying causality and psychology: Being, brain, and behavior.
-Externalizing proneness and brain response during pre-cuing and viewing of emotional pictures.
-Differentiating the cognition-emotion interactions that characterize psychopathy versus externalizing.
-Frontal theta and beta synchronizations for monetary reward increase visual working memory capacity.
-Time-frequency phase-synchrony approaches with ERPs.
-An insula_driven network computes decision uncertainty and promotes abstinence in chronic cocaine users.
-Using reinforcement learning models in social neuroscience: frameworks, pitfalls and suggestions of best practices.
-Differential representation of feedback and decision in adolescents and adults.
-Cognitive strategies regulate fictive, but not reward prediction error signals in a sequential investment task.
-Sex-dependent effects of early life stress on reinforcement learning and limbic cortico-striatal functional connectivity.
-Scaffolded minds: Integration and disintegration.
-Anticipation.
-Inhibitory control effects in adolescent binge eating and consumption of sugar-sweetened beverages and snacks.
-It is all relative: Contextual influences on boredom and neural correlates of regulatory processes.
-Task-level value affects trial-level reward processing.
-Effects of lesions of the orbitofrontal cortex on sensitivity to delayed and probabilistic reinforcement.
-Modes of cognition: Evidence from metastable brain dynamics.
-Executive function: Reflection, iterative reprocessing, complexity, and the developing brain.
-Risky economic choices and frontal EEG asymmetry in the context of Reinforcer-Sensitivity-Theory-5.
-Reinforcement-related brain potentials from medial frontal cortex: origins and functional significance.
-Satiety Does Not Alter the Ventral Striatum's Response to Immediate Reward in Bulimia Nervosa.
-The role of high-frequency oscillatory activity in reward processing and learning.
-Effects of cocaine rewards on neural representations of cognitive demand in nonhuman primates.
-The insula: a critical neural substrate for craving and drug seeking under conflict and risk.
-Aberrant reward prediction errors in young adult at-risk alcohol users.
-Deficits in behavioural inhibition in substance abuse and addiction: A meta-analysis.
-Nucleus accumbens is involved in human action monitoring: Evidence from invasive electrophysiological recordings.
-The influence of self-construals on the ERP response to the rewards for self and friend.
-Reflection impulsivity in adolescent cannabis users: a comparison with alcohol-using and non-substance-using adolescents.
-Orbitofrontal cortex thickness and substance use disorders in emerging adulthood: causal inferences from a co_twin control/discordant twin study.
-Smokers' brains compute, but ignore, a fictive error signal in a sequential investment task.
-Modeling Brain Function: Current Developments and Future Prospects.
-Brain gray matter structures associated with trait impulsivity: A systematic review and voxel-based meta-analysis.
-Neural Mechanisms of Human Decision-Making.
-Intentional inhibition in human action: The power of 'no'.
-The association between heroin expenditure and dopamine transporter availability-a single-photon emission computed tomography study.
-The dopaminergic basis of human behaviors: A review of molecular imaging studies.
-Relationships among insomnia, executive function, and suicidal ideation in depressed outpatients: A mediation analysis.
-Effects of lesions of the nucleus accumbens core on choice between small certain rewards and large uncertain rewards in rats.
-The effect of atomoxetine on random and directed exploration in humans.
-Event-related potentials reflect impaired temporal interval learning following haloperidol administration.
-Pupil dilation and response slowing distinguish deliberate explorative choices in the probabilistic learning task.
-Dopamine and reward: a view from the prefrontal cortex.
-Executive control signals in orbitofrontal cortex during response inhibition.
-Individual differences in computational psychiatry: A review of current challenges.
-Dissociation of response and feedback negativity in schizophrenia: Electrophysiological and computational evidence for a deficit in the representation of value.
-Cutting nature at its joints: Toward an evolutionarily informed theory of natural types of conduct disorder.
-Error-related medial frontal theta activity predicts cingulate-related structural connectivity.
-A Self-Regulatory Model of Behavioral Disinhibition in Late Adolescence: Integrating Personality Traits, Externalizing Psychopathology, and Cognitive Capacity.
-Prefrontal mechanisms of comorbidity from a transdiagnostic and ontogenic perspective.
-An EZ-diffusion model for response time and accuracy.
-Why Should We Keep the Cerebellum in Mind When Thinking About Addiction?.
-A Self in the Mirror: Mirror Neurons, Self-Referential Processing, and Substance Use Disorders.
-Lesions of dorsal striatum eliminate lose-switch responding but not mixed-response strategies in rats.
-Generalization of value in reinforcement learning by humans.
-Theta lingua franca: A common mid-frontal substrate for action monitoring processes.
-Regional striatal cholinergic involvement in human behavioral flexibility.
-Learning contextual reward expectations for value adaptation.
-Discounting preferences and response consistency as markers of functional ability in community-dwelling older adults.
-Multi-modality attribute learning-based method for drug-protein interaction prediction based on deep neural network.
 Formal models of cognition and behavior.
-Neural estimates of imagined outcomes in basolateral amygdala depend on orbitofrontal cortex.
-Using Dual Process Models to Examine Impulsivity Throughout Neural Maturation.
-Age and impulsive behavior in drug addiction: A review of past research and future directions.
-Social learning across adolescence: A Bayesian neurocognitive perspective.
-The neuroscience of sexual addiction.
-The effects of acute alcohol administration on the human brain: Insights from neuroimaging.
-Adaptive design optimization as a promising tool for reliable and efficient computational fingerprinting.
-Avoid-approach conflict behaviors differentially affected by anxiolytics: Implications for a computational model of risky decision-making.
-Frontal network dynamics reflect neurocomputational mechanisms for reducing maladaptive biases in motivated action.
-The p factor in children: Relationships with executive functions and effortful control.
-Brain computations: What and how.
-Craving money? Evidence from the laboratory and the field.
-A review of reward processing and motivational impairment in schizophrenia.
-A simple method for comparing complex models: Bayesian model comparison for hierarchical multinomial processing tree models using Warp-III bridge sampling.
-Reward and neurocomputational processes.
-Predictions and Choices for Others: Some Insights Into How and Why They Differ.
-Medial frontal cortex response to unexpected motivationally salient outcomes.
-Mechanisms of automaticity and anticipatory control in fluid intelligence.
-Neural circuits linking sleep and addiction: Animal models to understand why select individuals are more vulnerable to substance use disorders after sleep deprivation.
-Activation of dopamine D4 receptors within the anterior cingulate cortex enhances the erroneous expectation of reward on a rat slot machine task.
-Striatal ups and downs: Their roles in vulnerability to addictions in humans.
-The "highs and lows" of the human brain on dopaminergics: Evidence from neuropharmacology.
-Challenges and promises for translating computational tools into clinical practice.
-Impulsivity as a vulnerability marker for substance-use disorders: Review of findings from high-risk research, problem gamblers and genetic association studies.
-The research domain criteria framework: The case for anterior cingulate cortex.
-Dysfunction of the prefrontal cortex in addiction: neuroimaging findings and clinical implications.
-Goal dysregulation in depression, mania, and schizophrenia.
-Reinforcement sensitivity theory and personality.
-Orbitofrontal cortex neurons as a common target for classic and glutamatergic antipsychotic drugs.
-Frontal theta links prediction errors to behavioral adaptation in reinforcement learning.
-Indices and correlates of positive emotion in psychopathology: Methodological and design considerations.
-How uncertain are you? Disentangling expected and unexpected uncertainty in pupil-linked brain arousal during reversal learning.
-Reward-based contextual learning supported by anterior cingulate cortex.
-Intrinsic rewards explain context-sensitive valuation in reinforcement learning.
-Learning from experience: Event-related potential correlates of reward processing, neural adaptation, and behavioral choice.
-Mind and brain in delay of gratification.
-Trait somatic anxiety is associated with reduced directed exploration and underestimation of uncertainty.
-Abnormal temporal difference reward-learning signals in major depression.
-Retest reliability of medial frontal negativities during performance monitoring.
-Apathy following traumatic brain injury: A review.
-The empirical status of predictive coding and active inference.
-Behavioral and neurological foundations for the moral and legal implications of intoxication, addictive behaviors and disinhibition.
-Operationalizing proneness to externalizing psychopathology as a multivariate psychophysiological phenotype.
-Drug Addiction and the Memory Systems of the Brain.
+Using cognitive models to map relations between neuropsychological disorders and human decision-making deficits
+The drift diffusion model as the choice rule in inter-temporal and risky choice: AÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ case study in medial orbitofrontal cortex lesion patients and controls.
+Explaining the description-experience gap in risky decision-making: Learning and memory retention during experience as causal mechanisms.
+How similarity between choice options affects decisions from experience: The accentuation-of-differences model.
+Regret in experience-based decisions: The effects of expected value differences and mixed gains and losses.
+Rapid decisions from experience
+A model-based analysis of impulsivity using a slot-machine gambling paradigm
 Cognitive choice modeling.
-Drug Addiction: Updating Actions to Habits to Compulsions Ten Years On.
-Opposite Effects of Amphetamine Self-administration Experience on Dendritic Spines in the Medial and Orbital Prefrontal Cortex.
-Model-free and model-based reward prediction errors in EEG.
-The subthalamic nucleus in impulsivity.
-tDCS in Addiction and Impulse Control Disorders.
-Neural and psychological mechanisms underlying compulsive drug seeking habits and drug memories - indications for novel treatments of addiction*.
+Models that learn how humans learn: The case of decision-making and its disorders.
+Neurocognitive deficits related to poor decision making in people behind bars
+A simplified model of choice behavior under uncertainty.
+A formal cognitive model of the go/no-go discrimination task: Evaluation and implications.
+A computational knowledge-based model for emulating human performance in the Iowa Gambling Task.
+Estimating a Path through a Map of Decision Making.
+Towards a neurocomputational account of social controllability: From models to mental health.
+Using Bayesian regression to test hypotheses about relationships between parameters and covariates in cognitive models.
+Intrinsic rewards explain context-sensitive valuation in reinforcement learning.
+To simulate or not? Comment on Steingroever, Wetzels, and Wagenmakers (2014).
+An EZ-diffusion model for response time and accuracy.
+Working-Memory Load and Temporal Myopia in Dynamic Decision Making.
+Evaluating generalizability and parameter consistency in learning models.
+The relative merit of empirical priors in non-identifiable and sloppy models: Applications to models of learning and decision-making: Empirical priors.
+Some futures for cognitive modeling and architectures: design patterns for including better interaction with the world, moderators, and improved model to data fits (and so can you).
+A model-based fMRI analysis with hierarchical Bayesian parameter estimation.
+Systematic parameter reviews in cognitive modeling: Towards a robust and cumulative characterization of psychological processes in the diffusion decision model.
+The effect of foregone payoffs on underweighting small probability events.
 Parameter Variability and Distributional Assumptions in the Diffusion Model.
-Mesocorticolimbic dopamine functioning in primary psychopathy: A source of within-group heterogeneity.
-Effects of substance use on monetary delay discounting among people who use stimulants with and without HIV: An ecological momentary assessment study.
-Dopaminergic and norepinephrinergic modulation of endogenous event-related potentials: A systematic review and meta-analysis.
-Mechanisms of motivation-cognition interaction: Challenges and opportunities.
-Cue awareness in avoiding effortful control[white star],[white star][white star].
-Substance use disorders as externalizing outcomes.
-The roles of phasic and tonic dopamine in tic learning and expression.
-The impact of cognitive control, incentives, and working memory load on the p3 responses of externalizing prisoners.
-Dopamine tunes prefrontal outputs to orchestrate aversive processing.
-Exaggerated attention blink response in prisoners with externalizing.
-Direct and indirect relationships between Factor 2 psychopathy, behavioral activation, positive alcohol expectancies, and alcohol use.
-Meditation experience predicts negative reinforcement learning and is associated with attenuated FRN amplitude.
-Behavioral and neural mechanisms of compulsive drug seeking.
-From the ventral to the dorsal striatum: Devolving views of their roles in drug addiction.
-Delineating the construct network of the Personnel Reaction Blank: Associations with externalizing tendencies and normal personality.
-P3 amplitude reductions are associated with shared variance between internalizing and externalizing psychopathology.
-Genetic and environmental aspects in the association between attention-deficit hyperactivity disorder symptoms and binge-eating behavior in adults: A twin study.
-Cortical electrophysiological network dynamics of feedback learning.
-Structural and functional neuroimaging methods: Applications to substance abuse and addiction.
-Learning: From Association to Cognition.
-Dopamine D1, but not D2, signaling protects mental representations from distracting bottom-up influences.
-Drug addiction and its underlying neurobiological basis: Neuroimaging evidence for the involvement of the frontal cortex.
-Intolerance of uncertainty, anxiety and depression in the context of COVID-19 in Indonesia.
-Delay Discounting in Traumatic Brain Injury: A Potential Avenue for Growth in Experimental Analysis.
-Computational knowledge vision: paradigmatic knowledge based prescriptive learning and reasoning for perception and vision.
+A simple method for comparing complex models: Bayesian model comparison for hierarchical multinomial processing tree models using Warp-III bridge sampling.
+Task complexity moderates the influence of descriptions in decisions from experience.
+The empirical status of predictive coding and active inference.
+The drift diffusion model as the choice rule in reinforcement learning.
+Reward segmentation during feedback improves gambling task performance.
+An improved cognitive model of the Iowa and Soochow Gambling Tasks with regard to model fitting performance and tests of parameter consistency
+The Outcome-Representation Learning Model: A Novel Reinforcement Learning Model of the Iowa Gambling Task
+Bayesian techniques for analyzing group differences in the Iowa Gambling Task: A case study of intuitive and deliberate decision-makers.
+Cognitive mechanisms underlying risky decision-making in chronic cannabis users
+Absolute performance of reinforcement-learning models for the Iowa Gambling Task.
+Strategy switching in a sequence of decisions: Evidence from the Iowa Gambling Task.
+A Comparison of Reinforcement Learning Models for the Iowa Gambling Task Using Parameter Space Partitioning.
+Decision-making in stimulant and opiate addicts in protracted abstinence: Evidence from computational modeling with pure users.
+Decomposing the roles of perseveration and expected value representation in models of the Iowa Gambling Task.
+Bayesian parameter estimation in the expectancy valence model of the Iowa gambling task.
+Sequential exploration in the Iowa gambling task: Validation of a new computational model in a large dataset of young and old healthy participants.
+Validating the PVL-Delta model for the Iowa gambling task.
+The expectancy valence model of the Iowa Gambling Task: Can it produce reliable estimates for individuals?
+Computational modelling of switching behaviour in repeated gambles.
+Computational modeling for addiction medicine: From cognitive models to clinical applications
+Cognitive Models for Evaluating Basic Decision Processes in Clinical Populations.
+A mixed-effects expectancy-valence model for the Iowa gambling task.
+On the importance of avoiding shortcuts in applying cognitive models to hierarchical data.
+Comparison of Decision Learning Models Using the Generalization Criterion Method.
+Bayes factors for reinforcement-learning models of the Iowa gambling task.
+Cognitive modeling analysis of decision-making processes in cocaine abusers.
+W=.2, a=.8, c=.6: So what? On the meaning of parameter estimates from reinforcement-learning models.
 
 
 Cluster 1:
-Decision-making impairment on the Iowa Gambling Task after endovascular coiling or neurosurgical clipping for ruptured anterior communicating artery aneurysm.
-Clinical and genetic correlates of decision making in anorexia nervosa.
-Impaired decision-making in symptomatic anorexia and bulimia nervosa patients: A meta-analysis.
-Decision-making in drug-dependent patients.
-Trait-related decision-making impairment in the three phases of bipolar disorder.
-Anticonvulsant medications attenuate amphetamine-induced deficits in behavioral inhibition but not decision making under risk on a rat gambling task.
-Age-related quantitative and qualitative changes in decision making ability.
-Decision-making performance of depressed patients within 72 h following a suicide attempt.
-Different types of criminals' decision-making defects in the Iowa Gambling Task.
-Decision making under explicit risk is impaired in individuals with human immunodeficiency virus (HIV).
-The performance of college students on the Iowa Gambling Task: Differences between scoring approaches.
-Sleep-dependent modulation of affectively guided decision-making.
-Impaired decision-making under risk in patients with functional dyspepsia.
-A comparison of decision making in patients with bipolar I disorder and schizophrenia.
-Computational Modeling Reveals Distinct Effects of HIV and History of Drug Use on Decision-Making Processes in Women
-Decision making profile of positive and negative anticipatory skin conductance responders in an unlimited-time version of the IGT.
-Lithium might be associated with better decision-making performance in euthymic bipolar patients.
-Autism is not associated with poor or enhanced performance on the Iowa Gambling Task: A Meta-Analysis.
-Reduced dopamine transporter functioning induces high-reward risk-preference consistent with bipolar disorder.
-The Iowa Gambling Task (IGT) in Brazil: A systematic review.
-Decision making and aggression in forensic psychiatric inpatients.
-Planning, decision-making and the COMT rs4818 polymorphism in healthy males.
-Decision-making impairment in anorexia nervosa: New insights into the role of age and decision-making style.
-Association of risk proneness in overtaking maneuvers with impaired decision making.
-Orbitofrontal cortex, emotional decision-making and response to cognitive behavioural therapy for psychosis.
-Deciphering reward-based decision-making in schizophrenia: A meta-analysis and behavioral modeling of the Iowa Gambling Task.
-Daytime sleepiness is associated with reduced integration of temporally distant outcomes on the Iowa Gambling Task.
-Decision-making and frontoparietal resting-state functional connectivity among impulsive-compulsive diagnoses. Insights from a Bayesian approach.
-Decision making among HIV+ drug using men who have sex with men: A preliminary report from the Chicago Multicenter AIDS Cohort Study.
-Impact of ambiguity and risk on decision making in mild Alzheimer's disease.
-Recollecting cross-cultural evidences: Are decision makers really foresighted in Iowa gambling task?
-Variations in the GRIN2B gene are associated with risky decision-making.
-Executive Function and Decision-Making in Women with Fibromyalgia.
-The prominent deck B phenomenon in schizophrenia: An empirical study on Iowa Gambling Task.
-Exploring decision-making strategies in the Iowa Gambling Task and rat gambling task.
-Oral administration of 5-hydroxytryptophan (5-HTP) impairs decision making under ambiguity but not under risk: Evidence from the Iowa Gambling Task.
-Understanding self-reported difficulties in decision-making by people with autism spectrum disorders.
-To fear is to gain? The role of fear recognition in risky decision making in TBI patients and healthy controls.
-Cognitive modelling to assess decision-making impairments in patients with current depression and with/without suicide history.
-Construct validity of the Iowa Gambling Task.
-Decision-making in suicidal behavior: A systematic review and meta-analysis.
-Decision-making deficits in patients with chronic schizophrenia: Iowa Gambling Task and Prospect Valence Learning model.
-Manipulating the decision making process: Influencing a "gut" reaction.
-Individual differences in need for cognition and decision making in the Iowa Gambling Task.
-Relationships between affective states and decision-making.
-Iowa Gambling Task modified for military domain.
-Decision making of forensic psychiatric inpatients deemed incompetent to stand trial.
-Component Processes of Decision Making in a Community Sample of Precariously Housed Persons: Associations With Learning and Memory, and Health-Risk Behaviors
-Differential impairments underlying decision making in anorexia nervosa and bulimia nervosa: A cognitive modeling analysis.
-Somatic markers, working memory, and decision making.
-Frontal stroke: problem solving, decision making, impulsiveness, and depressive symptoms in men and women.
-Relationship between impulsivity and decision making in cocaine dependence
-IGT-Open: An open-source, computerized version of the Iowa Gambling Task.
-Transcranial direct current stimulation improves risky decision making in women but not in men: A sham-controlled study.
-Decision-making deficits are associated with learning impairments in female college students at high risk for anorexia nervosa: Iowa gambling task and prospect valence learning model.
-Negative mood induction normalizes decision making in male cocaine dependent individuals.
-Affective decision making in women with borderline personality disorder.
-Hypothetical decision making in schizophrenia: The role of expected value computation and "irrational" biases.
-Comparison of deck- and trial-based approaches to advantageous decision making on the Iowa Gambling Task.
-Disturbances of motivational balance in chronic schizophrenia during decision-making tasks.
-The Assessment of Risky Decision Making: A Factor Analysis of Performance on the Iowa Gambling Task, Balloon Analogue Risk Task, and Columbia Card Task.
-Relationships between executive function, working memory, and decision-making on the Iowa Gambling Task: Evidence from ventromedial patients, dorsolateral patients, and normal subjects.
-Anticipatory stress restores decision-making deficits in heavy drinkers by increasing sensitivity to losses.
-Using epsilon-greedy reinforcement learning methods to further understand ventromedial prefrontal patients' deficits on the Iowa Gambling Task.
-Do individual differences in Iowa Gambling Task performance predict adaptive decision making for risky gains and losses?
-Strategic and non-strategic problem gamblers differ on decision-making under risk and ambiguity
-Comments and controversies: Piecing together the neurobiology of decision-making.
-Effects of working memory load, a history of conduct disorder, and sex on decision making in substance dependent individuals.
-Risky decision making and cognitive flexibility among online sports bettors in Nigeria.
-Decision-making by patients with methamphetamine use disorder receiving contingency management treatment: Magnitude and frequency effects.
-A computational cognitive model of the Iowa Gambling Task for finely characterizing decision making in methamphetamine users
-Psychopathic personality traits and Iowa Gambling Task performance in incarcerated offenders.
-Decision making in addiction to crack: A study with the Iowa Gambling Task.
-Decision-making, somatic markers and emotion processing in opiate users.
-Emotion-based decision-making in healthy subjects: Short-term effects of reducing dopamine levels.
-Decision-making in individuals with agenesis of the corpus callosum: Expectancy-valence in the Iowa Gambling Task.
-Comparing influence of depression and negative affect on decision making.
-The effects of reward and punishment contingencies on decision-making in multiple sclerosis.
-Risky decision-making under risk in schizophrenia: A deliberate choice?
-Serotonin transporter gene-linked polymorphic region (5-HTTLPR) influences decision making under ambiguity and risk in a large Chinese sample.
-Cognitive mechanisms in risky decision-making in cannabis users
-Integrating frequency and magnitude information in decision-making in schizophrenia: An account of patient performance on the Iowa Gambling Task.
-A longitudinal analysis of adolescent decision-making with the Iowa Gambling Task.
-Performance of healthy participants on the Iowa Gambling Task.
-Mirrored Prominent Deck B Phenomenon: Frequent Small Losses Override Infrequent Large Gains in the Inverted Iowa Gambling Task.
-Emotional decision-making and its dissociable components in schizophrenia and schizoaffective disorder: A behavioural and MRI investigation.
-Increased salience of gains versus decreased associative learning differentiate bipolar disorder from schizophrenia during incentive decision making.
-Diffusion tensor imaging and decision making in cocaine dependence.
-Decision making and personality in traffic offenders: A study of Israeli drivers
-Age of onset of cannabis use and decision making under uncertainty
+Older Adults as Adaptive Decision Makers: Evidence From the Iowa Gambling Task.
 Nicotine-dopamine-transporter interactions during reward-based decision making
-Reward-driven decision-making impairments in schizophrenia.
-Individual differences in learning during decision-making may predict specific harms associated with gambling
-Future-oriented decision-making in generalized anxiety disorder is evident across different versions of the Iowa Gambling Task.
-Development of a novel task for investigating decision making in a social context following traumatic brain injury.
-Dissociable processes underlying decisions in the Iowa Gambling Task: A new integrative framework.
-Cognitive processes underlying impaired decision-making under uncertainty in gambling disorder
-Decision-making in long-term cocaine users: Effects of a cash monetary contingency on Gambling task performance.
-Personality traits associated with decision-making deficits.
-The Simulated Gambling Paradigm Applied to Young Adults: An Examination of University Students' Performance.
-The differential relationship between cocaine use and marijuana use on decision-making performance over repeat testing with the Iowa Gambling Task.
-Subjective valuation and asymmetrical motivational systems: Implications of scope insensitivity for decision making.
-Is the clinical version of the Iowa gambling task relevant for assessing choice behavior in cases of Internet addiction?
+Relationships between executive function, working memory, and decision-making on the Iowa Gambling Task: Evidence from ventromedial patients, dorsolateral patients, and normal subjects.
+Serotonin transporter gene-linked polymorphic region (5-HTTLPR) influences decision making under ambiguity and risk in a large Chinese sample.
+A longitudinal analysis of adolescent decision-making with the Iowa Gambling Task.
+Lithium might be associated with better decision-making performance in euthymic bipolar patients.
 Decision making under ambiguity and risk in adolescent-onset schizophrenia.
-Differential effects of dopamine transporter inhibitors in the rodent Iowa Gambling Task: Relevance to mania.
-Decision-making in healthy children, adolescents and adults explained by the use of increasingly complex proportional reasoning rules.
-Anodal stimulation of the left DLPFC increases IGT scores and decreases delay discounting rate in healthy males.
-Cognitive modeling analysis of decision-making processes in cocaine abusers.
-Working memory involvement in emotion-based processes underlying choosing advantageously.
-Intelligence, but not emotional intelligence, predicts Iowa gambling task performance.
-Lottery participation as a marker of and contributor to gambling-related problems in college students.
+Performance on the Iowa Gambling Task: From 5 to 89 Years of Age.
+Decision-making deficits are associated with learning impairments in female college students at high risk for anorexia nervosa: Iowa gambling task and prospect valence learning model.
+A cultural study on decision making: Performance differences on the Iowa Gambling Task between selected groups of Brazilians and Americans.
+Risky decision-making under risk in schizophrenia: A deliberate choice?
+Component Processes of Decision Making in a Community Sample of Precariously Housed Persons: Associations With Learning and Memory, and Health-Risk Behaviors
+Strategic and non-strategic problem gamblers differ on decision-making under risk and ambiguity
+Association of risk proneness in overtaking maneuvers with impaired decision making.
+Construct validity of the Iowa Gambling Task.
+Impaired decision-making under risk in patients with functional dyspepsia.
+Do individual differences in Iowa Gambling Task performance predict adaptive decision making for risky gains and losses?
+The impact of subjective cognitive decline on Iowa Gambling Task performance.
+Manipulating the decision making process: Influencing a "gut" reaction.
+Decision making among HIV+ drug using men who have sex with men: A preliminary report from the Chicago Multicenter AIDS Cohort Study.
+Transcranial direct current stimulation improves risky decision making in women but not in men: A sham-controlled study.
+Risky decision making and cognitive flexibility among online sports bettors in Nigeria.
+Different types of criminals' decision-making defects in the Iowa Gambling Task.
+Future-oriented decision-making in generalized anxiety disorder is evident across different versions of the Iowa Gambling Task.
 A critical review of sex differences in decision-making tasks: Focus on the Iowa Gambling Task.
-Reduced loss aversion in value-based decision-making and edge-centric functional connectivity in patients with internet gaming disorder.
-Cognitive decision modelling of emotion-based learning impairment in schizophrenia: The role of awareness
-Working memory and decision-making biases in young adults with a family history of alcoholism: Studies from the Oklahoma Family Health Patterns Project.
+Frontal stroke: problem solving, decision making, impulsiveness, and depressive symptoms in men and women.
+Decision-making in healthy children, adolescents and adults explained by the use of increasingly complex proportional reasoning rules.
+The Simulated Gambling Paradigm Applied to Young Adults: An Examination of University Students' Performance.
+The performance of college students on the Iowa Gambling Task: Differences between scoring approaches.
+Oral administration of 5-hydroxytryptophan (5-HTP) impairs decision making under ambiguity but not under risk: Evidence from the Iowa Gambling Task.
+Decision-making in individuals with agenesis of the corpus callosum: Expectancy-valence in the Iowa Gambling Task.
+Is the clinical version of the Iowa gambling task relevant for assessing choice behavior in cases of Internet addiction?
+Cognitive mechanisms in risky decision-making in cannabis users
+Recollecting cross-cultural evidences: Are decision makers really foresighted in Iowa gambling task?
+Comparison of deck- and trial-based approaches to advantageous decision making on the Iowa Gambling Task.
+Computational Modeling Reveals Distinct Effects of HIV and History of Drug Use on Decision-Making Processes in Women
+The prominent deck B phenomenon in schizophrenia: An empirical study on Iowa Gambling Task.
+Daytime sleepiness is associated with reduced integration of temporally distant outcomes on the Iowa Gambling Task.
 Iowa Gambling Task performance in euthymic bipolar I disorder: A meta-analysis and empirical study.
-Probing the link between narcissism and gambling: The mediating role of judgment and decision-making biases.
+Individual differences in need for cognition and decision making in the Iowa Gambling Task.
+Performance of healthy participants on the Iowa Gambling Task.
+Dissociable processes underlying decisions in the Iowa Gambling Task: A new integrative framework.
+Decision-making deficits in patients with chronic schizophrenia: Iowa Gambling Task and Prospect Valence Learning model.
+Deciphering reward-based decision-making in schizophrenia: A meta-analysis and behavioral modeling of the Iowa Gambling Task.
+Age of onset of cannabis use and decision making under uncertainty
+Increased salience of gains versus decreased associative learning differentiate bipolar disorder from schizophrenia during incentive decision making.
+Decision making of forensic psychiatric inpatients deemed incompetent to stand trial.
 Iowa Gambling Task in schizophrenia: A review and new data in patients with schizophrenia and co-occurring cannabis use disorders.
-Motivational processes and autonomic responsivity in Asperger's disorder: Evidence from the Iowa Gambling Task.
-Similar Processes Despite Divergent Behavior in Two Commonly Used Measures of Risky Decision Making
-Decision-making impairments in adolescents with early-onset schizophrenia
+The Iowa Gambling Task (IGT) in Brazil: A systematic review.
+Mirrored Prominent Deck B Phenomenon: Frequent Small Losses Override Infrequent Large Gains in the Inverted Iowa Gambling Task.
+Intelligence, but not emotional intelligence, predicts Iowa gambling task performance.
+IGT-Open: An open-source, computerized version of the Iowa Gambling Task.
 
 
 Cluster 2:
-Decision-making under risk, but not under ambiguity, predicts pathological gambling in discrete types of abstinent substance users.
-Peer problems, bullying involvement, and affective decision_making in adolescence.
-Risky decision making in psychological disorders.
 Cerebellum anatomy predicts individual risk-taking behavior and risk tolerance.
-Beyond dual systems: A genetically-informed, latent factor model of behavioral and self-report measures related to adolescent risk-taking.
-A Meta-Analysis on Age Differences in Risky Decision Making: Adolescents Versus Children and Adults.
-Moderated mediation of the link between parent-adolescent conflict and adolescent risk-taking: The role of physiological regulation and hostile behavior in an experimentally controlled investigation.
-A censored mixture model for modeling risk taking.
-Synchronization of Independent Neural Ensembles in Human EEG during Choice Tasks.
-Gambling and Subsequent Road Traffic Injuries: A Longitudinal Cohort Analysis.
-The allure of high-risk rewards in Huntington's disease.
-Beta-adrenoreceptor blockade abolishes atomoxetine-induced risk taking.
 Testosterone and cortisol jointly modulate risk-taking.
-Risk and Rationality in Adolescent Decision Making: Implications for Theory, Practice, and Public Policy.
-Patrimony and the Evolution of Risk-Taking.
-Development of an automatic response mode to improve the clinical utility of sequential risk-taking tasks.
-Risk-taking tendencies in prisoners and nonprisoners: Does gender matter?
-Do adolescents take more risks? Not when facing a novel uncertain situation.
-The multiple faces of risk-taking: Scoring alternatives for the balloon-analogue risk task.
-Neurophysiological contributors to advantageous risk-taking: an experimental psychopharmacological investigation.
-Dealing with uncertainty: Testing risk- and ambiguity-attitude across adolescence.
-Altered risky decision making in patients with early non-affective psychosis.
-Altered risk-related processing in substance users: Imbalance of pain and gain.
-DAT1 Polymorphism Is Associated with Risk Taking in the Balloon Analogue Risk Task (BART).
-Risk-taking unmasked: Using risky choice and temporal discounting to explain COVID-19 preventative behaviors.
-Similarities between adult female crack cocaine users and adolescents in risky decision-making scenarios.
-Explore with Me: Peer Observation Decreases Risk-Taking but Increases Exploration Tendencies across Adolescence.
-Evaluation of bidirectional relationships between risk preference and mood disorders: A 2-sample Mendelian randomization study.
-Boredom proneness is associated with noisy decision-making, not risk-taking.
-Cognitive model decomposition of the BART: Assessment and application.
-Reward-dependent dynamics and changes in risk taking in the Balloon Analogue Risk Task.
-The effects of risk-taking, exploitation, and exploration on creativity.
-Specificity of reinforcement for risk behaviors of the Balloon Analog Risk Task using math models of performance.
-Avoidance in Adolescence: The Balloon Risk Avoidance Task (BRAT).
-Do adolescents always take more risks than adults? A within-subjects developmental study of context effects on decision making and processing.
-Neural Outcome Processing of Peer-Influenced Risk-Taking Behavior in Late Adolescence: Preliminary Evidence for Gene x Environment Interactions.
-Consequences for Peers Differentially Bias Computations About Risk Across Development.
-Consistent constructs in individuals' risk taking in decisions from experience.
-A model-based analysis of decision making under risk in obsessive-compulsive and hoarding disorders.
-Age-related characteristics of risky decision-making and progressive expectation formation.
 A review of risky decision-making in psychosis-spectrum disorders.
-Risk taking differences on a behavioral task as a function of potential reward/loss magnitude and individual differences in impulsivity and sensation seeking.
-Modulation of human risky decision making by flunitrazepam.
+Do adolescents take more risks? Not when facing a novel uncertain situation.
+Similarities between adult female crack cocaine users and adolescents in risky decision-making scenarios.
+A Meta-Analysis on Age Differences in Risky Decision Making: Adolescents Versus Children and Adults.
+Boredom proneness is associated with noisy decision-making, not risk-taking.
+Risk and Rationality in Adolescent Decision Making: Implications for Theory, Practice, and Public Policy.
 Modeling Behavior in a Clinically Diagnostic Sequential Risk-Taking Task.
-The neural substrates of how model-based learning affects risk taking: Functional coupling between right cerebellum and left caudate.
-Smokers' decision making: More than mere risk taking.
-Age and Social Context Modulate the Effect of Anxiety on Risk-taking in Pediatric Samples.
-Analysis of decision-making processes in drug-abusers before and after maintenance treatment with methadone.
-Modeling Behavioral Reactivity to Losses and Rewards on the Balloon Analogue Risk Task (BART): Moderation by Alcohol Problem Severity.
-Punishment sensitivity and risk taking in depressed mood.
 Impaired outcome evaluation during risky decision-making in individuals with methamphetamine use disorder.
-Stressed individuals exhibit pessimistic bursting beliefs and a lower risk preference in the balloon analogue risk task.
-The role of risky decision-making in aggression: A systematic review.
-Noradrenergic regulation of cue-guided decision making and impulsivity is doubly dissociable across frontal brain regions.
-Cardiac cycle affects risky decision-making.
-Reciprocal associations between affective decision-making and mental health in adolescence.
-A Systematic Review of the Balloon Analogue Risk Task (BART) in Alcohol Research.
-Reduced risk-taking behavior as a trait feature of anxiety.
+A censored mixture model for modeling risk taking.
+Dealing with uncertainty: Testing risk- and ambiguity-attitude across adolescence.
 A cognitive modeling analysis of risk in sequential choice tasks.
-Individual differences in novelty-seeking are associated with different patterns of preference in a risk-sensitivity procedure in rats.
+Beta-adrenoreceptor blockade abolishes atomoxetine-induced risk taking.
+Age and Social Context Modulate the Effect of Anxiety on Risk-taking in Pediatric Samples.
+The effects of risk-taking, exploitation, and exploration on creativity.
+Neurophysiological contributors to advantageous risk-taking: an experimental psychopharmacological investigation.
 Sex differences in a rat model of risky decision making.
-Effects of peer observation on risky decision-making in adolescence: A meta-analytic review.
-State- and trait-greed, its impact on risky decision-making and underlying neural mechanisms.
-Application of a computational decision model to examine acute drug effects on human risk taking.
-Reinforcement learning models of risky choice and the promotion of risk-taking by losses disguised as wins in rats.
-Developmental patterns of change in the influence of safe and risky peer choices on risky decisionÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂmaking.
-Monoaminergic modulation of decision-making under risk of punishment in a rat model.
+Risk taking differences on a behavioral task as a function of potential reward/loss magnitude and individual differences in impulsivity and sensation seeking.
+Punishment sensitivity and risk taking in depressed mood.
 Decision making and learning while taking sequential risks.
+Development of an automatic response mode to improve the clinical utility of sequential risk-taking tasks.
+Consistent constructs in individuals' risk taking in decisions from experience.
+Moderated mediation of the link between parent-adolescent conflict and adolescent risk-taking: The role of physiological regulation and hostile behavior in an experimentally controlled investigation.
+The neural substrates of how model-based learning affects risk taking: Functional coupling between right cerebellum and left caudate.
+The role of risky decision-making in aggression: A systematic review.
+Smokers' decision making: More than mere risk taking.
+Altered risk-related processing in substance users: Imbalance of pain and gain.
+Propensity for risk taking and trait impulsivity in the Iowa gambling task.
+Analysis of decision-making processes in drug-abusers before and after maintenance treatment with methadone.
+Neural Outcome Processing of Peer-Influenced Risk-Taking Behavior in Late Adolescence: Preliminary Evidence for Gene x Environment Interactions.
+Chronic cocaine causes age-dependent increases in risky choice in both males and females.
+Do adolescents always take more risks than adults? A within-subjects developmental study of context effects on decision making and processing.
+State- and trait-greed, its impact on risky decision-making and underlying neural mechanisms.
+Decision-making under risk, but not under ambiguity, predicts pathological gambling in discrete types of abstinent substance users.
 Uncertainty deconstructed: Conceptual analysis and state-of-the-art review of the ERP correlates of risk and ambiguity in decision-making.
 Decomposing risky decision-making in methamphetamine use disorder: Behavioral updating and D2 dopamine receptors.
-Don't sweat it: Re-examining the somatic marker hypothesis using variants of the Balloon Analogue Risk Task.
-Chronic cocaine causes age-dependent increases in risky choice in both males and females.
-The safety bias: Risk-avoidance and social anxiety pathology.
-Propensity for risk taking and trait impulsivity in the Iowa gambling task.
-Increased risk-taking behavior in dopamine transporter knockdown mice: Further support for a mouse model of mania.
-
-
-Cluster 3:
-Learning from negative consequences is impaired by STN-DBS and levodopa in Parkinson's disease.
-What are people with Parkinson's disease really impaired on when it comes to making decisions? A meta-analysis of the evidence.
-Decision making in Parkinson's disease: An analysis of the studies using the Iowa Gambling Task.
-Dissociation of decision-making under ambiguity and decision-making under risk in patients with Parkinson's disease: A neuropsychological and psychophysiological study.
-Pathological Gambling in Parkinson's disease: Autonomic measures supporting impaired decision_making.
-Decision-making impairments in patients with Parkinson's disease.
-Dopaminergic medication reduces striatal sensitivity to negative outcomes in Parkinson's disease.
-Impulsivity and apathy in Parkinson's disease.
-Parkinson's Disease, the Subthalamic Nucleus, Inhibition, and Impulsivity.
-Functional imaging studies of Impulse Control Disorders in Parkinson's disease need a stronger neurocognitive footing.
-Cognitive impulsivity in Parkinson's disease patients: Assessment and pathophysiology.
-Dopaminergic modulation of cognitive function-implications for l-DOPA treatment in Parkinson's disease.
-The pathophysiological mechanisms of motivational deficits in Parkinson's disease.
-Impulsivity and Parkinson's disease: More than just disinhibition.
-Spectrum of impulse control behaviours in Parkinson's disease: pathophysiology and management.
-Impulse control disorders in Parkinson's disease: recent advances.
-Ventral striatal dopamine synthesis capacity predicts financial extravagance in Parkinson's disease.
-Risk and learning in impulsive and nonimpulsive patients with Parkinson's disease.
-A systematic review of impulse control disorders in Parkinson's disease.
-
-
-Cluster 4:
-Annual research review: Transdiagnostic neuroscience of child and adolescent mental disorders-Differentiating decision making in attention-deficit/hyperactivity disorder, conduct disorder, depression, and anxiety.
-A Meta-Analysis of Decision-Making and Attention in Adults With ADHD.
-The impact of irritability and callous unemotional traits on reward positivity in youth with ADHD and conduct problems.
-Process of decision making in children and adolescents with ADHD: A systematic review.
-ADHD as a model of brain-behavior relationships.
-Cognitive Neuroscience of Attention Deficit Hyperactivity Disorder: Current Status and Working Hypotheses.
-
-
-Cluster 5:
-"Should've known better": Counterfactual processing in disordered gambling.
-Why gamblers fail to win: A review of cognitive and neuroimaging findings in pathological gambling.
-Qualitative Research in Gambling : Exploring the Production and Consumption of Risk
-Gambling-related Irrational Beliefs in the Maintenance and Modification of Gambling Behaviour.
-The Use of Messages in Altering Risky Gambling Behavior in Experienced Gamblers.
-Nonhuman gamblers: Lessons from rodents, primates, and robots.
-
-
-Cluster 6:
-Decision-making impairments in the context of intact reward sensitivity in schizophrenia.
-Translational rodent paradigms to investigate neuromechanisms underlying behaviors relevant to amotivation and altered reward processing in schizophrenia.
-The effects of reduced dopamine transporter function and chronic lithium on motivation, probabilistic learning, and neurochemistry in mice: Modeling bipolar mania.
-Goal representations and motivational drive in schizophrenia: The role of prefrontal-striatal interactions.
-From Neuroimaging to Daily Functioning: A Multimethod Analysis of Reward Anticipation in People With Schizophrenia.
-
-
-Cluster 7:
-The orbitofrontal cortex and beyond: From affect to decision-making.
-The functional neuroanatomy of the human orbitofrontal cortex:: evidence from neuroimaging and neuropsychology.
-THE HUMAN ORBITOFRONTAL CORTEX: LINKING REWARD TO HEDONIC EXPERIENCE.
-The functions of the orbitofrontal cortex.
-The orbitofrontal cortex.
-
-
-Cluster 8:
-A cultural study on decision making: Performance differences on the Iowa Gambling Task between selected groups of Brazilians and Americans.
-Performance on the Iowa Gambling Task: From 5 to 89 Years of Age.
-The impact of subjective cognitive decline on Iowa Gambling Task performance.
-Older Adults as Adaptive Decision Makers: Evidence From the Iowa Gambling Task.
-
-
-Cluster 9:
-Repetitive negative thinking following exposure to a natural stressor prospectively predicts altered stress responding and decision-making in the laboratory.
-Decision making under stress: A selective review.
-Acute stress amplifies experienced and anticipated regret in counterfactual decision-making.
-Allostasis and the Human Brain: Integrating Models of Stress From the Social and Life Sciences.
-
-
-Cluster 10:
-Postnatal phencyclidine-induced deficits in decision making are ameliorated by optogenetic inhibition of ventromedial orbitofrontal cortical glutamate neurons.
-Reinforcement learning deficits exhibited by postnatal PCP-treated rats enable deep neural network classification.
-Longitudinal associations between reward responsiveness and depression across adolescence.
-Research Review: Altered reward function in adolescent depression: what, when and how?
-
-
-Cluster 11:
-Probabilistic reward learning in adults with Attention Deficit Hyperactivity Disorder-An electrophysiological study.
-Processing of continuously provided punishment and reward in children with ADHD and the modulating effects of stimulant medication: An ERP study.
-Feedback-Related Negativity in Children with Two Subtypes of Attention Deficit Hyperactivity Disorder.
-Impaired reward processing by anterior cingulate cortex in children with attention deficit hyperactivity disorder.
-
-
-Cluster 12:
-Suboptimal Choice, Reward-Predictive Signals, and Temporal Information.
-Novel model and kernel search heuristic for multi-period closed-loop food supply chain planning with returnable transport items.
-Delays to Food-Predictive Stimuli Do Not Affect Suboptimal Choice in Rats .
-Suboptimal Choice by Pigeons May Result From the Diminishing Effect of Nonreinforcement.
-
-
-Cluster 13:
-Impaired Decision-Making, Higher Impulsivity, and Drug Severity in Substance Dependence and Pathological Gambling
-Computational modelling of reinforcement learning and functional neuroimaging of probabilistic reversal for dissociating compulsive behaviours in gambling and cocaine use disorders.
-Gambling in the brain: Underlying neurobiological mechanisms of pathological gambling.
-
-
-Cluster 14:
-Neuromodulation of reward-based learning and decision making in human aging.
-What motivates adolescents? Neural responses to rewards and their influence on adolescents' risk taking, learning, and cognitive control.
-Dopaminergic Modulation of Incentive Motivation in Adolescence: Age-Related Changes in Signaling, Individual Differences, and Implications for the Development of Self-Regulation.
-
-
-Cluster 15:
-Debiasing of Gambling Beliefs and Behaviors Using a Digital Gambling Accelerator.
-Cognitive models of gambling and problem gambling.
-Future-oriented mental time travel in individuals with disordered gambling.
-
-
-Cluster 16:
-Cortical brain activity reflecting attentional biasing toward reward-predicting cues covaries with economic decision-making performance.
-The role of ÃÂÃÂÃÂÃÂjackpotÃÂÃÂÃÂÃÂ stimuli in maladaptive decision-making: dissociable effects of D1/D2 receptor agonists and antagonists.
-Risk-promoting effects of reward-paired cues in human sign- and goal-trackers.
-
-
-Cluster 17:
-Learning Reward Uncertainty in the Basal Ganglia.
-Basal ganglia lateralization in different types of reward.
-Basal ganglia and dopamine contributions to probabilistic category learning.
-
-
-Cluster 18:
-Decision-making ability in psychosis: A systematic review and meta-analysis of the magnitude, specificity and correlates of impaired performance on the Iowa and Cambridge Gambling Tasks.
-Decision-making abilities under risk and ambiguity in adults with traumatic brain injury: What do we know so far? A systematic review and meta-analysis.
-
-
-Cluster 19:
-Scaffolding across the lifespan in history-dependent decision-making.
-Differential Impacts of Healthy Cognitive Aging on Directed and Random Exploration.
-
-
-Cluster 20:
-The Biggest Loser Thinks Long-Term: Recency as a Predictor of Success in Weight Management
-Computational mechanisms underpinning greater exploratory behaviour in excess weight relative to healthy weight adolescents.
-
-
-Cluster 21:
-Impaired decision making in adolescent suicide attempters.
-The cognitive processes underlying affective decision-making predicting adolescent smoking behaviors in a longitudinal study.
-
-
-Cluster 22:
-Emotion, Decision-Making and Substance Dependence: A Somatic-Marker Model of Addiction.
-A somatic marker theory of addiction.
-
-
-Cluster 23:
-Decision-making inflexibility in a reversal learning task is associated with severity of problem gambling symptoms but not with a diagnosis of substance use disorder.
-Decision-making (in)flexibility in gambling disorder.
-
-
-Cluster 24:
-Rapid decisions from experience
-The effect of foregone payoffs on underweighting small probability events.
-
-
-Cluster 25:
-Acute stress improves long-term reward maximization in decision-making under uncertainty.
-Stress modulates reinforcement learning in younger and older adults.
-
-
-Cluster 26:
-State-based versus reward-based motivation in younger and older adults.
-Rule-based and information-integration category learning in normal aging.
-
-
-Cluster 27:
-Temporal discounting in major depressive disorder.
-The role of serotonin in reward, punishment and behavioural inhibition in humans: Insights from studies with acute tryptophan depletion.
-
-
-Cluster 28:
-Computational models inform clinical science and assessment: An application to category learning in striatal-damaged patients.
-Aberrant learning in Parkinson's disease: A neurocomputational study on bradykinesia.
-
-
-Cluster 29:
-Losses as modulators of attention: Review and analysis of the unique effects of losses over gains.
-Behavioural expressions of loss-chasing in gambling: A systematic scoping review.
-
-
-Cluster 30:
-Neural Modulation in Approach-Avoidance Conflicts in Externalizing Psychopathology.
-Sacrificing reward to avoid threat: Characterizing PTSD in the context of a trauma-related approach-avoidance conflict task.
-
-
-Cluster 31:
-Negative reinforcement learning is affected in substance dependence.
-Using a reinforcement learning model and Bayes factors to study gender differences and personality correlations in reward prediction errors.
-
-
-Cluster 32:
-Nonconformist tendencies related to risky choices in female methamphetamine abstainers
-Valuation of peers' safe choices is associated with substance-naivete in adolescents
-
-
-Cluster 33:
-Investigating the empirical support for therapeutic targets proposed by the temporal experience of pleasure model in schizophrenia: A systematic review.
-The motivation and pleasure dimension of negative symptoms: Neural substrates and behavioral outputs.
-
-
-Cluster 34:
-Effects of menstrual cycle phase on electrocortical response to reward and depressive symptoms in women.
-Examining the effect of depressive symptoms on habit formation and habit-breaking.
-
-
-Cluster 35:
-Cognitive neuroscience can support public health approaches to minimise the harm of 'losses disguised as wins' in multiline slot machines.
-Slot machine gambling and testosterone: Evidence for a "winner-loser" effect?
-
-
-Cluster 36:
-Functional Dissociations of Risk and Reward Processing in the Medial Prefrontal Cortex.
-A neural network that links brain function, white-matter structure and risky behavior.
-
-
-Cluster 37:
-A Critical Look at Dual-Focused Cognitive-Behavioral Treatments for Comorbid Substance Use and Psychiatric Disorders: Strengths, Limitations, and Future Directions.
-Cued for risk: Evidence for an incentive sensitization framework to explain the interplay between stress and anxiety, substance abuse, and reward uncertainty in disordered gambling behavior.
-
-
-Cluster 38:
-Different strategies underlying uncertain decision making: Higher executive performance is associated with enhanced feedback-related negativity.
 Making assessments while taking repeated risks: A pattern of multiple response pathways.
 
 
+Cluster 3:
+Compulsive features in behavioural addictions: the case of pathological gambling.
+Dissecting impulsivity and its relationships to drug addictions.
+Disordered gambling: the evolving concept of behavioral addiction.
+tDCS in Addiction and Impulse Control Disorders.
+Decision making, impulse control and loss of willpower to resist drugs: a neurocognitive perspective.
+Striatal ups and downs: Their roles in vulnerability to addictions in humans.
+Behavioral and brain response to non-drug rewards in substance abuse: Implications for motivational theories of addiction.
+Neural and psychological mechanisms underlying compulsive drug seeking habits and drug memories - indications for novel treatments of addiction*.
+From the ventral to the dorsal striatum: Devolving views of their roles in drug addiction.
+Clinical models of decision making in addiction.
+Dysfunction of the prefrontal cortex in addiction: neuroimaging findings and clinical implications.
+Probabilistic reward- and punishment-based learning in opioid addiction: Experimental and computational data.
+A model of the initial stages of drug abuse: From reinforcement learning to social contagion.
+Drug Addiction and the Memory Systems of the Brain.
+The insula: a critical neural substrate for craving and drug seeking under conflict and risk.
+Drug addiction and its underlying neurobiological basis: Neuroimaging evidence for the involvement of the frontal cortex.
+Cocaine choice procedures in animals, humans, and treatment-seekers: Can we bridge the divide?
+The detrimental effects of emotional process dysregulation on decision-making in substance dependence.
+"Wanting," "liking," and their relation to consciousness.
+Targeting goal-based decision-making for addiction recovery.
+Differences in self-reported decision-making styles in stimulant-dependent and opiate-dependent individuals.
+Neurocognitive insights into substance abuse.
+Why Should We Keep the Cerebellum in Mind When Thinking About Addiction?.
+Behavioral and neural mechanisms of compulsive drug seeking.
+Drug Addiction: Updating Actions to Habits to Compulsions Ten Years On.
+Addiction: A behavioral economic perspective.
+Structural and functional neuroimaging methods: Applications to substance abuse and addiction.
+Defining the place of habit in substance use disorders.
+An unsafe bet?: The dangerous rise of gambling and the debate we should be having.
+The neuroscience of sexual addiction.
+Age and impulsive behavior in drug addiction: A review of past research and future directions.
+Insights into the neural basis of response inhibition from cognitive and clinical neuroscience.
+Competing neurobehavioral decision systems and the neuroeconomics of craving in opioid addiction.
+
+
+Cluster 4:
+Functional Dissociations of Risk and Reward Processing in the Medial Prefrontal Cortex.
+Dissociable roles for the ventral and dorsal medial prefrontal cortex in cue-guided risk/reward decision making.
+Common and distinct neural correlates of intertemporal and risky decision-making: Meta-analytical evidence for the dual-system theory.
+Cumulative gains enhance striatal response to reward opportunities in alcohol-dependent patients.
+Temporal profile of fronto-striatal-limbic activity during implicit decisions in drug dependence.
+Dopamine and reward: a view from the prefrontal cortex.
+Compensatory activation in fronto-parietal cortices among HIV-infected persons during a monetary decision-making task.
+The Iowa Gambling Task in fMRI images.
+The PRO model accounts for the anterior cingulate cortex role in risky decision-making and monitoring.
+Recruitment of additional brain regions to accomplish simple motor tasks in chronic alcohol-dependent patients.
+Recency gets larger as lesions move from anterior to posterior locations within the ventromedial prefrontal cortex
+The neural mechanisms of affect infusion in social economic decision-making: A mediating role of the anterior insula.
+The somatic marker hypothesis and its neural basis: Using past experiences to forecast the future in decision making.
+The frontal cortex is a heart-brake: Reduction in delta oscillations is associated with heart rate deceleration.
+Anticipation of a mentally effortful task recruits Dorsolateral Prefrontal Cortex: An fNIRS validation study.
+Interaction between COMT Val158Met polymorphism and childhood adversity affects reward processing in adulthood.
+Electrophysiological indices of anterior cingulate cortex function reveal changing levels of cognitive effort and reward valuation that sustain task performance.
+DRD4 polymorphisms modulate reward positivity and P3a in a gambling task: Exploring a genetic basis for cultural learning.
+Spatial migration of human reward processing with functional development: Evidence from quantitative meta-analyses.
+The research domain criteria framework: The case for anterior cingulate cortex.
+Reward-based contextual learning supported by anterior cingulate cortex.
+Losses disguised as wins evoke the reward positivity event-related potential in a simulated machine gambling task.
+How Does Reward Expectation Influence Cognition in the Human Brain?
+Integration of reward with cost anticipation during performance monitoring revealed by ERPs and EEG spectral perturbations.
+Task-level value affects trial-level reward processing.
+Poor decision-making by chronic marijuana users is associated with decreased functional responsiveness to negative consequences.
+Correlates of economic decisions in the dorsal and subgenual anterior cingulate cortices.
+Brain computations: What and how.
+
+
+Cluster 5:
+Processing of continuously provided punishment and reward in children with ADHD and the modulating effects of stimulant medication: An ERP study.
+Does the feedback from previous trials influence current decisions? A study on the role of feedback processing in making decisions under explicit risk conditions.
+Nucleus accumbens is involved in human action monitoring: Evidence from invasive electrophysiological recordings.
+Neural substrates of updating the prediction through prediction error during decision making.
+Reduced Neural Tracking of Prediction Error in Substance-Dependent Individuals
+Smokers' brains compute, but ignore, a fictive error signal in a sequential investment task.
+Error-related medial frontal theta activity predicts cingulate-related structural connectivity.
+Perceptual properties of feedback stimuli influence the feedback-related negativity in the flanker gambling task.
+Individual differences in error tolerance in humans: Neurophysiological evidences.
+Meditation experience predicts negative reinforcement learning and is associated with attenuated FRN amplitude.
+Learning from experience: Event-related potential correlates of reward processing, neural adaptation, and behavioral choice.
+Dissociable feedback valence effects on frontal midline theta during reward gain versus threat avoidance learning.
+Reinforcement-related brain potentials from medial frontal cortex: origins and functional significance.
+The influence of trial order on learning from reward vs. punishment in a probabilistic categorization task: Experimental and computational analyses.
+Individual differences in reinforcement learning: Behavioral, electrophysiological, and neuroimaging correlates.
+Retest reliability of medial frontal negativities during performance monitoring.
+Externalizing psychopathology and gain-loss feedback in a simulated gambling task: Dissociable components of brain response revealed by time-frequency analysis.
+A neural reward prediction error revealed by a meta-analysis of ERPs using great grand averages.
+The role of expecting feedback during decision-making under risk.
+Blunted response to feedback information in depressive illness.
+Time-frequency theta and delta measures index separable components of feedback processing in a gambling task.
+Developmental changes in performance monitoring: How electrophysiological data can enhance our understanding of error and feedback processing in childhood and adolescence.
+Frontal theta links prediction errors to behavioral adaptation in reinforcement learning.
+Medial frontal cortex response to unexpected motivationally salient outcomes.
+Cognitive strategies regulate fictive, but not reward prediction error signals in a sequential investment task.
+Cerebral Correlates of Salient Prediction Error for Different Rewards and Punishments.
+
+
+Cluster 6:
+From apathy to addiction: Insights from neurology and psychiatry.
+Dopamine increases a value-independent gambling propensity.
+Single dose of a dopamine agonist impairs reinforcement learning in humans: Behavioral evidence from a laboratory-based measure of reward responsiveness.
+The dopaminergic basis of human behaviors: A review of molecular imaging studies.
+Dopaminergic Circuitry and Risk/Reward Decision Making: Implications for Schizophrenia.
+The "highs and lows" of the human brain on dopaminergics: Evidence from neuropharmacology.
+Differential contributions of striatal dopamine D1 and D2 receptors to component processes of value-based decision making.
+Serotonin and decision making processes.
+Dopamine D1, but not D2, signaling protects mental representations from distracting bottom-up influences.
+Dopamine, depressive symptoms, and decision-making: The relationship between spontaneous eye blink rate and depressive symptoms predicts Iowa Gambling Task performance.
+The roles of phasic and tonic dopamine in tic learning and expression.
+Neural mechanisms regulating different forms of risk-related decision-making: Insights from animal models.
+The roles of dopamine and serotonin in decision making: Evidence from pharmacological experiments in humans.
+The basolateral amygdala in reward learning and addiction.
+A dynamic, embodied paradigm to investigate the role of serotonin in decision-making.
+Dual role of serotonin in the acquisition and extinction of reward-driven learning: Involvement of 5-HT1A, 5-HT2A and 5-HT3 receptors.
+Dopamine tunes prefrontal outputs to orchestrate aversive processing.
+PERIL AND PLEASURE: AN RDOC-INSPIRED EXAMINATION OF THREAT RESPONSES AND REWARD PROCESSING IN ANXIETY AND DEPRESSION.
+Using pharmacological manipulations to study the role of dopamine in human reward functioning: A review of studies in healthy adults.
+Dopaminergic and norepinephrinergic modulation of endogenous event-related potentials: A systematic review and meta-analysis.
+Abnormal temporal difference reward-learning signals in major depression.
+Reward and neurocomputational processes.
+Functional dynamics of dopamine synthesis during monetary reward and punishment processing.
+
+
+Cluster 7:
+Trajectories of Reinforcement Sensitivity During Adolescence and Risk for Substance Use.
+Preliminary Evidence for Associations of CHRM2 with Substance Use and Disinhibition in Adolescence.
+Reward-based learning as a function of severity of substance abuse risk in drug-naive youth with ADHD.
+Time perception and impulsivity: A proposed relationship in addictive disorders.
+Choice Impulsivity: Definitions, Measurement Issues, and Clinical Implications.
+Differences in decision-making as a function of drug of choice.
+Characterizing impulsivity in individuals with heroin use disorder.
+Aberrant decision-making and drug addiction - how strong is the evidence?
+Deficits in behavioural inhibition in substance abuse and addiction: A meta-analysis.
+A computational cognitive model of the Iowa Gambling Task for finely characterizing decision making in methamphetamine users
+Imprecise action selection in substance use disorder: Evidence for active learning impairments when solving the explore-exploit dilemma
+Recent research on impulsivity in individuals with drug use and mental health disorders: Implications for alcoholism.
+Impulsivity as a vulnerability marker for substance-use disorders: Review of findings from high-risk research, problem gamblers and genetic association studies.
+Decision-making by patients with methamphetamine use disorder receiving contingency management treatment: Magnitude and frequency effects.
+Assessing general versus specific liability for externalizing problems in adolescence: Concurrent and prospective prediction of symptoms of conduct disorder, ADHD, and substance use.
+Self-regulation and adolescent substance use.
+Substance use is associated with reduced devaluation sensitivity.
+Examining the link between reward and response inhibition in individuals with substance abuse tendencies.
+Substance use disorders as externalizing outcomes.
+Decisional capacity in mental illness and substance use disorders: empirical database and policy implications.
+Trait urgency and substance use decision making in adolescents and young adults: The role of socio-affective factors.
+Blunted reward sensitivity and trait disinhibition interact to predict substance use problems.
+Computational models of exploration and exploitation characterise onset and efficacy of treatment in methamphetamine use disorder.
+
+
+Cluster 8:
+The relationship between measures of impulsivity and alcohol misuse: An integrative structural equation modeling approach.
+Pharmacological and Expectancy Effects of a Low Amount of Alcohol Drinking on Outcome Valuation and Risk Perception in Males and Females.
+Aberrant reward prediction errors in young adult at-risk alcohol users.
+Effects of Alcohol, Initial Gambling Outcomes, Impulsivity, and Gambling Cognitions on Gambling Behavior Using a Video Poker Task.
+Moderate alcohol consumption as risk factor for adverse brain outcomes and cognitive decline: longitudinal cohort study.
+Impairments to the cognitive mechanisms of reward-associated decision-making in alcohol dependence.
+The effects of alcohol on sequential decision-making biases during gambling.
+Decisions to Attend and Drink at Party Events: The Effects of Incentives and Disincentives and Lifetime Alcohol and Antisocial Problems.
+Understanding ethanol's acute effects on medial prefrontal cortex neural activity using state-space approaches.
+Affective decision-making moderates the effects of automatic associations on alcohol use among drug offenders.
+Direct and indirect relationships between Factor 2 psychopathy, behavioral activation, positive alcohol expectancies, and alcohol use.
+The effects of acute alcohol administration on the human brain: Insights from neuroimaging.
+Alcoholism and the loss of willpower: A neurocognitive perspective.
+Decreased event-related theta power and phase-synchrony in young binge drinkers during target detection: An anatomically-constrained MEG approach.
+Binge drinking affects brain oscillations linked to motor inhibition and execution.
+Binge Drinking in Young Adults: Data, Definitions, and Determinants.
+
+
+Cluster 9:
+Individual differences in novelty-seeking are associated with different patterns of preference in a risk-sensitivity procedure in rats.
+Avoid-approach conflict behaviors differentially affected by anxiolytics: Implications for a computational model of risky decision-making.
+Relative insensitivity to time-out punishments induced by win-paired cues in a rat gambling task.
+Anticonvulsant medications attenuate amphetamine-induced deficits in behavioral inhibition but not decision making under risk on a rat gambling task.
+Insular neural system controls decision-making in healthy and methamphetamine-treated rats.
+Insight into differing decision-making strategies that underlie cognitively effort-based decision making using computational modeling in rats.
+Effects of lesions of the nucleus accumbens core on choice between small certain rewards and large uncertain rewards in rats.
+Investigating the influence of 'losses disguised as wins' on decision making and motivation in rats.
+Regularities in responding during performance of a complex choice task.
+Reinforcement learning deficits exhibited by postnatal PCP-treated rats enable deep neural network classification.
+Effects of lesions of the orbitofrontal cortex on sensitivity to delayed and probabilistic reinforcement.
+Lesions of dorsal striatum eliminate lose-switch responding but not mixed-response strategies in rats.
+Opposite Effects of Amphetamine Self-administration Experience on Dendritic Spines in the Medial and Orbital Prefrontal Cortex.
+Exploring decision-making strategies in the Iowa Gambling Task and rat gambling task.
+Postnatal phencyclidine-induced deficits in decision making are ameliorated by optogenetic inhibition of ventromedial orbitofrontal cortical glutamate neurons.
+
+
+Cluster 10:
+Decision-making abilities under risk and ambiguity in adults with traumatic brain injury: What do we know so far? A systematic review and meta-analysis.
+Brain gray matter structures associated with trait impulsivity: A systematic review and voxel-based meta-analysis.
+Gray matter abnormalities in opioid-dependent patients: A neuroimaging meta-analysis.
+Executive (Dys)Functions and ODD and CD: A Systematic Review and Meta-Analysis.
+Annual research review: Transdiagnostic neuroscience of child and adolescent mental disorders-Differentiating decision making in attention-deficit/hyperactivity disorder, conduct disorder, depression, and anxiety.
+Reward_related decision_making deficits in internet gaming disorder: a systematic review and meta_analysis.
+The neuroscience of acquisitive/impulsive offending.
+Neuropsychological comparisons of cocaine versus methamphetamine users: A research synthesis and meta-analysis.
+The Impact of Sleep Deprivation on Decision Making: A Review.
+Hot executive function: Emotion and the development of cognitive control.
+Future research directions in the positive valence systems: Measurement, development, and implications for youth unipolar depression.
+Neuropsychological functioning in opioid use disorder: A research synthesis and meta-analysis.
+Longitudinal associations between reward responsiveness and depression across adolescence.
+Toward an understanding of decision making in severe mental illness.
+Decision-making ability in current and past users of opiates: A meta-analysis.
+
+
+Cluster 11:
+Decision-making in drug-dependent patients.
+Relationship between impulsivity and decision making in cocaine dependence
+Cognitive impulsivity in cocaine and heroin polysubstance abusers.
+The effects of combination levodopa-ropinirole on cognitive improvement and treatment outcome in individuals with cocaine use disorder: A bayesian mediation analysis.
+Psychopathic personality traits and Iowa Gambling Task performance in incarcerated offenders.
+Characterizing the cognitive effects of cocaine: A comprehensive review
+Diffusion tensor imaging and decision making in cocaine dependence.
+Decision making in addiction to crack: A study with the Iowa Gambling Task.
+The differential relationship between cocaine use and marijuana use on decision-making performance over repeat testing with the Iowa Gambling Task.
+Decision-making in long-term cocaine users: Effects of a cash monetary contingency on Gambling task performance.
+
+
+Cluster 12:
+Learning: From Association to Cognition.
+Computational models for the combination of advice and individual learning.
+Generalization of value in reinforcement learning by humans.
+Toward an understanding of dynamic moral decision making: Model-free and model-based learning.
+Reward-mediated, model-free reinforcement-learning mechanisms in Pavlovian and instrumental tasks are related.
+Using reinforcement learning models in social neuroscience: frameworks, pitfalls and suggestions of best practices.
+From Recurrent Choice to Skill Learning: A Reinforcement-Learning Model.
+Model-free and model-based reward prediction errors in EEG.
+Reinforcement learning in depression: A review of computational research.
+
+
+Cluster 13:
+Computationally-defined markers of uncertainty aversion predict emotional responses during a global pandemic.
+Sex-dependent effects of early life stress on reinforcement learning and limbic cortico-striatal functional connectivity.
+Repetitive negative thinking following exposure to a natural stressor prospectively predicts altered stress responding and decision-making in the laboratory.
+Later stages of acute stress impair reinforcement-learning and feedback sensitivity in decision making.
+Acute stress improves long-term reward maximization in decision-making under uncertainty.
+An Acute Psychosocial Stressor Does Not Potentiate Alcohol Cue Reactivity in Non-Treatment-Seeking Alcoholics.
+Stress modulates reinforcement learning in younger and older adults.
+Decision making under stress: A selective review.
+Early stages of the acute physical stress response increase loss aversion and learning on decision making: A Bayesian approach.
+
+
+Cluster 14:
+Altered delay discounting in neurodegeneration: insight into the underlying mechanisms and perspectives for clinical applications.
+Sequential delay and probability discounting tasks in mice reveal anchoring effects partially attributable to decision noise.
+Effects of substance use on monetary delay discounting among people who use stimulants with and without HIV: An ecological momentary assessment study.
+Developmental trajectories of delay discounting from childhood to young adulthood: Longitudinal associations and test-retest reliability.
+Impulsive decision-making predicts the course of substance-related and addictive disorders.
+Delay discounting is greater among drug users seropositive for hepatitis C but not HIV.
+Impulsive Decision Making and Working Memory.
+Discounting preferences and response consistency as markers of functional ability in community-dwelling older adults.
+
+
+Cluster 15:
+A Biologically Plausible Action Selection System for Cognitive Architectures: Implications of Basal Ganglia Anatomy for Learning and Decision_Making Models.
+Neurocomputational models of basal ganglia function in learning, memory and choice [white star].
+Basal ganglia and dopamine contributions to probabilistic category learning.
+The disrupted basal ganglia and behavioural control: An integrative cross-domain perspective of spontaneous stereotypy.
+Learning Reward Uncertainty in the Basal Ganglia.
+Reinforcement learning in multidimensional environments relies on attention mechanisms.
+Basal ganglia lateralization in different types of reward.
+
+
+Cluster 16:
+Trait somatic anxiety is associated with reduced directed exploration and underestimation of uncertainty.
+How does apathy impact exploration-exploitation decision-making in older patients with neurocognitive disorders?
+The effect of atomoxetine on random and directed exploration in humans.
+Should We Control? The Interplay Between Cognitive Control and Information Integration in the Resolution of the Exploration-Exploitation Dilemma.
+Pupil dilation and response slowing distinguish deliberate explorative choices in the probabilistic learning task.
+Attenuated directed exploration during reinforcement learning in gambling disorder.
+Exploration versus exploitation decisions in the human brain: A systematic review of functional neuroimaging and neuropsychological studies.
+
+
+Cluster 17:
+Computational modeling of the n-back task in the ABCD study: Associations of drift diffusion model parameters to polygenic scores of mental disorders and cardiometabolic diseases.
+Individual differences in computational psychiatry: A review of current challenges.
+Application of stochastic modeling to the assessment of group and individual differences in cognitive functioning.
+Challenges and promises for translating computational tools into clinical practice.
+Mathematical and computational modeling in clinical psychology.
+An afterword: The utility of cognitive models for the field of psychopathology.
+
+
+Cluster 18:
+Why gamblers fail to win: A review of cognitive and neuroimaging findings in pathological gambling.
+Decision-making (in)flexibility in gambling disorder.
+"Should've known better": Counterfactual processing in disordered gambling.
+Cognitive Distortions as a Component and Treatment Focus of Pathological Gambling: A Review.
+Nonhuman gamblers: Lessons from rodents, primates, and robots.
+
+
+Cluster 19:
+Facets of externalizing psychopathology in relation to inhibitory control and error processing.
+A Self-Regulatory Model of Behavioral Disinhibition in Late Adolescence: Integrating Personality Traits, Externalizing Psychopathology, and Cognitive Capacity.
+Operationalizing proneness to externalizing psychopathology as a multivariate psychophysiological phenotype.
+P3 amplitude reductions are associated with shared variance between internalizing and externalizing psychopathology.
+An information processing/associative learning account of behavioral disinhibition in externalizing psychopathology.
+
+
+Cluster 20:
+Goal representations and motivational drive in schizophrenia: The role of prefrontal-striatal interactions.
+Investigating the empirical support for therapeutic targets proposed by the temporal experience of pleasure model in schizophrenia: A systematic review.
+Pathways to motivational impairments in psychopathology: Common versus unique elements across domains.
+Translational rodent paradigms to investigate neuromechanisms underlying behaviors relevant to amotivation and altered reward processing in schizophrenia.
+The motivation and pleasure dimension of negative symptoms: Neural substrates and behavioral outputs.
+
+
+Cluster 21:
+Regret in the context of unobtained rewards in criminal offenders.
+The Role of Emotion in Decision Making: A Cognitive Neuroscience Perspective.
+The influence of discrete emotions on judgement and decision-making: A meta-analytic review.
+Emotion and the Prefrontal Cortex: An Integrative Review.
+Emotion and decision-making explained.
+
+
+Cluster 22:
+Differential effects of dopamine transporter inhibitors in the rodent Iowa Gambling Task: Relevance to mania.
+Variations in the GRIN2B gene are associated with risky decision-making.
+Subjective valuation and asymmetrical motivational systems: Implications of scope insensitivity for decision making.
+Planning, decision-making and the COMT rs4818 polymorphism in healthy males.
+
+
+Cluster 23:
+Dissecting the links between reward and loss, decision-making, and self-reported affect using a computational approach.
+A primer on the use of computational modelling to investigate affective states, affective disorders and animal welfare in non-human animals.
+Intolerance of Uncertainty: A Temporary Experimental Induction Procedure.
+Wanting, liking and welfare: The role of affective states in proximate control of behaviour in vertebrates.
+
+
+Cluster 24:
+The functional neuroanatomy of the human orbitofrontal cortex:: evidence from neuroimaging and neuropsychology.
+The functions of the orbitofrontal cortex.
+The orbitofrontal cortex and beyond: From affect to decision-making.
+THE HUMAN ORBITOFRONTAL CORTEX: LINKING REWARD TO HEDONIC EXPERIENCE.
+
+
+Cluster 25:
+Slot machine gambling and testosterone: Evidence for a "winner-loser" effect?
+Cognitive neuroscience can support public health approaches to minimise the harm of 'losses disguised as wins' in multiline slot machines.
+Haloperidol modifies instrumental aspects of slot machine gambling in pathological gamblers and healthy controls.
+Activation of dopamine D4 receptors within the anterior cingulate cortex enhances the erroneous expectation of reward on a rat slot machine task.
+
+
+Cluster 26:
+Negative mood induction normalizes decision making in male cocaine dependent individuals.
+Comparing influence of depression and negative affect on decision making.
+Decision-making and frontoparietal resting-state functional connectivity among impulsive-compulsive diagnoses. Insights from a Bayesian approach.
+
+
+Cluster 27:
+Electrophysiological correlates of anticipating improbable but desired events.
+Frontal theta and beta synchronizations for monetary reward increase visual working memory capacity.
+The role of high-frequency oscillatory activity in reward processing and learning.
+
+
+Cluster 28:
+The Biggest Loser Thinks Long-Term: Recency as a Predictor of Success in Weight Management
+The outcome-representation learning model: Impairments in decision-making in adolescents with excess weight.
+Computational mechanisms underpinning greater exploratory behaviour in excess weight relative to healthy weight adolescents.
+
+
+Cluster 29:
+Reflection impulsivity in adolescent cannabis users: a comparison with alcohol-using and non-substance-using adolescents.
+The role of decision-making in cannabis-related problems among young adults.
+Decision making and impulsivity in young adult cannabis users.
+
+
+Cluster 30:
+Sacrificing reward to avoid threat: Characterizing PTSD in the context of a trauma-related approach-avoidance conflict task.
+Identifying new susceptibility genes on dopaminergic and serotonergic pathways for the framing effect in decision-making.
+Ambiguity and Conflict: Dissecting Uncertainty in Decision-Making.
+
+
+Cluster 31:
+Toward a Theory of Distinct Types of "Impulsive" Behaviors: A Meta-Analysis of Self-Report and Behavioral Measures.
+Anxiety modulates preference for immediate rewards among trait-impulsive individuals: A hierarchical Bayesian analysis.
+Personality traits associated with decision-making deficits.
+
+
+Cluster 32:
+Neural Mechanisms of Human Decision-Making.
+Predicting human decision making in psychological tasks with recurrent neural networks.
+Multi-modality attribute learning-based method for drug-protein interaction prediction based on deep neural network.
+
+
+Cluster 33:
+Suboptimal Choice: A Review and Quantification of the Signal for Good News (SiGN) Model.
+Suboptimal Choice by Pigeons May Result From the Diminishing Effect of Nonreinforcement.
+Suboptimal Choice, Reward-Predictive Signals, and Temporal Information.
+
+
+Cluster 34:
+Neural estimates of imagined outcomes in basolateral amygdala depend on orbitofrontal cortex.
+Executive control signals in orbitofrontal cortex during response inhibition.
+Anatomy of a decision: Striato-orbitofrontal interactions in reinforcement learning, decision making, and reversal.
+
+
+Cluster 35:
+Efficacy of self-control and patience interventions in adolescents.
+Enhancing self-control in adolescents: Treatment strategies derived from psychological science.
+After-effects of self-control: The reward responsivity hypothesis.
+
+
+Cluster 36:
+Decision making profile of positive and negative anticipatory skin conductance responders in an unlimited-time version of the IGT.
+Somatic markers, working memory, and decision making.
+Decision-making, somatic markers and emotion processing in opiate users.
+
+
+Cluster 37:
+Decision-making in normal and pathological aging.
+Atypical interoception as a common risk factor for psychopathology: A review.
+
+
+Cluster 38:
+Modulation of human risky decision making by flunitrazepam.
+Application of a computational decision model to examine acute drug effects on human risk taking.
+
+
 Cluster 39:
+Working memory contributions to reinforcement learning impairments in schizophrenia.
+How Working Memory and Reinforcement Learning Are Intertwined: A Cognitive, Neural, and Computational Perspective.
+
+
+Cluster 40:
+Neuropsychological functioning and alcohol dependence.
+The effects of a modest dose of alcohol on executive functioning and prospective memory.
+
+
+Cluster 41:
+Pharmacological evidence of a cholinergic contribution to elevated impulsivity and risky decision-making caused by adding win-paired cues to a rat gambling task.
+Noradrenergic contributions to cue-driven risk-taking and impulsivity.
+
+
+Cluster 42:
+Impaired decision-making and brain shrinkage in alcoholism.
+Brain atrophy in long-term abstinent alcoholics who demonstrate impairment on a simulated gambling task.
+
+
+Cluster 43:
+Individual differences in learning during decision-making may predict specific harms associated with gambling
+Cognitive models of gambling and problem gambling.
+
+
+Cluster 44:
+Machine-learning identifies substance-specific behavioral markers for opiate and stimulant dependence.
+Effects of psychopathy on neurocognitive domains of impulsivity in abstinent opiate and stimulant users.
+
+
+Cluster 45:
+Externalizing proneness and brain response during pre-cuing and viewing of emotional pictures.
+Integrating fMRI With Psychophysiological Measurements in the Study of Decision Making.
+
+
+Cluster 46:
+Judgment and Decision Making in Adolescence.
+Present simple and continuous: Emergence of self-regulation and contextual sophistication in adolescent decision-making.
+
+
+Cluster 47:
+A Critical Look at Dual-Focused Cognitive-Behavioral Treatments for Comorbid Substance Use and Psychiatric Disorders: Strengths, Limitations, and Future Directions.
+Changes in Loss Sensitivity During Treatment in Concurrent Disorders Inpatients: A Computational Model Approach to Assessing Risky Decision-Making
+
+
+Cluster 48:
+Effects of methadone maintenance treatment on decision-making processes in heroin-abusers: A cognitive modeling analysis.
+Using cognitive modelling to investigate the psychological processes of the Go/NoGo discrimination task in male abstinent heroin misusers.
+
+
+Cluster 49:
 A reinforcement-learning model of active avoidance behavior: Differences between Sprague Dawley and Wistar-Kyoto rats.
 Decomposing conditioned avoidance performance with computational models.
 
 
-Cluster 40:
-Reward-based learning as a function of severity of substance abuse risk in drug-naive youth with ADHD.
-Assessing general versus specific liability for externalizing problems in adolescence: Concurrent and prospective prediction of symptoms of conduct disorder, ADHD, and substance use.
+Cluster 50:
+Psychopathy-related traits and the use of reward and social information: A computational approach.
+Parameters as trait indicators: Exploring a complementary neurocomputational approach to conceptualizing and measuring trait differences in emotional intelligence.
 
 
-Cluster 41:
-Binge drinking affects brain oscillations linked to motor inhibition and execution.
-Decreased event-related theta power and phase-synchrony in young binge drinkers during target detection: An anatomically-constrained MEG approach.
+Cluster 51:
+Behavioural expressions of loss-chasing in gambling: A systematic scoping review.
+Losses as modulators of attention: Review and analysis of the unique effects of losses over gains.
 
 
-Cluster 42:
-Altered Neural Reward Representations in Pathological Gamblers Revealed by Delay and Probability Discounting.
-Reward Signals, Attempted Suicide, and Impulsivity in Late-Life Depression.
+Cluster 52:
+Risky business: the neuroeconomics of decision making under uncertainty.
+Aging, uncertainty, and decision makingÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂA review.
+
+
+Cluster 53:
+Computational approaches to modeling gambling behaviour: Opportunities for understanding disordered gambling.
+The neurobiology of gambling disorder: Neuroscientific studies and computational perspectives.
+
+
+Cluster 54:
+The role of the medial prefrontal cortex in updating reward value and avoiding perseveration.
+Perturbations in reward-related decision-making induced by reduced prefrontal cortical GABA transmission: Relevance for psychiatric disorders.
+
+
+Cluster 55:
+Reduced Loss Aversion and Inhibitory Control in Adolescents With Internet Gaming Disorder.
+Hot and Cool Forms of Inhibitory Control and Externalizing Behavior in Children of Mothers who Smoked during Pregnancy: An Exploratory Study.
+
+
+Cluster 56:
+A unifying Bayesian account of contextual effects in value-based choice.
+Computational mechanisms underlying latent value updating of unchosen actions.
+
+
+Cluster 57:
+Neuromodulation of reward-based learning and decision making in human aging.
+Age-related variability in decision-making: Insights from neurochemistry.
+
+
+Cluster 58:
+Cue awareness in avoiding effortful control[white star],[white star][white star].
+Cortical brain activity reflecting attentional biasing toward reward-predicting cues covaries with economic decision-making performance.
+
+
+Cluster 59:
+The amygdala and the prefrontal cortex: The co-construction of intelligent decision-making.
+Emotion and cognition and the amygdala: From "what is it?" to "what's to be done?".
+
+
+Cluster 60:
+Adolescents Adapt More Slowly than Adults to Varying Reward Contingencies.
+Differential representation of feedback and decision in adolescents and adults.
+
+
+Cluster 61:
+Effects of working memory load, a history of conduct disorder, and sex on decision making in substance dependent individuals.
+Working memory involvement in emotion-based processes underlying choosing advantageously.
 
 
 Cluster solo:
-Trait urgency and gambling problems in young people by age: The mediating role of decision-making processes.
-Changes in Loss Sensitivity During Treatment in Concurrent Disorders Inpatients: A Computational Model Approach to Assessing Risky Decision-Making
-Decision-Making, Sensitivity to Reward and Attrition in Weight Management
-Perturbations in reward-related decision-making induced by reduced prefrontal cortical GABA transmission: Relevance for psychiatric disorders.
-Heterogeneity of decision-making strategies for preschoolers on a variant of the IGT.
-Strategic self-regulation, decision-making and emotion processing in poly-substance abusers in their first year of abstinence.
-Bayesian techniques for analyzing group differences in the Iowa Gambling Task: A case study of intuitive and deliberate decision-makers.
-Later stages of acute stress impair reinforcement-learning and feedback sensitivity in decision making.
-Impaired decision-making and brain shrinkage in alcoholism.
-Selenium deficiency is associated with disease severity, disrupted reward processing, and increased suicide risk in patients with anorexia nervosa.
-Early stages of the acute physical stress response increase loss aversion and learning on decision making: A Bayesian approach.
-Differences in learning and persistency characterizing behavior in chronic pain for the Iowa Gambling Task: Web-based laboratory-in-the-field study.
-Elucidating Poor Decision-Making in a Rat Gambling Task.
-Potentiated processing of reward related decision making in depression is attenuated by suicidal ideation.
-Dopamine, depressive symptoms, and decision-making: The relationship between spontaneous eye blink rate and depressive symptoms predicts Iowa Gambling Task performance.
-Impulsivity and Decision Making.
-The outcome-representation learning model: Impairments in decision-making in adolescents with excess weight.
-Quantum reinforcement learning during human decision-making
-Pharmacological evidence of a cholinergic contribution to elevated impulsivity and risky decision-making caused by adding win-paired cues to a rat gambling task.
-The effect of body image dissatisfaction on goal-directed decision making in a population marked by negative appearance beliefs and disordered eating.
-Reduced Neural Tracking of Prediction Error in Substance-Dependent Individuals
-Noradrenergic contributions to cue-driven risk-taking and impulsivity.
-Brain atrophy in long-term abstinent alcoholics who demonstrate impairment on a simulated gambling task.
-Long-Term Outcomes of Adolescent THC Exposure on Translational Cognitive Measures in Adulthood in an Animal Model and Computational Assessment of Human Data
-Regret in experience-based decisions: The effects of expected value differences and mixed gains and losses.
-Working-Memory Load and Temporal Myopia in Dynamic Decision Making.
-Decision Making in Children With ADHD Only, ADHD-Anxious/Depressed, and Control Children Using a Child Version of the Iowa Gambling Task.
-Computational EEG modelling of decision making under ambiguity reveals spatio-temporal dynamics of outcome evaluation.
-Decision-making biases in suicide attempters with major depressive disorder: A computational modeling study using the balloon analog risk task (BART).
-Neuropsychological, impulsive personality, and cerebral oxygenation correlates of undergraduate polysubstance use.
-Computational models of exploration and exploitation characterise onset and efficacy of treatment in methamphetamine use disorder.
-Cognitive mechanisms underlying risky decision-making in chronic cannabis users
-Probabilistic reward- and punishment-based learning in opioid addiction: Experimental and computational data.
-Temporal discounting of rewards in patients with bipolar disorder and schizophrenia.
-Serotonin and dopamine play complementary roles in gambling to recover losses.
-Feedback from facial expressions contribute to slow learning rate in an Iowa gambling task.
-Drift diffusion model of reward and punishment learning in schizophrenia: Modeling and experimental data.
-Anatomy of a decision: Striato-orbitofrontal interactions in reinforcement learning, decision making, and reversal.
-Externalizing psychopathology and gain-loss feedback in a simulated gambling task: Dissociable components of brain response revealed by time-frequency analysis.
-Computational mechanisms underlying latent value updating of unchosen actions.
-Developmental changes in dopamine neurotransmission in adolescence: Behavioral implications and issues in assessment.
-Impulsivity in depression: Its relation to suicidality.
-Intact implicit statistical learning in borderline personality disorder.
-Compulsivity-related neurocognitive performance deficits in gambling disorder: A systematic review and meta-analysis.
-Revisiting the role of impulsivity and compulsivity in problematic sexual behaviors.
-Emotion and the Prefrontal Cortex: An Integrative Review.
-Sequential delay and probability discounting tasks in mice reveal anchoring effects partially attributable to decision noise.
-Interactions among attention-deficit hyperactivity disorder (ADHD) and problem gambling in a probabilistic reward-learning task.
-Targeting goal-based decision-making for addiction recovery.
-A Biologically Plausible Action Selection System for Cognitive Architectures: Implications of Basal Ganglia Anatomy for Learning and Decision_Making Models.
-The neuroscience of acquisitive/impulsive offending.
-Electrocortical measures of performance monitoring from go/no_go and flanker tasks: Differential relations with trait dimensions of the triarchic model of psychopathy.
-An unsafe bet?: The dangerous rise of gambling and the debate we should be having.
-Altered delay discounting in neurodegeneration: insight into the underlying mechanisms and perspectives for clinical applications.
-Virtually "in the heat of the moment": Insula activation distinguishes men who in real-life were sexually risky versus safe Running head: Role of neural activity during safe sex negotiation.
-Parameters as trait indicators: Exploring a complementary neurocomputational approach to conceptualizing and measuring trait differences in emotional intelligence.
-Psychopathy-related traits and the use of reward and social information: A computational approach.
-Virtually 'in the heat of the moment': insula activation in safe sex negotiation among risky men.
-Modelling ADHD: A review of ADHD theories through their predictions for computational models of decision-making and reinforcement learning.
-EVOLUTIONARY MISMATCH, NEURAL REWARD CIRCUITS, AND PATHOLOGICAL GAMBLING.
-Gambling, Delay, and Probability Discounting in Adults With and Without ADHD.
-Risky decision making in younger and older adults: The role of learning.
+Computational models inform clinical science and assessment: An application to category learning in striatal-damaged patients.
+Age-related characteristics of risky decision-making and progressive expectation formation.
+Different strategies underlying uncertain decision making: Higher executive performance is associated with enhanced feedback-related negativity.
+Reinforcement learning models of risky choice and the promotion of risk-taking by losses disguised as wins in rats.
+Increased risk-taking behavior in dopamine transporter knockdown mice: Further support for a mouse model of mania.
+Risky decision making in psychological disorders.
+Developmental patterns of change in the influence of safe and risky peer choices on risky decisionÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂmaking.
 Risky decision-making after exposure to a food-choice task in excess weight adolescents: Relationships with reward-related impulsivity and hunger.
-Development of a novel computational model for the Balloon Analogue Risk Task: The exponential-weight mean-variance model.
-Uncertainty-driven regulation of learning and exploration in adolescents: A computational account.
+What motivates adolescents? Neural responses to rewards and their influence on adolescents' risk taking, learning, and cognitive control.
+The role of ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂjackpotÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ stimuli in maladaptive decision-making: dissociable effects of D1/D2 receptor agonists and antagonists.
+Valuation of peers' safe choices is associated with substance-naivete in adolescents
 From motivation, decision-making to action: An fMRI study on suicidal behavior in patients with major depressive disorder.
-Interaction between COMT Val158Met polymorphism and childhood adversity affects reward processing in adulthood.
-Sensitivity and bias in decision-making under risk: Evaluating the perception of reward, its probability and value.
-Developmental trajectories of delay discounting from childhood to young adulthood: Longitudinal associations and test-retest reliability.
-Executive (Dys)Functions and ODD and CD: A Systematic Review and Meta-Analysis.
-Altered interaction of physiological activity and behavior affects risky decision-making in ADHD.
-An Acute Psychosocial Stressor Does Not Potentiate Alcohol Cue Reactivity in Non-Treatment-Seeking Alcoholics.
-Gray matter abnormalities in opioid-dependent patients: A neuroimaging meta-analysis.
-Impaired Reversal but Intact Acquisition: Probabilistic Response Reversal Deficits in Adult Individuals With Psychopathy.
-Spatial-topographic nestedness of interoceptive regions within the networks of decision making and emotion regulation: Combining ALE meta-analysis and MACM analysis.
 Psychophysiological arousal and inter- and intraindividual differences in risk-sensitive decision making.
-Probabilistic reinforcement learning abnormalities and their correlates in adolescent bipolar disorders.
-Increased ventral-striatal activity during monetary decision making is a marker of problem poker gambling severity.
-Cortical grey matter mediates increases in model-based control and learning from positive feedback from adolescence to adulthood.
-Impaired behavior on real-world tasks following damage to the ventromedial prefrontal cortex.
-Dopamine increases a value-independent gambling propensity.
-Relative insensitivity to time-out punishments induced by win-paired cues in a rat gambling task.
-Insights into the neural basis of response inhibition from cognitive and clinical neuroscience.
-Attenuated directed exploration during reinforcement learning in gambling disorder.
-Probing the role of medication, DBS electrode position, and antidromic activation on impulsivity using a computational model of Basal ganglia.
-Developmental differences in description-based versus experience-based decision making under risk in children.
-P300 and delay-discounting in obsessiveÃÂÃÂÃÂÃÂcompulsive disorder.
-Effects of the potential lithium-mimetic, ebselen, on impulsivity and emotional processing.
-On the robustness of description and experience based decision tasks to social desirability.
-Psychological vulnerability and gambling in later life.
-Binge Drinking in Young Adults: Data, Definitions, and Determinants.
-Identifying distinct profiles of impulsivity for the four facets of psychopathy.
-Regularities in responding during performance of a complex choice task.
-Suboptimal Choice: A Review and Quantification of the Signal for Good News (SiGN) Model.
-Selective impairment of prediction error signaling in human dorsolateral but not ventral striatum in Parkinson's disease patients: Evidence from a model-based fMRI study.
-Endogenous opiates and behavior: 2017.
-Individual associations of adolescent alcohol use disorder versus cannabis use disorder symptoms in neural prediction error signaling and the response to novelty.
+Neurocognitive and psychiatric dimensions of hot, but not cool, impulsivity predict HIV sexual risk behaviors among drug users in protracted abstinence.
+Impaired Decision-Making, Higher Impulsivity, and Drug Severity in Substance Dependence and Pathological Gambling
+Sensitivity and bias in decision-making under risk: Evaluating the perception of reward, its probability and value.
+Differential Impacts of Healthy Cognitive Aging on Directed and Random Exploration.
+Prolonged consumption of sweetened beverages lastingly deteriorates cognitive functions and reward processing in mice.
+Modelling ADHD: A review of ADHD theories through their predictions for computational models of decision-making and reinforcement learning.
+Testing a rational choice model of "desistance:" decomposing changing expectations and changing utilities.
+The Assessment of Risky Decision Making: A Factor Analysis of Performance on the Iowa Gambling Task, Balloon Analogue Risk Task, and Columbia Card Task.
+Comparing attention, impulsivity, and executive functions between patients with opiate use disorder: Buprenorphine maintenance treatment versus active users, in comparison with healthy controls.
+The similarities and differences in impulsivity and cognitive ability among ketamine, methadone, and non-drug users.
+Decision-making and impulse control after frontal lobe injuries.
+Decision making under explicit risk is impaired in individuals with human immunodeficiency virus (HIV).
+Using Dual Process Models to Examine Impulsivity Throughout Neural Maturation.
+Elucidating Poor Decision-Making in a Rat Gambling Task.
+Using epsilon-greedy reinforcement learning methods to further understand ventromedial prefrontal patients' deficits on the Iowa Gambling Task.
+The age-varying effects of adolescent stress on impulsivity and sensation seeking.
+Neural correlates of cognitive control in gambling disorder: a systematic review of fMRI studies.
+The effects of reduced dopamine transporter function and chronic lithium on motivation, probabilistic learning, and neurochemistry in mice: Modeling bipolar mania.
+ADHD as a model of brain-behavior relationships.
+Gambling in the brain: Underlying neurobiological mechanisms of pathological gambling.
+Seeing through the smoke: Human and animal studies of cannabis use and endocannabinoid signalling in corticolimbic networks.
+Genetic association studies of performance monitoring and learning from feedback: The role of dopamine and serotonin.
 Executive dysfunction in substance dependent individuals during drug use and abstinence: An examination of the behavioral, cognitive and emotional correlates of addiction.
-Functional dynamics of dopamine synthesis during monetary reward and punishment processing.
-Reinforcement learning in multidimensional environments relies on attention mechanisms.
-"Wanting," "liking," and their relation to consciousness.
-How Working Memory and Reinforcement Learning Are Intertwined: A Cognitive, Neural, and Computational Perspective.
-From apathy to addiction: Insights from neurology and psychiatry.
-The disrupted basal ganglia and behavioural control: An integrative cross-domain perspective of spontaneous stereotypy.
-Higher threat avoidance costs reduce avoidance behaviour which in turn promotes fear extinction in humans.
-Defining the place of habit in substance use disorders.
+Computational approaches to treatment response prediction in major depression using brain activity and behavioral data: A systematic review.
+Short-term fasting selectively influences impulsivity in healthy individuals.
+RDMTk: A toolkit for risky decision making.
+Fast oscillations in cortical-striatal networks switch frequency following rewarding events and stimulant drugs.
+Metabolic and functional substrates of impulsive decision-making in individuals with heroin addiction after prolonged methadone maintenance treatment.
+Risky choices and emotion-based learning.
+Dysfunctional decision-making in binge-eating disorder: A meta-analysis and systematic review.
+State-based versus reward-based motivation in younger and older adults.
+Regional striatal cholinergic involvement in human behavioral flexibility.
+Reduced loss aversion in value-based decision-making and edge-centric functional connectivity in patients with internet gaming disorder.
+Impulsivity and Decision Making.
+Gambling, Delay, and Probability Discounting in Adults With and Without ADHD.
+Anodal stimulation of the left DLPFC increases IGT scores and decreases delay discounting rate in healthy males.
+Effect of heroin use on changes of brain functions as measured by functional magnetic resonance imaging, a systematic review.
+Revisiting the role of impulsivity and compulsivity in problematic sexual behaviors.
+The subthalamic nucleus in impulsivity.
+Emotion, Decision-Making and Substance Dependence: A Somatic-Marker Model of Addiction.
+Impaired behavior on real-world tasks following damage to the ventromedial prefrontal cortex.
+Long-Term Outcomes of Adolescent THC Exposure on Translational Cognitive Measures in Adulthood in an Animal Model and Computational Assessment of Human Data
+Systematic review and meta-analysis of factors that help or hinder treatment decision-making capacity in psychosis.
+Psychological Processes Underlying Risky Decisions in Drug Abusers.
+A somatic marker theory of addiction.
+Risky economic choices and frontal EEG asymmetry in the context of Reinforcer-Sensitivity-Theory-5.
+Comments and controversies: Piecing together the neurobiology of decision-making.
+The association between heroin expenditure and dopamine transporter availability-a single-photon emission computed tomography study.
+Intentional inhibition in human action: The power of 'no'.
+Risk-promoting effects of reward-paired cues in human sign- and goal-trackers.
+Differences in learning and persistency characterizing behavior in chronic pain for the Iowa Gambling Task: Web-based laboratory-in-the-field study.
+Stages of dysfunctional decision-making in addiction.
+Neural circuits linking sleep and addiction: Animal models to understand why select individuals are more vulnerable to substance use disorders after sleep deprivation.
+Reduced neural differentiation of rewards and punishment during passive avoidance learning in adolescents with generalized anxiety disorder.
+Working memory and decision-making biases in young adults with a family history of alcoholism: Studies from the Oklahoma Family Health Patterns Project.
+Sex and HIV serostatus differences in decision making under risk among substance-dependent individuals.
+The cognitive processes underlying affective decision-making predicting adolescent smoking behaviors in a longitudinal study.
+Inter-individual decision-making differences in the effects of cingulate, orbitofrontal, and prelimbic cortex lesions in a rat gambling task.
+Risk behavior in opioid-dependent individuals after the administration of a therapeutic dose of methadone.
+Mechanisms of deliberation during preferential choice: Perspectives from computational modeling and individual differences.
+Orbitofrontal cortex thickness and substance use disorders in emerging adulthood: causal inferences from a co_twin control/discordant twin study.
+A computational model of the Cambridge gambling task with applications to substance use disorders
+Altered Neural Reward Representations in Pathological Gamblers Revealed by Delay and Probability Discounting.
+Resting Regional Cerebral Blood Flow and Gambling Task Performance in Cocaine-Dependent Subjects and Healthy Comparison Subjects.
+Decision making and aggression in forensic psychiatric inpatients.
+Testing the factor structure underlying behavior using joint cognitive models: Impulsivity in delay discounting and Cambridge gambling tasks.
+Cued for risk: Evidence for an incentive sensitization framework to explain the interplay between stress and anxiety, substance abuse, and reward uncertainty in disordered gambling behavior.
+Winning and losing: Effects on impulsive action.
+Individual differences in cognition, affect, and performance: Behavioral, neuroimaging, and molecular genetic approaches.
+Using a reinforcement learning model and Bayes factors to study gender differences and personality correlations in reward prediction errors.
+Individual associations of adolescent alcohol use disorder versus cannabis use disorder symptoms in neural prediction error signaling and the response to novelty.
+Quantum reinforcement learning during human decision-making
+Endogenous opiates and behavior: 2017.
+Decision-Making Dysfunctions in Psychiatry-Altered Homeostatic Processing?
+Computational modelling of reinforcement learning and functional neuroimaging of probabilistic reversal for dissociating compulsive behaviours in gambling and cocaine use disorders.
+Adjusting behavior to changing environmental demands with development.
+Decision-making bioinspired model for target definition and "satisfactor" selection for physiological needs.
+Computational EEG modelling of decision making under ambiguity reveals spatio-temporal dynamics of outcome evaluation.
+Relationships between affective states and decision-making.
+Calm and smart? A selective review of meditation effects on decision making.
+Unifying causality and psychology: Being, brain, and behavior.
+Craving money? Evidence from the laboratory and the field.
+Toward an integrative perspective on the neural mechanisms underlying persistent maladaptive behaviors.
+Negative reinforcement learning is affected in substance dependence.
+Neurocognitive determinants of novelty and sensation-seeking in individuals with alcoholism.
+Altering gain of the infralimbic-to-accumbens shell circuit alters economically dissociable decision-making algorithms.
+Neural systems analysis of decision making during goal-directed navigation.
+Factors associated with the absence of cocaine craving in treatment-seeking individuals during inpatient cocaine detoxification.
+Searching for the Best Cause: Roles of Mechanism Beliefs, Autocorrelation, and Exploitation.
+Learning contextual reward expectations for value adaptation.
+Deconstructing value-based decision making via temporally selective manipulation of neural activity: Insights from rodent models.
+Contribution of the sensorimotor beta oscillations and the cortico-basal ganglia-thalamic circuitry during value-based decision making: A simultaneous EEG-fMRI investigation.
+Reinforcement sensitivity theory and personality.
+Frontal network dynamics reflect neurocomputational mechanisms for reducing maladaptive biases in motivated action.
+An insula_driven network computes decision uncertainty and promotes abstinence in chronic cocaine users.
+Stress and the adolescent brain: Amygdala-prefrontal cortex circuitry and ventral striatum as developmental targets.
+Analysis of evidence in decision-making research between 2002 and 2012.
+Behavioral and neurological foundations for the moral and legal implications of intoxication, addictive behaviors and disinhibition.
+Chronic motivational state interacts with task reward structure in dynamic decision-making.
+A meta-analytical review of brain activity associated with intertemporal decisions: Evidence for an anterior-posterior tangibility axis.
+A Dynamic Framework for Modelling Set-Shifting Performances.
+Anterior insula reflects surprise in value-based decision-making and perception.
+The neuropsychology of cannabis and other substance use in schizophrenia: Review of the literature and critical evaluation of methodological issues.
+Anticipation.
+Differential effects of the pharmacological stressor yohimbine on impulsive decision making and response inhibition.
+Shuffle the decks: Children are sensitive to incidental nonrandom structure in a sequential-choice task.
+Age-related quantitative and qualitative changes in decision making ability.
+An fMRI examination of developmental differences in the neural correlates of uncertainty and decision-making.
+Uncertainty-driven regulation of learning and exploration in adolescents: A computational account.
+Heterogeneity of decision-making strategies for preschoolers on a variant of the IGT.
+Analysis of behavior of drug addicts in Iowa gambling task using reinforcement learning model.
+Cortical grey matter mediates increases in model-based control and learning from positive feedback from adolescence to adulthood.
+Neural and psychological maturation of decision-making in adolescence and young adulthood.
+Trait urgency and gambling problems in young people by age: The mediating role of decision-making processes.
+Cortical electrophysiological network dynamics of feedback learning.
+Anticipatory stress restores decision-making deficits in heavy drinkers by increasing sensitivity to losses.
+Drift diffusion model of reward and punishment learning in schizophrenia: Modeling and experimental data.
+Iowa Gambling Task modified for military domain.
+Temporal discounting in major depressive disorder.
+Deliberative choice strategies in youths: Relevance to transdiagnostic anxiety symptoms.
+The role of serotonin in reward, punishment and behavioural inhibition in humans: Insights from studies with acute tryptophan depletion.
+Decision making in the ageing brain: changes in affective and motivational circuits.
+Neuropsychological, impulsive personality, and cerebral oxygenation correlates of undergraduate polysubstance use.
+Mind and brain in delay of gratification.
+Longitudinal changes in cognition in young adult cannabis users.
+It is all relative: Contextual influences on boredom and neural correlates of regulatory processes.
+Feedback from facial expressions contribute to slow learning rate in an Iowa gambling task.
+Strategic self-regulation, decision-making and emotion processing in poly-substance abusers in their first year of abstinence.
+Spiking Phineas Gage: A Neurocomputational Theory of Cognitive-Affective Integration in Decision Making.
 
 

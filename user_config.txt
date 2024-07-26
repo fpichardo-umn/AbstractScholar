@@ -49,3 +49,4 @@ removal_log_file: ./data/text_removal_log.csv
 preprocessed_data_file: ./data/preprocessed_data.csv
 post_review_file: ./data/text_analysis/text_post_abstract_review.csv
 reset_for_pipeline: true
+text_review_clusters_csv:./data/text_review_clusters.csv

@@ -43,9 +43,12 @@ import Levenshtein
 import networkx as nx
 from difflib import SequenceMatcher
 from scipy.spatial import distance
+from scipy.interpolate import UnivariateSpline
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
-from sklearn.metrics.cluster import silhouette_score
-from sklearn.metrics.cluster import calinski_harabasz_score
+from sklearn.metrics.cluster import silhouette_score, calinski_harabasz_score
+from sklearn.neighbors import NearestNeighbors
+from sklearn.metrics import adjusted_rand_score
+from kneed import KneeLocator
 
 
 def compute_bic(kmeans, X):
@@ -153,25 +156,101 @@ def test_groups(data_vector, iterations=10, max_k=30, min_k=2, kmeans_init='rand
     return best_ns
 
 
-def determine_best_k(doc_term_mat_xfm, group_iterations, kmeans_max_k, kmeans_init, kmeans_sim):
-    """
-    Determine the best number of clusters using multiple iterations.
-
-    Args:
-        doc_term_mat_xfm (numpy.ndarray): The transformed document-term matrix.
-        group_iterations (int): The number of iterations to perform of the clustering algorithm.
-        kmeans_max_k (int): The maximum number of clusters to consider.
-        kmeans_init (str): The initialization method for K-means clustering.
-        kmeans_sim (str): The similarity measure to use for K-means clustering.
-
-    Returns:
-        int: The best number of clusters determined by averaging the results of multiple iterations.
-    """
-    best_ns = np.array(test_groups(doc_term_mat_xfm, iterations=group_iterations, min_k=2, max_k=min(kmeans_max_k, doc_term_mat_xfm.shape[0]), kmeans_init=kmeans_init, sim=kmeans_sim))
-    average_k = best_ns.sum() / best_ns.size
+def determine_best_k_adaptive(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim):
+    n_samples = doc_term_mat_xfm.shape[0]
+    min_k = max(2, int(np.sqrt(n_samples) / 2))
+    max_k = min(int(np.sqrt(n_samples) * 2), n_samples // 2)
     
-    print(f'Best k: {average_k}')
-    return int(round(average_k))
+    best_ns = np.array(test_groups(doc_term_mat_xfm, iterations=group_iterations, 
+                                   min_k=min_k, max_k=max_k, 
+                                   kmeans_init=kmeans_init, sim=kmeans_sim))
+    median_k = int(np.median(best_ns))
+    
+    return median_k
+
+def determine_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init, min_k=2, max_k=20):
+    n_samples = doc_term_mat_xfm.shape[0]
+    max_k = min(max_k, n_samples // 2)
+    k_range = range(min_k, max_k + 1)
+    silhouette_scores = []
+
+    for k in k_range:
+        kmeans = KMeans(n_clusters=k, init=kmeans_init, n_init=10).fit(doc_term_mat_xfm)
+        score = silhouette_score(doc_term_mat_xfm, kmeans.labels_)
+        silhouette_scores.append(score)
+
+    x = np.array(k_range)
+    y = np.array(silhouette_scores)
+    
+    spline = UnivariateSpline(x, y, s=0.5)
+    x_smooth = np.linspace(x.min(), x.max(), 100)
+    y_smooth = spline(x_smooth)
+
+    kneedle = KneeLocator(x_smooth, y_smooth, S=1.0, curve='concave', direction='increasing')
+    elbow_point = round(kneedle.elbow)
+
+    return elbow_point
+
+def determine_best_k_consensus(doc_term_mat_xfm, kmeans_init):
+    n_samples = doc_term_mat_xfm.shape[0]
+    max_k = min(20, n_samples // 2)
+    k_range = range(2, max_k + 1)
+    consensus_scores = []
+
+    for k in k_range:
+        kmeans = KMeans(n_clusters=k, init=kmeans_init, n_init=10).fit(doc_term_mat_xfm)
+        agg_ward = AgglomerativeClustering(n_clusters=k, linkage='ward').fit(doc_term_mat_xfm)
+        agg_complete = AgglomerativeClustering(n_clusters=k, linkage='complete').fit(doc_term_mat_xfm)
+
+        score = np.median([
+            adjusted_rand_score(kmeans.labels_, agg_ward.labels_),
+            adjusted_rand_score(kmeans.labels_, agg_complete.labels_),
+            adjusted_rand_score(agg_ward.labels_, agg_complete.labels_)
+        ])
+
+        consensus_scores.append(score)
+
+    best_k = k_range[np.argmax(consensus_scores)]
+    return best_k
+
+def sample_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init='k-means++', n_samples=10, min_k=2, max_k=20):
+    best_k_samples = []
+    
+    for _ in range(n_samples):
+        best_k = determine_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init, min_k, max_k)
+        best_k_samples.append(best_k)
+    
+    median_best_k = int(np.median(best_k_samples))
+    
+    return median_best_k
+
+def determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim):
+    n_samples = doc_term_mat_xfm.shape[0]
+    
+    # Thresholds for different methods
+    LARGE_THRESHOLD = 10000  # Adjust as needed
+    MEDIUM_THRESHOLD = 1000  # Adjust as needed
+    
+    if n_samples >= LARGE_THRESHOLD:
+        print("Large dataset detected. Using adaptive method.")
+        return determine_best_k_adaptive(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim)
+    
+    elif n_samples >= MEDIUM_THRESHOLD:
+        print("Medium dataset detected. Using multiple runs of smooth elbow method.")
+        return sample_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init, n_samples=20)
+    
+    else:
+        print("Small dataset detected. Using combination of methods.")
+        adaptive_k = determine_best_k_adaptive(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim)
+        smooth_elbow_k = determine_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init)
+        consensus_k = determine_best_k_consensus(doc_term_mat_xfm, kmeans_init)
+        
+        best_k = int(np.median([adaptive_k, smooth_elbow_k, consensus_k]))
+        
+        print(f"Results: Adaptive={adaptive_k}, Smooth Elbow={smooth_elbow_k}, Consensus={consensus_k}")
+        print(f"Final best k (median): {best_k}")
+        
+        return best_k
 
 
 def group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init):
@@ -386,7 +465,7 @@ clusters_pickle_filename = normalize_path(config.get('clusters_pickle', './data/
 latent_sa, doc_term_mat_xfm, terms = load_from_pickle(preprocess_pickle_filename)
 
 # Get best k
-best_k = determine_best_k(doc_term_mat_xfm, group_iterations, kmeans_max_k, kmeans_init, kmeans_sim)
+best_k = determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim)
 
 # Group abstracts with kmeans multiple times
 data = group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init)

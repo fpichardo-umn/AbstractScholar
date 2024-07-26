@@ -34,9 +34,12 @@ The script generates several output files:
 - 'cluster_info.txt': Contains information about each cluster, including top terms and exemplars.
 - 'clustered_sample.txt': A subset of the original dataset with cluster assignments.
 - 'cluster_abstracts.pickle': Pickled data containing detailed cluster information for further analysis.
+Output:
+- 'text_review_clusters.csv': A CSV file containing cluster IDs, top terms, and exemplars for user review.
+  Users should add their assessment (I: Irrelevant, R: Relevant, B: Borderline) in the Assessment column.
 
-NEXT STEP: Review the generated cluster information and samples to assess the quality of the clustering. 
-Adjust parameters if necessary and re-run the clustering process.
+NEXT STEP: Review the generated 'text_review_clusters.csv' file. Add your assessment (I, R, or B) 
+for each cluster in the Assessment column. This will be used in subsequent analysis steps.
 
 Requirements:
 - Preprocessed document-term matrix and LSA components.
@@ -54,6 +57,7 @@ Created on Sun Apr 15 19:49:11 2018
 
 import sys
 import os
+import csv
 import os.path as op
 from typing import Dict, List, Tuple
 import numpy as np
@@ -366,6 +370,37 @@ def pickle_cluster_data(group_centroids, final_clusters_info, final_cluster_doc_
             final_cluster_names, final_cluster_titles, final_coherence_scores
         ], p)
 
+
+def output_clusters_for_review(config: Dict, final_cluster_names: List, centroids_infreq_top_terms: Dict, cluster_exemplars: Dict):
+    """
+    Output the list of clusters as a CSV file for user review.
+    
+    Args:
+    config (Dict): User configuration dictionary
+    final_cluster_names (List): List of final cluster names/IDs
+    centroids_infreq_top_terms (Dict): Dictionary of infrequent top terms for each cluster
+    cluster_exemplars (Dict): Dictionary of exemplar articles for each cluster
+    
+    The function creates a CSV file with columns:
+    Cluster ID, Top Terms, Exemplar, Assessment
+    
+    The Assessment column is left blank for the user to fill in with I, R, or B
+    (Irrelevant, Relevant, or Borderline).
+    """
+    output_file = config.get('text_review_clusters_csv', 'data/text_review_clusters.csv')
+    
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['cluster_id', 'Top Terms', 'Exemplar', 'user_judgment'])
+        
+        for cluster_id in final_cluster_names:
+            top_terms = ', '.join(centroids_infreq_top_terms.get(cluster_id, ['N/A']))
+            exemplar = cluster_exemplars.get(cluster_id, 'N/A')
+            writer.writerow([cluster_id, top_terms, exemplar, ''])
+    
+    print(f"Cluster review file created: {output_file}")
+    print("Please open this file and add your assessment (I, R, or B) in the user_judgment column for each cluster.")
+
 # Load configuration and data
 config = load_user_config()
 data = load_data(config, clustered_data=True)
@@ -662,3 +697,5 @@ pickle_cluster_data(group_centroids, final_clusters_info, final_cluster_doc_term
 
 print("Clustering process completed.")
 
+# After all cluster processing is complete
+output_clusters_for_review(config, final_cluster_names, centroids_infreq_top_terms, cluster_exemplars)
