@@ -34,7 +34,8 @@ preprocess_pickle: ./data/text_analysis/large_files/preprocessed_abstracts.pickl
 cluster_metic: euclidean
 kmeans_init: k-means++
 ncluster_max: 60
-num_groupings: 35
+num_groupings_large: 35
+num_groupings_small: 1000
 k_n_init: 35
 clusters_pickle: ./data/text_analysis/large_files/clusters.pickle
 clustered_data_csv: ./data/text_analysis/clustered_data.csv

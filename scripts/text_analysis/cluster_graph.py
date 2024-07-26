@@ -44,11 +44,13 @@ import networkx as nx
 from difflib import SequenceMatcher
 from scipy.spatial import distance
 from scipy.interpolate import UnivariateSpline
+from scipy.special import expit
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 from sklearn.metrics.cluster import silhouette_score, calinski_harabasz_score
 from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics import adjusted_rand_score
 from kneed import KneeLocator
+
 
 
 def compute_bic(kmeans, X):
@@ -123,7 +125,7 @@ def kmeans_test_grouping(data_vector, ncluster_max, ncluster_min, kmeans_init='r
             raise ValueError("Invalid similarity measure. Please choose one of 'bic', 'sil', or 'cal'.")
         ns.append(k)
 
-    print(ns[scores.index(max(scores))])
+    #print(ns[scores.index(max(scores))])
 
     return ns, scores
 
@@ -164,9 +166,12 @@ def determine_best_k_adaptive(doc_term_mat_xfm, group_iterations, kmeans_init, k
     best_ns = np.array(test_groups(doc_term_mat_xfm, iterations=group_iterations, 
                                    min_k=min_k, max_k=max_k, 
                                    kmeans_init=kmeans_init, sim=kmeans_sim))
-    median_k = int(np.median(best_ns))
+    median_k = np.ceil(int(np.median(best_ns)))
     
-    return median_k
+    if median_k <= 3:
+        return np.ceil(int(np.mean(best_ns)))
+    else:
+        return median_k
 
 def determine_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init, min_k=2, max_k=20):
     n_samples = doc_term_mat_xfm.shape[0]
@@ -220,9 +225,12 @@ def sample_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init='k-means++', n_samp
         best_k = determine_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init, min_k, max_k)
         best_k_samples.append(best_k)
     
-    median_best_k = int(np.median(best_k_samples))
+    median_best_k = np.ceil(int(np.median(best_ns)))
     
-    return median_best_k
+    if median_best_k <= 3:
+        return np.ceil(int(np.mean(best_ns)))
+    else:
+        return median_best_k
 
 def determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim):
     n_samples = doc_term_mat_xfm.shape[0]
@@ -245,10 +253,13 @@ def determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kme
         smooth_elbow_k = determine_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init)
         consensus_k = determine_best_k_consensus(doc_term_mat_xfm, kmeans_init)
         
-        best_k = int(np.median([adaptive_k, smooth_elbow_k, consensus_k]))
+        best_k = int(np.ceil(np.median([adaptive_k, smooth_elbow_k, consensus_k])))
+        
+        if best_k <= 3:
+            best_k =  int(np.ceil(np.mean([adaptive_k, smooth_elbow_k, consensus_k])))
         
         print(f"Results: Adaptive={adaptive_k}, Smooth Elbow={smooth_elbow_k}, Consensus={consensus_k}")
-        print(f"Final best k (median): {best_k}")
+        print(f"Final best k: {best_k}")
         
         return best_k
 
@@ -261,7 +272,7 @@ def group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmea
     initial_eps = estimate_dbscan_eps(doc_term_mat_xfm)*.7
 
     for a in range(num_groupings):
-        if a % 5 == 0:
+        if a % int(num_groupings // 10) == 0:
             print(f"Iteration {a}/{num_groupings}")
 
         # K-means (as before)
@@ -422,8 +433,6 @@ def write_cluster_titles(data, clusters, cluster_titles_txt):
                 f.write(val)
                 f.write('\n')
             f.write('\n\n')
-    
-    print('Num clusters: {}\nNum solo articles: {}'.format(len(clusters), len(solo)))
 
 
 def adaptive_threshold(edist_matrix, percentile=1):
@@ -437,6 +446,121 @@ def adaptive_threshold(edist_matrix, percentile=1):
     # Use a percentile of the edit distances as the threshold
     return np.percentile(filtered_edist_matrix, percentile)
 
+def calculate_adaptive_threshold(n_samples, best_k, num_groupings):
+    # Base percentile calculation
+    if n_samples <= 1:
+        base_percentile = 40  # Default value for edge cases
+    else:
+        log_log_n = np.log(np.log(n_samples))
+        base_percentile = expit(log_log_n) * 100
+    
+    # Adjust for best_k
+    k_factor = np.log(best_k) / np.log(n_samples)
+    k_adjustment = k_factor * 10  # Scale factor, can be adjusted
+    
+    # Adjust for num_groupings
+    grouping_factor = np.log(num_groupings) / np.log(50)  # Assuming 50 as a reference point
+    grouping_adjustment = grouping_factor * 5  # Scale factor, can be adjusted
+    
+    # Combine adjustments
+    adjusted_percentile = base_percentile + k_adjustment + grouping_adjustment
+    
+    # Ensure the percentile stays within reasonable bounds
+    final_percentile = np.clip(adjusted_percentile, 1, 99)
+    
+    return 100 - final_percentile  # Invert for use with adaptive_threshold
+
+
+def optimize_max_edist(edist, initial_max_edist):
+    # Generate a range of max_edist values to test
+    max_edist_range = np.arange(initial_max_edist - edist.std(), 
+                                initial_max_edist + edist.std(), 
+                                0.02)
+    
+    best_score = float('-inf')
+    best_max_edist = initial_max_edist
+    best_clusters = None
+    best_solo = None
+    best_G_strong = None
+
+    for test_max_edist in max_edist_range:
+        clusters, solo, G_strong = cluster_graphs(edist, test_max_edist)
+        
+        # Calculate score: prioritize number of clusters, then minimize solo articles
+        len_solo = len(solo)
+        if len_solo == 0:
+            len_solo = len(clusters)*2
+        score = len(clusters) * np.e - len_solo  # Weighting factor of 1000 for clusters
+        
+        if score > best_score:
+            best_score = score
+            best_max_edist = test_max_edist
+            best_clusters = clusters
+            best_solo = solo
+            best_G_strong = G_strong
+
+    print(f"Optimized max_edist: {best_max_edist}")
+    print(f"Number of clusters: {len(best_clusters)}")
+    print(f"Number of solo articles: {len(best_solo)}")
+    
+    return best_clusters, best_solo, best_G_strong, best_max_edist
+
+
+def reassign_solos(data, doc_term_mat_xfm, clusters, solo, G_strong):
+    print(f"Initial number of solo articles: {len(solo)}")
+    
+    # Calculate cluster centroids
+    cluster_centroids = {}
+    for cluster_idx, cluster in enumerate(clusters):
+        cluster_docs = doc_term_mat_xfm[list(cluster.nodes())]
+        cluster_centroids[cluster_idx] = np.mean(cluster_docs, axis=0)
+    
+    # Function to calculate distance (using cosine similarity) between a document and cluster centroid
+    def doc_cluster_distance(doc, centroid):
+        return 1 - cosine_similarity(doc.reshape(1, -1), centroid.reshape(1, -1))[0][0]
+    
+    # Calculate distances for all solo articles to all clusters
+    distances = np.zeros((len(solo), len(clusters)))
+    for idx, solo_idx in enumerate(solo):
+        solo_doc = doc_term_mat_xfm[solo_idx].reshape(1, -1)
+        distances[idx, :] = [doc_cluster_distance(solo_doc, centroid) for centroid in cluster_centroids.values()]
+    
+    # Calculate assignment threshold
+    assignment_threshold = get_assignment_threshold(distances, data.shape[0])
+    
+    # Prepare new clusters
+    new_clusters = [nx.Graph(cluster) for cluster in clusters]
+    
+    # Reassign solo articles
+    reassigned = 0
+    new_solo = []
+    for idx, solo_idx in enumerate(solo):
+        closest_cluster = np.argmin(distances[idx])
+        min_distance = distances[idx, closest_cluster]
+        
+        if min_distance < assignment_threshold:
+            # Reassign to closest cluster
+            data.iloc[solo_idx, data.columns.get_loc('cluster')] = closest_cluster
+            new_clusters[closest_cluster].add_node(solo_idx)
+            G_strong.add_node(solo_idx)
+            G_strong.add_edge(solo_idx, list(new_clusters[closest_cluster].nodes())[0])  # Connect to first node in cluster
+            reassigned += 1
+        else:
+            new_solo.append(solo_idx)
+            data.iloc[solo_idx, data.columns.get_loc('cluster')] = 999  # Ensure it's marked as solo
+    
+    print(f"Reassigned {reassigned} out of {len(solo)} solo articles.")
+    print(f"New number of solo articles: {len(new_solo)}")
+    
+    return data, new_clusters, new_solo, G_strong
+
+
+def get_assignment_threshold(distances, data_size):
+    base_quantile = 1 / np.log10(data_size**2)
+    adjusted_quantile = np.clip(base_quantile, 0.05, 0.5)  # Ensure quantile is between 5% and 30%
+    return np.quantile(distances, adjusted_quantile)
+
+
 ####
 ##    START
 ####
@@ -445,13 +569,15 @@ def adaptive_threshold(edist_matrix, percentile=1):
 config = load_user_config()
 data = load_data(config)
 
+dataset_size_threshold = 500
+
 # Get the configuration parameters
 cluster_metic = config.get('cluster_metic', 'euclidean')
 kmeans_init = config.get('kmeans_init', 'k-means++')
 kmeans_sim = config.get('kmeans_sim', 'bic')
 kmeans_max_k = int(config.get('kmeans_max_k', 50))
 ncluster_max = int(config.get('ncluster_max', 60))
-num_groupings = int(config.get('num_groupings', 35))
+num_groupings = int(config.get('num_groupings_small', 100)) if data.shape[0] < dataset_size_threshold else int(config.get('num_groupings_large', 35))
 k_n_init = int(config.get('k_n_init', 35))
 group_iterations = int(config.get('group_iterations', 10))
 max_edist = float(config.get('max_edist', 0.2))
@@ -467,6 +593,8 @@ latent_sa, doc_term_mat_xfm, terms = load_from_pickle(preprocess_pickle_filename
 # Get best k
 best_k = determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim)
 
+best_k = int(max(best_k, np.log2(data.shape[0])*np.e))  # Ensure that the number of clusters is not too small
+
 # Group abstracts with kmeans multiple times
 data = group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init)
 
@@ -475,11 +603,14 @@ edist = gen_edist_matrix(data)
 save_to_pickle(edist, edist_abstract_pickle_filename)
 
 # Cluster Graphs
-max_edist = adaptive_threshold(edist)
-clusters, solo, G_strong = cluster_graphs(edist, max_edist)
+initial_max_edist = adaptive_threshold(edist, calculate_adaptive_threshold(data.shape[0], best_k, num_groupings))
+clusters, solo, G_strong, optimized_max_edist = optimize_max_edist(edist, initial_max_edist)
 
 # Assign clusters to data
 assign_clusters_to_data(data, clusters, solo)
+
+# Reassing solo articles
+data, clusters, solo, G_strong = reassign_solos(data, doc_term_mat_xfm, clusters, solo, G_strong)
 
 # Write cluster titles to a file
 write_cluster_titles(data, clusters, cluster_titles_txt)

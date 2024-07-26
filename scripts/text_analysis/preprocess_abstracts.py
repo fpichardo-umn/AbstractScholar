@@ -101,7 +101,7 @@ def preprocess_data(data):
     """
     
     data['abstract'] = data['abstract'].fillna('')
-    data = data[data.abstract.apply(len) > 50]
+    #data = data[data.abstract.apply(len) > 50]
     data = data.drop_duplicates('title').reset_index(drop=True)
     pd_idx = data.index.tolist()
 

@@ -176,9 +176,20 @@ def calc_cluster_coherence_score(cluster_id: int, cluster_sizes: Dict[int, int],
     graph_clustering_coeff = avg_cluster_score[cluster_id]
     cluster_silhouette = clusters_silhouette[cluster_id]
     cluster_sqrt_ess = sqrt(clusters_ess[cluster_id])
+    
+    # Calculate logarithms of components
+    log_size = np.log1p(cluster_dampened_size)  # log1p(x) = log(1+x), safer for small values
+    log_ess = np.log1p(cluster_sqrt_ess)
+    log_silhouette = 3 * np.log1p(cluster_silhouette)  # Using log1p to handle potential negative values
+    log_graph_coeff = np.log1p(graph_clustering_coeff)
 
-    coherence_score = (cluster_dampened_size + cluster_sqrt_ess) * cluster_silhouette**3 * graph_clustering_coeff
-    return round(coherence_score, 2)
+    # Sum the logs (equivalent to multiplying the original values)
+    log_coherence_score = log_size + log_ess + log_silhouette + log_graph_coeff
+
+    # Convert back from log space
+    coherence_score = np.expm1(log_coherence_score)  # expm1(x) = exp(x) - 1, inverse of log1p
+    
+    return coherence_score
 
 def find_elbow_point(sorted_coherence_scores: List[Tuple[int, float]]) -> float:
     """
@@ -401,6 +412,15 @@ def output_clusters_for_review(config: Dict, final_cluster_names: List, centroid
     print(f"Cluster review file created: {output_file}")
     print("Please open this file and add your assessment (I, R, or B) in the user_judgment column for each cluster.")
 
+def relative_gap_threshold(sorted_coherence_scores, gap_threshold=0.5):
+    scores = [score for _, score in sorted_coherence_scores]
+    gaps = [(scores[i] - scores[i+1]) / scores[i] for i in range(len(scores)-1)]
+    if not gaps:
+        return [sorted_coherence_scores[0][0]]
+    cut_point = next((i for i, gap in enumerate(gaps) if gap > gap_threshold), len(sorted_coherence_scores)-1)
+    return [idx for idx, _ in sorted_coherence_scores[:cut_point+1]]
+
+
 # Load configuration and data
 config = load_user_config()
 data = load_data(config, clustered_data=True)
@@ -466,8 +486,12 @@ clusters_info = {
 }
 
 # Find elbow point and threshold clusters
-score_thresh = find_elbow_point(sorted_coherence_scores)
-thresholded_idx = [idx for idx, score in sorted_coherence_scores if score > score_thresh]
+if (len(sorted_coherence_scores) > 5) or (data.shape[0] > 100):
+    score_thresh = find_elbow_point(sorted_coherence_scores)
+    thresholded_idx = [idx for idx, score in sorted_coherence_scores if score > score_thresh]
+else:
+    thresholded_idx = relative_gap_threshold(sorted_coherence_scores)
+
 filtered_sorted_coherence_scores = {idx: score for idx, score in sorted_coherence_scores if idx not in thresholded_idx}
 
 # Start of potential merging process
@@ -478,10 +502,13 @@ if len(filtered_sorted_coherence_scores) > 1:
     centroid_dict = {cluster_id: centroids[cluster_id] for cluster_id in filtered_sorted_coherence_scores.keys()}
     centroid_list = list(centroid_dict.values())
     similarity_matrix = cosine_similarity(centroid_list)
-    similarity_threshold = np.percentile(np.sort(similarity_matrix.flatten()[similarity_matrix.flatten() != 1]), 90)
+    similarity_matrix_flat = np.round(similarity_matrix[np.tril_indices_from(similarity_matrix)], 7)
+    similarity_threshold = np.percentile(similarity_matrix_flat[similarity_matrix_flat < 1], 90)
 
     # Merge clusters
     merged_centroids = merge_clusters(similarity_matrix, similarity_threshold, centroid_dict)
+else:
+    merged_centroids = {}
 
 if merged_centroids:
     print(f"Merging {len(merged_centroids)} clusters...")
@@ -600,6 +627,19 @@ for cluster_id in final_centroids.keys():
     top_terms = get_cluster_top_terms(cluster_id, final_centroids, latent_sa, terms)[:50]
     centroids_infreq_top_terms[cluster_id] = [term for term in top_terms if all_infreq_top_centroid_terms[term] < max_freq][:20]
 
+# Check for infrequent terms
+print("Checking for infrequent terms in clusters...")
+
+if sum([results != [] for _, results in centroids_infreq_top_terms.items()]) == 0:
+    # if all infrequent terms are empty, use the original top terms
+    centroids_infreq_top_terms = centroids_top_terms
+else:
+    # if some infrequent terms are present, use them
+    print("Some infrequent terms found. Using them for clusters.")
+    for cluster_id in final_centroids.keys():
+        if centroids_infreq_top_terms[cluster_id] == []:
+            centroids_infreq_top_terms[cluster_id] = centroids_top_terms[cluster_id]
+
 # Prepare final data
 print("Preparing final data...")
 group_centroids = {key: final_centroids[key] for key, _ in final_coherence_scores}
@@ -609,7 +649,7 @@ art_dot_centroid = {idx: cmp_arts_centroid(idx) for idx in group_centroids.keys(
 
 get_top_art_idx = lambda x: np.unique(np.concatenate([
     np.where((art_dot_centroid[x] >= 0.9))[0],
-    np.where(art_dot_centroid[x] > art_dot_centroid[x].mean())[0]
+    np.where(art_dot_centroid[x] > np.round(np.median(art_dot_centroid[x]), 5))[0]
 ]))
 
 idx_top_arts = {idx: get_top_art_idx(idx).tolist() for idx in group_centroids.keys()}
