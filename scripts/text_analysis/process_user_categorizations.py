@@ -33,6 +33,7 @@ import os
 import os.path as op
 import sys
 import glob
+import shutil
 from typing import List
 
 # Add the 'scripts' subdirectory to the Python path
@@ -68,38 +69,48 @@ def process_dropped_entries(data: pd.DataFrame, output_file: str):
     dropped.to_csv(output_file, index=False)
     print(f"Dropped {len(dropped)} entries. Saved to {output_file}")
 
-def process_kept_entries(data: pd.DataFrame, reset_for_pipeline: bool, columns_to_keep: List[str], output_file: str):
+def version_preprocessed_data(config: dict):
+    """Version the existing preprocessed_data.csv file."""
+    preprocessed_file = config['preprocessed_data_file']
+    base_path = os.path.dirname(preprocessed_file)
+    
+    if not os.path.exists(preprocessed_file):
+        print(f"Warning: {preprocessed_file} does not exist. No versioning performed.")
+        return
+
+    # Count existing versioned files
+    version_count = len(glob.glob(os.path.join(base_path, 'preprocessed_data_v*.csv')))
+    new_version = version_count + 1
+    
+    # Copy the current file to the new versioned name
+    new_filename = os.path.join(base_path, f'preprocessed_data_v{new_version}.csv')
+    shutil.copy2(preprocessed_file, new_filename)
+    print(f"Existing preprocessed_data.csv copied to {new_filename}")
+
+def process_kept_entries(data: pd.DataFrame, reset_for_pipeline: bool, columns_to_keep: List[str], config: dict):
     """Process and save kept entries based on reset_for_pipeline configuration."""
     kept = data[data['user_judgment'] == 'K'].copy()
     
     if reset_for_pipeline:
+        # Version the existing preprocessed_data.csv
+        version_preprocessed_data(config)
+        
         # Keep only specified columns for reprocessing
         missing_columns = set(columns_to_keep) - set(kept.columns)
         if missing_columns:
             print(f"Warning: The following columns are missing: {missing_columns}")
             columns_to_keep = [col for col in columns_to_keep if col not in missing_columns]
         kept = kept[columns_to_keep]
+        
+        # Save to preprocessed_data.csv (overwriting the original)
+        output_file = config['preprocessed_data_file']
     else:
         # Keep all columns except 'user_judgment' for continuing the pipeline
         kept = kept.drop('user_judgment', axis=1)
+        output_file = config['post_review_file']
     
     kept.to_csv(output_file, index=False)
     print(f"Kept {len(kept)} entries. Saved to {output_file}")
-
-def version_preprocessed_data(base_path='data'):
-    preprocessed_file = os.path.join(base_path, 'preprocessed_data.csv')
-    if not os.path.exists(preprocessed_file):
-        raise FileNotFoundError(f"Error: {preprocessed_file} does not exist. Cannot proceed with reset.")
-    
-    # Count existing versioned files
-    version_count = len(glob.glob(os.path.join(base_path, 'preprocessed_data_v*.csv')))
-    new_version = version_count + 1
-    
-    # Rename the current file
-    new_filename = os.path.join(base_path, f'preprocessed_data_v{new_version}.csv')
-    os.rename(preprocessed_file, new_filename)
-    print(f"Existing preprocessed_data.csv renamed to preprocessed_data_v{new_version}.csv")
-
 
 # Load configuration
 config = load_user_config()
@@ -112,16 +123,14 @@ categorized_data = load_categorized_data(categorized_data_file)
 removal_log_file = normalize_path(config.get('removal_log_file', 'data/text_removal_log.csv'))
 process_dropped_entries(categorized_data, removal_log_file)
 
-# Determine output file and processing based on reset_for_pipeline
+# Determine processing based on reset_for_pipeline
 reset_for_pipeline = config.get('reset_for_pipeline', 'false').lower() in ('true', 'yes', '1', 'on')
-if reset_for_pipeline:
-    output_file = normalize_path(config.get('preprocessed_data_file', 'data/preprocessed_data_v2.csv'))
-    print("Preparing data for pipeline reprocessing.")
-else:
-    output_file = normalize_path(config.get('post_review_file', 'data/text/text_post_abstract_review.csv'))
-    print("Preparing data for next step in existing pipeline.")
+
+# Ensure necessary paths are in the config
+config['preprocessed_data_file'] = normalize_path(config.get('preprocessed_data_file', 'data/preprocessed_data.csv'))
+config['post_review_file'] = normalize_path(config.get('post_review_file', 'data/text/text_post_abstract_review.csv'))
 
 # Process kept entries
-process_kept_entries(categorized_data, reset_for_pipeline, COLUMNS_TO_KEEP, output_file)
+process_kept_entries(categorized_data, reset_for_pipeline, COLUMNS_TO_KEEP, config)
 
 print("Processing complete.")
