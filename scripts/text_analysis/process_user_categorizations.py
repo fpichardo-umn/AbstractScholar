@@ -60,6 +60,11 @@ def process_dropped_entries(data: pd.DataFrame, output_file: str):
     """Process and save dropped entries."""
     dropped = data[data['user_judgment'] == 'D'].copy()
     dropped['removal_reason'] = 'Irrelevant'
+    
+    if op.exists(output_file):
+        orig_dropped = pd.read_csv(output_file)
+        dropped = pd.concat([orig_dropped, dropped])
+    
     dropped.to_csv(output_file, index=False)
     print(f"Dropped {len(dropped)} entries. Saved to {output_file}")
 
