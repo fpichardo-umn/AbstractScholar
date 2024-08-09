@@ -145,7 +145,7 @@ def load_data(config, clustered_data=False):
     """
     # Define paths for preprocessed data
     if clustered_data:
-        preprocessed_path = config.get('clustered_data_csv', './data/text_analysis/clustered_data.csv')
+        preprocessed_path = config.get('clustered_data_txt', './data/text_analysis/clustered_data.txt')
     else:
         preprocessed_path = config.get('preprocessed_file_path', './data/preprocessed_data.csv')
 
@@ -154,7 +154,10 @@ def load_data(config, clustered_data=False):
         raise FileNotFoundError("The preprocessed data file does not exist.")
 
     # Load preprocessed data
-    preprocessed_df = pd.read_csv(preprocessed_path, index_col='orig_index', encoding='latin1')
+    try:
+        preprocessed_df = pd.read_csv(preprocessed_path, index_col='orig_index', encoding='latin1', sep='\t')
+    except:
+        preprocessed_df = pd.read_csv(preprocessed_path, index_col='orig_index', encoding='latin1')
     
     preprocessed_df.index.name = 'index'
     preprocessed_df['orig_index'] = preprocessed_df.index

@@ -1,133 +1,74 @@
-Cluster 15, Coherence Rank 1:
-Terms: basal ganglion, dopamine, architecture, model, action selection, system, different, reinforcement learning, brain, nucleus, type, physiology, cognitive, specific
-Exemplar: *Basal ganglia and dopamine contributions to probabilistic category learning.*
-Most relevant: *The disrupted basal ganglia and behavioural control: An integrative cross-domain perspective of spontaneous stereotypy.*
+Cluster 13, Coherence Rank 1:
+Terms: self regulation, prevention, amphetamine, administration, ofc, intervention, adolescent substance use, alcoholism, abstinence, self control, regulatory, session, group, density
+Exemplar: *Self-control and substance use prevention: A translational analysis.*
+Most relevant: *Self-regulation and adolescent substance use.*
 Articles:
--Learning Reward Uncertainty in the Basal Ganglia.
--Basal ganglia lateralization in different types of reward.
 
-Cluster 2, Coherence Rank 2:
-Terms: adolescent, risk taking behavior, bart, individual, risky decision making, balloon, age, ambiguity, risk task, process, choice, take
-Exemplar: *Testosterone and cortisol jointly modulate risk-taking.*
-Most relevant: *Testosterone and cortisol jointly modulate risk-taking.*
+Cluster 16, Coherence Rank 2:
+Terms: impulsivity, psychopathy, neurocognitive, heroin, amphetamine, addictive, risk behavior, dimension, drug, disorder, mono dependent, machine, pathophysiology, time, dependence, behavior among
+Exemplar: *Effects of psychopathy on neurocognitive domains of impulsivity in abstinent opiate and stimulant users.*
+Most relevant: *Machine-learning identifies substance-specific behavioral markers for opiate and stimulant dependence.*
 Articles:
--Modeling Behavior in a Clinically Diagnostic Sequential Risk-Taking Task.
--Similarities between adult female crack cocaine users and adolescents in risky decision-making scenarios.
--Risk and Rationality in Adolescent Decision Making: Implications for Theory, Practice, and Public Policy.
 
-Cluster 12, Coherence Rank 3:
-Terms: model free, reinforcement learning, model based, prediction error, social, learning model, rl, option, cognitive, theory, based learning, computational model
-Exemplar: *Model-free and model-based reward prediction errors in EEG.*
-Most relevant: *Generalization of value in reinforcement learning by humans.*
+Cluster 11, Coherence Rank 3:
+Terms: older adult, group, year, aged, difference, performance, deck, iowa gambling task, learning, strategy, aging, strength, child
+Exemplar: *Performance on the Iowa Gambling Task: From 5 to 89 Years of Age.*
+Most relevant: *The impact of subjective cognitive decline on Iowa Gambling Task performance.*
 Articles:
--Reinforcement learning in depression: A review of computational research.
--Toward an understanding of dynamic moral decision making: Model-free and model-based learning.
--Reward-mediated, model-free reinforcement-learning mechanisms in Pavlovian and instrumental tasks are related.
+-Older Adults as Adaptive Decision Makers: Evidence From the Iowa Gambling Task.
 
 Cluster 14, Coherence Rank 4:
-Terms: delay discounting, probability, impulsive decision making, mouse, year, participant, rate, substance use, monetary, load, among, delayed, effect
-Exemplar: *Delay discounting is greater among drug users seropositive for hepatitis C but not HIV.*
-Most relevant: *Altered delay discounting in neurodegeneration: insight into the underlying mechanisms and perspectives for clinical applications.*
+Terms: acc, brain activity, region, average, functional magnetic resonance imaging, fmri, sd, value, anterior cingulate cortex
+Exemplar: *Poor decision-making by chronic marijuana users is associated with decreased functional responsiveness to negative consequences.*
+Most relevant: *The Iowa Gambling Task in fMRI images.*
 Articles:
--Sequential delay and probability discounting tasks in mice reveal anchoring effects partially attributable to decision noise.
--Effects of substance use on monetary delay discounting among people who use stimulants with and without HIV: An ecological momentary assessment s
+-Temporal profile of fronto-striatal-limbic activity during implicit decisions in drug dependence.
 
-Cluster 16, Coherence Rank 5:
-Terms: exploration, exploitation, directed, choice, random, option, strategy, anxiety, human, uncertainty, exploratory, network, explore, information, cognitive control, size, gambler
-Exemplar: *The effect of atomoxetine on random and directed exploration in humans.*
-Most relevant: *Attenuated directed exploration during reinforcement learning in gambling disorder.*
+Cluster 12, Coherence Rank 5:
+Terms: gray matter, brain, alcoholic, left, alcoholism, volume, cortex, frontal, opioid, voxel based, region, amygdala, impairment, long, regression analysis
+Exemplar: *Impaired decision-making and brain shrinkage in alcoholism.*
+Most relevant: *Gray matter abnormalities in opioid-dependent patients: A neuroimaging meta-analysis.*
 Articles:
--Exploration versus exploitation decisions in the human brain: A systematic review of functional neuroimaging and neuropsychological studies.
+-Brain atrophy in long-term abstinent alcoholics who demonstrate impairment on a simulated gambling task.
 
-Cluster 8, Coherence Rank 6:
-Terms: drinking, alcohol use, effect, acute, brain, event, problem, alcohol consumption, gambling, alcoholism, related, placebo, cognitive, automatic, young, theta, impulsivity
-Exemplar: *The effects of acute alcohol administration on the human brain: Insights from neuroimaging.*
-Most relevant: *The effects of acute alcohol administration on the human brain: Insights from neuroimaging.*
+Cluster 2, Coherence Rank 6:
+Terms: cannabis use, schizophrenia, onset, consumer, memory, adolescent, learning, group, performance, exposure, substance, alcohol, adulthood, control, use disorder, associated, verbal, cognitive dysfunction
+Exemplar: *The role of decision-making in cannabis-related problems among young adults.*
+Most relevant: *The role of decision-making in cannabis-related problems among young adults.*
 Articles:
--Affective decision-making moderates the effects of automatic associations on alcohol use among drug offenders.
--Aberrant reward prediction errors in young adult at-risk alcohol users.
--Decisions to Attend and Drink at Party Events: The Effects of Incentives and Disincentives and Lifetime Alcohol and Antisocial Problems.
+-The neuropsychological correlates of cannabis use in schizophrenia: Lifetime abuse/dependence, frequency of use, and recency of use.
+-Decision making and impulsivity in young adult cannabis users.
+-Reflection impulsivity in adolescent cannabis users: a comparison with alcohol-using and non-substance-using adolescents.
 
-Cluster 13, Coherence Rank 7:
-Terms: acute, stressor, loss aversion, stage, cue, response, feedback, early, uncertainty, negative, later, reactivity, laboratory, exposed, increase
-Exemplar: *Decision making under stress: A selective review.*
-Most relevant: *Repetitive negative thinking following exposure to a natural stressor prospectively predicts altered stress responding and decision-making in the laboratory.*
+Cluster 6, Coherence Rank 7:
+Terms: deck, phenomenon, trial, woman, difference, rat, performance, disadvantageous, approach, scoring, loss, frequency, adult, iowa gambling task
+Exemplar: *Comparison of deck- and trial-based approaches to advantageous decision making on the Iowa Gambling Task.*
+Most relevant: *Effects of working memory load, a history of conduct disorder, and sex on decision making in substance dependent individuals.*
 Articles:
--Later stages of acute stress impair reinforcement-learning and feedback sensitivity in decision making.
--Stress modulates reinforcement learning in younger and older adults.
+-Recollecting cross-cultural evidences: Are decision makers really foresighted in Iowa gambling task?
+-Mirrored Prominent Deck B Phenomenon: Frequent Small Losses Override Infrequent Large Gains in the Inverted Iowa Gambling Task.
+-A critical review of sex differences in decision-making tasks: Focus on the Iowa Gambling Task.
 
-Cluster 20, Coherence Rank 8:
-Terms: pleasure, symptom, impairment, negative, experience, motivational, behavior, life, domain, effort, outcome, goal directed, function, patient schizophrenia, allow
-Exemplar: *Goal representations and motivational drive in schizophrenia: The role of prefrontal-striatal interactions.*
-Most relevant: *Goal representations and motivational drive in schizophrenia: The role of prefrontal-striatal interactions.*
-Articles:
--Investigating the empirical support for therapeutic targets proposed by the temporal experience of pleasure model in schizophrenia: A systematic 
-
-Cluster 3, Coherence Rank 9:
-Terms: drug addiction, control, drug use, drug seeking, behavior, habit, compulsive, addictive, system, goal, craving, substance, disorder, drug abuse, review
-Exemplar: *Drug Addiction: Updating Actions to Habits to Compulsions Ten Years On.*
-Most relevant: *Behavioral and brain response to non-drug rewards in substance abuse: Implications for motivational theories of addiction.*
-Articles:
--From the ventral to the dorsal striatum: Devolving views of their roles in drug addiction.
--Behavioral and neural mechanisms of compulsive drug seeking.
--Neural and psychological mechanisms underlying compulsive drug seeking habits and drug memories - indications for novel treatments of addiction*.
-
-Cluster 0, Coherence Rank 10:
-Terms: parameter, choice, method, bayesian, modeling, reinforcement, process, cognitive model, performance, data, igt, option, iowa gambling task
-Exemplar: *Absolute performance of reinforcement-learning models for the Iowa Gambling Task.*
-Most relevant: *Absolute performance of reinforcement-learning models for the Iowa Gambling Task.*
-Articles:
--A Comparison of Reinforcement Learning Models for the Iowa Gambling Task Using Parameter Space Partitioning.
--An improved cognitive model of the Iowa and Soochow Gambling Tasks with regard to model fitting performance and tests of parameter consistency
--The Outcome-Representation Learning Model: A Novel Reinforcement Learning Model of the Iowa Gambling Task
-
-Cluster 1, Coherence Rank 11:
-Terms: deck, performance, loss, group, schizophrenia, patient, participant, gain, iowa gambling task igt, risk, frequency, difference
-Exemplar: *The prominent deck B phenomenon in schizophrenia: An empirical study on Iowa Gambling Task.*
+Cluster 15, Coherence Rank 8:
+Terms: hiv, woman, delay discounting, substance use, among, ecological, stimulant, substance dependent, decision making risk, participant, effect, poorer decision, sex, relatively, without
+Exemplar: *Sex and HIV serostatus differences in decision making under risk among substance-dependent individuals.*
 Most relevant: *Computational Modeling Reveals Distinct Effects of HIV and History of Drug Use on Decision-Making Processes in Women*
 Articles:
--Mirrored Prominent Deck B Phenomenon: Frequent Small Losses Override Infrequent Large Gains in the Inverted Iowa Gambling Task.
--The impact of subjective cognitive decline on Iowa Gambling Task performance.
--Performance on the Iowa Gambling Task: From 5 to 89 Years of Age.
 
-Cluster 19, Coherence Rank 12:
-Terms: p3, problem, factor, capacity, externalizing psychopathology, phenotype, disinhibition, error, variance, load, amplitude, behavioral, personality, lower, score, inhibitory, erp, go
-Exemplar: *Facets of externalizing psychopathology in relation to inhibitory control and error processing.*
-Most relevant: *An information processing/associative learning account of behavioral disinhibition in externalizing psychopathology.*
+Cluster 10, Coherence Rank 9:
+Terms: propensity, risk taking behavior, bart, people, individual, tobacco, process, family, risky decision, suds, alcoholism, related
+Exemplar: *Impaired outcome evaluation during risky decision-making in individuals with methamphetamine use disorder.*
+Most relevant: *Impaired outcome evaluation during risky decision-making in individuals with methamphetamine use disorder.*
 Articles:
--Operationalizing proneness to externalizing psychopathology as a multivariate psychophysiological phenotype.
--P3 amplitude reductions are associated with shared variance between internalizing and externalizing psychopathology.
+-Similarities between adult female crack cocaine users and adolescents in risky decision-making scenarios.
+-Propensity for risk taking and trait impulsivity in the Iowa gambling task.
+-A cognitive modeling analysis of risk in sequential choice tasks.
 
-Cluster merged_5_4, Coherence Rank 13:
-Terms: feedback, brain, prediction error, frn, activity, acc, related, frontal, monitoring, theta, activation, anterior cingulate cortex
-Exemplar: *Reinforcement-related brain potentials from medial frontal cortex: origins and functional significance.*
-Most relevant: *Spatial migration of human reward processing with functional development: Evidence from quantitative meta-analyses.*
+Cluster 8, Coherence Rank 10:
+Terms: drug addiction, drug seeking, system, goal, drug use, habit, control, emotional, prefrontal, reward, impulsive behavior, action, memory, cortex, neuroimaging, subcortical
+Exemplar: *Drug Addiction: Updating Actions to Habits to Compulsions Ten Years On.*
+Most relevant: *Neural and psychological mechanisms underlying compulsive drug seeking habits and drug memories - indications for novel treatments of addiction*.*
 Articles:
--Electrophysiological indices of anterior cingulate cortex function reveal changing levels of cognitive effort and reward valuation that sustain t
--Individual differences in reinforcement learning: Behavioral, electrophysiological, and neuroimaging correlates.
--Frontal theta links prediction errors to behavioral adaptation in reinforcement learning.
-
-Cluster merged_6_57, Coherence Rank 14:
-Terms: age related, aging, dopaminergic, serotonin, learning decision making, difference, behavior, effect, evidence, may, affective, older adult
-Exemplar: *Age-related variability in decision-making: Insights from neurochemistry.*
-Most relevant: *Dopamine increases a value-independent gambling propensity.*
-Articles:
--Dopamine tunes prefrontal outputs to orchestrate aversive processing.
--The roles of dopamine and serotonin in decision making: Evidence from pharmacological experiments in humans.
--Neuromodulation of reward-based learning and decision making in human aging.
-
-Cluster merged_7_31, Coherence Rank 15:
-Terms: impulsivity, measure, personality trait, disinhibition, analysis, impulsive behavior, substance use disorder, factor, anxiety, externalizing
-Exemplar: *Toward a Theory of Distinct Types of "Impulsive" Behaviors: A Meta-Analysis of Self-Report and Behavioral Measures.*
-Most relevant: *A computational cognitive model of the Iowa Gambling Task for finely characterizing decision making in methamphetamine users*
-Articles:
--Anxiety modulates preference for immediate rewards among trait-impulsive individuals: A hierarchical Bayesian analysis.
--Preliminary Evidence for Associations of CHRM2 with Substance Use and Disinhibition in Adolescence.
--Personality traits associated with decision-making deficits.
-
-Cluster merged_35_46, Coherence Rank 16:
-Terms: self control, adolescence, adolescent, research, developmental, intervention, review, maturation, behaviour, system, process model, circuit, judgment, regulation, social, strength, influence
-Exemplar: *Efficacy of self-control and patience interventions in adolescents.*
-Most relevant: *After-effects of self-control: The reward responsivity hypothesis.*
-Articles:
+-Drug Addiction and the Memory Systems of the Brain.
+-Drug addiction and its underlying neurobiological basis: Neuroimaging evidence for the involvement of the frontal cortex.
 

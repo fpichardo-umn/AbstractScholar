@@ -60,8 +60,6 @@ import os
 import csv
 import os.path as op
 from typing import Dict, List, Tuple
-import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import cosine_distances, cosine_similarity
 from sklearn.metrics import silhouette_samples
@@ -113,7 +111,7 @@ def calc_cluster_silhouette_score(cluster_id: int, cluster_idx_map: Dict[int, np
 def calc_cluster_ess(cluster_id: int, cluster_idx_map: Dict[int, np.ndarray], 
                      centroids: Dict[int, np.ndarray], doc_term_mat_xfm: np.ndarray) -> float:
     """
-    Calculate the Explained Sum of Squares (ESS) for the given cluster.
+    Calculate the log Explained Sum of Squares (ESS) for the given cluster.
 
     Args:
         cluster_id (int): The ID of the cluster.
@@ -122,14 +120,14 @@ def calc_cluster_ess(cluster_id: int, cluster_idx_map: Dict[int, np.ndarray],
         doc_term_mat_xfm (np.ndarray): Document-term matrix.
 
     Returns:
-        float: The Explained Sum of Squares (ESS) for the cluster.
+        float: The log Explained Sum of Squares (ESS) for the cluster.
     """
     cluster_articles_idx = cluster_idx_map[cluster_id]
     cluster_centroid = centroids[cluster_id]
-    return sum(
+    return np.log10(sum(
         np.sum((doc_term_mat_xfm[article] - cluster_centroid) ** 2)
         for article in cluster_articles_idx
-    )
+    ) + 1)
 
 def gaussian_dampen(x: float, mean: float, sigma: float) -> float:
     """
@@ -164,32 +162,32 @@ def calc_cluster_coherence_score(cluster_id: int, cluster_sizes: Dict[int, int],
         float: The coherence score for the cluster.
     """
     
-    
     num_clusters = len(cluster_sizes)
     cluster_size = cluster_sizes[cluster_id]
-    mean = num_articles / num_clusters
+    mean_size = num_articles / num_clusters
     
-    sigma = int(log2(exp((cluster_size + 2) / 2)))
-    cluster_size_dampen = gaussian_dampen(cluster_sizes[cluster_id], mean, sigma)
-    cluster_dampened_size = cluster_size_dampen * cluster_size
+    # Size component with penalty for very large clusters
+    size_ratio = cluster_size / mean_size
+    size_score = np.log1p(size_ratio) if size_ratio <= 1 else np.log1p(1 / size_ratio)
     
-    graph_clustering_coeff = avg_cluster_score[cluster_id]
-    cluster_silhouette = clusters_silhouette[cluster_id]
-    cluster_sqrt_ess = sqrt(clusters_ess[cluster_id])
+    # ESS component
+    ess_score = np.log1p(sqrt(clusters_ess[cluster_id]))
     
-    # Calculate logarithms of components
-    log_size = np.log1p(cluster_dampened_size)  # log1p(x) = log(1+x), safer for small values
-    log_ess = np.log1p(cluster_sqrt_ess)
-    log_silhouette = 3 * np.log1p(cluster_silhouette)  # Using log1p to handle potential negative values
-    log_graph_coeff = np.log1p(graph_clustering_coeff)
-
-    # Sum the logs (equivalent to multiplying the original values)
-    log_coherence_score = log_size + log_ess + log_silhouette + log_graph_coeff
-
-    # Convert back from log space
-    coherence_score = np.expm1(log_coherence_score)  # expm1(x) = exp(x) - 1, inverse of log1p
+    # Silhouette component
+    silhouette_score = np.log1p(max(clusters_silhouette[cluster_id], 0))  # Ensure non-negative
+    
+    # Graph clustering coefficient component
+    graph_coeff_score = np.log1p(avg_cluster_score[cluster_id])
+    
+    # Normalize scores
+    scores = [size_score, ess_score, silhouette_score, graph_coeff_score]
+    normalized_scores = [score / max(scores) for score in scores]
+    
+    # Calculate final score with equal weights
+    coherence_score = sum(normalized_scores) / 4
     
     return coherence_score
+
 
 def find_elbow_point(sorted_coherence_scores: List[Tuple[int, float]]) -> float:
     """
@@ -382,7 +380,7 @@ def pickle_cluster_data(group_centroids, final_clusters_info, final_cluster_doc_
         ], p)
 
 
-def output_clusters_for_review(config: Dict, final_cluster_names: List, centroids_infreq_top_terms: Dict, cluster_exemplars: Dict):
+def output_clusters_for_review(config: Dict, final_cluster_names: List, centroids_infreq_top_terms: Dict, cluster_exemplars: Dict, final_coherence_scores : Dict):
     """
     Output the list of clusters as a CSV file for user review.
     
@@ -391,6 +389,7 @@ def output_clusters_for_review(config: Dict, final_cluster_names: List, centroid
     final_cluster_names (List): List of final cluster names/IDs
     centroids_infreq_top_terms (Dict): Dictionary of infrequent top terms for each cluster
     cluster_exemplars (Dict): Dictionary of exemplar articles for each cluster
+    final_coherence_scores (Dict): Dictionary of coherence scores for each cluster
     
     The function creates a CSV file with columns:
     Cluster ID, Top Terms, Exemplar, Assessment
@@ -402,12 +401,13 @@ def output_clusters_for_review(config: Dict, final_cluster_names: List, centroid
     
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['cluster_id', 'Top Terms', 'Exemplar', 'user_judgment'])
+        writer.writerow(['cluster_id', 'Top Terms', 'Exemplar', 'Coherence', 'user_judgment'])
         
         for cluster_id in final_cluster_names:
             top_terms = ', '.join(centroids_infreq_top_terms.get(cluster_id, ['N/A']))
             exemplar = cluster_exemplars.get(cluster_id, 'N/A')
-            writer.writerow([cluster_id, top_terms, exemplar, ''])
+            coherence = np.round(final_coherence_scores.get(cluster_id, 'N/A'), 2)
+            writer.writerow([cluster_id, top_terms, exemplar, coherence, ''])
     
     print(f"Cluster review file created: {output_file}")
     print("Please open this file and add your assessment (I, R, or B) in the user_judgment column for each cluster.")
@@ -459,6 +459,7 @@ clusters_silhouette = {
     key: calc_cluster_silhouette_score(key, cluster_idx_map, doc_term_mat_dists, data.shape[0])
     for key in cluster_names
 }
+
 clusters_ess = {
     key: calc_cluster_ess(key, cluster_idx_map, centroids, doc_term_mat_xfm)
     for key in cluster_names
@@ -521,7 +522,7 @@ if merged_centroids:
         for cluster_id, info in merged_clusters_info.items()
     }
 
-    updated_cluster_sizes_dict = {cluster_id: len(info['titles']) for cluster_id, info in merged_clusters_info.items()}
+    updated_cluster_sizes_dict = {cluster_id: len(info['titles']) * 2 for cluster_id, info in merged_clusters_info.items()}
 
     # Recalculate scores for updated clusters
     updated_clusters_silhouette = {
@@ -589,24 +590,24 @@ if merged_centroids:
                 final_cluster_titles[cluster_id] = merged_clusters_info[cluster_id]["titles"]
                 final_coherence_scores.append((cluster_id, updated_clusters_coherence_score[cluster_id]))
         
-        final_cluster_names = final_cluster_ids
         final_coherence_scores = sorted(final_coherence_scores, key=lambda x: x[1], reverse=True)
+        final_cluster_names = [item[0] for item in sorted(final_coherence_scores, key=lambda x: x[1], reverse=True)]
     else:
         print("No merged clusters meet coherence threshold. Keeping only original high-scoring clusters.")
         final_centroids = {k: centroids[k] for k in thresholded_idx}
         final_clusters_info = {k: clusters_info[k] for k in thresholded_idx}
         final_cluster_doc_term_mat_rows = {k: doc_term_mat_xfm[clusters_info[k]["indices"], :] for k in thresholded_idx}
-        final_cluster_names = thresholded_idx
         final_cluster_titles = {k: cluster_titles[k] for k in thresholded_idx}
         final_coherence_scores = [(k, clusters_coherence_score[k]) for k in thresholded_idx]
+        final_cluster_names = [item[0] for item in sorted(final_coherence_scores, key=lambda x: x[1], reverse=True)]
 else:
     print("No clusters were merged. Keeping only original high-scoring clusters.")
     final_centroids = {k: centroids[k] for k in thresholded_idx}
     final_clusters_info = {k: clusters_info[k] for k in thresholded_idx}
     final_cluster_doc_term_mat_rows = {k: doc_term_mat_xfm[clusters_info[k]["indices"], :] for k in thresholded_idx}
-    final_cluster_names = thresholded_idx
     final_cluster_titles = {k: cluster_titles[k] for k in thresholded_idx}
     final_coherence_scores = [(k, clusters_coherence_score[k]) for k in thresholded_idx]
+    final_cluster_names = [item[0] for item in sorted(final_coherence_scores, key=lambda x: x[1], reverse=True)]
 
 print("Merging process completed.")
 
@@ -738,4 +739,4 @@ pickle_cluster_data(group_centroids, final_clusters_info, final_cluster_doc_term
 print("Clustering process completed.")
 
 # After all cluster processing is complete
-output_clusters_for_review(config, final_cluster_names, centroids_infreq_top_terms, cluster_exemplars)
+output_clusters_for_review(config, final_cluster_names, centroids_infreq_top_terms, cluster_exemplars, dict(final_coherence_scores))

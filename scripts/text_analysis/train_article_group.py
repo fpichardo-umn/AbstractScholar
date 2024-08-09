@@ -35,22 +35,29 @@ import os.path as op
 import pickle
 import pandas as pd
 import numpy as np
-from sklearn.decomposition import TruncatedSVD
-from sklearn.neighbors import NearestCentroid
 from sklearn.metrics.pairwise import cosine_distances, cosine_similarity
-from sklearn.linear_model import ElasticNetCV
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.cluster import KMeans
-from sklearn.dummy import DummyClassifier
-from sklearn.preprocessing import LabelEncoder
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder, MinMaxScaler
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, BaggingClassifier
 from sklearn.multiclass import OneVsRestClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import StratifiedKFold
+from sklearn.svm import SVC
+from sklearn.naive_bayes import GaussianNB
 
 # Add the 'scripts' subdirectory to the Python path
 scripts_dir = op.join(os.getcwd(), 'scripts')
 sys.path.append(scripts_dir)
 from scripts.gen_utils_text import *
+
+
+def min_max_normalize(x):
+    if isinstance(x, pd.Series):
+        return (x - x.min()) / (x.max() - x.min())
+    else:
+        return MinMaxScaler().fit_transform(x.reshape(-1, 1)).flatten()
 
 def normalize_values(coherences):
     """Normalize coherence values."""
@@ -73,24 +80,36 @@ def load_data_and_clusters(config):
     
     return data, latent_sa, doc_term_mat_xfm, terms, group_centroids, merged_clusters_info, sorted_all_coherences
 
-def label_articles(data, merged_clusters_info, relevant_clusters, irrelevant_clusters, borderline_clusters):
+def label_articles(data, relevant_clusters, irrelevant_clusters, borderline_clusters):
     data['label'] = 'unknown'  # Default label
     for cluster in relevant_clusters:
-        data.loc[data.index.isin(merged_clusters_info[cluster]['indices']), 'label'] = 'relevant'
+        data.loc[data.index[data.cluster == cluster], 'label'] = 'relevant'
     for cluster in irrelevant_clusters:
-        data.loc[data.index.isin(merged_clusters_info[cluster]['indices']), 'label'] = 'irrelevant'
+        data.loc[data.index[data.cluster == cluster], 'label'] = 'irrelevant'
     for cluster in borderline_clusters:
-        data.loc[data.index.isin(merged_clusters_info[cluster]['indices']), 'label'] = 'borderline'
+        data.loc[data.index[data.cluster == cluster], 'label'] = 'borderline'
     return data
 
-def prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coherences):
+def prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coherences, relevant_clusters):
     """Prepare features for the classifier."""
     for cluster_id, centroid in group_centroids.items():
         indices = merged_clusters_info[cluster_id]['indices']
         data.loc[indices, 'distance_to_centroid'] = cosine_distances(doc_term_mat_xfm[indices], centroid.reshape(1, -1)).flatten()
         data.loc[indices, 'coherence_weight'] = normalized_coherences[cluster_id]
     
-    features = np.hstack([doc_term_mat_xfm, data[['distance_to_centroid', 'coherence_weight']].fillna(0).values])
+    # Add similarity to relevant clusters feature
+    relevant_indices = data[data['cluster'].astype(str).isin(relevant_clusters)].index
+    
+    relevant_vectors = doc_term_mat_xfm[relevant_indices]
+    similarities = cosine_similarity(doc_term_mat_xfm, relevant_vectors)
+    max_similarities = similarities.max(axis=1)
+    
+    features = np.hstack([
+        doc_term_mat_xfm, 
+        data[['distance_to_centroid', 'coherence_weight']].fillna(0).values,
+        max_similarities.reshape(-1, 1)
+    ])
+    
     labels = data['label'].map({'relevant': 1, 'irrelevant': 0, 'borderline': 2, 'unknown': -1})
     
     le = LabelEncoder()
@@ -103,110 +122,145 @@ def prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coheren
     
     return features, labels, features_known, labels_known, le
 
-def train_and_evaluate_classifier(features, labels, le):
-    if len(np.unique(labels)) == 1:
-        print("Warning: All labels are the same. Cannot split or train model.")
-        return DummyClassifier(strategy="constant", constant=labels[0])
+
+def train_multiple_classifiers(features, labels, random_state_clf, n_splits=5, n_estimators=10, max_samples=0.8, max_features=0.8):
+    classifiers = [
+        ('rf', RandomForestClassifier(n_estimators=100, random_state=random_state_clf)),
+        ('gb', GradientBoostingClassifier(n_estimators=100, random_state=random_state_clf)),
+        ('svm', SVC(probability=True, random_state=random_state_clf)),
+        ('nb', GaussianNB()),
+        ('lr', LogisticRegression(random_state=random_state_clf)),
+        ('dt', DecisionTreeClassifier(random_state=random_state_clf)),
+        ('clf', OneVsRestClassifier(RandomForestClassifier(n_estimators=100, random_state=random_state_clf)))
+    ]
     
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=42)
-
-    clf = OneVsRestClassifier(RandomForestClassifier(n_estimators=100, random_state=42))
-    clf.fit(X_train, y_train)
-
-    predictions = clf.predict(X_test)
-
-    accuracy = accuracy_score(y_test, predictions)
-    precision = precision_score(y_test, predictions, average='weighted')
-    recall = recall_score(y_test, predictions, average='weighted')
-    f1 = f1_score(y_test, predictions, average='weighted')
-
-    print(f"Accuracy: {accuracy:.2f}")
-    print(f"Precision: {precision:.2f}")
-    print(f"Recall: {recall:.2f}")
-    print(f"F1 Score: {f1:.2f}")
-
-    return clf
-
-def predict_article_relevance(data, doc_term_mat_xfm, group_centroids, normalized_coherences, clf, le):
-    """Predict relevance for all articles."""
-    # Use the entire dataset
-    data_copy = data.copy()
-
-    # Initialize columns using .loc to avoid warnings
-    data_copy.loc[:, 'nearest_centroid'] = None
-    data_copy.loc[:, 'distance_to_nearest_centroid'] = np.inf
-
-    for cluster_id, centroid in group_centroids.items():
-        distances = cosine_distances(doc_term_mat_xfm, centroid.reshape(1, -1)).flatten()
-        mask = distances < data_copy['distance_to_nearest_centroid']
-        data_copy.loc[mask, 'nearest_centroid'] = cluster_id
-        data_copy.loc[mask, 'distance_to_nearest_centroid'] = distances[mask]
-
-    data_copy.loc[:, 'coherence_weight'] = data_copy['nearest_centroid'].map(normalized_coherences).fillna(0)
-
-    features = np.hstack([
-        doc_term_mat_xfm,
-        data_copy[['distance_to_nearest_centroid', 'coherence_weight']].values
-    ])
-
-    predictions = clf.predict(features)
-    probabilities = clf.predict_proba(features)
+    skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=random_state_clf)
     
-    data_copy.loc[:, 'predicted_label'] = le.inverse_transform(predictions)
-    for i, class_name in enumerate(le.classes_):
-        data_copy.loc[:, f'prob_{class_name}'] = probabilities[:, i]
+    all_predictions = []
+    f1_scores = []
+    for name, classifier in classifiers:
+        predictions = np.zeros((len(features), len(np.unique(labels))))
+        all_y_test = []
+        all_y_pred = []
+        
+        for train_index, test_index in skf.split(features, labels):
+            X_train, X_test = features[train_index], features[test_index]
+            y_train, y_test = labels[train_index], labels[test_index]
+            
+            if name == 'lr':
+                # LogisticRegression doesn't need bagging
+                classifier.fit(X_train, y_train)
+                fold_pred = classifier.predict_proba(X_test)
+                y_pred = classifier.predict(X_test)
+            else:
+                bagging_clf = BaggingClassifier(
+                    estimator=classifier,
+                    n_estimators=n_estimators,
+                    max_samples=max_samples,
+                    max_features=max_features,
+                    random_state=random_state_clf
+                )
+                bagging_clf.fit(X_train, y_train)
+                fold_pred = bagging_clf.predict_proba(X_test)
+                y_pred = bagging_clf.predict(X_test)
+            
+            predictions[test_index] = fold_pred
+            all_y_test.extend(y_test)
+            all_y_pred.extend(y_pred)
+        
+        # Calculate and print performance metrics
+        accuracy = accuracy_score(all_y_test, all_y_pred)
+        precision = precision_score(all_y_test, all_y_pred, average='weighted')
+        recall = recall_score(all_y_test, all_y_pred, average='weighted')
+        f1 = f1_score(all_y_test, all_y_pred, average='weighted')
+        f1_scores.append(f1)
 
-    return data_copy
+        print(f"Classifier: {name}")
+        print(f"Accuracy: {accuracy:.2f}")
+        print(f"Precision: {precision:.2f}")
+        print(f"Recall: {recall:.2f}")
+        print(f"F1 Score: {f1:.2f}")
+        print("--------------------")
+        
+        all_predictions.append(predictions)
+    
+    return all_predictions, f1_scores
 
-def categorize_articles(data, doc_term_mat_xfm, group_centroids, normalized_coherences):
-    """Categorize all articles as Relevant, Irrelevant, or Borderline."""
-    # Create an explicit copy
-    categorized_data = data.copy()
 
-    min_max_normalize = lambda x: (x - x.min()) / (x.max() - x.min())
-
-    irrelevant_centroids = {cid: group_centroids[cid] for cid in irrelevant_clusters}
-
-    categorized_data.loc[:, 'sim_to_nearest_irrelevant_centroid'] = -np.inf
-    categorized_data.loc[:, 'nearest_irrelevant_centroid_coherence'] = 0
-
+def combine_predictions(all_predictions, features, group_centroids, normalized_coherences, doc_term_mat_xfm, irrelevant_clusters, f1_scores):
+    # Calculate weights based on F1 scores
+    weights = calculate_weights(f1_scores)
+    
+    # Weighted average of predictions
+    weighted_predictions = np.average(all_predictions, axis=0, weights=weights)
+    
+    # Create a DataFrame with the weighted predictions
+    prediction_df = pd.DataFrame(index=range(doc_term_mat_xfm.shape[0]))
+    
+    # Initialize columns with zeros
+    prediction_df['prob_irrelevant'] = 0
+    prediction_df['prob_relevant'] = 0
+    prediction_df['prob_borderline'] = 0
+    
+    # Fill in predictions for known samples
+    known_indices = np.where(np.any(weighted_predictions != 0, axis=1))[0]
+    prediction_df.loc[known_indices, 'prob_irrelevant'] = weighted_predictions[known_indices, 0]
+    prediction_df.loc[known_indices, 'prob_relevant'] = weighted_predictions[known_indices, 1]
+    prediction_df.loc[known_indices, 'prob_borderline'] = weighted_predictions[known_indices, 2]
+    
+    # The rest of the function remains the same...
+    prediction_df['classifier_score'] = prediction_df['prob_relevant'] - prediction_df['prob_irrelevant']
+    
+    # Add distance to nearest irrelevant centroid and its coherence
+    irrelevant_centroids = {cid: group_centroids[cid] for cid in group_centroids.keys() if str(cid) in irrelevant_clusters}
+    prediction_df['sim_to_nearest_irrelevant_centroid'] = -np.inf
+    prediction_df['nearest_irrelevant_centroid_coherence'] = 0
+    
     for cluster_id, centroid in irrelevant_centroids.items():
         sims = cosine_similarity(doc_term_mat_xfm, centroid.reshape(1, -1)).flatten()
-        mask = sims > categorized_data['sim_to_nearest_irrelevant_centroid']
-        categorized_data.loc[mask, 'sim_to_nearest_irrelevant_centroid'] = sims[mask]
-        categorized_data.loc[mask, 'nearest_irrelevant_centroid_coherence'] = normalized_coherences.get(cluster_id, 0)
+        mask = sims > prediction_df['sim_to_nearest_irrelevant_centroid']
+        prediction_df.loc[mask, 'sim_to_nearest_irrelevant_centroid'] = sims[mask]
+        prediction_df.loc[mask, 'nearest_irrelevant_centroid_coherence'] = normalized_coherences.get(cluster_id, 0)
     
-    # Incorporate classifier probabilities
-    categorized_data['classifier_score'] =  categorized_data['prob_relevant'] - categorized_data['prob_irrelevant']
-    
-    # Adjust final_score calculation
-    categorized_data['final_score'] = (
-        min_max_normalize(categorized_data['classifier_score']) * 0.5 +
+    # Calculate final score
+    prediction_df['final_score'] = (
+        min_max_normalize(prediction_df['classifier_score']) * 0.5 +
         min_max_normalize(
-            categorized_data['prob_relevant'] - 
-            (categorized_data['sim_to_nearest_irrelevant_centroid'] * 
-             categorized_data['nearest_irrelevant_centroid_coherence'])**(1/8)
+            prediction_df['prob_relevant'] - 
+            (prediction_df['sim_to_nearest_irrelevant_centroid'] * 
+             prediction_df['nearest_irrelevant_centroid_coherence'])**(1/8)
         ) * 0.5
     )
+    
+    # Handle any potential NaN values in the final_score
+    prediction_df['final_score'] = prediction_df['final_score'].fillna(0)
+    
+    return prediction_df
 
-    mean_score = categorized_data['final_score'].mean()
-    std_score = categorized_data['final_score'].std()
+def calculate_weights(f1_scores):
+    total = sum(f1_scores)
+    return [score / total for score in f1_scores]
+
+
+def categorize_articles(prediction_df, random_state_clf):
+    mean_score = prediction_df['final_score'].mean()
+    std_score = prediction_df['final_score'].std()
     lower_threshold = mean_score - std_score
     upper_threshold = mean_score + std_score
 
-    kmeans = KMeans(n_clusters=3, random_state=42).fit(categorized_data[['final_score']])
+    kmeans = KMeans(n_clusters=3, random_state=random_state_clf, n_init = 10).fit(prediction_df[['final_score']])
     centroids = kmeans.cluster_centers_.flatten()
     sorted_centroids = np.sort(centroids)
 
     final_lower_threshold = (lower_threshold + sorted_centroids[0]) / 2
     final_upper_threshold = (upper_threshold + sorted_centroids[-1]) / 2
 
-    categorized_data['category'] = np.where(
-        categorized_data['final_score'] <= final_lower_threshold, 'Irrelevant',
-        np.where(categorized_data['final_score'] >= final_upper_threshold, 'Relevant', 'Borderline')
+    prediction_df['category'] = np.where(
+        prediction_df['final_score'] <= final_lower_threshold, 'Irrelevant',
+        np.where(prediction_df['final_score'] >= final_upper_threshold, 'Relevant', 'Borderline')
     )
 
-    return categorized_data
+    return prediction_df
 
 def sample_articles(unlabeled_data):
     """Sample articles from each category."""
@@ -218,17 +272,21 @@ def sample_articles(unlabeled_data):
     print("\nBorderline Articles Sample:\n", borderline_sample)
     print("\nIrrelevant Articles Sample:\n", irrelevant_sample)
 
-def export_categorized_data(categorized_data, output_file='data/categorized_articles.csv'):
+
+def export_categorized_data(categorized_data, config):
     """
-    Export categorized data to a CSV file for user editing, with prepopulated user judgments.
+    Export categorized data to a CSV file for user editing, with improved prepopulated user judgments.
     
     Args:
     categorized_data (pd.DataFrame): The DataFrame containing categorized article data.
-    output_file (str): The name of the output CSV file.
+    config (dict): Configuration dictionary containing user supplied parameters.
     
     Returns:
     None
     """
+    output_file = normalize_path(config.get('categorized_data_file', './data/text_analysis/categorized_articles.csv'))
+    use_search_query = config.get('use_search_query', False)
+    
     # Select the required columns
     columns_to_export = [
         'orig_index', 'title', 'year', 'journal', 'issn', 'volume', 'issue', 
@@ -242,63 +300,87 @@ def export_categorized_data(categorized_data, output_file='data/categorized_arti
     # Sort the DataFrame by final_score in ascending order
     export_df = export_df.sort_values('final_score', ascending=True)
     
-    # Add a new column for user judgment and prepopulate based on category
-    export_df['user_judgment'] = export_df['category'].map({
-        'Irrelevant': 'D',
-        'Relevant': 'K',
-        'Borderline': 'K'
-    })
+    # Calculate the median final_score for borderline cases
+    borderline_median = export_df[export_df['category'] == 'Borderline']['final_score'].median()
+    
+    # Process search query if enabled in config
+    if use_search_query:
+        search_query_file = normalize_path(config.get('search_query_file', './search_query.txt'))
+        processed_terms = process_search_terms(search_query_file)
+    
+    # Add a new column for user judgment and prepopulate based on category and final_score
+    def assign_judgment(row):
+        if row['category'] == 'Irrelevant':
+            if use_search_query:
+                article_text = f"{row['title']} {row['journal']} {row['abstract']} {row['keywords']}"
+                if article_matches_query(article_text, processed_terms):
+                    return 'K'  # Change to 'Keep' if it matches any search term
+            return 'D'
+        elif row['category'] == 'Relevant':
+            return 'K'
+        else:  # Borderline
+            return 'D' if row['final_score'] < borderline_median else 'K'
+    
+    export_df['user_judgment'] = export_df.apply(assign_judgment, axis=1)
     
     # Reorder columns to put user_judgment at the end
-    columns_order = columns_to_export + ['user_judgment']
+    columns_to_export.remove('title')
+    columns_order = columns_to_export + ['user_judgment', 'title']
     export_df = export_df[columns_order]
     
     # Export to CSV
     export_df.to_csv(output_file, index=False)
     
     print(f"Data exported to {output_file}")
-    print(f"User judgments prepopulated: 'D' for Irrelevant, 'K' for Relevant and Borderline")
+    print(f"User judgments prepopulated:")
+    print("- 'D' for Irrelevant")
+    print("- 'K' for Relevant")
+    print("- 'D' for Borderline cases with final_score below the median")
+    print("- 'K' for Borderline cases with final_score above or equal to the median")
+    if use_search_query:
+        print("- 'K' for Irrelevant cases that match the search query")
 
 
 def get_user_defined_clusters(config):
     """
     Read the user-defined cluster judgments from a CSV file and return lists of
-    relevant, irrelevant, and borderline clusters.
+    relevant, irrelevant, and borderline clusters as individual cluster names.
 
     Args:
     config (dict): Configuration dictionary containing the file path.
 
     Returns:
-    tuple: Lists of relevant, irrelevant, and borderline clusters.
+    tuple: Lists of relevant, irrelevant, and borderline clusters as individual cluster names.
     """
-    # Get the file path from the config, with a default value
     file_path = config.get('cluster_judgments_file', 'data/text_review_clusters.csv')
 
+    def process_cluster_id(cluster_id):
+        if isinstance(cluster_id, (int, float)) or (isinstance(cluster_id, str) and not cluster_id.startswith('merged')):
+            return [str(int(cluster_id))]
+        elif isinstance(cluster_id, str) and cluster_id.startswith('merged'):
+            return [num for num in cluster_id.split('_')[1:]]
+        else:
+            return []
+
     try:
-        # Read the CSV file
         df = pd.read_csv(file_path)
 
-        # Initialize lists for each category
         relevant_clusters = []
         irrelevant_clusters = []
         borderline_clusters = []
 
-        # Process each row
         for _, row in df.iterrows():
             cluster_id = row['cluster_id']
             judgment = row['user_judgment'].upper()
-
-            # Convert numeric cluster IDs to integers
-            if isinstance(cluster_id, (int, float)) or (isinstance(cluster_id, str) and cluster_id.isdigit()):
-                cluster_id = int(cluster_id)
             
-            # Categorize based on user judgment
+            cluster_names = process_cluster_id(cluster_id)
+            
             if judgment == 'R':
-                relevant_clusters.append(cluster_id)
+                relevant_clusters.extend(cluster_names)
             elif judgment == 'I':
-                irrelevant_clusters.append(cluster_id)
+                irrelevant_clusters.extend(cluster_names)
             elif judgment == 'B':
-                borderline_clusters.append(cluster_id)
+                borderline_clusters.extend(cluster_names)
 
         return relevant_clusters, irrelevant_clusters, borderline_clusters
 
@@ -314,25 +396,82 @@ def get_user_defined_clusters(config):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
         return [], [], []
+    
+def combine_data_and_predictions(data, categorized_data):
+    """
+    Combine the original data DataFrame with the categorized_data DataFrame.
+    
+    Args:
+    data (pd.DataFrame): The original data DataFrame.
+    categorized_data (pd.DataFrame): The DataFrame with predictions and categories.
+    
+    Returns:
+    pd.DataFrame: Combined DataFrame with original data and new predictions/categories.
+    """
+    # Reset index of both DataFrames to ensure proper alignment
+    data = data.reset_index(drop=True)
+    categorized_data = categorized_data.reset_index(drop=True)
+    
+    # Combine the DataFrames
+    combined_df = pd.concat([data, categorized_data], axis=1)
+    
+    # Remove duplicate columns if any
+    combined_df = combined_df.loc[:, ~combined_df.columns.duplicated()]
+    
+    return combined_df
+
+
+def process_search_terms(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+    
+    # Split into terms, ignoring "AND"
+    terms = re.split(r'\s+OR\s+|\s+AND\s+|\s+', content)
+    
+    processed_terms = []
+    for term in terms:
+        term = term.strip().strip('"')
+        if not term:
+            continue
+        if '*' in term:
+            # Handle wildcards
+            term = term.replace('*', '.*')
+        else:
+            # Allow partial matches for non-wildcard terms
+            term = f'.*{re.escape(term)}.*'
+        processed_terms.append(term)
+    
+    return processed_terms
+
+
+def article_matches_query(article_text, processed_terms):
+    return any(re.search(term, article_text, re.IGNORECASE) for term in processed_terms)
+
+
 
 config = load_user_config()
 data, latent_sa, doc_term_mat_xfm, terms, group_centroids, merged_clusters_info, sorted_all_coherences = load_data_and_clusters(config)
 
+# Set random state for reproducibility
+random_state_clf = 42
+
 # Get user-defined clusters
 relevant_clusters, irrelevant_clusters, borderline_clusters = get_user_defined_clusters(config)
 
-data = label_articles(data, merged_clusters_info, relevant_clusters, irrelevant_clusters, borderline_clusters)
+data = label_articles(data, relevant_clusters, irrelevant_clusters, borderline_clusters)
 
 normalized_coherences = normalize_values(dict(sorted_all_coherences))
 
-features, labels, features_known, labels_known, le = prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coherences)
+features, labels, features_known, labels_known, le = prepare_features(data, doc_term_mat_xfm, group_centroids, normalized_coherences, relevant_clusters)
 
-clf = train_and_evaluate_classifier(features, labels, le)  # Train only on known labels
+all_predictions, f1_scores = train_multiple_classifiers(features_known, labels_known, random_state_clf)
 
-data_with_predictions = predict_article_relevance(data, doc_term_mat_xfm, group_centroids, normalized_coherences, clf, le)
+prediction_df = combine_predictions(all_predictions, features, group_centroids, normalized_coherences, doc_term_mat_xfm, irrelevant_clusters, f1_scores)
 
-categorized_data = categorize_articles(data_with_predictions, doc_term_mat_xfm, group_centroids, normalized_coherences)
+categorized_data = categorize_articles(prediction_df, random_state_clf)
 
-export_categorized_data(categorized_data, output_file = normalize_path(config.get('categorized_output_file', './data/text_analysis/categorized_articles.csv')))
+combined_df = combine_data_and_predictions(data, categorized_data)
 
-sample_articles(categorized_data)
+export_categorized_data(combined_df, config)
+
+#sample_articles(categorized_data)

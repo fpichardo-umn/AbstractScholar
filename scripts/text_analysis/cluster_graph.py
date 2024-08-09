@@ -45,10 +45,12 @@ from difflib import SequenceMatcher
 from scipy.spatial import distance
 from scipy.interpolate import UnivariateSpline
 from scipy.special import expit
-from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
+from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering, SpectralClustering
+from sklearn.mixture import GaussianMixture
 from sklearn.metrics.cluster import silhouette_score, calinski_harabasz_score
 from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics import adjusted_rand_score
+from sklearn.metrics.pairwise import cosine_similarity
 from kneed import KneeLocator
 
 
@@ -225,10 +227,10 @@ def sample_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init='k-means++', n_samp
         best_k = determine_best_k_smooth_elbow(doc_term_mat_xfm, kmeans_init, min_k, max_k)
         best_k_samples.append(best_k)
     
-    median_best_k = np.ceil(int(np.median(best_ns)))
+    median_best_k = np.ceil(int(np.median(best_k_samples)))
     
     if median_best_k <= 3:
-        return np.ceil(int(np.mean(best_ns)))
+        return np.ceil(int(np.mean(best_k_samples)))
     else:
         return median_best_k
 
@@ -236,8 +238,8 @@ def determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kme
     n_samples = doc_term_mat_xfm.shape[0]
     
     # Thresholds for different methods
-    LARGE_THRESHOLD = 10000  # Adjust as needed
-    MEDIUM_THRESHOLD = 1000  # Adjust as needed
+    LARGE_THRESHOLD = 1000000  # Adjust as needed
+    MEDIUM_THRESHOLD = 10000  # Adjust as needed
     
     if n_samples >= LARGE_THRESHOLD:
         print("Large dataset detected. Using adaptive method.")
@@ -267,27 +269,37 @@ def determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kme
 def group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init):
     to_printable = np.vectorize(lambda idx: string.printable[idx % len(string.printable)])
     data['group_strs'] = ''
+    _, n_features = doc_term_mat_xfm.shape
 
     # Estimate initial eps for DBSCAN
     initial_eps = estimate_dbscan_eps(doc_term_mat_xfm)*.7
 
     for a in range(num_groupings):
-        if a % int(num_groupings // 10) == 0:
+        if a % myround(int(num_groupings // 10)) == 0:
             print(f"Iteration {a}/{num_groupings}")
+        
+        # Feature subsampling
+        feature_mask = np.random.choice([True, False], size=n_features, p=[0.65, 0.35])
+        
+        # Data perturbation
+        noise = np.random.normal(0, 0.01, size=doc_term_mat_xfm.shape)
+        
+        # Combine all transformations
+        doc_term_mat_modified = (doc_term_mat_xfm[:, feature_mask]) + noise[:, feature_mask]
 
         # K-means (as before)
-        kmeans = KMeans(n_clusters=best_k, init=kmeans_init, n_init=k_n_init).fit(doc_term_mat_xfm)
+        kmeans = KMeans(n_clusters=best_k, init=kmeans_init, n_init=k_n_init).fit(doc_term_mat_modified)
         
         # DBSCAN with varying parameters
         min_samples = (a % 5) + 2  # Vary min_samples between 2 and 6
         eps = initial_eps * (1 + 0.1 * (a // 5))  # Increase eps by 10% every 5 iterations
-        dbscan = DBSCAN(eps=eps, min_samples=min_samples).fit(doc_term_mat_xfm)
+        dbscan = DBSCAN(eps=eps, min_samples=min_samples).fit(doc_term_mat_modified)
         
         # Agglomerative Clustering with varying parameters
         linkage = ['ward', 'complete', 'average', 'single'][a % 4]
         n_clusters = max(2, int(best_k * (0.8 + 0.4 * (a / num_groupings))))  # Vary n_clusters between 80% and 120% of best_k
-        agg = AgglomerativeClustering(n_clusters=n_clusters, linkage=linkage).fit(doc_term_mat_xfm)
-
+        agg = AgglomerativeClustering(n_clusters=n_clusters, linkage=linkage).fit(doc_term_mat_modified)
+        
         # Process labels
         kmeans_labels = to_printable(kmeans.labels_)
         
@@ -446,6 +458,7 @@ def adaptive_threshold(edist_matrix, percentile=1):
     # Use a percentile of the edit distances as the threshold
     return np.percentile(filtered_edist_matrix, percentile)
 
+
 def calculate_adaptive_threshold(n_samples, best_k, num_groupings):
     # Base percentile calculation
     if n_samples <= 1:
@@ -456,41 +469,66 @@ def calculate_adaptive_threshold(n_samples, best_k, num_groupings):
     
     # Adjust for best_k
     k_factor = np.log(best_k) / np.log(n_samples)
-    k_adjustment = k_factor * 10  # Scale factor, can be adjusted
+    k_adjustment = k_factor * 15  # Scale factor, can be adjusted
     
     # Adjust for num_groupings
     grouping_factor = np.log(num_groupings) / np.log(50)  # Assuming 50 as a reference point
-    grouping_adjustment = grouping_factor * 5  # Scale factor, can be adjusted
+    grouping_adjustment = grouping_factor * 2.5  # Scale factor, can be adjusted
     
     # Combine adjustments
     adjusted_percentile = base_percentile + k_adjustment + grouping_adjustment
     
     # Ensure the percentile stays within reasonable bounds
-    final_percentile = np.clip(adjusted_percentile, 1, 99)
+    final_percentile = np.clip(adjusted_percentile, 0.5, 99.5)
     
     return 100 - final_percentile  # Invert for use with adaptive_threshold
 
 
-def optimize_max_edist(edist, initial_max_edist):
+def optimize_max_edist(edist, initial_max_edist, data_percentile, data_size):
     # Generate a range of max_edist values to test
-    max_edist_range = np.arange(initial_max_edist - edist.std(), 
-                                initial_max_edist + edist.std(), 
-                                0.02)
+    # Flatten the matrix and filter out 1s and 0s
+    filtered_edist = edist[(edist != 1) & (edist != 0)]
+    range_val = np.quantile(filtered_edist, data_percentile/(np.e*100))
+    max_edist_range = np.arange(
+                                np.max([0.05, initial_max_edist - range_val]), 
+                                np.min([1 - 0.05, initial_max_edist + range_val/3]), 
+                                0.025) # usually want lower values
     
     best_score = float('-inf')
     best_max_edist = initial_max_edist
     best_clusters = None
     best_solo = None
     best_G_strong = None
+    
+    max_cluster_size = data_size ** 0.6  # Maximum cluster size
+    ideal_cluster_size = data_size / np.log(data_size)  # Target average cluster size
+    cluster_num_required = np.log(data_size/2)
 
     for test_max_edist in max_edist_range:
         clusters, solo, G_strong = cluster_graphs(edist, test_max_edist)
         
+        # Require reasonable number of clusters
+        len_clusters = len(clusters)
+        if len_clusters < cluster_num_required:
+            continue
+        
         # Calculate score: prioritize number of clusters, then minimize solo articles
-        len_solo = len(solo)
-        if len_solo == 0:
-            len_solo = len(clusters)*2
-        score = len(clusters) * np.e - len_solo  # Weighting factor of 1000 for clusters
+        len_solo = len(solo)*2 if len(solo) > 0 else len_clusters # Penalize no solo articles (usually a single cluster)
+        
+        # Calculate cluster sizes
+        cluster_sizes = [len(cluster) for cluster in clusters]
+        
+        # Penalize oversized clusters
+        oversize_penalty = sum(max(0, size - max_cluster_size)**2 for size in cluster_sizes)
+        
+        # Penalize deviation from ideal size
+        size_variance_penalty = sum((size - ideal_cluster_size)**2 for size in cluster_sizes) / len(clusters)
+        
+        # Combine penalties
+        size_penalty = (oversize_penalty * 10) + size_variance_penalty  # Weigh oversize penalty more heavily
+        
+        # Calculate score: prioritize number of clusters, penalize size variance, then minimize solo articles
+        score = len_clusters * np.e - size_penalty - len_solo
         
         if score > best_score:
             best_score = score
@@ -560,6 +598,9 @@ def get_assignment_threshold(distances, data_size):
     adjusted_quantile = np.clip(base_quantile, 0.05, 0.5)  # Ensure quantile is between 5% and 30%
     return np.quantile(distances, adjusted_quantile)
 
+def myround(x, base=5):
+    return base * round(x/base)
+
 
 ####
 ##    START
@@ -584,16 +625,16 @@ max_edist = float(config.get('max_edist', 0.2))
 preprocess_pickle_filename = normalize_path(config.get('preprocess_pickle', './data/text_analysis/large_files/preprocessed_abstracts.pickle'))
 edist_abstract_pickle_filename = normalize_path(config.get('edist_abstract_pickle', './data/text_analysis/large_files/edist.pickle'))
 cluster_titles_txt = normalize_path(config.get('cluster_titles_txt', './data/text_analysis/clustered_data.txt'))
-clustered_data_csv = normalize_path(config.get('clustered_data_csv', './data/text_analysis/clustered_data.csv'))
+clustered_data_txt = normalize_path(config.get('clustered_data_txt', './data/text_analysis/clustered_data.txt'))
 clusters_pickle_filename = normalize_path(config.get('clusters_pickle', './data/text_analysis/large_files/clusters.pickle'))
 
 # Load preprocessed abstract data
 latent_sa, doc_term_mat_xfm, terms = load_from_pickle(preprocess_pickle_filename)
 
 # Get best k
-best_k = determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim)
+initial_best_k = determine_best_k_master(doc_term_mat_xfm, group_iterations, kmeans_init, kmeans_sim)
 
-best_k = int(max(best_k, np.log2(data.shape[0])*np.e))  # Ensure that the number of clusters is not too small
+best_k = int(max(initial_best_k, np.log2(data.shape[0])*np.e))  # Ensure that the number of clusters is not too small
 
 # Group abstracts with kmeans multiple times
 data = group_abstracts_ensemble(data, doc_term_mat_xfm, best_k, num_groupings, kmeans_init, k_n_init)
@@ -603,8 +644,9 @@ edist = gen_edist_matrix(data)
 save_to_pickle(edist, edist_abstract_pickle_filename)
 
 # Cluster Graphs
-initial_max_edist = adaptive_threshold(edist, calculate_adaptive_threshold(data.shape[0], best_k, num_groupings))
-clusters, solo, G_strong, optimized_max_edist = optimize_max_edist(edist, initial_max_edist)
+data_percentile = calculate_adaptive_threshold(data.shape[0], best_k, num_groupings)
+initial_max_edist = adaptive_threshold(edist, data_percentile)
+clusters, solo, G_strong, optimized_max_edist = optimize_max_edist(edist, initial_max_edist, data_percentile, data.shape[0])
 
 # Assign clusters to data
 assign_clusters_to_data(data, clusters, solo)
@@ -620,5 +662,5 @@ avg_cluster_score = {cluster_idx: nx.algorithms.average_clustering(G_strong.subg
                      for cluster_idx, cluster in enumerate(clusters)}
 
 # Save clustering data
-data.to_csv(clustered_data_csv, sep = ',', encoding='iso-8859-1', index = False)
+data.drop('group_strs', axis = 1).to_csv(clustered_data_txt, sep = '\t', encoding='latin1', index = False)
 save_to_pickle([clusters, avg_cluster_score, G_strong], clusters_pickle_filename)

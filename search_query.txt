@@ -1,0 +1,5 @@
+"Iowa gambling task" or "IGT" or "gambling task"
+AND
+"substance use" OR drug OR "drug use*" OR addict* OR "drug dependen*" OR "substance dependen*" OR substance* OR alcohol* OR drink* OR cigarettes OR tobacco OR nicotine OR smoke OR smoking OR marijuana OR marihuana OR cannabis OR heroin OR cocaine OR crack OR opio* OR opia* OR opiu* OR amphetamine* OR methamphetamine* OR MDMA OR ecstasy OR methylenedioxymethamphetamine OR MDMA OR psychedelic OR hallucin* OR Psilocybin OR morphine OR inhalant
+AND
+"comput* model*" OR "math* model*" OR “cogn* model*” OR "quant* model*" OR "Expectation Valence" OR "Expectation-Valence" OR"Prospect-Valence Learning" OR "Value Plus Perseveration" OR "Outcome Representation Learning" OR "Value and Sequential Exploration"

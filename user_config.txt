@@ -34,11 +34,11 @@ preprocess_pickle: ./data/text_analysis/large_files/preprocessed_abstracts.pickl
 cluster_metic: euclidean
 kmeans_init: k-means++
 ncluster_max: 60
-num_groupings_large: 35
+num_groupings_large: 50
 num_groupings_small: 1000
 k_n_init: 35
 clusters_pickle: ./data/text_analysis/large_files/clusters.pickle
-clustered_data_csv: ./data/text_analysis/clustered_data.csv
+clustered_data_txt: ./data/text_analysis/clustered_data.txt
 cluster_titles_txt: ./data/text_analysis/clustered_titles.txt
 edist_abstract_pickle: ./data/text_analysis/large_files/edist.pickle
 group_iterations: 10
@@ -51,3 +51,6 @@ preprocessed_data_file: ./data/preprocessed_data.csv
 post_review_file: ./data/text_analysis/text_post_abstract_review.csv
 reset_for_pipeline: true
 text_review_clusters_csv:./data/text_review_clusters.csv
+use_search_query: True
+search_query_file: ./search_query.txt
+clustered_core_data_txt: ./data/text_core/clustered_data.txt
