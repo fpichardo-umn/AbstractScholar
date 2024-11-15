@@ -207,18 +207,6 @@ python train_article_group.py
 python process_user_categorizations.py
 ```
 
-## Requirements
-
-- pandas
-- numpy 
-- scikit-learn
-- nltk
-- networkx
-- datasketch
-- beautifulsoup4
-- python-Levenshtein
-- requests
-
 ## Citation
 
 ```
