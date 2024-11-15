@@ -82,15 +82,33 @@ The pipeline integrates expert review at critical decision points:
 
 ## Installation
 
+1. Clone the repository:
 ```bash
-# Clone repository
 git clone https://github.com/fpichardo-umn/AbstractScholar.git
+cd AbstractScholar
+```
 
-# Install requirements
+2. Set up a Python virtual environment (recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+3. Install requirements:
+```bash
+# Option 1: Using pip directly
 pip install -r requirements.txt
 
-# Install NLTK data
-python -m nltk.downloader punkt wordnet stopwords
+# Option 2: Using the installation script (includes NLTK data)
+python install_requirements.py
+```
+
+Note: The installation script will automatically download required NLTK data. If installing manually, you'll need to run:
+```python
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
 ```
 
 ## Pipeline Usage
