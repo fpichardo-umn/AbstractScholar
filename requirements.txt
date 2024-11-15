@@ -1,0 +1,26 @@
+# Core data processing
+numpy>=1.20.0
+pandas>=1.3.0
+scikit-learn>=0.24.0
+
+# NLP and text processing
+nltk>=3.6.0
+python-Levenshtein>=0.12.0
+beautifulsoup4>=4.9.0
+
+# Machine learning extras
+kneed>=0.7.0  # For elbow point detection
+
+# Network and similarity analysis
+networkx>=2.5.0
+datasketch>=1.5.0  # For LSH
+
+# API interactions and web scraping
+requests>=2.25.0
+
+# Plotting
+matplotlib>=3.3.0
+
+# Extras
+tqdm>=4.60.0  # For progress bars
+lxml>=4.6.0  # For XML processing
